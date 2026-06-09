@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-09",
+  "articles": [
+    {
+      "category": "경제",
+      "title": "한국 GDP 성장률 발표",
+      "url": "https://example.com/news1"
+    },
+    {
+      "category": "금융",
+      "title": "코스피 상승 마감",
+      "url": "https://example.com/news2"
+    },
+    {
+      "category": "기업",
+      "title": "삼성전자 신제품 공개",
+      "url": "https://example.com/news3"
+    },
+    {
+      "category": "부동산",
+      "title": "서울 아파트 거래량 증가",
+      "url": "https://example.com/news4"
+    },
+    {
+      "category": "국제",
+      "title": "미국 금리 동결",
+      "url": "https://example.com/news5"
+    }
+  ]
+}
