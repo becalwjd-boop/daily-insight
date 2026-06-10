@@ -1,7 +1,13 @@
 {
   "date": "2026-06-10",
-  "createdAt": "2026-06-10T08:37:39.223Z",
+  "createdAt": "2026-06-10T09:06:04.859Z",
   "articles": [
+    {
+      "category": "경제",
+      "title": "코스피 상승은 치적, 원화 급락은 변수?…엇갈린 경제 해석",
+      "url": "http://www.iminju.net/news/articleView.html?idxno=165018",
+      "pubDate": "Wed, 10 Jun 2026 09:02:00 +0900"
+    },
     {
       "category": "경제",
       "title": "[중동전쟁 100일, 한국 경제 흔들다④] 홍해서 부산까지…위태로운 '대...",
@@ -55,12 +61,6 @@
       "title": "[성공예감] 스페이스X 상장의 이면, 일론 머스크 발등에 떨어진 불 – 홍...",
       "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8581636&ref=A",
       "pubDate": "Tue, 09 Jun 2026 14:43:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[李정부 1년] “반도체 덕” 확장재정에 기댄 경기부양…성장·건전성 ...",
-      "url": "https://www.ekn.kr/web/view.php?key=20260609028021671",
-      "pubDate": "Tue, 09 Jun 2026 14:28:00 +0900"
     },
     {
       "category": "금융",
@@ -184,6 +184,12 @@
     },
     {
       "category": "부동산",
+      "title": "새 정부 1년 새 서울 집값 14%↑...매매·전세·월세 '트리플 폭등' [Y녹...",
+      "url": "https://www.ytn.co.kr/_ln/0134_202606100814396663",
+      "pubDate": "Wed, 10 Jun 2026 08:14:00 +0900"
+    },
+    {
+      "category": "부동산",
       "title": "[스타트 경제] 코스피, 하루 만에 8천선 회복했지만...'공포 지수' 역대...",
       "url": "https://www.ytn.co.kr/_ln/0102_202606100730378518",
       "pubDate": "Wed, 10 Jun 2026 07:30:00 +0900"
@@ -202,14 +208,14 @@
     },
     {
       "category": "부동산",
-      "title": "[정규호의 분양 언박싱] 힐스테이트 선암호수공원, 더 플래티넘 파인애...",
-      "url": "https://www.meconomynews.com/news/articleView.html?idxno=131729",
+      "title": "이재명 정부 1년…주택공급 확대에도 과제 여전",
+      "url": "https://www.viva100.com/article/20260609500913",
       "pubDate": "Tue, 09 Jun 2026 16:12:00 +0900"
     },
     {
       "category": "부동산",
-      "title": "이재명 정부 1년…주택공급 확대에도 과제 여전",
-      "url": "https://www.viva100.com/article/20260609500913",
+      "title": "[정규호의 분양 언박싱] 힐스테이트 선암호수공원, 더 플래티넘 파인애...",
+      "url": "https://www.meconomynews.com/news/articleView.html?idxno=131729",
       "pubDate": "Tue, 09 Jun 2026 16:12:00 +0900"
     },
     {
@@ -235,12 +241,6 @@
       "title": "&quot;슬픈 예감은 한번도 틀린 적이 없었다&quot; 李 더쎈 부동산정책 예고에 한...",
       "url": "https://www.ytn.co.kr/_ln/0102_202606091105047221",
       "pubDate": "Tue, 09 Jun 2026 11:05:00 +0900"
-    },
-    {
-      "category": "부동산",
-      "title": "&quot;전세는 서민에게 축복인가, 만악의 근원인가&quot; 李 '전세 종말론'이 부른...",
-      "url": "https://realty.chosun.com/site/data/html_dir/2026/06/09/2026060901647.html",
-      "pubDate": "Tue, 09 Jun 2026 11:04:00 +0900"
     },
     {
       "category": "사회",
