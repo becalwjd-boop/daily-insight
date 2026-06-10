@@ -1,3 +1,7 @@
+import { unstable_noStore as noStore } from "next/cache";
+
+export const dynamic = "force-dynamic";
+
 const categoryKeywords = [
   { name: "경제", query: "경제 물가 수출 금리" },
   { name: "금융", query: "코스피 환율 금리 증시" },
@@ -10,9 +14,16 @@ const categoryKeywords = [
 function formatNewsDate(pubDate: string) {
   const date = new Date(pubDate);
 
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
+  const parts = new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+
+  const year = parts.find((p) => p.type === "year")?.value;
+  const month = parts.find((p) => p.type === "month")?.value;
+  const day = parts.find((p) => p.type === "day")?.value;
 
   return `${year}.${month}.${day}`;
 }
@@ -42,6 +53,7 @@ async function getNewsByCategory(category: { name: string; query: string }) {
   const todayString = `${today.getFullYear()}.${String(
     today.getMonth() + 1
   ).padStart(2, "0")}.${String(today.getDate()).padStart(2, "0")}`;
+
 
   const todayItems = items.filter(
     (item: any) => formatNewsDate(item.pubDate) === todayString
@@ -82,6 +94,8 @@ async function getBreakingNews() {
 }
 
 export default async function Home() {
+  noStore();
+
   const breakingNews = await getBreakingNews();
 
   const categories = await Promise.all(
