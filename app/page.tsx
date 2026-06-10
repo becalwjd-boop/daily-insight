@@ -28,6 +28,21 @@ function formatNewsDate(pubDate: string) {
   return `${year}.${month}.${day}`;
 }
 
+function getKoreaTodayString() {
+  const parts = new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+
+  const year = parts.find((p) => p.type === "year")?.value;
+  const month = parts.find((p) => p.type === "month")?.value;
+  const day = parts.find((p) => p.type === "day")?.value;
+
+  return `${year}.${month}.${day}`;
+}
+
 async function getNewsByCategory(category: { name: string; query: string }) {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
@@ -49,10 +64,7 @@ async function getNewsByCategory(category: { name: string; query: string }) {
 
   const items = data.items || [];
 
-  const today = new Date();
-  const todayString = `${today.getFullYear()}.${String(
-    today.getMonth() + 1
-  ).padStart(2, "0")}.${String(today.getDate()).padStart(2, "0")}`;
+  const todayString = getKoreaTodayString();
 
 
   const todayItems = items.filter(
