@@ -1,4 +1,5 @@
 import { unstable_noStore as noStore } from "next/cache";
+import AutoRefresh from "./AutoRefresh";
 
 export const dynamic = "force-dynamic";
 
@@ -116,6 +117,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-[#f6f7f9] text-[#111827]">
+        <AutoRefresh />
       <section className="mx-auto max-w-7xl px-6 py-10">
         <header className="mb-10">
           <p className="mb-3 text-sm font-semibold text-blue-600">
