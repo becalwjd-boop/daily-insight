@@ -25,6 +25,16 @@ const categoryKeywords = [
   },
 ];
 
+function formatNewsDate(pubDate: string) {
+  const date = new Date(pubDate);
+
+  const year = date.getFullYear();
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+
+  return `${year}.${month}.${day}`;
+}
+
 async function getNewsByCategory(category: { name: string; query: string }) {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
@@ -183,7 +193,7 @@ export default async function Home() {
                   className="mb-5 block rounded-2xl bg-gray-50 p-4 transition hover:bg-gray-100"
                 >
                   <p className="mb-2 text-sm font-bold text-red-500">
-                    🔥 주요 기사
+                    🔥 주요 기사 · {formatNewsDate(category.items[0].pubDate)}
                   </p>
 
                   <p
@@ -207,16 +217,21 @@ export default async function Home() {
                       rel="noopener noreferrer"
                       className="group block"
                     >
-                      <span className="mb-2 block text-xs font-semibold text-blue-600">
-                        {String(index + 1).padStart(2, "0")}
-                      </span>
+                      <p className="mb-1 text-xs text-gray-400">
+                        {formatNewsDate(item.pubDate)}
+                      </p>
 
-                      <p
-                        className="text-base font-medium leading-relaxed group-hover:text-blue-600"
-                        dangerouslySetInnerHTML={{
-                          __html: item.title,
-                        }}
-                      />
+                      <p className="text-base font-medium leading-relaxed group-hover:text-blue-600">
+                        <span className="mr-2 font-bold text-blue-600">
+                          {String(index + 1).padStart(2, "0")}.
+                        </span>
+
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: item.title,
+                          }}
+                        />
+                      </p>
                     </a>
                   </li>
                 ))}
