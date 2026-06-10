@@ -26,9 +26,18 @@ const categoryKeywords = [
 ];
 
 async function getNewsByCategory(category: { name: string; query: string }) {
+  const clientId = process.env.NAVER_CLIENT_ID;
+  const clientSecret = process.env.NAVER_CLIENT_SECRET;
+
+  const query = encodeURIComponent(category.query);
+
   const res = await fetch(
-    `http://localhost:3000/api/news?query=${encodeURIComponent(category.query)}`,
+    `https://openapi.naver.com/v1/search/news.json?query=${query}&display=10&sort=date`,
     {
+      headers: {
+        "X-Naver-Client-Id": clientId!,
+        "X-Naver-Client-Secret": clientSecret!,
+      },
       cache: "no-store",
     }
   );
@@ -42,9 +51,21 @@ async function getNewsByCategory(category: { name: string; query: string }) {
 }
 
 async function getBreakingNews() {
-  const res = await fetch("http://localhost:3000/api/breaking", {
-    cache: "no-store",
-  });
+  const clientId = process.env.NAVER_CLIENT_ID;
+  const clientSecret = process.env.NAVER_CLIENT_SECRET;
+
+  const query = encodeURIComponent("속보 긴급");
+
+  const res = await fetch(
+    `https://openapi.naver.com/v1/search/news.json?query=${query}&display=5&sort=date`,
+    {
+      headers: {
+        "X-Naver-Client-Id": clientId!,
+        "X-Naver-Client-Secret": clientSecret!,
+      },
+      cache: "no-store",
+    }
+  );
 
   const data = await res.json();
 
