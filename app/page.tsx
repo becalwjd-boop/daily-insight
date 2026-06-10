@@ -1,28 +1,10 @@
 const categoryKeywords = [
-  {
-    name: "경제",
-    query: "경제 OR 물가 OR 수출",
-  },
-  {
-    name: "금융",
-    query: "코스피 코스닥 금리 ETF 비트코인",
-  },
-  {
-    name: "기업",
-    query: "삼성전자 SK하이닉스 현대차 LG TSMC",
-  },
-  {
-    name: "부동산",
-    query: "아파트 OR 부동산 OR 재건축",
-  },
-  {
-    name: "사회",
-    query: "사회 사건 사고 복지 교육 노동",
-  },
-  {
-    name: "국제",
-    query: "미국 중국 일본 유럽 중동 국제",
-  },
+  { name: "경제", query: "경제 물가 수출 금리" },
+  { name: "금융", query: "코스피 환율 금리 증시" },
+  { name: "기업", query: "삼성전자 SK하이닉스 현대차" },
+  { name: "부동산", query: "부동산 아파트 청약 재건축" },
+  { name: "사회", query: "사회 복지 교육 노동" },
+  { name: "국제", query: "미국 중국 일본 트럼프" },
 ];
 
 function formatNewsDate(pubDate: string) {
@@ -42,7 +24,7 @@ async function getNewsByCategory(category: { name: string; query: string }) {
   const query = encodeURIComponent(category.query);
 
   const res = await fetch(
-    `https://openapi.naver.com/v1/search/news.json?query=${query}&display=10&sort=date`,
+    `https://openapi.naver.com/v1/search/news.json?query=${query}&display=30&sort=date`,
     {
       headers: {
         "X-Naver-Client-Id": clientId!,
@@ -54,9 +36,26 @@ async function getNewsByCategory(category: { name: string; query: string }) {
 
   const data = await res.json();
 
+  const items = data.items || [];
+
+  const today = new Date();
+  const todayString = `${today.getFullYear()}.${String(
+    today.getMonth() + 1
+  ).padStart(2, "0")}.${String(today.getDate()).padStart(2, "0")}`;
+
+  const todayItems = items.filter(
+    (item: any) => formatNewsDate(item.pubDate) === todayString
+  );
+
+  const recentItems = items.filter(
+    (item: any) => formatNewsDate(item.pubDate) !== todayString
+  );
+
+  const sortedItems = [...todayItems, ...recentItems].slice(0, 10);
+
   return {
     name: category.name,
-    items: data.items || [],
+    items: sortedItems,
   };
 }
 
@@ -102,7 +101,7 @@ export default async function Home() {
           </h1>
 
           <p className="mt-4 max-w-2xl text-lg text-gray-600">
-            네이버 뉴스 API를 활용해 주요 분야별 최신 뉴스를 자동으로 수집하는
+            뉴스 API를 활용해 주요 분야별 최신 뉴스를 자동으로 수집하는
             실시간 뉴스 대시보드입니다.
           </p>
           <div className="mt-6 flex gap-3">
