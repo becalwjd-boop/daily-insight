@@ -88,7 +88,7 @@ async function getBreakingNews() {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
 
-  const query = encodeURIComponent("속보 긴급");
+  const query = encodeURIComponent("속보");
 
   const res = await fetch(
     `https://openapi.naver.com/v1/search/news.json?query=${query}&display=5&sort=date`,
