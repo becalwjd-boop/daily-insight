@@ -1,7 +1,7 @@
 const categoryKeywords = [
   {
     name: "경제",
-    query: "경제 물가 수출 무역 반도체",
+    query: "경제 OR 물가 OR 수출",
   },
   {
     name: "금융",
@@ -13,7 +13,7 @@ const categoryKeywords = [
   },
   {
     name: "부동산",
-    query: "서울 아파트 전세 매매 재건축",
+    query: "아파트 OR 부동산 OR 재건축",
   },
   {
     name: "사회",
