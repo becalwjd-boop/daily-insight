@@ -4,20 +4,56 @@ const fs = require("fs");
 const path = require("path");
 
 const categoryKeywords = [
-  { name: "경제", query: "경제 물가 수출 무역 반도체" },
-  { name: "금융", query: "코스피 코스닥 금리 ETF 비트코인" },
-  { name: "기업", query: "삼성전자 SK하이닉스 현대차 LG TSMC" },
-  { name: "부동산", query: "서울 아파트 전세 매매 재건축" },
-  { name: "사회", query: "사회 사건 사고 복지 교육 노동" },
-  { name: "국제", query: "미국 중국 일본 유럽 중동 국제" },
+  { name: "경제", query: "경제 물가 수출 금리" },
+  { name: "금융", query: "코스피 환율 금리 증시" },
+  { name: "기업", query: "삼성전자 SK하이닉스 현대차" },
+  { name: "부동산", query: "부동산 아파트 청약 재건축" },
+  { name: "사회", query: "사회 복지 교육 노동" },
+  { name: "국제", query: "미국 중국 일본 트럼프" },
 ];
+
+function formatNewsDate(pubDate) {
+  if (!pubDate) return null;
+
+  const date = new Date(pubDate);
+
+  if (isNaN(date.getTime())) return null;
+
+  const parts = new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+
+  const year = parts.find((p) => p.type === "year")?.value;
+  const month = parts.find((p) => p.type === "month")?.value;
+  const day = parts.find((p) => p.type === "day")?.value;
+
+  return `${year}-${month}-${day}`;
+}
+
+function getKoreaTodayString() {
+  const parts = new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+
+  const year = parts.find((p) => p.type === "year")?.value;
+  const month = parts.find((p) => p.type === "month")?.value;
+  const day = parts.find((p) => p.type === "day")?.value;
+
+  return `${year}-${month}-${day}`;
+}
 
 async function fetchNaverNews(queryText) {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
 
   const query = encodeURIComponent(queryText);
-  const url = `https://openapi.naver.com/v1/search/news.json?query=${query}&display=10&sort=date`;
+  const url = `https://openapi.naver.com/v1/search/news.json?query=${query}&display=100&sort=date`;
 
   const response = await fetch(url, {
     headers: {
@@ -31,9 +67,7 @@ async function fetchNaverNews(queryText) {
 }
 
 async function main() {
-  const now = new Date();
-  const koreaTime = new Date(now.getTime() + 9 * 60 * 60 * 1000);
-  const date = koreaTime.toISOString().slice(0, 10);
+  const date = getKoreaTodayString();
 
   const allArticles = [];
 
@@ -41,6 +75,10 @@ async function main() {
     const items = await fetchNaverNews(category.query);
 
     for (const item of items) {
+      const articleDate = formatNewsDate(item.pubDate);
+
+      if (articleDate !== date) continue;
+
       allArticles.push({
         category: category.name,
         title: item.title.replace(/<[^>]*>/g, ""),
@@ -50,10 +88,19 @@ async function main() {
     }
   }
 
+  const uniqueArticles = Array.from(
+    new Map(
+      allArticles.map((article) => [
+        article.url || article.title,
+        article,
+      ])
+    ).values()
+  );
+
   const archiveData = {
     date,
-    createdAt: koreaTime.toISOString(),
-    articles: allArticles,
+    createdAt: new Date().toISOString(),
+    articles: uniqueArticles,
   };
 
   const archiveDir = path.join(process.cwd(), "data", "archives");
@@ -66,7 +113,7 @@ async function main() {
 
   fs.writeFileSync(filePath, JSON.stringify(archiveData, null, 2), "utf-8");
 
-  console.log(`${date} 뉴스 ${allArticles.length}개 저장 완료`);
+  console.log(`${date} 뉴스 ${uniqueArticles.length}개 저장 완료`);
 }
 
 main();
