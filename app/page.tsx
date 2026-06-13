@@ -7,7 +7,7 @@ const categoryKeywords = [
   { name: "경제", query: "경제 물가 수출 금리" },
   { name: "금융", query: "코스피 환율 금리 증시" },
   { name: "기업", query: "삼성전자 SK하이닉스 현대차" },
-  { name: "부동산", query: "오늘 부동산 아파트 분양 청약 전세 집값" },
+  { name: "부동산", query: "부동산" },
   { name: "사회", query: "사회 복지 교육 노동" },
   { name: "국제", query: "미국 중국 일본 트럼프" },
 ];
