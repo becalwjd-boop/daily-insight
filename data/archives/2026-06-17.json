@@ -1,0 +1,516 @@
+{
+  "date": "2026-06-17",
+  "createdAt": "2026-06-17T00:09:31.446Z",
+  "articles": [
+    {
+      "category": "국제",
+      "title": "[국제금융 브리핑] 미국, 이란 원유 판매 허용 검토...브렌트유 5% 급락...",
+      "url": "https://www.tokenpost.kr/news/economy/370099",
+      "pubDate": "Wed, 17 Jun 2026 09:02:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "英 싱크탱크 &quot;이란 전쟁, 세계 에너지 질서 재편…중국, 최대 수혜자&quot;",
+      "url": "https://www.theguru.co.kr/news/article.html?no=103164",
+      "pubDate": "Wed, 17 Jun 2026 08:36:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[뉴욕마켓워치] '파죽지세' 스페이스X, 시총 5위로…주식 혼조·채권↑달...",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4420329",
+      "pubDate": "Wed, 17 Jun 2026 08:06:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[전국 주요 신문 톱뉴스](17일 조간)",
+      "url": "https://www.yna.co.kr/view/AKR20260617014800011?input=1195m",
+      "pubDate": "Wed, 17 Jun 2026 08:00:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미·이란 전쟁이 바꾼 세계 경제···“전쟁 전으로 되돌아가기 어렵다...",
+      "url": "https://www.khan.co.kr/article/202606170759001",
+      "pubDate": "Wed, 17 Jun 2026 07:59:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "뉴욕증시, 반도체 팔고 금융·산업주로…다우 사상 최고치·나스닥 1.15%...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02502646645482704",
+      "pubDate": "Wed, 17 Jun 2026 07:58:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "중국에 팔지 마라, 국가 안보 자산이 된 AI: 슬로우레터 6월17일.",
+      "url": "https://slownews.kr/161665",
+      "pubDate": "Wed, 17 Jun 2026 07:38:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "이란 전쟁, 글로벌 경제에 회복 어려운 상흔 남겼다-NYT",
+      "url": "https://www.newsis.com/view/NISX20260617_0003671832",
+      "pubDate": "Wed, 17 Jun 2026 07:31:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[증시전략] 유가 급락 '안도'…美-이란 핵심 쟁점 입장차는 여전?",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317007?division=NAVER",
+      "pubDate": "Wed, 17 Jun 2026 07:10:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[주요일정·17일] 오세훈 '명태균 여론조사 의혹' 사건 1심 결심공판",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243533",
+      "pubDate": "Wed, 17 Jun 2026 07:04:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "日 31년 만에 기준금리 1%대…&quot;엔 캐리 청산 가능성은 제한적&quot;",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=205170",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[실전재테크]&quot;7월 올린다, 내년 4.00% 전망도&quot;…기준금리 알고 대응해야",
+      "url": "https://view.asiae.co.kr/article/2026060906183346348",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[N2 모닝 경제 브리핑-6월 17일] 美 증시, 다우 또 최고치…반도체 차익...",
+      "url": "https://www.news2day.co.kr/article/20260617500005",
+      "pubDate": "Wed, 17 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "유가 급락에 자금 대이동…다우 또 최고치·나스닥 1.2%↓[월스트리트i...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02013926645482704",
+      "pubDate": "Wed, 17 Jun 2026 05:58:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[속보]다우 최고치·나스닥 1.2% 하락…유가 급락에 자금 대이동",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01748246645482704",
+      "pubDate": "Wed, 17 Jun 2026 05:17:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "반도체 성과급, 집값까지 흔든다…한은이 주목한 새 물가 변수",
+      "url": "https://www.sidae.com/article/2026061616084699354",
+      "pubDate": "Wed, 17 Jun 2026 05:05:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[AI MY 증시전망] &quot;반도체 조정 여파 속 유가 안정에 낙폭 제한 전망&quot;",
+      "url": "https://www.newspim.com/news/view/20260617000140",
+      "pubDate": "Wed, 17 Jun 2026 08:46:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[어제장 오늘장] 뉴욕증시, 기술주 매도 행렬에 혼조…순환매 시작될까",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317028?division=NAVER",
+      "pubDate": "Wed, 17 Jun 2026 08:35:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[증시전망대] FOMC 앞둔 코스피, 9천선 전진인가 숨고르기인가",
+      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=60531",
+      "pubDate": "Wed, 17 Jun 2026 08:20:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[모닝 리포트] &quot;코스피 목표치 1만1500선…8월 말~9월 초 변곡점&quot;",
+      "url": "https://www.newspim.com/news/view/20260617000052",
+      "pubDate": "Wed, 17 Jun 2026 08:17:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[모닝 리포트] &quot;FOMC 앞두고 숨 고르기…반도체 차익실현 속 순환매에 집...",
+      "url": "https://www.newspim.com/news/view/20260617000057",
+      "pubDate": "Wed, 17 Jun 2026 08:17:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[마켓뷰] 9천피 도전? 숨고르기?…코스피, FOMC 경계감",
+      "url": "https://www.yna.co.kr/view/AKR20260617019200008?input=1195m",
+      "pubDate": "Wed, 17 Jun 2026 08:16:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "6월 FOMC 앞두고 뉴욕증시 혼조-[글로벌 마감 시황]",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606170181&t=NN",
+      "pubDate": "Wed, 17 Jun 2026 08:05:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[오늘의 투자전략] FOMC 앞두고 코스피 숨고르기…반도체 차익실현 속 순...",
+      "url": "https://www.etoday.co.kr/news/view/2594281",
+      "pubDate": "Wed, 17 Jun 2026 07:58:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[마켓 프리뷰] 코스피, 돌아온 외인에 8700선 돌파…금리 인상 변수",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317019?division=NAVER",
+      "pubDate": "Wed, 17 Jun 2026 07:27:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "25거래일 ‘셀 코리아’ 끝났다... 외국인 귀환에 쏠린 증시 ‘방향키’",
+      "url": "https://biz.chosun.com/stock/analysis-prospect/2026/06/17/WW2YIWFFL5E7ZBAV7QD3NIHP3E/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "pubDate": "Wed, 17 Jun 2026 06:01:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "日 31년 만에 '1% 금리'…증권가 &quot;엔캐리 청산 쇼크 제한적&quot;",
+      "url": "https://www.newsis.com/view/NISX20260616_0003671175",
+      "pubDate": "Wed, 17 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[사설] 중동전쟁 종결, 우리 경제 호전 여부는 어떻게 준비하느냐에 달...",
+      "url": "https://www.imaeil.com/page/view/2026061617484908743",
+      "pubDate": "Wed, 17 Jun 2026 05:01:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[박근종 칼럼] 투자·고용 떨어뜨리는 '좀비기업' 40% 육박, 제때 솎아내...",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=750513",
+      "pubDate": "Wed, 17 Jun 2026 04:34:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "종전 안도랠리… 코스피 8700선 탈환",
+      "url": "https://www.mt.co.kr/stock/2026/06/17/2026061620054614171",
+      "pubDate": "Wed, 17 Jun 2026 04:06:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "전쟁 끝나자 돌아온 외국인, 3거래일간 6조 순매수",
+      "url": "https://www.donga.com/news/Economy/article/all/20260616/134124320/2",
+      "pubDate": "Wed, 17 Jun 2026 00:31:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "日 금리 31년 만에 1%대… “환율 1500원대 계속 머무를 듯”",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781601001&code=11151100&cp=nv",
+      "pubDate": "Wed, 17 Jun 2026 00:07:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[사설] 日 금리 31년만에 최고치…글로벌 긴축 선제 대응을",
+      "url": "https://www.sedaily.com/article/20056534?ref=naver",
+      "pubDate": "Wed, 17 Jun 2026 00:02:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "FOMC 앞두고 숨고르기…프리마켓서 삼전닉스 2%대 약세·금융주는 ↑",
+      "url": "https://www.news1.kr/finance/market-exr/6199548",
+      "pubDate": "Wed, 17 Jun 2026 09:03:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업 임직원 주식보상 2.3조원 돌파…1년 새 3배 급증",
+      "url": "https://www.sentv.co.kr/article/view/sentv202606170011",
+      "pubDate": "Wed, 17 Jun 2026 08:56:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "국내 100대 기업, 올 1~5월 임직원에 준 주식보상 2.3조 '작년의 3.3배' …...",
+      "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=85725",
+      "pubDate": "Wed, 17 Jun 2026 08:56:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업, 임직원 주식보상 2.3조…1위는 삼성전자",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260617085240OL1",
+      "pubDate": "Wed, 17 Jun 2026 08:53:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "AI 호황에 달러 매출 늘었지만…삼전닉스의 외화 셈법 복잡한 이유는",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4420343",
+      "pubDate": "Wed, 17 Jun 2026 08:46:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "&quot;이거 받고도 6억 성과급?&quot;...삼성전자, 임직원에 1조6500억 주식 풀었다",
+      "url": "http://www.fnnews.com/news/202606170807554718",
+      "pubDate": "Wed, 17 Jun 2026 08:31:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업, 올해 임직원에 주식보상 2.3조…작년 대비 3배 '껑충'",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=710018",
+      "pubDate": "Wed, 17 Jun 2026 08:30:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[프리마켓 포커스] 美 FOMC 경계심리에 장 초반 약세…삼전·SK하닉 2%↓",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=722721",
+      "pubDate": "Wed, 17 Jun 2026 08:30:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "“대기업은 달라” 100대기업 임직원 주식 보상 2.3조 지급",
+      "url": "https://magazine.hankyung.com/business/article/202606170790b",
+      "pubDate": "Wed, 17 Jun 2026 08:26:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[특징주] 삼성전자, NXT 프리마켓서 2%대 하락…반도체 호재 선반영에 차...",
+      "url": "https://www.tokenpost.kr/news/economy/370092",
+      "pubDate": "Wed, 17 Jun 2026 08:26:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[증시키워드] 반도체 질주 속 건설·조선까지…삼전·SK하닉에 대우건설...",
+      "url": "https://www.etoday.co.kr/news/view/2594302",
+      "pubDate": "Wed, 17 Jun 2026 08:24:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[특징주] 삼전닉스 프리마켓서 2%대 약세…호재 선반영 영향",
+      "url": "https://www.newspim.com/news/view/20260617000080",
+      "pubDate": "Wed, 17 Jun 2026 08:18:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "주식보상 열풍…100대 기업, 5개월 만에 2.3조 지급",
+      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=91030",
+      "pubDate": "Wed, 17 Jun 2026 07:56:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[애프터마켓 리뷰] 미 풍력발전 규제 해소 기대…씨에스윈드 급등",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317022?division=NAVER",
+      "pubDate": "Wed, 17 Jun 2026 07:55:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업 임직원 주식 보상 2조원…작년 동기 대비 3.3배 급증",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000043037",
+      "pubDate": "Wed, 17 Jun 2026 07:55:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "&quot;시총 100대기업, 올해 임직원에 준 주식보상, 작년 3배인 2.3조&quot;",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=872576",
+      "pubDate": "Wed, 17 Jun 2026 07:44:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "'삼전·하이닉스'에 베팅한 큰손들…주식으로 10억 번 자산가 2.5배 늘었...",
+      "url": "http://www.fnnews.com/news/202606170649395800",
+      "pubDate": "Wed, 17 Jun 2026 07:21:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업, 올해 1~5월 주식보상 규모 2조2811억원…전년 동기 대비 3.3...",
+      "url": "https://www.ceoscoredaily.com/page/view/2026061514133711871",
+      "pubDate": "Wed, 17 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업 임직원 주식보상 2.3조…작년의 3배",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317017?division=NAVER",
+      "pubDate": "Wed, 17 Jun 2026 06:49:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "100대 기업, 올해 임직원에 준 주식보상 2.3조…작년의 3배",
+      "url": "https://www.yna.co.kr/view/AKR20260616142100003?input=1195m",
+      "pubDate": "Wed, 17 Jun 2026 06:01:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "돌아온 외국인, 사흘간 4.9조 순매수…어떤 종목 담았나",
+      "url": "https://www.newsis.com/view/NISX20260616_0003671538",
+      "pubDate": "Wed, 17 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "원청은 파업, 하청은 교섭… 현대차 '노조 리스크' 직면",
+      "url": "https://www.mt.co.kr/industry/2026/06/17/2026061620035478459",
+      "pubDate": "Wed, 17 Jun 2026 04:06:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "6월 3주 주요 제조업 전망",
+      "url": "https://www.laborplus.co.kr/news/articleView.html?idxno=41000",
+      "pubDate": "Wed, 17 Jun 2026 00:04:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "거래대금 52조인데 삼전·닉스가 절반…코스피 양극화 심화",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=137019",
+      "pubDate": "Wed, 17 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[증시 프리즘] '외인 반도체·기관 바이오'…양대 시장 흔든 큰손들의 ...",
+      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=79679",
+      "pubDate": "Wed, 17 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "충북 공급절벽 시대, '한화포레나 충주호암' 회사 보유분 공급",
+      "url": "http://www.koreastocknews.com/news/articleView.html?idxno=119126",
+      "pubDate": "Wed, 17 Jun 2026 09:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[패트롤] 광명시-부천시-시흥시-안산시-안양시",
+      "url": "https://www.ekn.kr/web/view.php?key=20260617025553877",
+      "pubDate": "Wed, 17 Jun 2026 05:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[오늘의 주요일정]전북(6월17일 수요일)",
+      "url": "https://www.newsis.com/view/NISX20260615_0003670030",
+      "pubDate": "Wed, 17 Jun 2026 05:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "서툰 한국어로 찬양 화음… 노래로 잇는 이주민 선교",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781593431&code=23111117&cp=nv",
+      "pubDate": "Wed, 17 Jun 2026 03:03:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[동북아 정세 브리핑] 중동 휴전 뒤 미·중 전략대결 2라운드...푸젠함이...",
+      "url": "http://kor.theasian.asia/archives/407562",
+      "pubDate": "Wed, 17 Jun 2026 09:08:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[미-이란 종전 합의] 트럼프 '이란 퍼주기' 논란…원유판매 허용·재건기...",
+      "url": "https://www.dailian.co.kr/news/view/1656686/?sc=Naver",
+      "pubDate": "Wed, 17 Jun 2026 08:23:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[국제유가] 중동 휴전 기대에 이틀 연속 급락",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5031282",
+      "pubDate": "Wed, 17 Jun 2026 08:16:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "다카이치·트럼프, G7서 5분간 짧은 환담...중동·관세 협력 확인",
+      "url": "https://www.newspim.com/news/view/20260617000058",
+      "pubDate": "Wed, 17 Jun 2026 07:54:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "국제질서, 미국 '일극'에서 '다극화'로 재편…美에 의존했던 한국 불리...",
+      "url": "https://www.pressian.com/pages/articles/2026061610532004250?utm_source=naver&utm_medium=search",
+      "pubDate": "Wed, 17 Jun 2026 07:38:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미토스 외국인 접근 막은 美…&quot;韓통신사, 中 연관성 의심돼&quot;",
+      "url": "https://view.asiae.co.kr/article/2026061707260702555",
+      "pubDate": "Wed, 17 Jun 2026 07:35:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "원유 빗장 풀고 3000억달러 재건까지…트럼프의 '이란 빅딜' 논란",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1712779",
+      "pubDate": "Wed, 17 Jun 2026 07:30:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "日다카이치, G7서 트럼프와 짧은 대화…&quot;중동정세·무역 논의&quot;",
+      "url": "https://www.news1.kr/world/northeast-asia/6199470",
+      "pubDate": "Wed, 17 Jun 2026 07:28:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[Who Is ?] 조현 외교부 장관",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=439423",
+      "pubDate": "Wed, 17 Jun 2026 07:02:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "원유 판매 허용·재건 지원까지…트럼프, '이란 퍼주기' 논란 [이상은의...",
+      "url": "https://www.hankyung.com/article/202606170519i",
+      "pubDate": "Wed, 17 Jun 2026 06:48:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "“주적은 누구냐” 선거 때면 되살아나는 편가르기…청년 극우의 놀이가...",
+      "url": "https://weekly.khan.co.kr/article/202606170600221",
+      "pubDate": "Wed, 17 Jun 2026 06:04:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "“美 못 믿겠다” 주요국 방위비 냉전 후 최대...핵탄두 9년 만에 4000기...",
+      "url": "https://www.sedaily.com/article/20056450?ref=naver",
+      "pubDate": "Wed, 17 Jun 2026 06:02:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "‘제로 금리’ 대명사 日, 31년만에 1% 진입한 이유 [글로벌 모닝 브리핑...",
+      "url": "https://www.sedaily.com/article/20056564?ref=naver",
+      "pubDate": "Wed, 17 Jun 2026 05:56:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[AI 프리즘] &quot;중국이 미국을 앞선다&quot;…AI 인식 글로벌 설문조사 결과",
+      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=188648",
+      "pubDate": "Wed, 17 Jun 2026 05:50:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "日, EV 배터리 수거 의무화 검토… 자원 안보·화재 방지 사활",
+      "url": "https://www.g-enews.com/view.php?ud=2026061617292154830c8c1c064d_1",
+      "pubDate": "Wed, 17 Jun 2026 05:30:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "유가 5% 급락, 80달러 하회…호르무즈 재개 기대에 3개월 최저치",
+      "url": "https://www.news1.kr/world/international-economy/6199445",
+      "pubDate": "Wed, 17 Jun 2026 05:29:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "‘군비 지출 1/120’ 이란에도 고전…미국 ‘패권 침식’ 예고편",
+      "url": "https://www.hani.co.kr/arti/international/international_general/1263893.html",
+      "pubDate": "Wed, 17 Jun 2026 05:02:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "&quot;한국 없인 못 만든다&quot;…제조 넘어 플랫폼 된 K-조선",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1712690",
+      "pubDate": "Wed, 17 Jun 2026 05:00:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[글로벌 비즈 브리핑] 스페이스X, 한때 MS 시총도 제쳤다 外",
+      "url": "https://biz.sbs.co.kr/article_hub/20000316995?division=NAVER",
+      "pubDate": "Wed, 17 Jun 2026 04:44:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "전쟁은 美가 벌이고, 재건기금은 동맹국 기업이 부담할 판",
+      "url": "https://www.donga.com/news/Inter/article/all/20260617/134125582/2",
+      "pubDate": "Wed, 17 Jun 2026 04:33:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "빅터 차 &quot;시진핑 비핵화 침묵은 北 핵보유 지위 용인 시사&quot;",
+      "url": "https://www.newsis.com/view/NISX20260617_0003671776",
+      "pubDate": "Wed, 17 Jun 2026 04:13:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "그린란드 둘러싼 자원 선점 경쟁… 한국 반도체·배터리 공급망 변수",
+      "url": "https://www.g-enews.com/view.php?ud=202606161425067133fbbec65dfb_1",
+      "pubDate": "Wed, 17 Jun 2026 03:46:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "&quot;한국은 대미 의존 벗어나 유라시아 대륙 진출위한 新대전략 모색해야&quot;",
+      "url": "http://www.tongilnews.com/news/articleView.html?idxno=216765",
+      "pubDate": "Wed, 17 Jun 2026 00:18:00 +0900"
+    }
+  ]
+}
