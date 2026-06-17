@@ -117,7 +117,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-[#f6f7f9] text-[#111827]">
-        <AutoRefresh />
+      <AutoRefresh />
       <section className="mx-auto max-w-7xl px-6 py-10">
         <header className="mb-10">
           <p className="mb-3 text-sm font-semibold text-blue-600">
@@ -140,7 +140,7 @@ export default async function Home() {
               아카이브 보기
             </a>
 
-            
+
           </div>
         </header>
 
@@ -210,7 +210,7 @@ export default async function Home() {
                   {category.items.length} articles
                 </span>
               </div>
-              
+
 
               {category.items[0] && (
                 <a
@@ -266,6 +266,15 @@ export default async function Home() {
             </article>
           ))}
         </section>
+        
+        <footer className="mt-10 border-t border-gray-200 py-6 text-center text-sm text-gray-500">
+          <a href="/privacy" className="mr-4 hover:text-blue-600">
+            Privacy Policy
+          </a>
+          <a href="/contact" className="hover:text-blue-600">
+            Contact
+          </a>
+        </footer>
       </section>
     </main>
   );
