@@ -1,0 +1,552 @@
+{
+  "date": "2026-06-19",
+  "createdAt": "2026-06-19T00:20:34.655Z",
+  "articles": [
+    {
+      "category": "경제",
+      "title": "[오늘의 브릿지경제 1면] 코스피, 사상 첫 9000 돌파…국내 자본시장 역...",
+      "url": "https://www.viva100.com/article/20260618500997",
+      "pubDate": "Fri, 19 Jun 2026 08:54:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713125",
+      "pubDate": "Fri, 19 Jun 2026 08:18:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[이슈분석] '반도체 착시현상'에 빠진 한국 경제",
+      "url": "https://monthly.chosun.com/news/articleView.html?idxno=70439",
+      "pubDate": "Fri, 19 Jun 2026 08:12:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[아주증시포커스] 증시 호황에 증권사 교육세 부담 급증…올해 1분기, 작...",
+      "url": "https://www.ajunews.com/view/20260619075223315",
+      "pubDate": "Fri, 19 Jun 2026 07:54:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[마켓 프리뷰] 코스피, 美 금리 인상 공포 딛고 9000선 첫 돌파",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317560?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 07:28:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "중국 소매판매 3년여 만에 첫 감소…경기 둔화 경고등",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=570342&class=1&grp=",
+      "pubDate": "Fri, 19 Jun 2026 07:01:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[긴축의 귀환] 세계 중앙은행 다시 매파로…유동성 파티 끝나나",
+      "url": "https://www.ajunews.com/view/20260618142127725",
+      "pubDate": "Fri, 19 Jun 2026 06:02:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[긴축의 귀환] '연 2.50%' 시대 끝났다… 한은, 금리 인상 사이클 진입 ...",
+      "url": "https://www.ajunews.com/view/20260618153707042",
+      "pubDate": "Fri, 19 Jun 2026 06:02:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "이란 웃고 미국 흔들렸다?...트럼프, 종전 합의 역풍 [글로벌 모닝 브리...",
+      "url": "https://www.sedaily.com/article/20057556?ref=naver",
+      "pubDate": "Fri, 19 Jun 2026 06:01:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "고용은 꺾였는데 임금발 물가 압력은 커진다…반도체 호황의 두 얼굴",
+      "url": "https://news.tf.co.kr/read/economy/2334041.htm",
+      "pubDate": "Fri, 19 Jun 2026 00:01:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "美 반도체주 폭등 속...코스피 '급등 출발', 코스닥은 '장초반 하락'",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=166822",
+      "pubDate": "Fri, 19 Jun 2026 09:10:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[어제장 오늘장] 케빈 워시도 막지 못한 코스피 질주…사상 첫 9000피",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317575?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 08:32:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "IPO 그린 슈 옵션, 반도체 주가 더 끌어올린다! 삼전닉스 등 韓 증시, MS...",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606190308&t=NN",
+      "pubDate": "Fri, 19 Jun 2026 08:30:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[모닝 리포트] 반도체 독주에 9000선 돌파…순환매 주목",
+      "url": "https://www.newspim.com/news/view/20260619000047",
+      "pubDate": "Fri, 19 Jun 2026 08:07:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "&quot;삼전닉스 반도체 랠리는 계속된다&quot; 증권사 센터장들이 본 하반기 증시",
+      "url": "https://view.asiae.co.kr/article/2026061809080823173",
+      "pubDate": "Fri, 19 Jun 2026 07:54:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "금리 오르고 환율 뛰고…코스피랠리 흔들 ‘3대 변수’",
+      "url": "https://economist.co.kr/article/view/ecn202606160044",
+      "pubDate": "Fri, 19 Jun 2026 07:30:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "환율 흔드는 ‘연금 달러 수요’…국민연금 해외투자 구조가 원화 약세...",
+      "url": "https://www.betanews.net/article/view/beta202606190001",
+      "pubDate": "Fri, 19 Jun 2026 07:26:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[증시전략] 워시 첫 FOMC서 '매파 본색'…&quot;금리인하 어림없다&quot;",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317554?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 07:09:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "“외국인 물량 다 받아냈는데”…사상 최대 빚투에 커지는 강제청산 공...",
+      "url": "https://economist.co.kr/article/view/ecn202606150055",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "'1만피' 꿈이 아니다…매크로 이기는 '韓 반도체 실적' 믿음",
+      "url": "https://www.news1.kr/finance/general-stock/6201948",
+      "pubDate": "Fri, 19 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "&quot;벌써 9000피&quot; 무섭게 오르더니...바로 일만피? 실적 따라 날아오른다",
+      "url": "https://www.mt.co.kr/stock/2026/06/19/2026061818352986810",
+      "pubDate": "Fri, 19 Jun 2026 04:05:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[여의춘추] 레버리지와 국민연금이 키우는 거품",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781759298&code=11171212&cp=nv",
+      "pubDate": "Fri, 19 Jun 2026 00:40:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[박근종 칼럼] 주가·부동산 동시 상승, 빚투 경계하고 부동산 공급 늘...",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=750766",
+      "pubDate": "Fri, 19 Jun 2026 00:18:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "개미가 밀어 올린 코스피 9000…1만 고지, 외인에 달렸다",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=137338",
+      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[더페어 돋보기] '9000 시대' 안착할까…증권가가 제시하는 연말 코스피...",
+      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=79917",
+      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 사상 첫 9300선 돌파...'삼성전자·하이닉스' 동반 강세",
+      "url": "http://www.metroseoul.co.kr/article/20260619500019",
+      "pubDate": "Fri, 19 Jun 2026 09:18:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 장중 사상 첫 9300선 돌파…최고치 경신",
+      "url": "https://view.asiae.co.kr/article/2026061909171050684",
+      "pubDate": "Fri, 19 Jun 2026 09:17:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[속보] 코스피, 225p 폭등하며 9288.89...SK하이닉스 주가 '폭등'",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3612533",
+      "pubDate": "Fri, 19 Jun 2026 09:06:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[속보] 코스피, 장중 사상 첫 9300선 돌파…2%대 급등",
+      "url": "https://www.hankyung.com/article/2026061959166",
+      "pubDate": "Fri, 19 Jun 2026 09:02:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[한화 AI 전략 ③] '키맨' 김동선, 분할 이후 '피지컬 AI' 성장 이끈다",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=631428",
+      "pubDate": "Fri, 19 Jun 2026 09:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[AI MY 증시전망] &quot;반도체 훈풍에 상승 출발…순환매 주목&quot;",
+      "url": "https://www.newspim.com/news/view/20260619000167",
+      "pubDate": "Fri, 19 Jun 2026 08:57:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[현장에서] 드디어 풀린 젠슨 황의 '코리아 미스터리'",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4420830",
+      "pubDate": "Fri, 19 Jun 2026 08:48:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[특징주] 美 반도체 훈풍에 SK하이닉스·한미반도체 강세",
+      "url": "https://www.newspim.com/news/view/20260619000107",
+      "pubDate": "Fri, 19 Jun 2026 08:41:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[프리마켓 포커스] 美 인텔·메모리 급등에 개장 전 '삼전·하이닉스' 강...",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=722869",
+      "pubDate": "Fri, 19 Jun 2026 08:24:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[증시키워드] 삼성전자·SK하이닉스 또 올랐다…반도체 질주 속 삼성전...",
+      "url": "https://www.etoday.co.kr/news/view/2595193",
+      "pubDate": "Fri, 19 Jun 2026 08:20:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "美 반도체 훈풍에 프리마켓 삼전·하닉 4%대↑[마켓시그널]",
+      "url": "https://www.sedaily.com/article/20057620?ref=naver",
+      "pubDate": "Fri, 19 Jun 2026 08:14:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[애프터마켓 리뷰] 예스티, HPSP 고압어닐링장비 특허분쟁 2심도 승소",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317563?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 07:51:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "삼성·SK·현대차·LG 등 53개 기업, 청년 취업 준비생 채용 연계 교육 '...",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=342858",
+      "pubDate": "Fri, 19 Jun 2026 07:43:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "지수보다 종목 택한 투자자들···파생시장도 반도체 쏠림 84%",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=631444",
+      "pubDate": "Fri, 19 Jun 2026 07:29:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[손병관의 뉴스프레소] 이재명 정부 총리 청문회에는 증인·참고인이 없...",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003244568&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "pubDate": "Fri, 19 Jun 2026 07:26:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "두산에너빌리티 주가 전망, 체코·엔비디아 호재에도 약세 마감",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202606190011",
+      "pubDate": "Fri, 19 Jun 2026 06:58:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "&quot;삼성전자·SK하이닉스 상승 여력…현대차 3인방 '원 픽' 필수&quot;",
+      "url": "https://www.newsis.com/view/NISX20260618_0003675107",
+      "pubDate": "Fri, 19 Jun 2026 06:31:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "국장 파죽지세에 KB자산운용 ETF 85% 폭증, 3위 탈환...4위 한투운용, '국...",
+      "url": "http://www.consumernews.co.kr/news/articleView.html?idxno=757707",
+      "pubDate": "Fri, 19 Jun 2026 06:10:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "&quot;오전10시 월드컵 멕시코전&quot;…직장인들, 단체응원 대신 '삼삼오오 자율...",
+      "url": "https://www.newsis.com/view/NISX20260618_0003674955",
+      "pubDate": "Fri, 19 Jun 2026 05:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "개별주식선물 규모, 지수선물 추월",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/06/19/FLDAUHNEINCSXK2NUVO2ERT4YU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 19 Jun 2026 00:46:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "삼성·SK·현대차·LG… 청년 취업 교육 나선다",
+      "url": "https://www.chosun.com/economy/industry-company/2026/06/19/LYR23CPYGJC77NGKUUBAZTUENE/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 19 Jun 2026 00:34:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "[요즘 부동산+/⑯]동탄·구리·기흥, 규제지역 지정 초읽기…정부, 고강...",
+      "url": "https://www.businessplus.kr/news/articleView.html?idxno=113060",
+      "pubDate": "Fri, 19 Jun 2026 07:50:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[금융·경제 트렌드] 국가아동권리보장원, 디딤씨앗통장 만기 도래 아동...",
+      "url": "https://www.ibabynews.com/news/articleView.html?idxno=152192",
+      "pubDate": "Fri, 19 Jun 2026 08:58:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "기업들, 인재양성-정서지원-기부로 사회공헌 실천",
+      "url": "http://www.wsobi.com/news/articleView.html?idxno=313945",
+      "pubDate": "Fri, 19 Jun 2026 08:44:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[부산 브리핑 모음(6월19일)] 부산항만공사, 자성대부두 장비 조립현장...",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606181439386980911",
+      "pubDate": "Fri, 19 Jun 2026 08:22:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[서산소식] 이동노동자 무인쉼터 폭염 대비 물품 지원 외",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1377955",
+      "pubDate": "Fri, 19 Jun 2026 08:18:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[브랜딩연구소] 오늘의 인물: 석세희 강사 &quot;사회적 약자를 위한 일에서...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204207",
+      "pubDate": "Fri, 19 Jun 2026 08:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[오늘의 주요일정·19일] 이재명 대통령 유럽·G7 순방 결과 브리핑",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243593",
+      "pubDate": "Fri, 19 Jun 2026 07:04:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美 당국자 “北 비핵화, 정책 우선순위 높아…김정은 준비되면 대화”",
+      "url": "https://www.seoul.co.kr/news/politics/2026/06/19/20260619500022?wlog_tag3=naver",
+      "pubDate": "Fri, 19 Jun 2026 09:09:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "이란, 동결자금 60억달러 접근…美 상품 구매용",
+      "url": "https://www.g-enews.com/view.php?ud=2026061908360569699a1f309431_1",
+      "pubDate": "Fri, 19 Jun 2026 08:44:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 “北비핵화, 트럼프 정부 정책에서 높은 우선순위 차지”",
+      "url": "https://biz.heraldcorp.com/article/10781175?ref=naver",
+      "pubDate": "Fri, 19 Jun 2026 08:10:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 &quot;북한 비핵화, 트럼프 정부 정책 우선순위서 매우 높아",
+      "url": "http://mbn.mk.co.kr/pages/news/newsView.php?category=mbn00008&news_seq_no=5200691",
+      "pubDate": "Fri, 19 Jun 2026 08:09:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美 &quot;북한 비핵화 우선순위 매우 높아&quot; … 트럼프식 압박 기조 재확인",
+      "url": "https://www.newdaily.co.kr/site/data/html/2026/06/19/2026061900023.html",
+      "pubDate": "Fri, 19 Jun 2026 08:02:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "정청래의 폴더 인사, 이재명은 웃지 않았다: 슬로우레터 6월19일.",
+      "url": "https://slownews.kr/161803",
+      "pubDate": "Fri, 19 Jun 2026 07:48:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美의회, ‘전작권’ 감독강화 추진…오브라이언 “신중한 전환 필요”",
+      "url": "https://www.joongang.co.kr/article/25438132",
+      "pubDate": "Fri, 19 Jun 2026 07:31:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "&quot;北비핵화, 트럼프 정부 정책 우선순위서 매우 높아&quot;",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317569?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 07:25:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 “북 비핵화, 여전히 우선순위…김정은 준비되면 대화”",
+      "url": "https://www.hani.co.kr/arti/international/america/1264299.html",
+      "pubDate": "Fri, 19 Jun 2026 07:24:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 “北비핵화, 트럼프 정책 우선순위서 매우 높아”",
+      "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0400&key=20260619.99099005734",
+      "pubDate": "Fri, 19 Jun 2026 07:21:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 &quot;北비핵화, 트럼프 정부 정책 우선순위 중 하나&quot;",
+      "url": "https://www.ikbc.co.kr/article/view/kbc202606190003",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美 당국자 &quot;북한 비핵화 문제, 정책 우선순위 매우 높다&quot;",
+      "url": "https://www.hankyung.com/article/2026061955847",
+      "pubDate": "Fri, 19 Jun 2026 06:51:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 &quot;트럼프 행정부, 정책 우선 순위에 '北비핵화'&quot;",
+      "url": "https://www.nocutnews.co.kr/news/6535463?utm_source=naver&utm_medium=article&utm_campaign=20260619064835",
+      "pubDate": "Fri, 19 Jun 2026 06:49:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 &quot;北대화신호 기다려…韓, 기업차별 할일 남아&quot;(종합)",
+      "url": "https://www.newsis.com/view/NISX20260619_0003675138",
+      "pubDate": "Fri, 19 Jun 2026 06:49:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미국 당국자 &quot;북한 비핵화, 트럼프 정부 정책 우선순위서 매우 높아&quot;",
+      "url": "https://imnews.imbc.com/news/2026/world/article/6831325_36925.html",
+      "pubDate": "Fri, 19 Jun 2026 06:45:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "트럼프 행정부 &quot;北비핵화 최우선&quot;…대화 가능성도 시사",
+      "url": "http://www.fnnews.com/news/202606190543386296",
+      "pubDate": "Fri, 19 Jun 2026 06:37:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 &quot;'北 비핵화' 정책 우선순위, 대화 신호 기다리고 있다&quot;",
+      "url": "https://www.mt.co.kr/world/2026/06/19/2026061906202237876",
+      "pubDate": "Fri, 19 Jun 2026 06:36:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美 &quot;북한 비핵화, 정책 우선순위 높다&quot;…대화 가능성 열어두고 압박 유...",
+      "url": "https://www.ajunews.com/view/20260619063301264",
+      "pubDate": "Fri, 19 Jun 2026 06:36:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "존 햄리 “트럼프, 동맹을 하청업체 취급...韓, 외교 역량 더 키워야”",
+      "url": "https://economist.co.kr/article/view/ecn202606170058",
+      "pubDate": "Fri, 19 Jun 2026 06:30:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[외신 헤드라인] 트럼프 &quot;애플, 인텔과 협력해 美서 칩 생산&quot;",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317551?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 06:30:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美 당국자 &quot;北 비핵화, 트럼프 정부 우선순위 매우 높아&quot;",
+      "url": "https://view.asiae.co.kr/article/2026061906190433650",
+      "pubDate": "Fri, 19 Jun 2026 06:19:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 &quot;北비핵화, 트럼프 정부 정책 우선순위서 매우 높아&quot;(종합)",
+      "url": "https://www.yna.co.kr/view/AKR20260619005351071?input=1195m",
+      "pubDate": "Fri, 19 Jun 2026 06:14:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "김여정, G7 비핵화 성명에 발끈… “핵보유, 반드시 고수할 핵심이익”",
+      "url": "https://www.segye.com/newsView/20260618518768?OutUrl=naver",
+      "pubDate": "Fri, 19 Jun 2026 06:05:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "중국 희토류 독점 깨려는 G7…공급망 자립은 '산 넘어 산'",
+      "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=52890",
+      "pubDate": "Fri, 19 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 &quot;북한 비핵화, 트럼프 정부서 우선순위 매우 높아&quot;",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260619055027CGQ",
+      "pubDate": "Fri, 19 Jun 2026 05:51:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "트럼프 1기 안보 수장 “전작권 전환, 정치가 개입하면 엉망된다… 신중...",
+      "url": "https://www.chosun.com/international/us/2026/06/19/TCR3ENJAVJHRVFNUG2DJ2WMY2A/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 19 Jun 2026 05:33:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 &quot;북 비핵화, 트럼프 정부 정책 우선순위서 매우 높아&quot;",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008617583&plink=ORI&cooper=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 05:30:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "우드사이드, 글로벌 가스 대폭발 속 LNG·석유 판매량 50% 증대 청사진",
+      "url": "https://www.g-enews.com/view.php?ud=2026061817324452630c8c1c064d_1",
+      "pubDate": "Fri, 19 Jun 2026 05:26:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 &quot;북 비핵화, 트럼프 정부 정책 우선순위서 매우 높아&quot;",
+      "url": "https://www.ytn.co.kr/_ln/0104_202606190520271682",
+      "pubDate": "Fri, 19 Jun 2026 05:20:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "미 당국자 “북한 비핵화, 트럼프 정부 정책 우선순위서 매우 높아”",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8590270&ref=A",
+      "pubDate": "Fri, 19 Jun 2026 05:14:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "국무부 당국자 “한국의 美기업 차별, 더 많은 노력 필요… 계속 목소리...",
+      "url": "https://www.chosun.com/international/us/2026/06/19/QDFJ3BNJANHZ5MWQW6Z7AYCMIM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 19 Jun 2026 05:11:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 &quot;북한 대화신호 기다리는중…우선순위는 비핵화&quot;",
+      "url": "https://www.newsis.com/view/NISX20260619_0003675134",
+      "pubDate": "Fri, 19 Jun 2026 05:03:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "“쇳덩이를 돈덩이로”…K원전 마법, 1400조 SMR 시장 휩쓴다 [원전심장...",
+      "url": "https://www.joongang.co.kr/article/25438108",
+      "pubDate": "Fri, 19 Jun 2026 05:00:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美당국자 &quot;北비핵화, 트럼프 정부 정책 우선순위서 매우 높아&quot;",
+      "url": "https://www.yna.co.kr/view/AKR20260619005300071?input=1195m",
+      "pubDate": "Fri, 19 Jun 2026 04:37:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[글로벌 비즈 브리핑] 블룸버그 “삼전·SK하닉·스페이스X는 새로운 밈...",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317540?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 04:31:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "전시작전권 전환 조건… 美의회, 까다롭게 법 고친다",
+      "url": "https://www.chosun.com/politics/politics_general/2026/06/19/225UMNKF7ZABBEZ2IS44TGFSQQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 19 Jun 2026 00:55:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "韓정유사, 이란산 원유 도입 검토… ‘아시안 프리미엄’ 해소 기대",
+      "url": "https://www.donga.com/news/Economy/article/all/20260618/134139734/2",
+      "pubDate": "Fri, 19 Jun 2026 00:31:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "세계 지도자들, 미-이란 합의 환영… 미 의원들 반응은 엇갈려",
+      "url": "https://www.voakorea.com/a/global-leaders-react-to-us-iran-deal-us-lawmakers-divided-061826/8162269.html",
+      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
+    }
+  ]
+}
