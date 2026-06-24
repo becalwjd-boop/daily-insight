@@ -302,9 +302,16 @@ async function fetchThumbnailImage(url: string) {
 }
 
 async function fetchThumbnailFromItem(item: any) {
-  const candidates = [item.link, item.originallink].filter(Boolean);
+  const candidates = [
+    item.link,
+    item.originallink,
+    item.link?.replace("https://n.news.naver.com", "https://news.naver.com"),
+    item.originallink?.replace("http://", "https://"),
+  ].filter(Boolean);
 
-  for (const url of candidates) {
+  const uniqueCandidates = Array.from(new Set(candidates));
+
+  for (const url of uniqueCandidates) {
     const imageUrl = await fetchThumbnailImage(url);
 
     if (imageUrl) {
