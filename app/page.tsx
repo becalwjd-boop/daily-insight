@@ -488,23 +488,24 @@ export default async function Home() {
                       >
                         <NewsThumbnail item={item} />
 
-                        <div className="min-w-0 flex-1"></div>
-                        <p className="mb-1 text-xs text-gray-400">
-                          {formatNewsDate(item.pubDate)}{" "}
-                          {formatNewsTime(item.pubDate)}
-                        </p>
+                        <div className="min-w-0 flex-1">
+                          <p className="mb-1 text-xs text-gray-400">
+                            {formatNewsDate(item.pubDate)}{" "}
+                            {formatNewsTime(item.pubDate)}
+                          </p>
 
-                        <p className="text-base font-medium leading-relaxed group-hover:text-blue-600">
-                          <span className="mr-2 font-bold text-blue-600">
-                            {String(index + 1).padStart(2, "0")}.
-                          </span>
+                          <p className="text-base font-medium leading-relaxed group-hover:text-blue-600">
+                            <span className="mr-2 font-bold text-blue-600">
+                              {String(index + 1).padStart(2, "0")}.
+                            </span>
 
-                          <span
-                            dangerouslySetInnerHTML={{
-                              __html: item.title,
-                            }}
-                          />
-                        </p>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: item.title,
+                              }}
+                            />
+                          </p>
+                        </div>
                       </a>
                     </li>
                   ))}
