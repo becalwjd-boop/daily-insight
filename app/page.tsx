@@ -294,7 +294,7 @@ export default async function Home() {
                     {formatNewsTime(item.pubDate)}
                   </p>
 
-                  <p className="text-base font-medium leading-relaxed group-hover:text-blue-600">
+                  <p className="text-base font-medium leading-relaxed hover:text-blue-600">
                     <span className="mr-2 font-bold text-blue-600">
                       {String(index + 1).padStart(2, "0")}.
                     </span>
