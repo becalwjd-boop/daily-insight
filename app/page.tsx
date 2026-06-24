@@ -301,11 +301,24 @@ async function fetchThumbnailImage(url: string) {
   }
 }
 
+async function fetchThumbnailFromItem(item: any) {
+  const candidates = [item.link, item.originallink].filter(Boolean);
+
+  for (const url of candidates) {
+    const imageUrl = await fetchThumbnailImage(url);
+
+    if (imageUrl) {
+      return imageUrl;
+    }
+  }
+
+  return null;
+}
+
 async function addThumbnails(items: any[]) {
   return Promise.all(
     items.map(async (item) => {
-      const url = item.originallink || item.link;
-      const imageUrl = await fetchThumbnailImage(url);
+      const imageUrl = await fetchThumbnailFromItem(item);
 
       return {
         ...item,
