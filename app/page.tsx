@@ -281,19 +281,23 @@ async function addThumbnails(items: any[]) {
 }
 
 function NewsThumbnail({ item }: { item: any }) {
-  if (!item.imageUrl) return null;
+  const thumbnailClass =
+    "h-12 w-12 shrink-0 rounded-xl object-cover sm:h-14 sm:w-14 lg:h-16 lg:w-16";
+
+  if (!item.imageUrl) {
+    return <div className={thumbnailClass} />;
+  }
 
   return (
     <img
       src={item.imageUrl}
       alt={cleanTitle(item.title)}
-      className="h-14 w-14 shrink-0 rounded-xl object-cover"
+      className={thumbnailClass}
       loading="lazy"
       referrerPolicy="no-referrer"
     />
   );
 }
-
 export default async function Home() {
   noStore();
 
