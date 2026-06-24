@@ -176,9 +176,11 @@ async function getNewsByCategory(category: { name: string; query: string }) {
     )
     .slice(0, 20);
 
+  const itemsWithThumbnails = await addThumbnails(todayItems);
+
   return {
     name: category.name,
-    items: todayItems,
+    items: itemsWithThumbnails,
   };
 }
 
@@ -221,6 +223,75 @@ function removeBadgeTextFromTitle(title: string) {
     .replace(/속보/g, "")
     .replace(/단독/g, "")
     .trim();
+}
+
+const imageCache = new Map<string, string | null>();
+
+async function fetchThumbnailImage(url: string) {
+  if (!url) return null;
+
+  if (imageCache.has(url)) {
+    return imageCache.get(url);
+  }
+
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 2500);
+
+    const res = await fetch(url, {
+      headers: {
+        "User-Agent": "Mozilla/5.0",
+      },
+      signal: controller.signal,
+      cache: "no-store",
+    });
+
+    clearTimeout(timeout);
+
+    const html = await res.text();
+
+    const match =
+      html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i) ||
+      html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["'][^>]*>/i) ||
+      html.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["'][^>]*>/i);
+
+    const imageUrl = match?.[1]?.replace(/&amp;/g, "&") || null;
+
+    imageCache.set(url, imageUrl);
+
+    return imageUrl;
+  } catch {
+    imageCache.set(url, null);
+    return null;
+  }
+}
+
+async function addThumbnails(items: any[]) {
+  return Promise.all(
+    items.map(async (item) => {
+      const url = item.originallink || item.link;
+      const imageUrl = await fetchThumbnailImage(url);
+
+      return {
+        ...item,
+        imageUrl,
+      };
+    })
+  );
+}
+
+function NewsThumbnail({ item }: { item: any }) {
+  if (!item.imageUrl) return null;
+
+  return (
+    <img
+      src={item.imageUrl}
+      alt={cleanTitle(item.title)}
+      className="h-14 w-14 shrink-0 rounded-xl object-cover"
+      loading="lazy"
+      referrerPolicy="no-referrer"
+    />
+  );
 }
 
 export default async function Home() {
@@ -287,37 +358,30 @@ export default async function Home() {
                   href={item.originallink || item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group block"
+                  className="group flex gap-3"
                 >
-                  <p className="mb-1 text-xs text-gray-400">
-                    {item.categoryName} · {formatNewsDate(item.pubDate)}{" "}
-                    {formatNewsTime(item.pubDate)}
-                  </p>
+                  <NewsThumbnail item={item} />
 
-                  <p className="text-base font-medium leading-relaxed hover:text-blue-600">
-                    <span className="mr-2 font-bold text-blue-600">
-                      {String(index + 1).padStart(2, "0")}.
-                    </span>
+                  <div className="min-w-0 flex-1">
+                    <p className="mb-1 text-xs text-gray-400">
+                      {item.categoryName} · {formatNewsDate(item.pubDate)}{" "}
+                      {formatNewsTime(item.pubDate)}
+                    </p>
 
-                    <NewsBadge title={item.title} />
+                    <p className="text-base font-medium leading-relaxed hover:text-blue-600">
+                      <span className="mr-2 font-bold text-blue-600">
+                        {String(index + 1).padStart(2, "0")}.
+                      </span>
 
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: removeBadgeTextFromTitle(item.title),
-                      }}
-                    />
+                      <NewsBadge title={item.title} />
 
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html:
-                          index === 0
-                            ? removeBadgeTextFromTitle(item.title)
-                            : index === 1
-                              ? removeBadgeTextFromTitle(item.title)
-                              : removeBadgeTextFromTitle(item.title),
-                      }}
-                    />
-                  </p>
+                      <span
+                        dangerouslySetInnerHTML={{
+                          __html: removeBadgeTextFromTitle(item.title),
+                        }}
+                      />
+                    </p>
+                  </div>
                 </a>
               </li>
             ))}
@@ -361,8 +425,11 @@ export default async function Home() {
                         href={item.originallink || item.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group block"
+                        className="group flex gap-3"
                       >
+                        <NewsThumbnail item={item} />
+
+                        <div className="min-w-0 flex-1"></div>
                         <p className="mb-1 text-xs text-gray-400">
                           {formatNewsDate(item.pubDate)}{" "}
                           {formatNewsTime(item.pubDate)}
@@ -405,24 +472,28 @@ export default async function Home() {
                             href={item.originallink || item.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block"
+                            className="flex gap-3"
                           >
-                            <p className="mb-1 text-xs text-gray-400">
-                              {formatNewsDate(item.pubDate)}{" "}
-                              {formatNewsTime(item.pubDate)}
-                            </p>
+                            <NewsThumbnail item={item} />
 
-                            <p className="text-base font-medium leading-relaxed hover:text-blue-600">
-                              <span className="mr-2 font-bold text-blue-600">
-                                {String(index + 11).padStart(2, "0")}.
-                              </span>
+                            <div className="min-w-0 flex-1">
+                              <p className="mb-1 text-xs text-gray-400">
+                                {formatNewsDate(item.pubDate)}{" "}
+                                {formatNewsTime(item.pubDate)}
+                              </p>
 
-                              <span
-                                dangerouslySetInnerHTML={{
-                                  __html: item.title,
-                                }}
-                              />
-                            </p>
+                              <p className="text-base font-medium leading-relaxed hover:text-blue-600">
+                                <span className="mr-2 font-bold text-blue-600">
+                                  {String(index + 11).padStart(2, "0")}.
+                                </span>
+
+                                <span
+                                  dangerouslySetInnerHTML={{
+                                    __html: item.title,
+                                  }}
+                                />
+                              </p>
+                            </div>
                           </a>
                         </li>
                       ))}
