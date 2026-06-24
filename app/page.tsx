@@ -104,17 +104,17 @@ function removeDuplicateNews(items: any[]) {
 function getNewsBadge(title: string) {
   const clean = cleanTitle(title);
 
-  if (clean.includes("[속보]") || clean.includes("속보")) {
+  if (clean.includes("속보")) {
     return {
       label: "속보",
-      className: "bg-red-100 text-red-600 border-red-200",
+      className: "bg-red-100 text-red-700 border-red-200",
     };
   }
 
-  if (clean.includes("[단독]") || clean.includes("단독")) {
+  if (clean.includes("단독")) {
     return {
       label: "단독",
-      className: "bg-purple-100 text-purple-600 border-purple-200",
+      className: "bg-amber-100 text-amber-700 border-amber-200",
     };
   }
 
@@ -205,11 +205,22 @@ function NewsBadge({ title }: { title: string }) {
 
   return (
     <span
-      className={`mr-2 inline-flex rounded-full border px-2 py-0.5 text-xs font-bold ${badge.className}`}
+      className={`mr-2 inline-flex h-[18px] w-[34px] items-center justify-center rounded-full border text-[10px] font-semibold leading-[18px] ${badge.className}`}
     >
-      {badge.label}
+      <span className="translate-y-[-0.5px]">
+        {badge.label}
+      </span>
     </span>
   );
+}
+
+function removeBadgeTextFromTitle(title: string) {
+  return title
+    .replace(/\[속보\]/g, "")
+    .replace(/\[단독\]/g, "")
+    .replace(/속보/g, "")
+    .replace(/단독/g, "")
+    .trim();
 }
 
 export default async function Home() {
@@ -292,7 +303,18 @@ export default async function Home() {
 
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: item.title,
+                        __html: removeBadgeTextFromTitle(item.title),
+                      }}
+                    />
+
+                    <span
+                      dangerouslySetInnerHTML={{
+                        __html:
+                          index === 0
+                            ? removeBadgeTextFromTitle(item.title)
+                            : index === 1
+                              ? removeBadgeTextFromTitle(item.title)
+                              : removeBadgeTextFromTitle(item.title),
                       }}
                     />
                   </p>
@@ -351,8 +373,6 @@ export default async function Home() {
                             {String(index + 1).padStart(2, "0")}.
                           </span>
 
-                          <NewsBadge title={item.title} />
-
                           <span
                             dangerouslySetInnerHTML={{
                               __html: item.title,
@@ -385,19 +405,17 @@ export default async function Home() {
                             href={item.originallink || item.link}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="group block"
+                            className="block"
                           >
                             <p className="mb-1 text-xs text-gray-400">
                               {formatNewsDate(item.pubDate)}{" "}
                               {formatNewsTime(item.pubDate)}
                             </p>
 
-                            <p className="text-base font-medium leading-relaxed group-hover:text-blue-600">
+                            <p className="text-base font-medium leading-relaxed hover:text-blue-600">
                               <span className="mr-2 font-bold text-blue-600">
                                 {String(index + 11).padStart(2, "0")}.
                               </span>
-
-                              <NewsBadge title={item.title} />
 
                               <span
                                 dangerouslySetInnerHTML={{
