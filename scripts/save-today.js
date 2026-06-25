@@ -7,16 +7,30 @@ const categoryKeywords = [
   { name: "경제", query: "경제 물가 수출 금리" },
   { name: "금융", query: "코스피 환율 금리 증시" },
   { name: "기업", query: "삼성전자 SK하이닉스 현대차" },
-  { name: "부동산", query: "부동산 아파트 청약 재건축" },
+
+  {
+    name: "부동산",
+    query: "",
+  },
+
   { name: "사회", query: "사회 복지 교육 노동" },
   { name: "국제", query: "미국 중국 일본 트럼프" },
 ];
+
+function cleanText(text = "") {
+  return text
+    .replace(/<[^>]*>/g, "")
+    .replace(/&quot;/g, '"')
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .trim();
+}
 
 function formatNewsDate(pubDate) {
   if (!pubDate) return null;
 
   const date = new Date(pubDate);
-
   if (isNaN(date.getTime())) return null;
 
   const parts = new Intl.DateTimeFormat("ko-KR", {
@@ -34,18 +48,7 @@ function formatNewsDate(pubDate) {
 }
 
 function getKoreaTodayString() {
-  const parts = new Intl.DateTimeFormat("ko-KR", {
-    timeZone: "Asia/Seoul",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).formatToParts(new Date());
-
-  const year = parts.find((p) => p.type === "year")?.value;
-  const month = parts.find((p) => p.type === "month")?.value;
-  const day = parts.find((p) => p.type === "day")?.value;
-
-  return `${year}-${month}-${day}`;
+  return formatNewsDate(new Date().toUTCString());
 }
 
 async function fetchNaverNews(queryText) {
@@ -66,10 +69,32 @@ async function fetchNaverNews(queryText) {
   return data.items || [];
 }
 
+function getArticleKey(article) {
+  return article.url || article.title;
+}
+
 async function main() {
   const date = getKoreaTodayString();
 
-  const allArticles = [];
+  const archiveDir = path.join(process.cwd(), "data", "archives");
+  const filePath = path.join(archiveDir, `${date}.json`);
+
+  if (!fs.existsSync(archiveDir)) {
+    fs.mkdirSync(archiveDir, { recursive: true });
+  }
+
+  let existingArticles = [];
+
+  if (fs.existsSync(filePath)) {
+    try {
+      const oldData = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      existingArticles = oldData.articles || [];
+    } catch (error) {
+      existingArticles = [];
+    }
+  }
+
+  const newArticles = [];
 
   for (const category of categoryKeywords) {
     const items = await fetchNaverNews(category.query);
@@ -79,37 +104,32 @@ async function main() {
 
       if (articleDate !== date) continue;
 
-      allArticles.push({
+      newArticles.push({
         category: category.name,
-        title: item.title.replace(/<[^>]*>/g, ""),
+        title: cleanText(item.title),
         url: item.originallink || item.link,
         pubDate: item.pubDate,
       });
     }
   }
 
+  const mergedArticles = [...existingArticles, ...newArticles];
+
   const uniqueArticles = Array.from(
     new Map(
-      allArticles.map((article) => [
-        article.url || article.title,
-        article,
-      ])
+      mergedArticles.map((article) => [getArticleKey(article), article])
     ).values()
-  );
+  )
+    .filter((article) => formatNewsDate(article.pubDate) === date)
+    .sort((a, b) => {
+      return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
+    });
 
   const archiveData = {
     date,
-    createdAt: new Date().toISOString(),
+    updatedAt: new Date().toISOString(),
     articles: uniqueArticles,
   };
-
-  const archiveDir = path.join(process.cwd(), "data", "archives");
-
-  if (!fs.existsSync(archiveDir)) {
-    fs.mkdirSync(archiveDir, { recursive: true });
-  }
-
-  const filePath = path.join(archiveDir, `${date}.json`);
 
   fs.writeFileSync(filePath, JSON.stringify(archiveData, null, 2), "utf-8");
 

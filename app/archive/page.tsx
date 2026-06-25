@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
-import Link from "next/link";
+import ArchiveList from "./ArchiveList";
+import ScrollToTopButton from "../ScrollToTopButton";
 
 export default function ArchivePage() {
   const archiveDir = path.join(process.cwd(), "data", "archives");
@@ -30,6 +31,9 @@ export default function ArchivePage() {
 
   return (
     <main className="min-h-screen bg-[#f6f7f9]">
+
+      <ScrollToTopButton />
+
       <section className="mx-auto max-w-5xl px-6 py-10">
         <h1 className="mb-3 text-5xl font-bold">뉴스 아카이브</h1>
 
@@ -42,20 +46,7 @@ export default function ArchivePage() {
             아직 저장된 뉴스가 없습니다.
           </div>
         ) : (
-          <div className="space-y-4">
-            {archives.map((item) => (
-              <Link
-                key={item.date}
-                href={`/archive/${item.date}`}
-                className="block rounded-2xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
-              >
-                <div className="flex justify-between">
-                  <h2 className="text-xl font-bold">{item.date}</h2>
-                  <span>{item.count}개 기사</span>
-                </div>
-              </Link>
-            ))}
-          </div>
+          <ArchiveList archives={archives} />
         )}
       </section>
     </main>
