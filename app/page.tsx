@@ -2,6 +2,7 @@ import { unstable_noStore as noStore } from "next/cache";
 import AutoRefresh from "./AutoRefresh";
 import CategoryShortcut from "./CategoryShortcut";
 import ScrollToTopButton from "./ScrollToTopButton";
+import SmartThumbnail from "./SmartThumbnail";
 
 import {
   categoryKeywords,
@@ -34,23 +35,15 @@ function NewsBadge({ title }: { title: string }) {
 }
 
 function NewsThumbnail({ item }: { item: any }) {
-  const thumbnailClass =
-    "h-12 w-12 shrink-0 rounded-xl object-cover sm:h-14 sm:w-14 lg:h-16 lg:w-16";
-
-  if (!item.imageUrl) {
-    return <div className={thumbnailClass} />;
-  }
-
   return (
-    <img
+    <SmartThumbnail
       src={item.imageUrl}
-      alt={cleanTitle(item.title)}
-      className={thumbnailClass}
-      loading="lazy"
-      referrerPolicy="no-referrer"
+      title={item.title}
+      className="h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16"
     />
   );
 }
+
 export default async function Home() {
   noStore();
 
