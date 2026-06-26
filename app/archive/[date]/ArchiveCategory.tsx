@@ -2,22 +2,14 @@
 
 import { useState } from "react";
 import { cleanTitle, formatNewsTime } from "@/lib/news";
+import SmartThumbnail from "@/app/SmartThumbnail";
 
 function ArchiveThumbnail({ article }: { article: any }) {
-    const thumbnailClass =
-        "h-12 w-12 shrink-0 rounded-xl object-cover sm:h-14 sm:w-14";
-
-    if (!article.imageUrl) {
-        return <div className={thumbnailClass} />;
-    }
-
     return (
-        <img
+        <SmartThumbnail
             src={article.imageUrl}
-            alt={cleanTitle(article.title)}
-            className={thumbnailClass}
-            loading="lazy"
-            referrerPolicy="no-referrer"
+            title={article.title}
+            className="h-12 w-12 sm:h-14 sm:w-14"
         />
     );
 }

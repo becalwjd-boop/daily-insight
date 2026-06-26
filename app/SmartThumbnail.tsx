@@ -19,38 +19,25 @@ export default function SmartThumbnail({
 
     return (
         <div
-            className={`relative shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-gray-100 to-gray-200 ${className}`}
+            className={`relative shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-blue-50 via-slate-50 to-white ${className}`}
         >
-            {(!showImage || !loaded) && (
-                <div className="absolute inset-0 animate-pulse rounded-xl">
-                    <div className="flex h-full flex-col items-center justify-center bg-gradient-to-br from-gray-50 via-gray-100 to-gray-200">
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            className="mb-1 h-4 w-4 text-gray-400"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            stroke="currentColor"
-                        >
-                            <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth={1.5}
-                                d="M4 16l4-4 4 4 4-6 4 6"
-                            />
-                        </svg>
+            <div className="absolute inset-0 flex flex-col items-center justify-center">
+                <img
+                    src="/default-thumbnail.png"
+                    alt="Daily Insight"
+                    className="mb-1 h-8 w-8 object-contain"
+                />
 
-                        <span className="text-[8px] font-bold tracking-tight text-gray-400">
-                            Daily
-                        </span>
-                    </div>
-                </div>
-            )}
+                <span className="mt-1 text-[7px] font-medium text-gray-500">
+                    이미지 로딩중
+                </span>
+            </div>
 
             {showImage && (
                 <img
                     src={src}
                     alt={cleanTitle(title)}
-                    className={`h-full w-full object-cover transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"
+                    className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-300 ${loaded ? "opacity-100" : "opacity-0"
                         }`}
                     loading="lazy"
                     referrerPolicy="no-referrer"

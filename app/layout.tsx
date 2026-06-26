@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import NavigationLoading from "./NavigationLoading";
+import PullToRefresh from "./PullToRefresh";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <NavigationLoading />
+        <PullToRefresh />
         {children}
 
         <Script
