@@ -3,6 +3,7 @@ import AutoRefresh from "./AutoRefresh";
 import CategoryShortcut from "./CategoryShortcut";
 import ScrollToTopButton from "./ScrollToTopButton";
 import SmartThumbnail from "./SmartThumbnail";
+import ShareCategoryButton from "./ShareCategoryButton";
 
 import {
   categoryKeywords,
@@ -47,9 +48,21 @@ function NewsThumbnail({ item }: { item: any }) {
 export default async function Home() {
   noStore();
 
-  const categories = await Promise.all(
-    categoryKeywords.map((category) => getNewsByCategory(category))
-  );
+  const categoryGroups = [
+    categoryKeywords.slice(0, 3),
+    categoryKeywords.slice(3, 6),
+    categoryKeywords.slice(6, 8),
+  ];
+
+  const categories = [];
+
+  for (const group of categoryGroups) {
+    const groupResults = await Promise.all(
+      group.map((category) => getNewsByCategory(category))
+    );
+
+    categories.push(...groupResults);
+  }
 
   const realtimeNews = getRealtimeNews(categories);
 
@@ -161,12 +174,19 @@ export default async function Home() {
                 key={category.name}
                 className="scroll-mt-6 rounded-3xl bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md"
               >
-                <div className="mb-5 flex items-center justify-between">
+                <div className="mb-5 flex items-center justify-between gap-3">
                   <h3 className="text-xl font-bold">{category.name}</h3>
 
-                  <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500">
-                    {category.items.length} articles
-                  </span>
+                  <div className="flex items-center gap-2">
+                    <ShareCategoryButton
+                      categoryName={category.name}
+                      items={category.items}
+                    />
+
+                    <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500">
+                      {category.items.length} articles
+                    </span>
+                  </div>
                 </div>
 
                 <ul className="space-y-4">

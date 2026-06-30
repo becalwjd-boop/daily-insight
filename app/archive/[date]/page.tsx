@@ -4,7 +4,7 @@ import ArchiveCategory from "./ArchiveCategory";
 import CategoryShortcut from "@/app/CategoryShortcut";
 import ScrollToTopButton from "@/app/ScrollToTopButton";
 
-const categoryOrder = ["경제", "금융", "기업", "부동산", "사회", "국제"];
+const categoryOrder = ["경제", "금융", "기업", "부동산", "사회", "국제", "연예", "스포츠"];
 
 export default async function ArchiveDatePage({
   params,
@@ -58,7 +58,9 @@ export default async function ArchiveDatePage({
           해당 날짜에 저장된 뉴스 기사입니다.
         </p>
 
-        <CategoryShortcut />
+        <div className="mb-8">
+          <CategoryShortcut />
+        </div>
 
         <section className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {groupedArticles.map((group) => (

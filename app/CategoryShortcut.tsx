@@ -1,37 +1,28 @@
-"use client";
-
-const categories = ["경제", "금융", "기업", "부동산", "사회", "국제"];
+const categories = [
+  "경제",
+  "금융",
+  "기업",
+  "부동산",
+  "사회",
+  "국제",
+  "연예",
+  "스포츠",
+];
 
 export default function CategoryShortcut() {
-  const scrollToCategory = (category: string) => {
-    const target = document.getElementById(`category-${category}`);
-
-    if (!target) return;
-
-    target.scrollIntoView({
-      behavior: "smooth",
-      block: "start",
-    });
-
-    target.classList.add("ring-2", "ring-blue-300");
-
-    setTimeout(() => {
-      target.classList.remove("ring-2", "ring-blue-300");
-    }, 1200);
-  };
-
   return (
-    <div className="mt-4 flex gap-2 overflow-x-auto pb-1 md:hidden">
-      {categories.map((category) => (
-        <button
-          key={category}
-          type="button"
-          onClick={() => scrollToCategory(category)}
-          className="shrink-0 rounded-full bg-white px-4 py-2 text-sm font-semibold text-gray-700 shadow-sm"
-        >
-          {category}
-        </button>
-      ))}
-    </div>
+    <nav className="mt-6 block md:hidden">
+      <div className="grid grid-cols-4 gap-2">
+        {categories.map((category) => (
+          <a
+            key={category}
+            href={`#category-${category}`}
+            className="rounded-full bg-white px-3 py-2 text-center text-xs font-semibold text-gray-600 shadow-sm transition hover:bg-blue-50 hover:text-blue-600"
+          >
+            {category}
+          </a>
+        ))}
+      </div>
+    </nav>
   );
 }

@@ -1,18 +1,2175 @@
 {
   "date": "2026-06-26",
-  "updatedAt": "2026-06-26T00:04:14.900Z",
+  "updatedAt": "2026-06-26T07:12:58.745Z",
   "articles": [
+    {
+      "category": "연예",
+      "title": "'나혼산' 코쿤 만난 박지현, 32년 만에 노출 감행",
+      "url": "https://www.ize.co.kr/news/articleView.html?idxno=78219",
+      "pubDate": "Fri, 26 Jun 2026 16:12:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/465/2026/06/26/0000018043_001_20260626161207666.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "“툭하면 서킷” 코스피, 개미 8조 풀매수에도 8410선 급락 마감 [투자3...",
+      "url": "https://biz.heraldcorp.com/article/10789703?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 16:11:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002662193_001_20260626161107122.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[마감시황] 코스피, 5% 넘게 급락해 8410선 마감…사이드카 이어 서킷브...",
+      "url": "https://www.ajunews.com/view/20260626154610518",
+      "pubDate": "Fri, 26 Jun 2026 16:10:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/06/26/20260626155252793020.png"
+    },
+    {
+      "category": "부동산",
+      "title": "'귀한 몸' 서울 초소형 아파트…'아크로 리버스카이'에 쏠리는 눈길",
+      "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=189104",
+      "pubDate": "Fri, 26 Jun 2026 16:10:00 +0900",
+      "imageUrl": "http://www.wikileaks-kr.org/news/thumbnail/202606/189104_201296_5129_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'대세'답다, 윤경호 출연작 줄줄이 나온다",
+      "url": "http://www.sportsq.co.kr/news/articleView.html?idxno=495761",
+      "pubDate": "Fri, 26 Jun 2026 16:10:00 +0900",
+      "imageUrl": "http://www.sportsq.co.kr/news/thumbnail/202606/495761_571662_1658_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[EU+디지털 테크] EU, 할리우드 스타들과 함께 AI 초상권 지키기에 나선...",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=343362",
+      "pubDate": "Fri, 26 Jun 2026 16:09:00 +0900",
+      "imageUrl": "https://cdn.greened.kr/news/thumbnail/202606/343362_394317_5557_v150.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "[더벨][채권 투자 뉴노멀] 변곡점 맞은 채권시장, '액티브 운용' 필수",
+      "url": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202606241055145800107222",
+      "pubDate": "Fri, 26 Jun 2026 16:08:00 +0900",
+      "imageUrl": null
+    },
+    {
+      "category": "기업",
+      "title": "오늘도 '롤러코스피'…외인·기관 '팔자'에 8400선 턱걸이[마감시황]",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026062615562646955",
+      "pubDate": "Fri, 26 Jun 2026 16:08:00 +0900",
+      "imageUrl": "https://nimage.newsway.co.kr/photo/2025/04/07/20250407000040_1200.png"
+    },
+    {
+      "category": "금융",
+      "title": "'검은 금요일'… 메모리값 쇼크에 코스피 5%↓, 코스닥 연저점",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/06/26/2026062600176.html",
+      "pubDate": "Fri, 26 Jun 2026 16:06:00 +0900",
+      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/06/26/2026062600176_0.jpg?u=20260626160616?u=20260626160616"
+    },
+    {
+      "category": "금융",
+      "title": "갑자기 환율 1520원대로 ‘뚝’…외국인 주식 매도세에 ‘당국 개입’",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05398886645485656",
+      "pubDate": "Fri, 26 Jun 2026 16:06:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/06/26/0006315942_001_20260626160609847.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "개미 8조원 순매수에도 못 막았다…코스피 8400선 마감",
+      "url": "https://www.mydaily.co.kr/page/view/2026062616041671875",
+      "pubDate": "Fri, 26 Jun 2026 16:06:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/06/26/0004078805_001_20260626160606316.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[거래소 기관] 삼성전기·SK· 현대차 집중 매수… 삼성전자 SK하이닉스...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=463439",
+      "pubDate": "Fri, 26 Jun 2026 16:06:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202606/463439_452227_51_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'검은 금요일'에 파랗게 질린 코스피…5% 하락 마감",
+      "url": "https://news.tf.co.kr/read/economy/2336986.htm",
+      "pubDate": "Fri, 26 Jun 2026 16:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/06/26/202626761782456477_20260626160514118.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "\"이틀 전 SNS 온기 남았는데…\" 하늘로 떠난 1세대 인플루언서 이주희, ...",
+      "url": "https://www.mydaily.co.kr/page/view/2026062615571883516",
+      "pubDate": "Fri, 26 Jun 2026 16:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/06/26/0004078803_001_20260626160506313.png"
+    },
+    {
+      "category": "연예",
+      "title": "안영미, 국내서 둘째 득남…원정출산설 불식 '축하 봇물' [엑's 이슈]",
+      "url": "https://www.xportsnews.com/article/2165214",
+      "pubDate": "Fri, 26 Jun 2026 16:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/06/26/0002027070_001_20260626160508311.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "소녀시대 유리, 완벽 제주도민 됐네..20년차 연예인 안 믿겨",
+      "url": "https://www.heraldmuse.com/article/10789691?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 16:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/112/2026/06/26/0003799762_001_20260626160509635.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 서킷브레이커 충격 딛고 8410선 마감...반도체 급락",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=678759",
+      "pubDate": "Fri, 26 Jun 2026 16:04:00 +0900",
+      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202606/678759_627256_5819.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 5.81% 급락해 8410선 마감…AI 반도체 차익실현에 서킷브레이커...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=463429",
+      "pubDate": "Fri, 26 Jun 2026 16:04:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202606/463429_452223_5851_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'검은 금요일' 코스피, 5%대 급락하며 8400선으로...하이닉스 8%·삼전 5%...",
+      "url": "http://www.metroseoul.co.kr/article/20260626500169",
+      "pubDate": "Fri, 26 Jun 2026 16:04:00 +0900",
+      "imageUrl": "https://cdn.emetro.co.kr/data2/content/image/2026/06/26/.cache/512/20260626500170.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "집값 잡자니 전월세 걱정, 넘치는 자금도 ‘변수’ 정부의 부동산 딜레...",
+      "url": "https://vop.co.kr/A00001695459.html",
+      "pubDate": "Fri, 26 Jun 2026 16:04:00 +0900",
+      "imageUrl": "https://archivenew.vop.co.kr/images/mobilethumbnail/2026-06/_6fccy0jn.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "외국인 4조 매도…‘6% 급락’ 코스피 8400선 후퇴 [코주부]",
+      "url": "https://www.sedaily.com/article/20060640?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 16:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635361_001_20260626160207188.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[거래소 외국인] 삼성전기 HD현대중공업 LG전자 삼성SDI 폭풍매수...삼성...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=463434",
+      "pubDate": "Fri, 26 Jun 2026 16:02:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202606/463434_452226_050_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[마감시황] '정신없는 변동장'…코스피, 5% 이상 하락 마감",
+      "url": "https://www.joongangenews.com/news/articleView.html?idxno=528640",
+      "pubDate": "Fri, 26 Jun 2026 16:02:00 +0900",
+      "imageUrl": "https://cdn.joongangenews.com/news/photo/202606/528640_333625_052.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "코스피 9000이어도 못 웃는 까닭…'부동산 딜레마' 빠진 이재명 정부",
+      "url": "https://ilyo.co.kr/?ac=article_view&entry_id=511628",
+      "pubDate": "Fri, 26 Jun 2026 16:02:00 +0900",
+      "imageUrl": "https://ilyo.co.kr/contents/article/images/2026/0626/1782452585555137.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'차익실현 매물'에 코스피 8410선으로 반도체 비중 조정…SK하이닉스 8%...",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=359389",
+      "pubDate": "Fri, 26 Jun 2026 16:00:00 +0900",
+      "imageUrl": "https://cdn.smedaily.co.kr/news/thumbnail/202606/359389_294464_214_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'검은 금요일' 코스피, 5.8% 밀려 8400선 후퇴…서킷브레이커 발동",
+      "url": "https://www.hankyung.com/article/2026062602766",
+      "pubDate": "Fri, 26 Jun 2026 15:59:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/015/2026/06/26/0005303232_001_20260626155909186.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 5.8% 폭락 8400선 턱걸이",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3067761",
+      "pubDate": "Fri, 26 Jun 2026 15:58:00 +0900",
+      "imageUrl": "https://cdn.newsclaim.co.kr/news/thumbnail/202606/3067761_109062_5657_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'구천피' 밟았던 코스피 5.8% 급락해 8400선 후퇴",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=309804",
+      "pubDate": "Fri, 26 Jun 2026 15:58:00 +0900",
+      "imageUrl": "https://cdn.pointdaily.co.kr/news/thumbnail/202606/309804_305429_5741_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "\"일자리 뺏기고 콩나물 장사\"…中 숏폼 시장 흔드는 AI 열풍 \"사이버 대...",
+      "url": "https://view.asiae.co.kr/article/2026062615463641941",
+      "pubDate": "Fri, 26 Jun 2026 15:58:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005782025_001_20260626155909426.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[마감시황] 코스피, 5.81% 급락한 8411.21 마감…장중 사이드카·서킷브...",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/06/26/20260626500208?wlog_tag3=naver",
+      "pubDate": "Fri, 26 Jun 2026 15:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/081/2026/06/26/0003656254_001_20260626155711155.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 5%대 급락해 8400선 후퇴…올해 5번째 서킷브레이커",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=05264406645485656",
+      "pubDate": "Fri, 26 Jun 2026 15:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/06/26/0006315910_001_20260626155707144.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[서울데이터랩]마감 직후 인기 검색 종목 20選",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/06/26/20260626500210?wlog_tag3=naver",
+      "pubDate": "Fri, 26 Jun 2026 15:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/081/2026/06/26/0003656253_001_20260626155708275.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "김대명 다이어트 어떻게 했대 “맛집 하루에 7·8차까지” (냉부)",
+      "url": "https://sports.donga.com/ent/article/all/20260626/134188896/1",
+      "pubDate": "Fri, 26 Jun 2026 15:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/382/2026/06/26/0001280350_001_20260626155708443.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[마감시황] “검은 화요일 이은 검은 금요일”…코스피 8400선 추락",
+      "url": "https://www.viva100.com/article/20260626500589",
+      "pubDate": "Fri, 26 Jun 2026 15:56:00 +0900",
+      "imageUrl": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/06/26/.cache/512/20260626500587.jpg?v=20260626161254"
+    },
+    {
+      "category": "기업",
+      "title": "\"반도체에 무슨 일이\"··· 코스피 5.8% 폭락, 삼전닉스 '와르르'",
+      "url": "https://www.greenpostkorea.co.kr/news/articleView.html?idxno=306994",
+      "pubDate": "Fri, 26 Jun 2026 15:56:00 +0900",
+      "imageUrl": "https://cdn.greenpostkorea.co.kr/news/photo/202606/306994_310389_4841.png"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 5.81% 내린 8411.21 마감...외인·기관 8.4조 '팔자'",
+      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=140697",
+      "pubDate": "Fri, 26 Jun 2026 15:54:00 +0900",
+      "imageUrl": "http://www.opinionnews.co.kr/news/thumbnail/202606/140697_103324_4919_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[분양 A] 장위뉴타운도 국평 분양가 17억원대···'푸르지오 마크원' 흥...",
+      "url": "https://www.asiatime.co.kr/article/20260626500280",
+      "pubDate": "Fri, 26 Jun 2026 15:54:00 +0900",
+      "imageUrl": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2026/06/26/.cache/512/20260626500277.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "롤러코스터 코스피, 5%대 급락 8400선 마감…사흘 만에 서킷브레이커 재...",
+      "url": "http://www.beyondpost.co.kr/view.php?ud=202606261543349029be44c0aacd_30",
+      "pubDate": "Fri, 26 Jun 2026 15:52:00 +0900",
+      "imageUrl": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20260626155000064900be44c0aacd119207172214.jpg&nmt=30"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 급등 부담감에 8400선으로 하락 마감",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3412429",
+      "pubDate": "Fri, 26 Jun 2026 15:50:00 +0900",
+      "imageUrl": "https://cdn.newscj.com/news/thumbnail/202606/3412429_3517743_499_v150.jpg"
+    },
+    {
+      "category": "사회",
+      "title": "고려아연 온산제련소, 울산서 여름김치 8100kg 담그고 1억원 기탁",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1385777",
+      "pubDate": "Fri, 26 Jun 2026 15:50:00 +0900",
+      "imageUrl": "https://cdn.m-i.kr/news/thumbnail/202606/1385777_1172990_4715_v150.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "정부, 소비자물가 관리 초비상...7월 16일 한은 금통위 주목",
+      "url": "https://www.womentimes.co.kr/news/articleView.html?idxno=103938",
+      "pubDate": "Fri, 26 Jun 2026 15:48:00 +0900",
+      "imageUrl": "https://cdn.womentimes.co.kr/news/photo/202606/103938_204841_4641.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "\"가장 저렴한 '전세'...누구를 위해 없애나?\" [우동집 인터뷰]",
+      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606260328&t=NNv",
+      "pubDate": "Fri, 26 Jun 2026 15:48:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/215/2026/06/26/A202606260328_20260626155007269.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "'1세대 인플루언서' 故 이주희 별세… \"그 따뜻한 마음 영원하길\" [ST이...",
+      "url": "http://www.stoo.com/article.php?aid=107387347586",
+      "pubDate": "Fri, 26 Jun 2026 15:48:00 +0900",
+      "imageUrl": "https://www.stoo.com/upimages/gisaimg/202606/26_1073873_47586.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "초등학교 바로 옆·역세권 품은 1931세대...장위뉴타운 새 중심 '푸르지...",
+      "url": "http://www.updownnews.co.kr/news/articleView.html?idxno=317720",
+      "pubDate": "Fri, 26 Jun 2026 15:44:00 +0900",
+      "imageUrl": "https://cdn.updownnews.co.kr/news/thumbnail/202606/317720_221135_3020_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "펜타힐즈W 1단지' 견본주택, 오픈 첫날 평일부터 '북적북적'",
+      "url": "https://www.thegolftimes.co.kr/news/articleView.html?idxno=81451",
+      "pubDate": "Fri, 26 Jun 2026 15:44:00 +0900",
+      "imageUrl": "https://cdn.thegolftimes.co.kr/news/photo/202606/81451_91704_4239.jpg"
+    },
+    {
+      "category": "사회",
+      "title": "[함께가자 우리ESG] 고려아연 온산제련소, 적십자사에 1억원 기부…노사...",
+      "url": "http://www.newslock.co.kr/news/articleView.html?idxno=132267",
+      "pubDate": "Fri, 26 Jun 2026 15:44:00 +0900",
+      "imageUrl": "https://cdn.newslock.co.kr/news/thumbnail/202606/132267_120054_3421_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[패션엔 포토] 남규리, 성수동이 심쿵! 팬심 저격 블랙&화이트 리틀 원...",
+      "url": "http://www.fashionn.com/board/read_new.php?table=1023&number=61513",
+      "pubDate": "Fri, 26 Jun 2026 15:44:00 +0900",
+      "imageUrl": "https://www.fashionn.com/files/board/2026/image/o_1js1altt31qlk6ejjbmm2e1bsjb.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[데스크칼럼] 부동산 보유세, 이제 마주할 시간",
+      "url": "https://www.womentimes.co.kr/news/articleView.html?idxno=103936",
+      "pubDate": "Fri, 26 Jun 2026 15:42:00 +0900",
+      "imageUrl": "https://cdn.womentimes.co.kr/news/photo/202606/103936_204842_4935.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "안선영, 입금 전후 배부터 달라..“쾌변 후 몸 너무 가볍다”(‘이중생...",
+      "url": "https://www.heraldmuse.com/article/10789661?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 15:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/112/2026/06/26/0003799759_001_20260626154216486.png"
+    },
+    {
+      "category": "연예",
+      "title": "블랙핑크 로제가 쥔 '작은 공' 하나에... 촉감 완구 시장이 들썩인다",
+      "url": "https://www.insight.co.kr/news/560331",
+      "pubDate": "Fri, 26 Jun 2026 15:40:00 +0900",
+      "imageUrl": "https://img.insight.co.kr/static/2026/06/26/1200/img_20260626140909_ch5mg28t.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[속보] 코스피 또 출렁…5.8% 급락한 8411 마감",
+      "url": "https://www.mk.co.kr/article/12084102",
+      "pubDate": "Fri, 26 Jun 2026 15:39:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/06/26/0005699285_001_20260626154708599.png?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "[꼬꼬무 찐리뷰] 47억 횡령 후 성형수술로 '페이스오프' 감행한 남자…...",
+      "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010318412&plink=ORI&cooper=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 15:39:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/416/2026/06/26/0000324483_001_20260626153909726.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "'검은 금요일' 폭락장…'셀 코리아' 환율 1550원 바짝",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319142?division=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 15:37:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518489_001_20260626154017134.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "'라이징 스타' 최미나수, 두산 베어스 '승리 요정'… 27일 잠실 마운드 ...",
+      "url": "https://www.mydaily.co.kr/page/view/2026062615304412738",
+      "pubDate": "Fri, 26 Jun 2026 15:37:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/06/26/0004078794_001_20260626153710881.png"
+    },
+    {
+      "category": "기업",
+      "title": "반도체 투매에 코스피 5.85% 급락…코스닥도 4%대 하락",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1714105",
+      "pubDate": "Fri, 26 Jun 2026 15:36:00 +0900",
+      "imageUrl": "https://cdn.ebn.co.kr/news/thumbnail/202606/1714105_742611_3339_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'검은 금요일' 코스피, 5.81% 급락한 8411.21…코스닥 4%대 하락",
+      "url": "https://news.jtbc.co.kr/article/NB12305225?influxDiv=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 15:36:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/437/2026/06/26/0000498155_001_20260626160108658.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "안영미, 25일 둘째 아들 출산...\"산모와 아이 모두 건강\"",
+      "url": "https://www.hg-times.com/news/articleView.html?idxno=303112",
+      "pubDate": "Fri, 26 Jun 2026 15:32:00 +0900",
+      "imageUrl": "https://cdn.hg-times.com/news/photo/202606/303112_303361_2553.jpg"
+    },
+    {
+      "category": "사회",
+      "title": "고려아연 온산제련소, 울산 취약계층 위해 1억원 기부…여름 김치나눔도",
+      "url": "https://view.asiae.co.kr/article/2026062615302213799",
+      "pubDate": "Fri, 26 Jun 2026 15:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005782006_001_20260626153114031.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "“나 여자 좋아해” 여고생 고백…혐오 사라진 이들의 쿨한 ‘여름’",
+      "url": "https://www.joongang.co.kr/article/25440184",
+      "pubDate": "Fri, 26 Jun 2026 15:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/06/26/0003533431_001_20260626155307189.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "'학폭 의혹' 새 국면 맞나…송하윤 측 \"폭로자, 명예훼손→업무방해로 ...",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1057055/",
+      "pubDate": "Fri, 26 Jun 2026 15:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392269_001_20260626152911781.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "\"실용국익외교·평화로 복합위기극복\"…연합뉴스 한반도심포지엄",
+      "url": "https://www.yna.co.kr/view/AKR20260626109600504?input=1195m",
+      "pubDate": "Fri, 26 Jun 2026 15:28:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/06/26/PYH2026062610640001300_P4_20260626152915775.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "장윤정, 직원 복지가 윤남노 오마카세+비타민D 주사…“출근하고 싶은 ...",
+      "url": "https://www.sportsseoul.com/news/read/1619112?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 15:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/06/26/0001250311_001_20260626152617846.png"
+    },
+    {
+      "category": "연예",
+      "title": "‘재혼’ 이혜영, LA서 의붓딸과 속마음 고백..“딸 때문에 활동 접었다...",
+      "url": "https://www.heraldmuse.com/article/10789647?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 15:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/112/2026/06/26/0003799757_001_20260626152619154.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "매매·전세 ‘동반상승’…뛰는 집값에 정책 시험대",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1305340&inflow=N",
+      "pubDate": "Fri, 26 Jun 2026 15:24:00 +0900",
+      "imageUrl": "https://image.newstomato.com/newsimg/2026/6/26/1305340/attach.jpg?v=202606261522"
+    },
+    {
+      "category": "연예",
+      "title": "허경환, 4년 내 결혼 선언 \"결혼식은 조용히 할 것\" [소셜in]",
+      "url": "http://enews.imbc.com/News/RetrieveNewsInfo/509566",
+      "pubDate": "Fri, 26 Jun 2026 15:23:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/408/2026/06/26/0000312986_001_20260626152411899.JPG"
+    },
+    {
+      "category": "기업",
+      "title": "애플·오픈AI에 꺾인 반도체 랠리…삼전·SK하닉, 6%대 급락 [장중시황]",
+      "url": "https://www.news1.kr/finance/general-stock/6209590",
+      "pubDate": "Fri, 26 Jun 2026 15:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009026009_001_20260626152225766.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "\"뷔 광고비 왜 우리가 내나\"…저가커피업계 수십억 스타 마케팅 경쟁 '명...",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935501",
+      "pubDate": "Fri, 26 Jun 2026 15:20:00 +0900",
+      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202606/6935501_1208842_398_v150.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "미국-이란, '동결자산' 처리 놓고 거친 입씨름",
+      "url": "https://weeklytrade.co.kr/news/view.html?section=1&category=136&item=&no=100373",
+      "pubDate": "Fri, 26 Jun 2026 15:18:00 +0900",
+      "imageUrl": "https://weeklytrade.co.kr/PEG/17824545638423.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "홍명보 보고 있나…안정환, '손흥민 선발 제외' 남아공전 패배에 \"감독...",
+      "url": "https://www.xportsnews.com/article/2165173",
+      "pubDate": "Fri, 26 Jun 2026 15:16:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/06/26/0002027021_001_20260626151612970.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "‘마약 투약’ 식케이(32)♥日 댄서 우와(22) 공개 열애…파리서 뜨거운...",
+      "url": "https://sports.khan.co.kr/article/202606261512003?pt=nv",
+      "pubDate": "Fri, 26 Jun 2026 15:13:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/144/2026/06/26/0001123072_001_20260626151513784.png"
+    },
+    {
+      "category": "부동산",
+      "title": "경산 중산지구 ‘펜타힐즈W 1단지’ 베일 벗었다… 26일 견본주택 오픈...",
+      "url": "https://www.donga.com/news/Economy/article/all/20260626/134188293/1",
+      "pubDate": "Fri, 26 Jun 2026 15:10:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/06/26/0003729710_001_20260626151015510.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "'45세' 허경환 \"지금까지 낸 축의금 몰라…4년내 결혼\" 깜짝 공언",
+      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=825109",
+      "pubDate": "Fri, 26 Jun 2026 15:10:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/06/26/0000615565_001_20260626151016664.png"
+    },
+    {
+      "category": "사회",
+      "title": "[나눔 트렌드] 첫 손주 기다리던 60대 송기섭 씨, 뇌사 장기기증으로 4명...",
+      "url": "https://www.ibabynews.com/news/articleView.html?idxno=152387",
+      "pubDate": "Fri, 26 Jun 2026 15:08:00 +0900",
+      "imageUrl": "https://www.ibabynews.com/news/photo/202606/152387_116181_5225.png"
+    },
+    {
+      "category": "연예",
+      "title": "이석훈, 유죄인간의 일탈...여행 리얼리티 '끼리끼리' 출연 확정",
+      "url": "https://www.raonnews.com/news/article.html?no=59117",
+      "pubDate": "Fri, 26 Jun 2026 15:08:00 +0900",
+      "imageUrl": "https://www.raonnews.com/data/photos/20260626/art_17824524510504_2b6d47.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "또 '검은 금요일' 폭락장 이유는…\"애플이 방아쇠 당기고 쏠림이 낙폭 ...",
+      "url": "https://www.newsis.com/view/NISX20260626_0003685357",
+      "pubDate": "Fri, 26 Jun 2026 15:07:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/06/26/NISI20260223_0002068107_web_20260223142233_20260626154222545.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "李정부 출범 1년…서울 아파트값 누적 15% 뛰었다",
+      "url": "https://news.tf.co.kr/read/economy/2336958.htm",
+      "pubDate": "Fri, 26 Jun 2026 15:07:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/06/26/202633981782453683_20260626150712295.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "서현, 유기동물 보호소 봉사로 따뜻한 나눔…영화 '왕을 찾아서'도 준비...",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16113317",
+      "pubDate": "Fri, 26 Jun 2026 15:04:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202606/16113317_1950074_232_crop.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "차은우, 축구 함께 응원하고 싶은 셀럽 '1위' 등극…뜨거운 반응",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1057049/",
+      "pubDate": "Fri, 26 Jun 2026 15:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392266_001_20260626150411484.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "박하나, 공항 동선 걷는 편한 차림…여행길에서도 빛난 존재감",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16113318",
+      "pubDate": "Fri, 26 Jun 2026 15:04:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202606/16113318_1950075_251_crop.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "원·달러 환율 1550원 코앞…반전의 키는 美연준 매파 손으로",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=138143",
+      "pubDate": "Fri, 26 Jun 2026 15:00:00 +0900",
+      "imageUrl": "https://cdn.ziksir.com/news/thumbnail/202606/138143_158430_2117_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[기고] 농산물에도 팬덤이 생길 수 있을까?",
+      "url": "https://www.jeonmae.co.kr/news/articleView.html?idxno=1269099",
+      "pubDate": "Fri, 26 Jun 2026 15:00:00 +0900",
+      "imageUrl": "https://www.jeonmae.co.kr/news/thumbnail/202606/1269099_991668_5743_v150.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "기시다 전 日총리 \"북핵미사일로 핵군축 현실 엄중…",
+      "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260626010009412",
+      "pubDate": "Fri, 26 Jun 2026 14:58:00 +0900",
+      "imageUrl": "https://img.asiatoday.co.kr/file/2026y/06m/26d/2026062601001719100094251.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'가석방' 김호중, 두 달 전 '무대 복귀 의지' 내비쳤다",
+      "url": "https://www.newsis.com/view/NISX20260626_0003685318",
+      "pubDate": "Fri, 26 Jun 2026 14:58:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/06/26/NISI20240524_0020351872_web_20240524145157_20260626145921070.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "윤정수♥원자현, 결혼 1주년 기념일에 '병원 데이트'한 사연",
+      "url": "https://www.insight.co.kr/news/560350",
+      "pubDate": "Fri, 26 Jun 2026 14:58:00 +0900",
+      "imageUrl": "https://img.insight.co.kr/static/2026/06/26/1200/img_20260626144258_9y5rkq36.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[AI로 본 부동산] \"같은 단지도 5억 차\"…신축 아파트 진짜 '로얄층' 조...",
+      "url": "https://www.newspim.com/news/view/20260626000636",
+      "pubDate": "Fri, 26 Jun 2026 14:56:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/06/26/2606261354395680_109_tc.gif"
+    },
+    {
+      "category": "연예",
+      "title": "장릉혁 아닌 장가위...중드 본명 시대 본격화, 번위 싸움 끝낼 수 있을까",
+      "url": "http://www.newsworker.co.kr/news/articleView.html?idxno=433407",
+      "pubDate": "Fri, 26 Jun 2026 14:56:00 +0900",
+      "imageUrl": "https://cdn.newsworker.co.kr/news/thumbnail/202606/433407_474121_5443_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "tvN 드라마 '일타스캔들' \"열혈 사장과 일타 강사의 로맨스! 유재원 감독...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=202082",
+      "pubDate": "Fri, 26 Jun 2026 14:56:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202605/202082_468642_4948_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "tvN 드라마 '선재 업고 튀어' \"이시은 작가, 변우석·김혜윤·송건희·이...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=202030",
+      "pubDate": "Fri, 26 Jun 2026 14:56:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202605/202030_468538_3349_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'설상가상' 사흘 새 두 번 터진 서킷...5.5조 던진 외인에 멍드는 국장",
+      "url": "http://www.ftoday.co.kr/news/articleView.html?idxno=361125",
+      "pubDate": "Fri, 26 Jun 2026 14:54:00 +0900",
+      "imageUrl": "https://cdn.ftoday.co.kr/news/thumbnail/202606/361125_369493_4425_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "KBS2 드라마 '심우면 연리리' \"인생은 한순간이다! 박성웅·이수경·이서...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=202228",
+      "pubDate": "Fri, 26 Jun 2026 14:54:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202605/202228_468862_5636_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "JTBC 제작 중단설→'서울 시스터즈' 故 옥희 영면→식케이·우와 공개 열...",
+      "url": "http://www.celuvmedia.com/article.php?aid=1782451959522965006",
+      "pubDate": "Fri, 26 Jun 2026 14:54:00 +0900",
+      "imageUrl": "http://www.celuvmedia.com/upimages/gisaimg/202606/26522965.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "USPA 공동 창립자 마이클 에반스, 인터내셔널 임팩트 북 어워드 최종 후...",
+      "url": "http://www.fnnews.com/news/202606261411460082",
+      "pubDate": "Fri, 26 Jun 2026 14:51:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/06/26/0005540170_001_20260626145113179.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "송하윤, 1년째 이어진 '학폭 공방' 새 국면…\"폭로자 검찰 송치\" 무슨 일",
+      "url": "https://www.sidae.com/article/2026062614355745079",
+      "pubDate": "Fri, 26 Jun 2026 14:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/417/2026/06/26/0001149190_001_20260626145110472.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "허경환, 4년 안에 '결혼' 언급→\"와이프한테 미안해 스몰웨딩 할 것\" [MH...",
+      "url": "https://mhnse.com/news/articleView.html?idxno=1442192",
+      "pubDate": "Fri, 26 Jun 2026 14:47:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/445/2026/06/26/0000430543_001_20260626144713799.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "주담대 6억 제한에도... 1년 동안 서울 아파트값 10% 폭등, 전셋값은 12년...",
+      "url": "https://www.insight.co.kr/news/560347",
+      "pubDate": "Fri, 26 Jun 2026 14:46:00 +0900",
+      "imageUrl": "https://img.insight.co.kr/static/2026/06/26/1200/img_20260626143536_pq841q7f.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "박지현, 32년 만에 노출 도전…코드쿤스트도 “제일 낫다” (나혼산)",
+      "url": "https://sports.donga.com/ent/article/all/20260626/134188321/1",
+      "pubDate": "Fri, 26 Jun 2026 14:44:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/382/2026/06/26/0001280325_001_20260626144414440.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "中 지리차, 인도 투자길 열렸다...中·印 관계 개선 속 수년 만의 첫 승...",
+      "url": "https://www.newspim.com/news/view/20260626000688",
+      "pubDate": "Fri, 26 Jun 2026 14:42:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/06/26/2606261442079680_t1.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "적자기업 흑자 만든 한샘 김유진 매직... 옛 명성 회복 시동",
+      "url": "https://www.meconomynews.com/news/articleView.html?idxno=132269",
+      "pubDate": "Fri, 26 Jun 2026 14:40:00 +0900",
+      "imageUrl": "https://www.meconomynews.com/news/thumbnail/202606/132269_165094_5629_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "대우건설, 장위10구역 일반분양 'PF 부담' 완화 시험대",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=666628",
+      "pubDate": "Fri, 26 Jun 2026 14:37:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/293/2026/06/26/0000086843_001_20260626143710307.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "서울 집값 더 뛴다?…정부 '닥치고 짓기'에도 2~3년 입주 절벽",
+      "url": "https://www.news1.kr/realestate/general/6209486",
+      "pubDate": "Fri, 26 Jun 2026 14:35:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025879_001_20260626150314848.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "돌곶이역 앞 1900가구 대단지…국평 최고 17억 '장위푸르지오마크원' [르...",
+      "url": "https://www.etoday.co.kr/news/view/2597635",
+      "pubDate": "Fri, 26 Jun 2026 14:32:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260626133421_2351424_655_491.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "다코타 패닝, 인간 트로피 비주얼…완벽 몸매에 햇살 미소 [N해외연예]",
+      "url": "https://www.news1.kr/entertain/overseas-entertain/6209527",
+      "pubDate": "Fri, 26 Jun 2026 14:32:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025867_001_20260626143314217.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'나혼산' 박지현, 코쿤 손길에 패션 180도 변신? \"연예인 같아\"",
+      "url": "https://www.news1.kr/entertain/broadcast-tv/6209473",
+      "pubDate": "Fri, 26 Jun 2026 14:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025862_001_20260626143137941.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[글로벌 증시 따라잡기] \"마이크론에 양날의 검\" SK하닉 ADR 상장 효과는...",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319107?division=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 14:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518469_001_20260626152022569.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "\"더 늦으면 못 산다\"…2030 매수 전환에 노도강·금관구 집값 '들썩'",
+      "url": "https://www.newsis.com/view/NISX20260625_0003683865",
+      "pubDate": "Fri, 26 Jun 2026 14:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/06/26/NISI20260407_0021238197_web_20260407131422_20260626145715868.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "국제",
+      "title": "日 기준금리가 35년 만에 1%대로 올라섰다[한상춘의 국제경제 심층 읽기...",
+      "url": "https://magazine.hankyung.com/business/article/202606172437b",
+      "pubDate": "Fri, 26 Jun 2026 14:25:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/050/2026/06/26/0000107865_001_20260626142512169.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "서유정, 전남편과 별거 아픔에 떠난 송도 “딸 교육 탓 죄책감 들어”(...",
+      "url": "https://www.newsen.com/news_view.php?uid=202606261216356110",
+      "pubDate": "Fri, 26 Jun 2026 14:23:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/609/2026/06/26/202606261216356110_1_20260626142313462.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "‘나혼자산다’ 코쿤X박지현(나혼산)",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202606260145",
+      "pubDate": "Fri, 26 Jun 2026 14:22:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/06/26/bnt202606260352.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'쌍둥이 엄마' 김지혜, 출산 후 깜짝 '눈밑지' 수술…♥최성욱 응원까지...",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1057033/",
+      "pubDate": "Fri, 26 Jun 2026 14:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392258_001_20260626141813237.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "나스닥100 선물 '급락' 속..일본증시 '장중 뚝', 7만선 이탈",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167165",
+      "pubDate": "Fri, 26 Jun 2026 14:12:00 +0900",
+      "imageUrl": "https://cdn.choicenews.co.kr/news/thumbnail/202606/167165_127157_1149_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "마이클 에반스, 임팩트 북 어워드 후보 선정…아티스트 협업진과 시상식...",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202606260153",
+      "pubDate": "Fri, 26 Jun 2026 14:12:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/06/26/bnt202606260362.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "\"팀을 이따위로 만드나\"…박문성부터 연예계까지 홍명보 직격[노컷브이...",
+      "url": "https://www.nocutnews.co.kr/news/6539231?utm_source=naver&utm_medium=article&utm_campaign=20260626021144",
+      "pubDate": "Fri, 26 Jun 2026 14:12:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/06/26/0004162158_001_20260626141215017.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "최미나수, 27일 잠실 마운드 오른다⋯두산베어스 '승요' 도전",
+      "url": "http://www.joynews24.com/view/1980073",
+      "pubDate": "Fri, 26 Jun 2026 14:12:00 +0900",
+      "imageUrl": "https://image.inews24.com/v1/23bf2f326d5eed.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 8% 폭락에 올해 다섯 번째 서킷브레이커 발동",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1714084",
+      "pubDate": "Fri, 26 Jun 2026 14:10:00 +0900",
+      "imageUrl": "https://cdn.ebn.co.kr/news/thumbnail/202606/1714084_742580_758_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "“걸그룹 대신 최수종·이덕화 뜬다!”… 홍천군, 11기동사단서 민·관·...",
+      "url": "http://www.breaknews.com/1217119",
+      "pubDate": "Fri, 26 Jun 2026 14:10:00 +0900",
+      "imageUrl": "https://gw.breaknews.com/imgdata/gw_breaknews_com/202605/202605085137732.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "씨티 \"수도권 주택가격 상승세, 하반기에 더 가팔라질 것\" 경고",
+      "url": "https://www.etoday.co.kr/news/view/2597633",
+      "pubDate": "Fri, 26 Jun 2026 14:08:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260622144812_2349302_1200_546.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'나혼산' 박지현, 코쿤표 '느좋남' 스타일 도전",
+      "url": "https://www.stardailynews.co.kr/news/articleView.html?idxno=540788",
+      "pubDate": "Fri, 26 Jun 2026 14:08:00 +0900",
+      "imageUrl": "https://cdn.stardailynews.co.kr/news/thumbnail/202606/540788_572535_4829_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'보이스피싱·마약·약자보호' 민생 지킨 검사 3명 선정...대검 상반기 ...",
+      "url": "http://www.fnnews.com/news/202606261328575290",
+      "pubDate": "Fri, 26 Jun 2026 14:06:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/06/26/0005540155_001_20260626140616985.png?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "6월 넷째 주 서울 집값 0.14% 상승…전세도 매물 부족에 강세",
+      "url": "https://www.news1.kr/realestate/general/6209478",
+      "pubDate": "Fri, 26 Jun 2026 14:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025745_001_20260626140311234.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "박수홍 형수 “경솔하고 어리석었다” 매우 뒤늦은 사과...檢 징역 10개...",
+      "url": "https://www.mk.co.kr/article/12083973",
+      "pubDate": "Fri, 26 Jun 2026 14:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/410/2026/06/26/0001130267_001_20260626140313329.png"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 장중 8%대↓⋯‘삼전닉스’ 급락에 올해 5번째 서킷브레이커 발...",
+      "url": "https://www.etoday.co.kr/news/view/2597642",
+      "pubDate": "Fri, 26 Jun 2026 13:56:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260626134655_2351439_600_400.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "하반기 집값 상승 더 빨라진다…씨티 \"금리 인상·보유세 강화로도 못 ...",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422068",
+      "pubDate": "Fri, 26 Jun 2026 13:52:00 +0900",
+      "imageUrl": "https://cdn.news.einfomax.co.kr/news/thumbnail/202606/4422068_325194_505_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "“입양딸 학비도 대주냐?”…진태현♥박시은, 아직도 이런 황당한 질문...",
+      "url": "https://www.sportsseoul.com/news/read/1619093?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 13:52:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/06/26/0001250300_001_20260626135213103.png"
+    },
+    {
+      "category": "기업",
+      "title": "[오후장 체크포인트] 코스피 또 서킷브레이커 다시 돌아온 '검은 금요일...",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319106?division=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 13:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518460_001_20260626152012056.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 반복되는 폭등·폭락 8100선까지 후퇴…올 들어 ‘서킷브레이커...",
+      "url": "https://biz.heraldcorp.com/article/10789465?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 13:46:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002662113_001_20260626134613352.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "최수종 '39년 차' 배우의 성실함",
+      "url": "https://mhnse.com/news/articleView.html?idxno=1442084",
+      "pubDate": "Fri, 26 Jun 2026 13:46:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/445/2026/06/26/0000430498_001_20260626134616466.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 미국 증시 혼조에 약세…외국인 매도세 확대",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=377817",
+      "pubDate": "Fri, 26 Jun 2026 13:43:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/586/2026/06/26/0000132437_001_20260626134312223.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "‘나혼산’ 박지현, 32년 만에 노출 감행? 과감한 패션 도전",
+      "url": "https://isplus.com/article/view/isp202606260061",
+      "pubDate": "Fri, 26 Jun 2026 13:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/241/2026/06/26/0003516896_001_20260626134209870.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "故 김성민 10주기…장기기증으로 5명에 새 삶",
+      "url": "https://www.tenasia.co.kr/article/2026062699914",
+      "pubDate": "Fri, 26 Jun 2026 13:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/312/2026/06/26/0000765311_001_20260626134111053.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 폭랑장에 ‘서킷 브레이커’ 발동…삼전·닉스 8%대↓",
+      "url": "https://www.kukinews.com/article/view/kuk202606260078",
+      "pubDate": "Fri, 26 Jun 2026 13:40:00 +0900",
+      "imageUrl": "https://www.kukinews.com/data/kuk/image/2026/06/26/kuk20260626000121.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[현장] \"1000세대 분양\" 장위 푸르지오 마크원, 서울 동부권 랜드마크 기...",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=738141",
+      "pubDate": "Fri, 26 Jun 2026 13:40:00 +0900",
+      "imageUrl": "https://www.newsprime.co.kr/data/photos/cdn/20260626/art_738141_1782446763.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "레페리, '2026 BOF'서 셀렉트스토어 전개...엔터·뷰티 융복합 시너지",
+      "url": "https://www.nc.press/news/articleView.html?idxno=619097",
+      "pubDate": "Fri, 26 Jun 2026 13:39:00 +0900",
+      "imageUrl": "https://cdn.nc.press/news/photo/202606/619097_840697_3857.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "박지현, 어디까지 노출할 건데…32년 만에 첫 시도",
+      "url": "http://www.atstar1.com/news/articleView.html?idxno=6036102",
+      "pubDate": "Fri, 26 Jun 2026 13:39:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/415/2026/06/26/0000049605_001_20260626133912080.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "견본주택 오픈 전부터 긴 대기행렬… 지방 · 신도시 '하이엔드 주거' 관...",
+      "url": "https://tk.newdaily.co.kr/site/data/html/2026/06/25/2026062500132.html",
+      "pubDate": "Fri, 26 Jun 2026 13:36:00 +0900",
+      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/06/25/2026062500132_0.jpg?u=20260626150345?u=20260626150345"
+    },
+    {
+      "category": "부동산",
+      "title": "김해 장유신문지구에 1379가구 ‘센트럴 아이파크’ 공급",
+      "url": "https://biz.heraldcorp.com/article/10789445?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 13:35:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002662104_001_20260626133510400.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[인터뷰]심덕섭 고창군수 \"화이부동의 고창대도약 이끌겠다\"",
+      "url": "https://view.asiae.co.kr/article/2026062611584068888",
+      "pubDate": "Fri, 26 Jun 2026 13:34:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005781942_001_20260626133516079.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "한고은, 키스신 '무통보' 촬영→♥신영수 뿔났다 \"나랑 키스 금지\" [RE:뷰...",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1057019/",
+      "pubDate": "Fri, 26 Jun 2026 13:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392251_001_20260626133110812.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "김무열♥윤승아 “‘참교육’ 1위에 둘이 끌어안고 울어”(유퀴즈)",
+      "url": "https://www.mk.co.kr/article/12083935",
+      "pubDate": "Fri, 26 Jun 2026 13:27:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/06/26/0005699200_001_20260626132709525.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "SBS 드라마 '자이언트' \"성공과 복수 그리고 사랑! 이범수·박진희·주상...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=203071",
+      "pubDate": "Fri, 26 Jun 2026 13:26:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202605/203071_469996_3837_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[르포] 1931가구 품은 '장위푸르지오마크원' 견본주택 가보니…",
+      "url": "https://www.hankyung.com/article/202606269950i",
+      "pubDate": "Fri, 26 Jun 2026 13:25:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/015/2026/06/26/0005303167_001_20260626141620751.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[食전食후] 코스피 8% 급락에 거래 중단…외국인·기관 '패닉셀'",
+      "url": "https://www.ajunews.com/view/20260626123148227",
+      "pubDate": "Fri, 26 Jun 2026 13:22:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/06/26/20260626124206364655.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[공공돋보기] 가짜 숙면 '우유주사'의 덫",
+      "url": "http://www.00news.co.kr/news/articleView.html?idxno=104733",
+      "pubDate": "Fri, 26 Jun 2026 13:20:00 +0900",
+      "imageUrl": "https://cdn.00news.co.kr/news/thumbnail/202606/104733_241293_647_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[TOP이슈] 2026 FIFA 북중미 월드컵, 남아공전 패배에 축구계 넘어 스타...",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16113166",
+      "pubDate": "Fri, 26 Jun 2026 13:20:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202606/16113166_1950012_1658_crop.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'나혼산' 박지현, 코쿤과 한남동 입성…꾸안꾸 '느좋남' 변신",
+      "url": "http://enews.imbc.com/News/RetrieveNewsInfo/509545",
+      "pubDate": "Fri, 26 Jun 2026 13:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/408/2026/06/26/0000312969_001_20260626131910823.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "이혜영, 연예 활동 중단 이유… \"의붓딸이 곁에 있어 달라고\"",
+      "url": "https://www.segye.com/newsView/20260626504475?OutUrl=naver",
+      "pubDate": "Fri, 26 Jun 2026 13:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/06/26/20260626506180_20260626131812022.png"
+    },
+    {
+      "category": "연예",
+      "title": "컴포즈커피, BTS 뷔 모델료 40% 가맹점에 분담... 점주들 의견 분분",
+      "url": "http://woman.chosun.com/news/articleView.html?idxno=126219",
+      "pubDate": "Fri, 26 Jun 2026 13:18:00 +0900",
+      "imageUrl": "https://cdn.woman.chosun.com/news/thumbnail/202606/126219_154832_1610_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "소지섭 \"'멋진 신세계' 후속 부담? 시청률은 하늘이 주는 것\"",
+      "url": "https://www.raonnews.com/news/article.html?no=59107",
+      "pubDate": "Fri, 26 Jun 2026 13:16:00 +0900",
+      "imageUrl": "https://www.raonnews.com/data/photos/20260626/art_17824470563971_5d6dae.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "박지현, 시골 남자가 도전하는 꾸안꾸…\"진짜 연예인 같다\" 감탄('나혼산...",
+      "url": "https://www.tenasia.co.kr/article/2026062699754",
+      "pubDate": "Fri, 26 Jun 2026 13:16:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/312/2026/06/26/0000765304_001_20260626131612767.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[서울데이터랩]코스피 시총 상위주 일제히 급락…반도체·자동차·2차전...",
+      "url": "https://www.seoul.co.kr/news/economy/securities/2026/06/26/20260626500143?wlog_tag3=naver",
+      "pubDate": "Fri, 26 Jun 2026 13:14:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/081/2026/06/26/0003656187_001_20260626131417174.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "한지혜, 퇴근길도 드레시! 블랙 고급미 폭발 검사 사모님의 오프숄더 드...",
+      "url": "http://www.fashionn.com/board/read_new.php?table=1024&number=61507",
+      "pubDate": "Fri, 26 Jun 2026 13:14:00 +0900",
+      "imageUrl": "https://www.fashionn.com/files/board/2026/image/o_1js121ivv1jjg1ve8f1q1vdg1rm5b.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "엑소 찬열 \"카이·세훈, 전역 후 벌크업 병 걸려 잡도리 했다\" (아형)",
+      "url": "http://enews.imbc.com/News/RetrieveNewsInfo/509537",
+      "pubDate": "Fri, 26 Jun 2026 13:12:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/408/2026/06/26/0000312966_001_20260626131214713.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "박지현, \"진짜 연예인 같다!\" 한남동 '느좋남' 변신 도전",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16113151",
+      "pubDate": "Fri, 26 Jun 2026 13:12:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202606/16113151_1950004_1042_crop.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "[종합] 베네수엘라 강진 사망자 최소 235명 부상자 4천명 넘어…일본-미...",
+      "url": "https://www.polinews.co.kr/news/articleView.html?idxno=735215",
+      "pubDate": "Fri, 26 Jun 2026 13:10:00 +0900",
+      "imageUrl": "https://cdn.polinews.co.kr/news/thumbnail/202606/735215_555562_2645_v150.jpg"
+    },
+    {
+      "category": "사회",
+      "title": "북유럽 복지국가는 한국의 미래인가",
+      "url": "https://www.naeil.com/news/read/593271?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 13:08:00 +0900",
+      "imageUrl": "https://wimg.naeil.com/paper/2026/06/26/20260626_01100104000001_L01.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "‘젝스키스 출신’ 고지용, 건강 우려 속 근황 공개…직접 모습 드러내",
+      "url": "https://www.sportsworldi.com/newsView/20260626508647",
+      "pubDate": "Fri, 26 Jun 2026 13:08:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/396/2026/06/26/0000747928_001_20260626131218080.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "코스피, 8% 급락에 '또' 서킷브레이커…3일 만에 재발동",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=845177",
+      "pubDate": "Fri, 26 Jun 2026 13:04:00 +0900",
+      "imageUrl": "https://cdn.newsworks.co.kr/news/thumbnail/202606/845177_802796_555_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "하반기 산업 현장···판 커진 노사갈등",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=309748",
+      "pubDate": "Fri, 26 Jun 2026 13:04:00 +0900",
+      "imageUrl": "https://cdn.pointdaily.co.kr/news/thumbnail/202606/309748_305349_1641_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[상반기결산]⑩ 오스카·그래미도 홀렸다⋯'골든', 영광의 '그랜드슬램...",
+      "url": "http://www.joynews24.com/view/1977838",
+      "pubDate": "Fri, 26 Jun 2026 13:02:00 +0900",
+      "imageUrl": "https://image.inews24.com/v1/398880cb89e638.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[강일홍의 오늘연예] \"홍명보 나가!\" 직격탄…남아공전 '참패' 연예계도...",
+      "url": "https://news.tf.co.kr/read/entertain/2336763.htm",
+      "pubDate": "Fri, 26 Jun 2026 12:58:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/06/26/202655231782431998_20260626125815282.jpg"
+    },
+    {
+      "category": "사회",
+      "title": "\"내 힘으로 집도 사고 싶어요\"…장애인 자립심 키우는 풀무원투게더 공...",
+      "url": "https://news.tf.co.kr/read/economy/2336890.htm",
+      "pubDate": "Fri, 26 Jun 2026 12:54:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/06/26/202684281782444893_20260626125418475.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "반도체發 차익실현에 코스피 '검은 금요일'…사이드카·서킷브레이커 발...",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=738138",
+      "pubDate": "Fri, 26 Jun 2026 12:52:00 +0900",
+      "imageUrl": "https://www.newsprime.co.kr/data/photos/cdn/20260626/art_738138_1782445525.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[티타임] 코스피, 8000선도 위태…730포인트 급락에 '서킷 브레이커' 발...",
+      "url": "https://www.sidae.com/article/2026062612475983711",
+      "pubDate": "Fri, 26 Jun 2026 12:51:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/417/2026/06/26/0001149167_001_20260626125215775.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 장중 8% 급락에 '서킷브레이커' 발동…삼전·닉스 9%대↓",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=723332",
+      "pubDate": "Fri, 26 Jun 2026 12:48:00 +0900",
+      "imageUrl": "https://cdn.the-biz.co.kr/news/photo/202606/723332_926164_4227.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "이정신, 거울 셀카로 근황 공개…'7인의 부활' 이어 배우 행보",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16113095",
+      "pubDate": "Fri, 26 Jun 2026 12:46:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202606/16113095_1949979_4524_crop.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "故 김성민, 오늘(26일) 10주기…장기기증→5명에게 새 생명",
+      "url": "http://www.tvdaily.co.kr/read.php3?aid=17824442241791727002",
+      "pubDate": "Fri, 26 Jun 2026 12:44:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/440/2026/06/26/261791727_20260626124414779.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 8%대 급락에 서킷브레이커 발동…20분간 거래 중단",
+      "url": "https://www.newspim.com/news/view/20260626000530",
+      "pubDate": "Fri, 26 Jun 2026 12:42:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/06/26/260626092849084_901_tc.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "영화 '파송송 계란탁' \"함께 웃지만 이 아이 몰라요! 임창정·이인성·이...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=205024",
+      "pubDate": "Fri, 26 Jun 2026 12:42:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202606/205024_472682_3933_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피가 또…8%대 급락에 서킷브레이커 발동",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=377863",
+      "pubDate": "Fri, 26 Jun 2026 12:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/586/2026/06/26/0000132427_001_20260626124111719.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 올해 5번째 서킷브레이커 발동⋯삼전ㆍSK하닉 9%↓",
+      "url": "https://www.etoday.co.kr/news/view/2597615",
+      "pubDate": "Fri, 26 Jun 2026 12:40:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260626091848_2351284_892_589.png"
+    },
+    {
+      "category": "연예",
+      "title": "'14년 동행 마무리' 송혜교, 정든 UAA 떠나며 뭉클한 작별 인사…\"언니 ...",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1057009/",
+      "pubDate": "Fri, 26 Jun 2026 12:40:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392246_001_20260626124014368.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "이혜영 \"딸 위해 연예계 활동 미뤘다\"…\"가슴으로 낳은 딸\" 공개",
+      "url": "http://www.queen.co.kr/news/articleView.html?idxno=459317",
+      "pubDate": "Fri, 26 Jun 2026 12:40:00 +0900",
+      "imageUrl": "http://www.queen.co.kr/news/thumbnail/202606/459317_204991_3430_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 8%대 급락…사흘 만에 서킷브레이커 재발동",
+      "url": "https://www.hidomin.com/news/articleView.html?idxno=710953",
+      "pubDate": "Fri, 26 Jun 2026 12:30:00 +0900",
+      "imageUrl": "https://cdn.hidomin.com/news/photo/202606/710953_412273_253.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "JTBC 초유의 위기, 시장 쪼그라들라 너도나도 전전긍긍 [엔터그알]",
+      "url": "https://news.mtn.co.kr/news-detail/2026062415182975551",
+      "pubDate": "Fri, 26 Jun 2026 12:30:00 +0900",
+      "imageUrl": "https://menu.mtn.co.kr/upload/article/2026/06/24/2026062415182975551_00_986.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 8400선까지 밀렸다…매도 사이드카 발동",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000045622",
+      "pubDate": "Fri, 26 Jun 2026 12:28:00 +0900",
+      "imageUrl": "https://cdn.jnilbo.com/news/photo/202606/90000045622_554733_2727.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 8% 급락...서킷브레이커 발동",
+      "url": "https://www.cstimes.com/news/articleView.html?idxno=711264",
+      "pubDate": "Fri, 26 Jun 2026 12:28:00 +0900",
+      "imageUrl": "https://www.cstimes.com/news/photo/202606/711264_631156_3150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "분쟁 그 후의 시간…이미지 쇄신 중인 아일릿, 멈춰버린 뉴진스 [D:가요...",
+      "url": "https://www.dailian.co.kr/news/view/1660091/?sc=Naver",
+      "pubDate": "Fri, 26 Jun 2026 12:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/06/26/0003105112_001_20260626132215437.png"
+    },
+    {
+      "category": "연예",
+      "title": "류혜영, '응팔' 이후 부담감→암막 커튼 생활 속…'연예인 병' 갑론을박",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1057005/",
+      "pubDate": "Fri, 26 Jun 2026 12:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392244_001_20260626122614247.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'삼전·닉스' 동반 급락…코스피 매도 사이드카 발동",
+      "url": "https://www.econovill.com/news/articleView.html?idxno=743566",
+      "pubDate": "Fri, 26 Jun 2026 12:22:00 +0900",
+      "imageUrl": "https://cdn.econovill.com/news/thumbnail/202606/743566_716484_116_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 폭락 또 서킷브레이커..외인·기관 매물 폭탄",
+      "url": "http://www.4th.kr/news/articleView.html?idxno=2113766",
+      "pubDate": "Fri, 26 Jun 2026 12:20:00 +0900",
+      "imageUrl": "https://cdn.4th.kr/news/thumbnail/202606/2113766_208643_1655_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "안영미, 두 아이 엄마 됐다… 25일 둘째 아들 출산",
+      "url": "https://www.viva100.com/article/20260626500307",
+      "pubDate": "Fri, 26 Jun 2026 12:16:00 +0900",
+      "imageUrl": "https://stqnq5ux4599.edge.naverncp.com/data2//content/image/2026/06/26/.cache/512/20260626500305.jpg?v=20260626161255"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 장중 매도 사이드카 발동…삼전·닉스 7%대 급락",
+      "url": "https://www.kukinews.com/article/view/kuk202606260068",
+      "pubDate": "Fri, 26 Jun 2026 12:12:00 +0900",
+      "imageUrl": "https://www.kukinews.com/data/kuk/image/2026/06/26/kuk20260626000095.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 외인·기관 동반 순매도에 7% 급락...전체 상장사 93% 하락",
+      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=140668",
+      "pubDate": "Fri, 26 Jun 2026 12:12:00 +0900",
+      "imageUrl": "http://www.opinionnews.co.kr/news/thumbnail/202606/140668_103290_853_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 5% 급락에 매도 사이드카…8400선까지 밀려 [KDF KOSPI]",
+      "url": "http://www.kdfnews.com/news/articleView.html?idxno=184604",
+      "pubDate": "Fri, 26 Jun 2026 12:08:00 +0900",
+      "imageUrl": "http://www.kdfnews.com/news/thumbnail/202606/184604_231771_532_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'참교육' 김균하, 한 살 연상 비연예인과 지난달 결혼",
+      "url": "http://www.stoo.com/article.php?aid=107379019805",
+      "pubDate": "Fri, 26 Jun 2026 12:06:00 +0900",
+      "imageUrl": "https://www.stoo.com/upimages/gisaimg/202606/26_1073790_19805.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "\"메모리 수요 감소 우려\" 삼전닉스 8%대 급락…코스피 8250선[장중시황]",
+      "url": "https://www.news1.kr/finance/general-stock/6209391",
+      "pubDate": "Fri, 26 Jun 2026 12:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025506_001_20260626120516589.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 7%대 급락에 매도 사이드카…코스닥도 연저점 추락",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=03932726645485656",
+      "pubDate": "Fri, 26 Jun 2026 12:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/06/26/0006315564_001_20260626120412006.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "[르포] 장위10구역 ‘푸르지오 마크원’…장위뉴타운 변화 본격화될까",
+      "url": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065580518710637",
+      "pubDate": "Fri, 26 Jun 2026 12:04:00 +0900",
+      "imageUrl": "https://www.megaeconomy.co.kr/news/data/20260626/p1065580518710637_962_thum.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "이석증·이명증 '치료 효과' 식품 광고 11곳 적발",
+      "url": "https://www.ibabynews.com/news/articleView.html?idxno=152393",
+      "pubDate": "Fri, 26 Jun 2026 12:02:00 +0900",
+      "imageUrl": "https://www.ibabynews.com/news/photo/202606/152393_116194_271.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "하토야마 전 日총리 “한국이 핵잠 가지면 일본도 핵잠 가지려고 할 것...",
+      "url": "https://www.munhwa.com/article/11598523?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 12:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/021/2026/06/26/0002800619_001_20260626120008633.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "14년 동행 마침표 찍는 송혜교 … UAA 떠나 새 출발, 또 한 번 '인생 2막...",
+      "url": "https://www.newdaily.co.kr/site/data/html/2026/06/26/2026062600111.html",
+      "pubDate": "Fri, 26 Jun 2026 12:00:00 +0900",
+      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/06/26/2026062600111_thumb.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "안영미, 둘째 한국서 출산…원정출산 의혹 불식 “산모아이 모두 건강”...",
+      "url": "https://www.mk.co.kr/article/12083905",
+      "pubDate": "Fri, 26 Jun 2026 11:59:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/410/2026/06/26/0001130241_001_20260626115912142.png"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 8400까지 밀렸다…올해 14번째 '매도 사이드카' 발동",
+      "url": "https://www.wikitree.co.kr/articles/1143383",
+      "pubDate": "Fri, 26 Jun 2026 11:58:00 +0900",
+      "imageUrl": "https://cdnweb01.wikitree.co.kr/webdata/editor/202606/26/202606261157185513.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "박수홍 친형수, 항소심서 뒤늦은 사과…\"얼마나 어리석었는지 깨달았다...",
+      "url": "https://ent.sbs.co.kr/news/article.do?article_id=E10010318404&plink=ORI&cooper=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 11:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/416/2026/06/26/0000324477_001_20260626115708926.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 5%대 급락에 매도 사이드카 …8,400대까지 밀려",
+      "url": "https://www.kbsm.net/news/view.php?idx=524538",
+      "pubDate": "Fri, 26 Jun 2026 11:56:00 +0900",
+      "imageUrl": "https://www.kbsm.net/data/newsThumb/1782442269ADD_thumb780.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'학비만 6억' 현영, \"매출 80억 CEO? 남은 돈 없다\"→사기 피해…연예인...",
+      "url": "https://mhnse.com/news/articleView.html?idxno=1442039",
+      "pubDate": "Fri, 26 Jun 2026 11:56:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/445/2026/06/26/0000430486_001_20260626115615245.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[숏폼] \"집값 잡겠다\" 대통령 약속이 '기만'으로 들릴 때",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=738132",
+      "pubDate": "Fri, 26 Jun 2026 11:54:00 +0900",
+      "imageUrl": "https://www.newsprime.co.kr/data/photos/cdn/20260626/art_738132_1782441651.png"
+    },
+    {
+      "category": "연예",
+      "title": "\"미모 남달라\" '한혜진♥기성용' 딸 시온, 유튜브 깜짝 등장…\"아빠한테...",
+      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=825026",
+      "pubDate": "Fri, 26 Jun 2026 11:54:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/06/26/0000615536_001_20260626115614695.jpeg"
+    },
+    {
+      "category": "연예",
+      "title": "'故 김수미 며느리' 서효림, 시어머니 김치 사업 잇나…\"지켜봐주세요\"...",
+      "url": "https://www.tvreport.co.kr/entertainment/article/1056995/",
+      "pubDate": "Fri, 26 Jun 2026 11:51:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/06/26/0001392239_001_20260626115109811.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "김해 신문 센트럴 아이파크 견본주택 개관…1379가구 신문새도시 랜드마...",
+      "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=305638",
+      "pubDate": "Fri, 26 Jun 2026 11:50:00 +0900",
+      "imageUrl": "https://cdn.straightnews.co.kr/news/thumbnail/202606/305638_215686_4730_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "‘참교육’ 작업반장 김균하, 1살 연상과 지난달 결혼",
+      "url": "https://www.mk.co.kr/article/12083900",
+      "pubDate": "Fri, 26 Jun 2026 11:49:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/06/26/0005699181_001_20260626114908554.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 5% 급락에 매도사이드카 발동…올 들어 14번째",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=845166",
+      "pubDate": "Fri, 26 Jun 2026 11:42:00 +0900",
+      "imageUrl": "https://cdn.newsworks.co.kr/news/thumbnail/202606/845166_802776_3557_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 장중 8% 급락…매도 사이드카 이어 서킷브레이커 발동",
+      "url": "https://www.kyeonggi.com/article/20260626580120",
+      "pubDate": "Fri, 26 Jun 2026 11:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/666/2026/06/26/0000112805_001_20260626134512459.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "\"8,400선 붕괴 위기\"...코스피 5%대 폭락에 '매도 사이드카' 발동",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=221725",
+      "pubDate": "Fri, 26 Jun 2026 11:42:00 +0900",
+      "imageUrl": "https://www.youthdaily.co.kr/data/photos/20260626/art_17824415691125_7fcde6.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "“코스피 하루 만에 5% 증발”…외국인·기관 차익실현에 사이드카 발동",
+      "url": "https://www.ddaily.co.kr/page/view/2026062611334545633",
+      "pubDate": "Fri, 26 Jun 2026 11:38:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/138/2026/06/26/0002232202_001_20260626113815960.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 반도체 매물에 5%대 급락...올해 14번째 매도 사이드카",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=678614",
+      "pubDate": "Fri, 26 Jun 2026 11:38:00 +0900",
+      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202606/678614_627131_260.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "外人 2.4조 '팔자'에 코스피 '매도 사이드카'…8400선까지 밀렸다",
+      "url": "https://www.newsis.com/view/NISX20260626_0003684999",
+      "pubDate": "Fri, 26 Jun 2026 11:38:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/06/26/NISI20260626_0021337431_web_20260626093054_20260626115228677.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "[전혜은 시선] 서울 집값, 문재인 정부 넘었다…대출 규제에도 '소형 아...",
+      "url": "http://www.weeklytoday.com/news/articleView.html?idxno=781992",
+      "pubDate": "Fri, 26 Jun 2026 11:38:00 +0900",
+      "imageUrl": "https://cdn.weeklytoday.com/news/thumbnail/202606/781992_959938_3419_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "안영미, 둘째 아들 한국서 출산 \"신생아 건강…산모 회복 중\"",
+      "url": "https://www.hankyung.com/article/202606269871H",
+      "pubDate": "Fri, 26 Jun 2026 11:36:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/015/2026/06/26/0005303155_001_20260626113616748.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[속보] 코스피 5%대 급락 '매도 사이드카' 발동 …삼전 6%·닉스 7% 하락",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2058054",
+      "pubDate": "Fri, 26 Jun 2026 11:34:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/654/2026/06/26/0000187654_001_20260626113415098.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "[공식] '42세' 안영미, 둘째 아들은 한국서 출산했다…\"회복 거친 뒤 건...",
+      "url": "https://www.tenasia.co.kr/article/2026062696524",
+      "pubDate": "Fri, 26 Jun 2026 11:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/312/2026/06/26/0000765299_001_20260626113010751.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 매도 사이드카 발동…8400선까지 후퇴",
+      "url": "https://www.newspim.com/news/view/20260626000475",
+      "pubDate": "Fri, 26 Jun 2026 11:29:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/06/26/260626092902039_936_tc.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "서울 외곽 아파트 신규 월세 거래 21% ‘월세 100만원 이상’",
+      "url": "https://biz.heraldcorp.com/article/10789277?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 11:28:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002662021_001_20260626112820588.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "어느새 59%…반도체 쏠림에 변동성 세계 최고",
+      "url": "https://biz.heraldcorp.com/article/10789272?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 11:27:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002662017_001_20260626112709279.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "최재란 서울시의원 “언제나 시민 편!” 4년 의정활동 결산… “시민 삶...",
+      "url": "https://www.seoul.co.kr/news/publicnews/local_govern/smc_movement/2026/06/26/20260626500119?wlog_tag3=naver",
+      "pubDate": "Fri, 26 Jun 2026 11:27:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/081/2026/06/26/0003656164_001_20260626112710638.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "‘류수영♥’ 박하선 “밤에 석촌호수 가면 데이트하는 연예인들 많아”...",
+      "url": "https://www.newsen.com/news_view.php?uid=202606261023026710",
+      "pubDate": "Fri, 26 Jun 2026 11:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/609/2026/06/26/202606261023026710_1_20260626112611696.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'건강 이상설' 젝스키스 출신 고지용, '독거 노인 센터'에서 포착→\"어...",
+      "url": "https://mhnse.com/news/articleView.html?idxno=1441921",
+      "pubDate": "Fri, 26 Jun 2026 11:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/445/2026/06/26/0000430443_001_20260626112616828.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "[다음주 경제일정] 美 6월 고용보고서 관건…美·中 제조업 PMI도 주목",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319066?division=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 11:25:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518418_001_20260626120710338.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "[속보] 코스피 급락에 매도 사이드카 발동… 8400대까지 밀려",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026062611153044753",
+      "pubDate": "Fri, 26 Jun 2026 11:24:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/082/2026/06/26/0001387147_001_20260626113214804.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "사회",
+      "title": "부산진여성새로일하기센터, 여성 채용 기업에 최대 460만 원 지원",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026062611122590820",
+      "pubDate": "Fri, 26 Jun 2026 11:24:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/082/2026/06/26/0001387148_001_20260626112415335.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "[뮤즈이슈]유재환, 활동명 변경 후 밴드 결성‥강제추행 항소심ing",
+      "url": "https://www.heraldmuse.com/article/10789265?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 11:24:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/112/2026/06/26/0003799735_001_20260626112411945.png"
+    },
+    {
+      "category": "부동산",
+      "title": "3중 규제 무색한 경기 핵심지 집값 상승…'서울 접근성'이 압도",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422038",
+      "pubDate": "Fri, 26 Jun 2026 11:22:00 +0900",
+      "imageUrl": "https://cdn.news.einfomax.co.kr/news/thumbnail/202606/4422038_325233_147_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "브라이언, 사생팬 피해 고백…\"외할머니 부고에 '너도 같이 죽어' 악플...",
+      "url": "https://www.newsis.com/view/NISX20260626_0003684756",
+      "pubDate": "Fri, 26 Jun 2026 11:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/06/26/NISI20260626_0002170963_web_20260626105700_20260626112219334.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "곧 '오십'인 내가 받아 든 가장 정직한 성적표",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003245981&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "pubDate": "Fri, 26 Jun 2026 11:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/047/2026/06/26/0002520605_001_20260626112109502.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "[잇슈 연예 브리핑] 윈터, 펫샵에서 반려견 분양?…\"번식장 끌려갈 뻔한...",
+      "url": "https://www.obsnews.co.kr/news/articleView.html?idxno=1528733",
+      "pubDate": "Fri, 26 Jun 2026 11:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/427/2026/06/26/0000044349_001_20260626112119778.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "집값 상승 불안에 초소형 반년새 1억 급등 [월세의 습격]",
+      "url": "https://biz.heraldcorp.com/article/10789251?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 11:20:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002662000_001_20260626112009442.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "“노원 15평도 월세 100만원”…상계동 살다 의정부로 밀려났다 [월세의...",
+      "url": "https://biz.heraldcorp.com/article/10789250?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 11:19:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002661999_001_20260626111909065.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 '차익 실현' 매물에 장중 3%대 하락해 8646선, 원/달러 환율 1547...",
+      "url": "https://www.businesspost.co.kr/BP?command=article_view&num=440911",
+      "pubDate": "Fri, 26 Jun 2026 11:18:00 +0900",
+      "imageUrl": "https://www.businesspost.co.kr/news/photo/202606/20260626101552_207143.png"
+    },
+    {
+      "category": "기업",
+      "title": "'롤러코스터' 코스피, 급락에 매도 사이드카 발동…5%대 하락",
+      "url": "https://news.jtbc.co.kr/article/NB12305186?influxDiv=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 11:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/437/2026/06/26/0000498121_001_20260626112810832.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "'브렉시트' 선택 10년…상처와 교훈만 남은 EU 탈퇴",
+      "url": "https://biz.sbs.co.kr/article_hub/20000319063?division=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 11:16:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518414_001_20260626120816457.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 5%대 급락에 매도 사이드카 …8,400대로 밀려",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008628980&plink=ORI&cooper=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 11:16:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/055/2026/06/26/0001367535_001_20260626113415741.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "6월에 외국인이 가장 많이 판 주식은 ‘삼전·닉스’…개인은 가장 많이...",
+      "url": "https://www.khan.co.kr/article/202606261114011",
+      "pubDate": "Fri, 26 Jun 2026 11:14:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/032/2026/06/26/0003454529_001_20260626111514395.jpeg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "분당구 동원동에 1400가구 대단지 조성…933가구 공공분양",
+      "url": "https://www.dailian.co.kr/news/view/1660255/?sc=Naver",
+      "pubDate": "Fri, 26 Jun 2026 11:13:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/06/26/0003105083_001_20260626111312291.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "외국인, 국내주식 또 던졌다…47조 팔고 채권으로 이동",
+      "url": "https://www.econovill.com/news/articleView.html?idxno=743547",
+      "pubDate": "Fri, 26 Jun 2026 11:12:00 +0900",
+      "imageUrl": "https://cdn.econovill.com/news/thumbnail/202606/743547_716459_4756_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "개미 돌격에도 역부족...\"외인 3조 팔아치웠다\" 코스피 4.6% ↓ 낙폭 확대",
+      "url": "https://www.mt.co.kr/stock/2026/06/26/2026062611105998696",
+      "pubDate": "Fri, 26 Jun 2026 11:12:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/06/26/0005377595_001_20260626111714003.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "[르포]\"장위초 품은 1931가구 대단지\"…오픈 첫날부터 몰린 장위 푸르지...",
+      "url": "https://www.ajunews.com/view/20260626105132097",
+      "pubDate": "Fri, 26 Jun 2026 11:04:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/06/26/20260626105434531388.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[르포]\"싸게 살 수 있으려나\" 치열한 눈치싸움…'내 집 마련' 꿈 몰린 경...",
+      "url": "https://view.asiae.co.kr/article/2026062516212058471",
+      "pubDate": "Fri, 26 Jun 2026 11:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005781865_001_20260626135417318.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 2% 급락…차익실현에 8,700선 후퇴",
+      "url": "https://www.namdonews.com/news/articleView.html?idxno=914886",
+      "pubDate": "Fri, 26 Jun 2026 11:02:00 +0900",
+      "imageUrl": "https://cdn.namdonews.com/news/photo/202606/914886_618545_058.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "[이슈] '美 PCE 4.1%↑' 인플레 압력…원·달러 환율 1550원선 압박",
+      "url": "https://www.startuptoday.co.kr/news/articleView.html?idxno=804723",
+      "pubDate": "Fri, 26 Jun 2026 11:00:00 +0900",
+      "imageUrl": "https://cdn.startuptoday.co.kr/news/photo/202606/804723_604552_5659.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "IPARK현대산업개발 '김해 신문 센트럴 아이파크' 분양",
+      "url": "https://www.nocutnews.co.kr/news/6539104?utm_source=naver&utm_medium=article&utm_campaign=20260626105542",
+      "pubDate": "Fri, 26 Jun 2026 10:56:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/06/26/0004162061_001_20260626105614468.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "'1인 2판 한정', '미국산 계란 완판'..'에그(Egg)' 플레이션이 왔다",
+      "url": "https://www.ytn.co.kr/_ln/0102_202606261052026876",
+      "pubDate": "Fri, 26 Jun 2026 10:52:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/052/2026/06/26/202606261052026876_d_20260626114217934.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "DL이앤씨, 7월 분당 낙생지구에 마수걸이 분양…1400가구 신희타 ‘e편한...",
+      "url": "https://realty.chosun.com/site/data/html_dir/2026/06/26/2026062601125.html",
+      "pubDate": "Fri, 26 Jun 2026 10:52:00 +0900",
+      "imageUrl": "https://image.chosun.com/sitedata/image/202606/26/2026062601120_0.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "외국인 '셀코리아' 아니다",
+      "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=359336",
+      "pubDate": "Fri, 26 Jun 2026 10:50:00 +0900",
+      "imageUrl": "https://cdn.smedaily.co.kr/news/thumbnail/202606/359336_294414_4825_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "\"주가 뛰자 무섭게 팔아치우네\"...삼전닉스 털어내는 외국인",
+      "url": "http://www.nongaek.com/news/articleView.html?idxno=95871",
+      "pubDate": "Fri, 26 Jun 2026 10:50:00 +0900",
+      "imageUrl": "https://cdn.nongaek.com/news/thumbnail/202606/95871_46555_4248_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "삼성전자·SK하이닉스 위클리 옵션 상장 '연기'",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243762",
+      "pubDate": "Fri, 26 Jun 2026 10:50:00 +0900",
+      "imageUrl": "https://cdn.safetimes.co.kr/news/thumbnail/202606/243762_153539_2055_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 장 초반 2% 넘게 급락...외국인·기관 대규모 순매도",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=300009",
+      "pubDate": "Fri, 26 Jun 2026 10:50:00 +0900",
+      "imageUrl": "https://cdn.ppss.kr/news/photo/202606/300009_118872_3855.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[박용준의 어부바] \"공급해야 하니까\"…당신의 동네가 사라진다",
+      "url": "https://www.ajunews.com/view/20260626102100008",
+      "pubDate": "Fri, 26 Jun 2026 10:48:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/06/26/20260626102127676909.png"
+    },
+    {
+      "category": "부동산",
+      "title": "IPARK현대산업개발, '김해 신문 센트럴 아이파크' 견본주택 개관…본격...",
+      "url": "https://www.wikitree.co.kr/articles/1143366",
+      "pubDate": "Fri, 26 Jun 2026 10:46:00 +0900",
+      "imageUrl": "https://cdnweb01.wikitree.co.kr/webdata/editor/202606/26/img_20260626104341_94bc1d66.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "'전세 소멸' 공방…없어지나 없애나[Why&Next]",
+      "url": "https://view.asiae.co.kr/article/2026062516521929497",
+      "pubDate": "Fri, 26 Jun 2026 10:45:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005781840_001_20260626104616755.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[뉴공 아카이브]김용범 청와대 정책실장: “한국은 미래가 먼저 온 나라...",
+      "url": "http://www.ddanzi.com/887317922",
+      "pubDate": "Fri, 26 Jun 2026 10:42:00 +0900",
+      "imageUrl": "https://www.ddanzi.com/./files/attach/images/1176663/922/317/887//95ab1e995a061cc9cd9c983150eefa38.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "분당 신축 가뭄 속 첫 공급 단지…'e편한세상 분당 퍼스트빌리지' 7월 분...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=463307",
+      "pubDate": "Fri, 26 Jun 2026 10:42:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202606/463307_452118_3420_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 차익실현·외국인 '팔자'에 3%대 하락…반도체주 약세",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=221712",
+      "pubDate": "Fri, 26 Jun 2026 10:38:00 +0900",
+      "imageUrl": "https://www.youthdaily.co.kr/data/photos/20260626/art_17824377229552_cd06a0.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 급등 부담에 8600선 후퇴…삼전·닉스도 약세",
+      "url": "https://www.g-enews.com/view.php?ud=202606261014291347923c501012_1",
+      "pubDate": "Fri, 26 Jun 2026 10:38:00 +0900",
+      "imageUrl": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026062610182706788923c50101220323577112.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피,급등 부담에 2%↓ 8,700대 등락…환율 1,550원 육박",
+      "url": "http://www.seouleconews.com/news/articleView.html?idxno=92044",
+      "pubDate": "Fri, 26 Jun 2026 10:38:00 +0900",
+      "imageUrl": "http://www.seouleconews.com/news/thumbnail/202606/92044_98291_3155_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "美 기술주 약세에 국내 증시도 흔들···코스피 3% 넘게 하락",
+      "url": "http://www.finomy.com/news/articleView.html?idxno=256353",
+      "pubDate": "Fri, 26 Jun 2026 10:36:00 +0900",
+      "imageUrl": "https://cdn.finomy.com/news/thumbnail/202606/256353_251328_1931_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "힐스테이트·자이도 안팔린다 … 고분양가에 대형 건설사도 청약 한파",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/06/26/2026062600057.html",
+      "pubDate": "Fri, 26 Jun 2026 10:30:00 +0900",
+      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/06/26/2026062600057_0.jpg?u=20260626102954?u=20260626102954"
+    },
+    {
+      "category": "기업",
+      "title": "[진정자의 한성숙 총리 이야기 | 진리·정의·자유] 일과 결혼한 여인, ...",
+      "url": "https://www.ajunews.com/view/20260626102130009",
+      "pubDate": "Fri, 26 Jun 2026 10:28:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/06/26/20260626102346539655.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "조정국면 돌입한 코스피, 장중 3~4% 하락세...환율 1550원 턱밑",
+      "url": "http://www.opinionnews.co.kr/news/articleView.html?idxno=140655",
+      "pubDate": "Fri, 26 Jun 2026 10:28:00 +0900",
+      "imageUrl": "http://www.opinionnews.co.kr/news/thumbnail/202606/140655_103280_2121_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 외국인·기관 매도에 8640선 약세",
+      "url": "https://www.kfenews.co.kr/news/articleView.html?idxno=659317",
+      "pubDate": "Fri, 26 Jun 2026 10:28:00 +0900",
+      "imageUrl": "https://cdn.kfenews.co.kr/news/thumbnail/202606/659317_132831_2426_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[1% 초고수의 개장 선택] '반도체 대형주' 사고 '부품·장비주' 팔았다",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1714039",
+      "pubDate": "Fri, 26 Jun 2026 10:24:00 +0900",
+      "imageUrl": "https://cdn.ebn.co.kr/news/thumbnail/202606/1714039_742494_2020_v150.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "[현장에서] 반도체 초호황, 부동산 발열을 잡아라",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4422009",
+      "pubDate": "Fri, 26 Jun 2026 10:22:00 +0900",
+      "imageUrl": "https://cdn.news.einfomax.co.kr/news/thumbnail/202606/4422009_325121_372_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "李정부, 부동산 민심 정면 대응…종합 대책 마련 가속",
+      "url": "https://news.tf.co.kr/read/economy/2336796.htm",
+      "pubDate": "Fri, 26 Jun 2026 10:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/06/26/202643091782435879_20260626102112254.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "\"삼전닉스, 여전히 저평가…상승여력 충분\" 글로벌 기업과 비교했더니",
+      "url": "https://view.asiae.co.kr/article/2026062610114999109",
+      "pubDate": "Fri, 26 Jun 2026 10:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005781816_001_20260626134113297.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 시총, 삼성·SK에 쏠렸다…상위 10곳 중 8곳 독식",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=723310",
+      "pubDate": "Fri, 26 Jun 2026 10:14:00 +0900",
+      "imageUrl": "https://cdn.the-biz.co.kr/news/photo/202606/723310_926130_5238.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "반도체 차익실현에 코스피 3% 급락…외국인 1.4조 ‘팔자’ [투자360]",
+      "url": "https://biz.heraldcorp.com/article/10789087?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:11:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/06/26/0002661925_001_20260626101112397.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "원·달러 환율 1540원대 돌파...고환율 고착되려나",
+      "url": "https://www.m-economynews.com/news/article.html?no=68192",
+      "pubDate": "Fri, 26 Jun 2026 10:10:00 +0900",
+      "imageUrl": "https://www.m-economynews.com/data/photos/20260626/art_17824360022165_de6685.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 단기 차익실현에 3%대 하락…SK하이닉스 4%↓",
+      "url": "https://www.news2day.co.kr/article/20260626500054",
+      "pubDate": "Fri, 26 Jun 2026 10:06:00 +0900",
+      "imageUrl": "https://cdn.news2day.co.kr/data2/content/image/2026/06/26/.cache/512/20260626500043.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "반도체 호남 투자, 결국 전북은 빠지나",
+      "url": "http://www.domin.co.kr/news/articleView.html?idxno=1559916",
+      "pubDate": "Fri, 26 Jun 2026 10:02:00 +0900",
+      "imageUrl": "http://www.domin.co.kr/news/thumbnail/202606/1559916_770041_4315_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "마이크론 호실적에 코스피 8930…JP모건 “1만 2500 간다”",
+      "url": "https://www.sedaily.com/article/20060432?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635243_001_20260626100128265.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "SK하이닉스, 작년 20대 신입 2560명 채용…3년 만에 최대",
+      "url": "https://www.sedaily.com/article/20060441?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635245_001_20260626100136876.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "규제 조이면 집값 오르고, 풀면 폭락…23년째 엇박자",
+      "url": "https://www.sedaily.com/article/20060439?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635244_001_20260626100132431.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "마이크론이 터뜨린 ‘HBM 대박’",
+      "url": "https://www.sedaily.com/article/20060429?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635242_001_20260626100124081.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "성과급·AI 고용 이견 못 좁혀…현대차 노조 2년 연속 파업 기로",
+      "url": "https://www.sedaily.com/article/20060442?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635246_001_20260626100141126.png?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "크래프톤, AI에 1000억 베팅…‘돈 버는 AI’ 본격 시동",
+      "url": "https://www.sedaily.com/article/20060421?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635240_001_20260626100115471.jpeg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 9000 코앞 마감…JP모건 “1만2500 간다”",
+      "url": "https://www.sedaily.com/article/20060425?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 10:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635241_001_20260626100119535.jpeg?type&#x3D;w800"
+    },
+    {
+      "category": "국제",
+      "title": "대화보다 핵무력 우선 재확인한 북한[정창현의 북한읽기]",
+      "url": "https://www.news1.kr/nk/politics-diplomacy/6209141",
+      "pubDate": "Fri, 26 Jun 2026 10:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025151_001_20260626100109110.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "[개장 시황] 코스피, 인플레 부담에 '8700선 후퇴'… 원·달러 환율 4.6원...",
+      "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=272033",
+      "pubDate": "Fri, 26 Jun 2026 09:58:00 +0900",
+      "imageUrl": "https://www.businesskorea.co.kr/news/thumbnail/202606/272033_279244_5629_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "'2배' 레버리지 ETF 삼전·하닉뿐 … 금융당국이 '반도체 쏠림' 자초했다...",
+      "url": "https://biz.newdaily.co.kr/site/data/html/2026/06/26/2026062600049.html",
+      "pubDate": "Fri, 26 Jun 2026 09:58:00 +0900",
+      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/06/26/2026062600049_0.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "DL이앤씨 'e편한세상 분당 퍼스트빌리지' 7월 분양 예정",
+      "url": "https://magazine.hankyung.com/business/article/202606269408b",
+      "pubDate": "Fri, 26 Jun 2026 09:56:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/050/2026/06/26/0000107837_001_20260626095613749.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "[개장 시황] 코스피, 약보합 출발…미국 증시 혼조·마이크론 랠리 견인",
+      "url": "http://www.fieldnews.kr/news/articleView.html?idxno=29541",
+      "pubDate": "Fri, 26 Jun 2026 09:54:00 +0900",
+      "imageUrl": "https://cdn.fieldnews.kr/news/thumbnail/202606/29541_32085_521_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 차익실현·뉴욕 증시 혼조세에 2%대↓…삼전·닉스 동반 약세",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=723306",
+      "pubDate": "Fri, 26 Jun 2026 09:52:00 +0900",
+      "imageUrl": "https://cdn.the-biz.co.kr/news/photo/202606/723306_926124_3915.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 8700선 후퇴…기술주 조정에 장 초반 낙폭 확대",
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=236783",
+      "pubDate": "Fri, 26 Jun 2026 09:52:00 +0900",
+      "imageUrl": "https://cdn.ezyeconomy.com/news/thumbnail/202606/236783_138187_4345_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "삼전닉스 레버리지 ETF 영향?…한국거래소, 개별주식 위클리옵션 상장 ...",
+      "url": "https://www.imaeil.com/page/view/2026062515075545985",
+      "pubDate": "Fri, 26 Jun 2026 09:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/088/2026/06/26/0001016372_001_20260626095008754.png?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[신윤우의 외환분석] 물가만나 식은 강달러…외인에 시선",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421988",
+      "pubDate": "Fri, 26 Jun 2026 09:46:00 +0900",
+      "imageUrl": "https://cdn.news.einfomax.co.kr/news/thumbnail/202606/4421988_325074_454_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "[개장시황] 코스피, 1.31% 내린 8813.18 출발…8700선 후퇴",
+      "url": "http://www.segyebiz.com/newsView/20260626504755?OutUrl=naver",
+      "pubDate": "Fri, 26 Jun 2026 09:46:00 +0900",
+      "imageUrl": "http://www.segyebiz.com//content/image/2026/06/26/20260626504754.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 장 초반 3% 하락해 8600선⋯삼전닉스 3%대 약세",
+      "url": "https://www.etoday.co.kr/news/view/2597513",
+      "pubDate": "Fri, 26 Jun 2026 09:46:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260626091848_2351284_892_589.png"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 외국인 '팔자'에 하락 출발… 8600선 후퇴",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092164614",
+      "pubDate": "Fri, 26 Jun 2026 09:46:00 +0900",
+      "imageUrl": "https://cdn.it.chosun.com/news/thumbnail/202606/2023092164614_446179_4155_v150.jpg"
+    },
+    {
+      "category": "사회",
+      "title": "신신엠앤씨, 가정복지회 중간관리자 대상 조직문화 현장연수 진행",
+      "url": "https://www.gokorea.kr/news/articleView.html?idxno=870410",
+      "pubDate": "Fri, 26 Jun 2026 09:46:00 +0900",
+      "imageUrl": "https://cdn.gokorea.kr/news/thumbnail/202606/870410_147512_4437_v150.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "\"삼전닉스로 번 돈, 빼자\"...차익 실현에 코스피 '하락' 출발",
+      "url": "https://www.mt.co.kr/stock/2026/06/26/2026062609393281427",
+      "pubDate": "Fri, 26 Jun 2026 09:45:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/06/26/0005377546_001_20260626095415647.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 외국인 '팔자'에 하락 출발…8800선 내줬다[개장시황]",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026062609241139275",
+      "pubDate": "Fri, 26 Jun 2026 09:44:00 +0900",
+      "imageUrl": "https://nimage.newsway.co.kr/photo/2025/11/05/20251105000040_1200.png"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 또 다시 4% 가까이 하락…8600선까지 밀려",
+      "url": "https://www.mediapen.com/news/view/1106657",
+      "pubDate": "Fri, 26 Jun 2026 09:44:00 +0900",
+      "imageUrl": "https://image.mediapen.com/news/202606/news_1106657_1782434530_m.jpg"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 외국인 차익실현에 8700선 후퇴...반도체주도 숨 고르기",
+      "url": "https://www.greened.kr/news/articleView.html?idxno=343402",
+      "pubDate": "Fri, 26 Jun 2026 09:44:00 +0900",
+      "imageUrl": "https://www.greened.kr/news/thumbnail/202606/343402_394349_3629_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "\"창 열면 조만강, 문 열면 아울렛\"…김해 신문 센트럴 아이파크 1379가구...",
+      "url": "https://view.asiae.co.kr/article/2026062609434549805",
+      "pubDate": "Fri, 26 Jun 2026 09:43:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/06/26/0005781774_001_20260626094429094.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피 급등 부담감에 2% 하락세로 시작…코스닥도 내려",
+      "url": "https://www.kado.net/news/articleView.html?idxno=2058038",
+      "pubDate": "Fri, 26 Jun 2026 09:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/654/2026/06/26/0000187643_001_20260626094207982.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 8590선으로 밀려…차익실현에 3%대 급락 [시황]",
+      "url": "https://www.dailian.co.kr/news/view/1660217/?sc=Naver",
+      "pubDate": "Fri, 26 Jun 2026 09:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/06/26/0003105001_001_20260626094108740.png?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "코스피, 장 초반 3%대 약세…美 혼조세·차익매물 출회 영향[개장시황]",
+      "url": "https://www.news1.kr/finance/general-stock/6209111",
+      "pubDate": "Fri, 26 Jun 2026 09:39:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009025054_001_20260626094010008.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "사회",
+      "title": "[나동준 시선의 ESG] 병원 청소노동자가 내 생명을 지킨다",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204987",
+      "pubDate": "Fri, 26 Jun 2026 09:30:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202606/204987_472631_1334_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "수도권 핫한 교통 호재 몰린 '안양 에버포레 자연& e편한세상' 눈길",
+      "url": "http://www.ikld.kr/news/articleView.html?idxno=336605",
+      "pubDate": "Fri, 26 Jun 2026 09:20:00 +0900",
+      "imageUrl": "http://www.ikld.kr/news/thumbnail/202606/336605_183552_1541_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "동탄 아파트값 5개월 새 11% 급등…서울 전셋값은 12년 8개월 만에 최대...",
+      "url": "https://www.ppss.kr/news/articleView.html?idxno=299980",
+      "pubDate": "Fri, 26 Jun 2026 09:19:00 +0900",
+      "imageUrl": "https://cdn.ppss.kr/news/photo/202606/299980_118834_1930.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "용산구, 재개발·재건축 사업 착착 진행...본궤도에 올라",
+      "url": "https://www.cnbizm.com/news/articleView.html?idxno=306710",
+      "pubDate": "Fri, 26 Jun 2026 09:16:00 +0900",
+      "imageUrl": "https://cdn.cnbizm.com/news/photo/202606/306710_209506_415.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "서울 집값 부담에 '준강남권' 주목…의왕·하남 등 경기권 관심 확대",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1714005",
+      "pubDate": "Fri, 26 Jun 2026 09:14:00 +0900",
+      "imageUrl": "https://cdn.ebn.co.kr/news/thumbnail/202606/1714005_742461_1248_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "차익매물·원화 환율 급변동 속...코스피 '하락 출발'",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167141",
+      "pubDate": "Fri, 26 Jun 2026 09:12:00 +0900",
+      "imageUrl": "https://cdn.choicenews.co.kr/news/thumbnail/202606/167141_127143_1439_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "증시 급등 9000 회복 눈앞... 환율은 1540원대 부담",
+      "url": "https://www.m-i.kr/news/articleView.html?idxno=1385370",
+      "pubDate": "Fri, 26 Jun 2026 09:08:00 +0900",
+      "imageUrl": "https://cdn.m-i.kr/news/thumbnail/202606/1385370_1172570_5232_v150.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "한·일 군함 구매 예산 포함 美 200억 달러 규모 '조선부활법' 의회 제출...",
+      "url": "https://www.theguru.co.kr/news/article.html?no=103606",
+      "pubDate": "Fri, 26 Jun 2026 09:06:00 +0900",
+      "imageUrl": "https://www.theguru.co.kr/data/photos/20260626/art_17824289222933_9380e0.jpg"
+    },
+    {
+      "category": "국제",
+      "title": "[국제금융 브리핑] 미국 5월 PCE 4.1%로 상승...유가 하락에 정점론·연준...",
+      "url": "https://www.tokenpost.kr/news/economy/372898",
+      "pubDate": "Fri, 26 Jun 2026 09:06:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/06/52bkigw7a9.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "금융·가격 혜택을 두루 갖춘 신혼희망타운, ‘역곡지구 하우스토리’ ...",
+      "url": "https://www.dt.co.kr/article/12069589?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 09:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/029/2026/06/26/0003033821_001_20260626090113939.png?type&#x3D;w800"
+    },
     {
       "category": "사회",
       "title": "인도의 '바퀴벌레당'과 한국의 '모자무싸'",
       "url": "https://www.danbinews.com/news/articleView.html?idxno=33307",
-      "pubDate": "Fri, 26 Jun 2026 08:56:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:56:00 +0900",
+      "imageUrl": "https://cdn.danbinews.com/news/photo/202606/33307_43589_527.jpg"
     },
     {
       "category": "기업",
       "title": "삼전닉스 레버리지에 출렁이는 코스피…해외선 'K-레버리지'도 속속",
       "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4421967",
       "pubDate": "Fri, 26 Jun 2026 08:52:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "[매입임대①] 주택대란의 실체… '속도전'에 가려진 공공 주택의 구조적...",
+      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=60879",
+      "pubDate": "Fri, 26 Jun 2026 08:52:00 +0900",
+      "imageUrl": "https://cdn.newsroad.co.kr/news/thumbnail/202606/60879_82068_4957_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "이재명 정부 1년, 규제폭탄에 文정부 압살하는 전셋값 급등",
+      "url": "https://realty.chosun.com/site/data/html_dir/2026/06/26/2026062600734.html",
+      "pubDate": "Fri, 26 Jun 2026 08:52:00 +0900",
+      "imageUrl": "https://image.chosun.com/sitedata/image/202606/26/2026062600730_0.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[요즘 부동산+/⑰]서울 규제에 밀린 수요, 구리·남양주로…경기 비규제...",
+      "url": "https://www.businessplus.kr/news/articleView.html?idxno=113354",
+      "pubDate": "Fri, 26 Jun 2026 08:50:00 +0900",
+      "imageUrl": "https://cdn.businessplus.kr/news/thumbnail/202606/113354_110277_4853_v150.jpg"
     },
     {
       "category": "기업",
@@ -24,7 +2181,8 @@
       "category": "금융",
       "title": "삼성전자·SK하이닉스 쏠림에 코스피 9천 시험대",
       "url": "https://www.topstarnews.net/news/articleView.html?idxno=16112725",
-      "pubDate": "Fri, 26 Jun 2026 08:36:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:36:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202606/16112725_1949748_3543_crop.jpg"
     },
     {
       "category": "기업",
@@ -36,7 +2194,8 @@
       "category": "금융",
       "title": "외국인 5개월째 '셀코리아'…보유 한국주식 평가액은 두 배 넘게 불었다",
       "url": "https://www.raonnews.com/news/article.html?no=59089",
-      "pubDate": "Fri, 26 Jun 2026 08:32:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:32:00 +0900",
+      "imageUrl": "https://www.raonnews.com/data/photos/20260626/art_17824299323963_efc7fd.jpg"
     },
     {
       "category": "기업",
@@ -60,7 +2219,8 @@
       "category": "금융",
       "title": "[AI MY 증시전망] 코스피, 숨고르기 장세 예상…반도체 강세 속 순환매 ...",
       "url": "https://www.newspim.com/news/view/20260626000069",
-      "pubDate": "Fri, 26 Jun 2026 08:24:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:24:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/06/25/260625155452307_861_tc.jpg"
     },
     {
       "category": "기업",
@@ -72,19 +2232,22 @@
       "category": "국제",
       "title": "美동아태차관보 \"전작권 전환, 조건기반이며 '미국 억지력'은 유지될 것...",
       "url": "https://www.pennmike.com/news/articleView.html?idxno=122728",
-      "pubDate": "Fri, 26 Jun 2026 08:14:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:14:00 +0900",
+      "imageUrl": "https://cdn.pennmike.com/news/thumbnail/202606/122728_167263_3125_v150.jpg"
     },
     {
       "category": "금융",
       "title": "원·달러 환율 안정, 특단의 대책 있다! 고강도 달러 유출 방지, 한시적...",
       "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606260271&t=NN",
-      "pubDate": "Fri, 26 Jun 2026 08:11:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:11:00 +0900",
+      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
     },
     {
       "category": "금융",
       "title": "[증시전망대] 코스피, '9천피' 재도전…반도체 독주 속 차익 실현 경계...",
       "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=60883",
-      "pubDate": "Fri, 26 Jun 2026 08:10:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:10:00 +0900",
+      "imageUrl": "https://cdn.newsroad.co.kr/news/thumbnail/202606/60883_82057_744_v150.jpg"
     },
     {
       "category": "기업",
@@ -96,13 +2259,15 @@
       "category": "금융",
       "title": "[모닝 리포트] \"국내 증시, 단기 차익실현 불가피…변동성 장세 이어질...",
       "url": "https://www.newspim.com/news/view/20260626000055",
-      "pubDate": "Fri, 26 Jun 2026 08:07:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 08:07:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/06/25/260625155510396_t1.jpg"
     },
     {
       "category": "경제",
       "title": "[아주증시포커스] \"괴리율 관리 안하면 신규 ETF 상장 막는다\"…한국거...",
       "url": "https://www.ajunews.com/view/20260625235330577",
-      "pubDate": "Fri, 26 Jun 2026 07:56:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 07:56:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/06/22/20260622073958172370.png"
     },
     {
       "category": "기업",
@@ -111,10 +2276,25 @@
       "pubDate": "Fri, 26 Jun 2026 07:50:00 +0900"
     },
     {
+      "category": "부동산",
+      "title": "[창간9주년기획-돈돈돈] 시장에 개입한 정치의 역설",
+      "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3067678",
+      "pubDate": "Fri, 26 Jun 2026 07:44:00 +0900",
+      "imageUrl": "https://cdn.newsclaim.co.kr/news/thumbnail/202606/3067678_108968_3823_v150.jpg"
+    },
+    {
       "category": "금융",
       "title": "[마켓 프리뷰] 마이크론 실적 훈풍에 '9천피' 재시도…코스닥 '냉랭'",
       "url": "https://biz.sbs.co.kr/article_hub/20000318996?division=NAVER",
-      "pubDate": "Fri, 26 Jun 2026 07:33:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 07:33:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518353_001_20260626101018541.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "동탄 이어 용인도 '들썩'…비규제지역 '풍선 효과'",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008628382&plink=ORI&cooper=NAVER",
+      "pubDate": "Fri, 26 Jun 2026 07:10:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/055/2026/06/26/0001367453_001_20260626071107526.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",
@@ -126,19 +2306,50 @@
       "category": "국제",
       "title": "[증시전략] 커지는 '반도체 피크아웃' 우려·中 추격까지…판단은?",
       "url": "https://biz.sbs.co.kr/article_hub/20000318987?division=NAVER",
-      "pubDate": "Fri, 26 Jun 2026 07:09:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 07:09:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518351_001_20260626153512211.jpg?type&#x3D;w800"
     },
     {
       "category": "경제",
       "title": "AI로 돈 몰리자 金·코인까지 '흔들'…글로벌 자산시장 '머니무브' 가속",
       "url": "http://www.newsian.co.kr/news/articleView.html?idxno=91437",
-      "pubDate": "Fri, 26 Jun 2026 07:08:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 07:08:00 +0900",
+      "imageUrl": "https://cdn.newsian.co.kr/news/thumbnail/202606/91437_84450_4039_v150.jpg"
     },
     {
       "category": "경제",
       "title": "韓 경제 물류비에 흔들…‘인플레이션’은 이제부터 [전쟁 후유증②]",
       "url": "https://www.dailian.co.kr/news/view/1660004/?sc=Naver",
-      "pubDate": "Fri, 26 Jun 2026 07:02:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 07:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/06/26/0003104933_001_20260626070207465.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "갭투자 줄었지만 내 집 마련은 더 멀어졌다 [6·27 대책 1년②]",
+      "url": "https://www.etoday.co.kr/news/view/2597232",
+      "pubDate": "Fri, 26 Jun 2026 07:02:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260625163153_2351070_656_265.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "빚내서 집 사는 시대 끝냈지만⋯다시 뛰는 서울 집값 [6·27 대책 1년①]",
+      "url": "https://www.etoday.co.kr/news/view/2597263",
+      "pubDate": "Fri, 26 Jun 2026 07:02:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260625163336_2351071_431_348.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "매경이 전하는 세상의 지식 (매-세-지, 6월 26일)",
+      "url": "https://www.mk.co.kr/article/12083401",
+      "pubDate": "Fri, 26 Jun 2026 07:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/06/26/0005699013_001_20260626070108920.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "정치에 휘둘린 부동산 정책…집값·신뢰 다 놓쳤다",
+      "url": "https://www.sedaily.com/article/20060362?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 07:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635164_001_20260626070120575.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",
@@ -151,6 +2362,20 @@
       "title": "SK하이닉스 상승률 더 높은데 \"삼성전자 최선호주\"…'1만5천피' 외친 JP모...",
       "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606260226&t=NN",
       "pubDate": "Fri, 26 Jun 2026 06:53:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "[스타트 경제] 미 5월 PCE 물가 3년여 만에 최고...인플레이션 압력 더 ...",
+      "url": "https://www.ytn.co.kr/_ln/0102_202606260652067217",
+      "pubDate": "Fri, 26 Jun 2026 06:52:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/052/2026/06/26/202606260652067217_t_20260626073710339.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "동탄 집값 올해 11% 뛰었다…반도체 벨트 따라 경기 남부 강세 확산[집슐...",
+      "url": "https://www.sedaily.com/article/20060363?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 06:51:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635158_001_20260626065107244.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",
@@ -168,7 +2393,8 @@
       "category": "사회",
       "title": "AI와 경쟁하는 첫 세대...'전업 자녀' 청년의 현실 [소셜 코리아]",
       "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003245818&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
-      "pubDate": "Fri, 26 Jun 2026 06:46:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 06:46:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/047/2026/06/26/0002520572_001_20260626091108434.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",
@@ -180,25 +2406,57 @@
       "category": "국제",
       "title": "[외신 헤드라인] 애플, 메모리 대란에 맥·아이패드 등 가격 줄인상",
       "url": "https://biz.sbs.co.kr/article_hub/20000318984?division=NAVER",
-      "pubDate": "Fri, 26 Jun 2026 06:28:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 06:28:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/06/26/0000518345_001_20260626101325954.jpg?type&#x3D;w800"
     },
     {
       "category": "국제",
       "title": "중국산만 득 보는 보조금 전면 개편, K전기차 키울 실탄 활용해야",
       "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02312406645485656",
-      "pubDate": "Fri, 26 Jun 2026 06:20:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 06:20:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/06/26/0006315191_001_20260626064307197.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "【분양현장 톺아보기】 장위 푸르지오 마크원, 역세권·초품아 매력적....",
+      "url": "http://www.consumernews.co.kr/news/articleView.html?idxno=758169",
+      "pubDate": "Fri, 26 Jun 2026 06:10:00 +0900",
+      "imageUrl": "http://www.consumernews.co.kr/news/thumbnail/202606/758169_314394_4453_v150.jpg"
     },
     {
       "category": "금융",
       "title": "메트로신문 6월26일자 한줄뉴스",
       "url": "http://www.metroseoul.co.kr/article/20260625500356",
-      "pubDate": "Fri, 26 Jun 2026 06:02:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 06:02:00 +0900",
+      "imageUrl": "https://cdn.emetro.co.kr/data2/content/image/2026/06/25/.cache/512/20260625500357.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "(토마토칼럼)과세 정상화가 답은 아니다",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1305180&inflow=N",
+      "pubDate": "Fri, 26 Jun 2026 06:02:00 +0900",
+      "imageUrl": "https://image.newstomato.com/newsimg/2026/6/26/1305180/attach.jpg?v=202606251405"
+    },
+    {
+      "category": "부동산",
+      "title": "초품아 대단지 옆 고속도로 낀 375가구 \"분양가는 왜이래?\"ㅣ신문 대상 ...",
+      "url": "https://realty.chosun.com/site/data/html_dir/2026/06/25/2026062502927.html",
+      "pubDate": "Fri, 26 Jun 2026 06:02:00 +0900",
+      "imageUrl": "https://image.chosun.com/sitedata/image/202606/25/2026062502922_0.jpg"
     },
     {
       "category": "경제",
       "title": "구두개입 전혀 안먹히는 고환율…변동성 완화 방어 총력",
       "url": "https://www.nocutnews.co.kr/news/6538842?utm_source=naver&utm_medium=article&utm_campaign=20260626060040",
-      "pubDate": "Fri, 26 Jun 2026 06:01:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 06:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/06/26/0004161960_001_20260626060119431.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "임대 동에 발목 잡힌 리모델링…재건축처럼 토지분할 허용 추진",
+      "url": "https://www.newspim.com/news/view/20260625001107",
+      "pubDate": "Fri, 26 Jun 2026 06:00:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2025/03/06/2503061711418410_t1.jpg"
     },
     {
       "category": "기업",
@@ -207,10 +2465,18 @@
       "pubDate": "Fri, 26 Jun 2026 05:57:00 +0900"
     },
     {
+      "category": "부동산",
+      "title": "文정부때 서울 집값 너무 올랐다고?…지금이 더 올랐습니다",
+      "url": "https://www.mk.co.kr/article/12083622",
+      "pubDate": "Fri, 26 Jun 2026 05:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/06/26/0005699005_001_20260626055712932.jpg?type&#x3D;w800"
+    },
+    {
       "category": "국제",
       "title": "美국무부 차관보 “한국에 쿠팡 처우 불만 분명히 전달, 계속 논의할 것...",
       "url": "https://www.chosun.com/international/us/2026/06/26/Q2M7TQSLZFCH5JNOARKPIAZCRI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Fri, 26 Jun 2026 05:29:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 05:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/06/26/0003984214_001_20260626092408439.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",
@@ -219,28 +2485,46 @@
       "pubDate": "Fri, 26 Jun 2026 05:16:00 +0900"
     },
     {
+      "category": "부동산",
+      "title": "매물 잠그는 '등록임대' 겨눈 정부…집값 잡고 전세난 키우나",
+      "url": "https://www.news1.kr/realestate/general/6208608",
+      "pubDate": "Fri, 26 Jun 2026 05:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/06/26/0009024655_001_20260626050516982.jpg?type&#x3D;w800"
+    },
+    {
       "category": "사회",
       "title": "인도의 ‘바퀴벌레당’과 한국의 ‘모자무싸’ [제정임의 탐조등]",
       "url": "https://www.hani.co.kr/arti/opinion/column/1265447.html",
-      "pubDate": "Fri, 26 Jun 2026 05:04:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 05:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/028/2026/06/26/0002811459_001_20260626081010089.jpg?type&#x3D;w800"
     },
     {
       "category": "국제",
       "title": "애플, 맥북·아이패드 가격 20% 인상",
       "url": "https://www.g-enews.com/view.php?ud=2026062522371937439a1f309431_1",
-      "pubDate": "Fri, 26 Jun 2026 05:02:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 05:02:00 +0900",
+      "imageUrl": null
     },
     {
       "category": "국제",
       "title": "[단독]美 “韓, 반도체-핵심광물 등 공급망 안정화의 핵심 파트너”",
       "url": "https://www.donga.com/news/Inter/article/all/20260626/134180902/1",
-      "pubDate": "Fri, 26 Jun 2026 04:35:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 04:35:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/06/26/0003729635_001_20260626043506246.jpeg?type&#x3D;w800"
     },
     {
       "category": "국제",
       "title": "베네수엘라 39초 간격 7.2-7.5 강진… “5개 도시가 무너졌다”",
       "url": "https://www.donga.com/news/Inter/article/all/20260626/134185835/2",
-      "pubDate": "Fri, 26 Jun 2026 04:32:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 04:32:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/06/26/0003729579_001_20260626043231819.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "“더 오를 것 같아서요” 계약금 두 배 물고도 깬다…돌변한 집주인들,...",
+      "url": "https://www.sedaily.com/article/20060196?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 04:22:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635118_001_20260626042215785.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",
@@ -252,37 +2536,91 @@
       "category": "금융",
       "title": "휴전 합의·유가 떨어졌는데 왜...'킹달러' 1550원선 위협",
       "url": "https://www.mt.co.kr/economy/2026/06/26/2026062519404369693",
-      "pubDate": "Fri, 26 Jun 2026 04:05:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 04:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/06/26/0005377431_001_20260626062614021.jpg?type&#x3D;w800"
     },
     {
       "category": "경제",
       "title": "[사설] 장바구니 덮친 고환율, 낙관할 때 아니다",
       "url": "https://www.mt.co.kr/opinion/2026/06/26/2026062515204869119",
-      "pubDate": "Fri, 26 Jun 2026 04:00:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 04:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/06/26/0005377419_001_20260626041932281.jpg?type&#x3D;w800"
     },
     {
       "category": "금융",
       "title": "제이피모건, 코스피 낙관적 전망... 인공지능이 주도할 15,000 시나리오 ...",
       "url": "https://www.tokenpost.kr/news/market/372835",
-      "pubDate": "Fri, 26 Jun 2026 03:54:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 03:54:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/06/5mbjnjyiyv.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "‘세입자에 조세 전가할라…’ 부동산 세제 강공 기류 바뀌나",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782376139&code=11151500&cp=nv",
+      "pubDate": "Fri, 26 Jun 2026 02:07:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/005/2026/06/26/2026062522302485202_1782394224_1782376139_20260626020708770.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "전셋값 13년 만에 최고 상승률… “차라리 사자” 집값도 더 뛰었다",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782374528&code=11151500&cp=nv",
+      "pubDate": "Fri, 26 Jun 2026 00:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/005/2026/06/26/2026062520571184901_1782388631_1782374528_20260626005706530.jpg?type&#x3D;w800"
     },
     {
       "category": "금융",
       "title": "‘1500조’ 누구에게 맡기나… “국민연금, CIO 전문성이 답”",
       "url": "https://www.kmib.co.kr/article/view.asp?arcid=1782374414&code=11151300&cp=nv",
-      "pubDate": "Fri, 26 Jun 2026 00:52:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 00:52:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/005/2026/06/26/2026062520520684869_1782388326_1782374414_20260626005213131.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "싱가포르 부자들, 대박보다 연 8% 수익 선호",
+      "url": "https://www.chosun.com/economy/money/2026/06/26/2Z3BHLCBEZBNJDES3XJL4AQDTI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 26 Jun 2026 00:36:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/06/26/0003984150_001_20260626095711769.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "서울 아파트 전세價, 13년 만에 최대 폭 상승",
+      "url": "https://www.chosun.com/economy/real_estate/2026/06/26/QKXFRQX2E5HGTAAIQESQPEFXCM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Fri, 26 Jun 2026 00:33:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/06/26/0003984141_001_20260626100422569.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "주담대 6억 규제에도… 아파트값 10% 넘게 올랐다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260625/134184566/2",
+      "pubDate": "Fri, 26 Jun 2026 00:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/06/26/0003729558_001_20260626003132188.jpg?type&#x3D;w800"
     },
     {
       "category": "금융",
       "title": "코스피, 반도체주 급등에 5% 이상 상승…장중 9,000선 돌파",
       "url": "https://www.tokenpost.kr/news/market/372799",
-      "pubDate": "Fri, 26 Jun 2026 00:24:00 +0900"
+      "pubDate": "Fri, 26 Jun 2026 00:24:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/06/dfko20e7cz.jpg"
     },
     {
       "category": "기업",
       "title": "코스피, 반도체 투자심리에 힘입어 9,000선 재돌파",
       "url": "https://www.tokenpost.kr/news/market/372796",
       "pubDate": "Fri, 26 Jun 2026 00:14:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "[사설] 靑 내달 부동산 끝장토론…명쾌한 해법은 역시 ‘닥공’",
+      "url": "https://www.sedaily.com/article/20060206?ref=naver",
+      "pubDate": "Fri, 26 Jun 2026 00:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/06/26/0004635111_001_20260626000307995.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "서울 전셋값 상승률 13년 만에 최대…동탄 집값은 올해 11% 올라",
+      "url": "https://www.joongang.co.kr/article/25439997",
+      "pubDate": "Fri, 26 Jun 2026 00:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/06/26/0003533266_001_20260626000414941.jpg?type&#x3D;w800"
     },
     {
       "category": "기업",

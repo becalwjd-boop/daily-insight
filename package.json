@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "save-today": "tsx scripts/save-today.ts"
   },
   "dependencies": {
     "@capacitor/android": "^8.4.0",

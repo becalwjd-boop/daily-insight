@@ -8,8 +8,10 @@ export const categoryKeywords = [
     query: "",
   },
 
-  { name: "사회", query: "사회 복지 교육 노동" },
+  { name: "사회", query: "사회 사건 사고 교육 노동 복지 의료 법원 경찰" },
   { name: "국제", query: "미국 중국 일본 트럼프" },
+  { name: "연예", query: "연예" },
+  { name: "스포츠", query: "스포츠" },
 ];
 
 export function formatNewsDate(pubDate: string) {
@@ -246,23 +248,74 @@ export async function fetchThumbnailFromItem(item: any) {
   return null;
 }
 
-export async function addThumbnails(items: any[]) {
-  return Promise.all(
-    items.map(async (item) => {
-      const imageUrl = await fetchThumbnailFromItem(item);
-
-      return {
-        ...item,
-        imageUrl,
-      };
-    })
-  );
+function wait(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export async function getNewsByCategory(category: { name: string; query: string }) {
+export async function addThumbnails(items: any[]) {
+  const results: any[] = [];
+
+  for (let i = 0; i < items.length; i += 4) {
+    const chunk = items.slice(i, i + 4);
+
+    const chunkResults = await Promise.all(
+      chunk.map(async (item) => {
+        const imageUrl = await fetchThumbnailFromItem(item);
+
+        return {
+          ...item,
+          imageUrl,
+        };
+      })
+    );
+
+    results.push(...chunkResults);
+
+    await wait(120);
+  }
+
+  return results;
+}
+
+export async function getNewsByCategory(category: {
+  name: string;
+  query: string;
+}) {
   let items: any[] = [];
 
-  if (category.name === "부동산") {
+  if (category.name === "경제") {
+    const economyQueries = [
+      "경제 성장률 GDP",
+      "물가 소비자물가",
+      "수출 무역",
+      "고용 실업",
+      "한국은행 경제",
+      "정부 경제정책",
+    ];
+
+    const results = await Promise.all(
+      economyQueries.map((query) => fetchNaverNews(query, 30))
+    );
+
+    items = results.flat();
+
+  } else if (category.name === "금융") {
+    const financeQueries = [
+      "코스피 코스닥",
+      "환율 달러 원화",
+      "금리 채권",
+      "증권 ETF",
+      "은행 금융",
+      "비트코인 가상자산",
+    ];
+
+    const results = await Promise.all(
+      financeQueries.map((query) => fetchNaverNews(query, 30))
+    );
+
+    items = results.flat();
+
+  } else if (category.name === "부동산") {
     const realEstateQueries = [
       "아파트 집값 전세 매매",
       "재건축 재개발 리모델링",
@@ -276,15 +329,208 @@ export async function getNewsByCategory(category: { name: string; query: string 
     );
 
     items = results.flat();
+
+  } else if (category.name === "사회") {
+    const socialQueries = [
+      "사회",
+      "사건 사고",
+      "법원 검찰",
+      "경찰",
+      "교육",
+      "복지",
+      "노동",
+    ];
+
+    const results = await Promise.all(
+      socialQueries.map((query) => fetchNaverNews(query, 30))
+    );
+
+    items = results.flat();
+
+  } else if (category.name === "국제") {
+    const internationalQueries = [
+      "미국 중국",
+      "일본",
+      "유럽",
+      "중동",
+      "러시아 우크라이나",
+      "국제 외교",
+    ];
+
+    const results = await Promise.all(
+      internationalQueries.map((query) => fetchNaverNews(query, 30))
+    );
+
+    items = results.flat();
+
+  } else if (category.name === "기업") {
+    const companyQueries = [
+      "삼성전자 SK하이닉스",
+      "현대차 기아",
+      "LG 배터리",
+      "네이버 카카오",
+      "기업 실적",
+      "AI 반도체",
+    ];
+
+    const results = await Promise.all(
+      companyQueries.map((query) => fetchNaverNews(query, 30))
+    );
+
+    items = results.flat();
+
+  } else if (category.name === "스포츠") {
+    const sportsQueries = [
+      "축구 손흥민 이강인",
+      "야구 KBO 류현진 김하성",
+      "농구 배구",
+      "골프 테니스",
+      "MLB EPL K리그",
+      "월드컵 대표팀",
+    ];
+
+    const results = await Promise.all(
+      sportsQueries.map((query) => fetchNaverNews(query, 30))
+    );
+
+    items = results.flat();
+
   } else {
     items = await fetchNaverNews(category.query, 30);
   }
 
   const todayString = getKoreaTodayString();
-
   const dedupedItems = removeDuplicateNews(items);
 
-  const todayItems = dedupedItems
+  let filteredItems = dedupedItems;
+
+  // -----------------------------
+  // 경제 품질 개선
+  // -----------------------------
+  if (category.name === "경제") {
+    const economyNegative = [
+      "코스피",
+      "코스닥",
+      "증시",
+      "ETF",
+      "주가",
+      "비트코인",
+      "가상자산",
+      "연예",
+      "스포츠",
+    ];
+
+    filteredItems = dedupedItems.filter((item: any) => {
+      const title = cleanTitle(item.title);
+
+      return !economyNegative.some((word) => title.includes(word));
+    });
+  }
+
+  // -----------------------------
+  // 금융 품질 개선
+  // -----------------------------
+  if (category.name === "금융") {
+    const financeNegative = [
+      "연예",
+      "스포츠",
+      "배우",
+      "가수",
+      "드라마",
+      "영화",
+      "예능",
+    ];
+
+    filteredItems = dedupedItems.filter((item: any) => {
+      const title = cleanTitle(item.title);
+
+      return !financeNegative.some((word) => title.includes(word));
+    });
+  }
+
+  // -----------------------------
+  // 스포츠 품질 개선
+  // -----------------------------
+  if (category.name === "스포츠") {
+    const sportsPositive = [
+      "축구",
+      "야구",
+      "농구",
+      "배구",
+      "골프",
+      "테니스",
+      "KBO",
+      "MLB",
+      "EPL",
+      "K리그",
+      "NBA",
+      "손흥민",
+      "이강인",
+      "김민재",
+      "류현진",
+      "김하성",
+      "오타니",
+      "선수",
+      "감독",
+      "경기",
+      "리그",
+      "월드컵",
+    ];
+
+    const sportsNegative = [
+      "e스포츠",
+      "E스포츠",
+      "게임",
+      "LOL",
+      "리그오브레전드",
+      "발로란트",
+      "배틀그라운드",
+      "배우",
+      "드라마",
+      "영화",
+      "예능",
+      "홍석천",
+      "아이돌",
+      "가수",
+    ];
+
+    filteredItems = dedupedItems.filter((item: any) => {
+      const title = cleanTitle(item.title);
+
+      return (
+        sportsPositive.some((word) => title.includes(word)) &&
+        !sportsNegative.some((word) => title.includes(word))
+      );
+    });
+  }
+
+  // -----------------------------
+  // 기업 품질 개선
+  // -----------------------------
+  if (category.name === "기업") {
+    const companyNegative = [
+      "코스피",
+      "코스닥",
+      "증시",
+      "ETF",
+      "환율",
+      "금리",
+      "주가",
+      "상승",
+      "하락",
+      "외국인",
+      "기관",
+      "개미",
+    ];
+
+    filteredItems = dedupedItems.filter((item: any) => {
+      const title = cleanTitle(item.title);
+
+      return !companyNegative.some((word) => title.includes(word));
+    });
+  }
+
+  const todayItems = filteredItems
     .filter((item: any) => formatNewsDate(item.pubDate) === todayString)
     .sort(
       (a: any, b: any) =>
@@ -301,12 +547,21 @@ export async function getNewsByCategory(category: { name: string; query: string 
 }
 
 export function getRealtimeNews(categories: { name: string; items: any[] }[]) {
-  const allItems = categories.flatMap((category) =>
-    category.items.map((item) => ({
-      ...item,
-      categoryName: category.name,
-    }))
-  );
+  const realtimeCategories = ["경제", "금융", "기업", "부동산", "사회", "국제"];
+
+  const allItems = categories
+    .filter((category) => realtimeCategories.includes(category.name))
+    .flatMap((category) =>
+      category.items.map((item) => ({
+        ...item,
+        categoryName: category.name,
+      }))
+    )
+    .sort((a: any, b: any) => {
+      if (a.imageUrl && !b.imageUrl) return -1;
+      if (!a.imageUrl && b.imageUrl) return 1;
+      return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
+    });
 
   return removeDuplicateNews(allItems)
     .sort(
