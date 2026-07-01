@@ -33,7 +33,7 @@ export default function ShareCategoryButton({
             "",
             "────────────",
             "실시간 뉴스 더 보기",
-            "https://daily-insight-news.vercel.app",
+            "https://daily-insight-blush.vercel.app",
         ].join("\n\n");
 
         await navigator.clipboard.writeText(text);
