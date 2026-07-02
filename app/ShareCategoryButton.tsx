@@ -86,7 +86,7 @@ export default function ShareCategoryButton({
             className={
                 variant === "primary"
                     ? "rounded-full bg-white px-5 py-3 text-sm font-semibold text-gray-700 shadow-sm transition hover:bg-blue-50 hover:text-blue-600"
-                    : "rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500 transition hover:bg-blue-50 hover:text-blue-600"
+                    : "whitespace-nowrap rounded-full bg-gray-100 px-3 py-1 text-xs sm:text-sm font-semibold text-gray-500 transition hover:bg-blue-50 hover:text-blue-600"
             }
         >
             {copied ? "복사 완료" : buttonText}

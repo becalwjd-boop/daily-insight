@@ -111,23 +111,24 @@ export default async function Home() {
         </header>
 
         <section className="mb-8 rounded-3xl bg-white p-6 shadow-sm">
-          <div className="mb-5 flex items-center justify-between">
-            <div>
+          <div className="mb-5 flex items-start justify-between gap-3">
+            <div className="min-w-0 flex-1">
               <p className="text-sm font-semibold text-blue-600">
                 REALTIME NEWS
               </p>
-              <h2 className="mt-2 text-2xl font-bold">
+              <h2 className="mt-2 text-2xl font-bold sm:whitespace-nowrap">
                 실시간 최신 뉴스
               </h2>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex shrink-0 items-center gap-2">
               <ShareCategoryButton
                 categoryName="실시간 최신 뉴스"
                 items={realtimeNews}
+                buttonText="복사"
               />
 
-              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500">
+              <span className="whitespace-nowrap rounded-full bg-gray-100 px-3 py-1 text-xs sm:text-sm font-semibold text-gray-500">
                 20 articles
               </span>
             </div>
