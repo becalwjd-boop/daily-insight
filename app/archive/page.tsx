@@ -15,23 +15,39 @@ export default function ArchivePage() {
       .sort()
       .reverse();
 
-    archives = files.map((file) => {
-      const filePath = path.join(archiveDir, file);
-      const fileContents = fs.readFileSync(filePath, "utf-8");
-      const data = JSON.parse(fileContents);
+    archives = files
+      .map((file) => {
+        try {
+          const filePath = path.join(archiveDir, file);
+          const fileContents = fs.readFileSync(filePath, "utf-8");
+          const data = JSON.parse(fileContents);
 
-      return {
-        date: data.date,
-        count: data.articles?.length || 0,
-      };
-    });
-  } catch (error) {
+          const date = data.date || file.replace(".json", "");
+
+          const count =
+            data.articles?.length ||
+            Object.values(data.categories || {}).reduce(
+              (sum: number, articles: any) =>
+                sum + (Array.isArray(articles) ? articles.length : 0),
+              0
+            ) ||
+            0;
+
+          return {
+            date,
+            count,
+          };
+        } catch {
+          return null;
+        }
+      })
+      .filter(Boolean) as { date: string; count: number }[];
+  } catch {
     archives = [];
   }
 
   return (
     <main className="min-h-screen bg-[#f6f7f9]">
-
       <ScrollToTopButton />
 
       <section className="mx-auto max-w-5xl px-6 py-10">
