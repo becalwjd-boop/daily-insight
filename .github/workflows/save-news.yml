@@ -27,7 +27,7 @@ jobs:
           echo "NAVER_CLIENT_SECRET=${{ secrets.NAVER_CLIENT_SECRET }}" >> .env.local
 
       - name: Save News
-        run: node scripts/save-today.js
+        run: npx tsx scripts/save-today.ts
 
       - name: Commit Archive
         run: |
