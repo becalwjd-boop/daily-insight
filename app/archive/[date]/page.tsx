@@ -4,6 +4,8 @@ import ArchiveCategory from "./ArchiveCategory";
 import CategoryShortcut from "@/app/CategoryShortcut";
 import ScrollToTopButton from "@/app/ScrollToTopButton";
 
+export const dynamic = "force-dynamic";
+
 const categoryOrder = ["경제", "금융", "기업", "부동산", "사회", "국제", "연예", "스포츠"];
 
 export default async function ArchiveDatePage({

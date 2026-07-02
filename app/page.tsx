@@ -93,6 +93,18 @@ export default async function Home() {
             >
               아카이브 보기
             </a>
+
+            <ShareCategoryButton
+              buttonText="전체 헤드라인 복사"
+              variant="primary"
+              groups={[
+                { categoryName: "실시간 최신 뉴스", items: realtimeNews },
+                ...categories.map((category) => ({
+                  categoryName: category.name,
+                  items: category.items,
+                })),
+              ]}
+            />
           </div>
 
           <CategoryShortcut />
@@ -109,9 +121,16 @@ export default async function Home() {
               </h2>
             </div>
 
-            <span className="rounded-full bg-blue-50 px-3 py-1 text-xs font-semibold text-blue-600">
-              20 articles
-            </span>
+            <div className="flex items-center gap-2">
+              <ShareCategoryButton
+                categoryName="실시간 최신 뉴스"
+                items={realtimeNews}
+              />
+
+              <span className="rounded-full bg-gray-100 px-3 py-1 text-xs font-semibold text-gray-500">
+                20 articles
+              </span>
+            </div>
           </div>
 
           <ul className="space-y-4">
@@ -289,6 +308,6 @@ export default async function Home() {
           </a>
         </footer>
       </section>
-    </main>
+    </main >
   );
 }

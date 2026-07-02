@@ -3,6 +3,8 @@ import path from "path";
 import ArchiveList from "./ArchiveList";
 import ScrollToTopButton from "../ScrollToTopButton";
 
+export const dynamic = "force-dynamic";
+
 export default function ArchivePage() {
   const archiveDir = path.join(process.cwd(), "data", "archives");
 
