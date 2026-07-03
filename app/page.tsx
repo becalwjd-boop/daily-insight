@@ -125,7 +125,7 @@ export default async function Home() {
               <ShareCategoryButton
                 categoryName="실시간 최신 뉴스"
                 items={realtimeNews}
-                buttonText="복사"
+                buttonText="헤드라인 복사"
               />
 
               <span className="whitespace-nowrap rounded-full bg-gray-100 px-3 py-1 text-xs sm:text-sm font-semibold text-gray-500">
