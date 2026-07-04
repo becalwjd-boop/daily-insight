@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -36,6 +38,12 @@ jobs:
 
           git add data/archives/*.json
 
-          git diff --cached --quiet || git commit -m "auto archive update"
+          if git diff --cached --quiet; then
+            echo "No archive changes to commit"
+            exit 0
+          fi
 
-          git push
+          git commit -m "auto archive update"
+
+          git pull --rebase origin main
+          git push origin main
