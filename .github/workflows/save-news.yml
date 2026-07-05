@@ -2,7 +2,7 @@ name: Save Daily News
 
 on:
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "59 14 * * *"
   workflow_dispatch:
 
 jobs:

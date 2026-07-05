@@ -3,42 +3,6 @@
   "createdAt": "2026-06-20T23:59:13.635Z",
   "articles": [
     {
-      "category": "경제",
-      "title": "[코스피·코스닥지수] 9,000선 돌파한 코스피, '1만피' 향한 질주 이어질...",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204668",
-      "pubDate": "Sun, 21 Jun 2026 07:38:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[마켓인사이트] 9,000선 넘어선 코스피, '1만피' 질주 이어갈까",
-      "url": "https://www.yna.co.kr/view/AKR20260619168100008?input=1195m",
-      "pubDate": "Sun, 21 Jun 2026 07:01:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[글로벌 경제지표] 美 1분기 GDP·5월 PCE 주목…마이크론 실적 '반도체...",
-      "url": "https://biz.sbs.co.kr/article_hub/20000317625?division=NAVER",
-      "pubDate": "Sun, 21 Jun 2026 07:00:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "엔화 40년 저점 눈앞…일본발 환율 쇼크 오나",
-      "url": "https://sateconomy.co.kr/news/view/1065625131063307",
-      "pubDate": "Sun, 21 Jun 2026 00:06:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[더페어 돋보기] '천의 자리' 바꾼 코스피, 사상 첫 9000선 안착 뒤 숨고...",
-      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=80010",
-      "pubDate": "Sun, 21 Jun 2026 00:00:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "코스피 1만 2000 진입 조건… 탄탄한 랠리 속 투자자가 주시해야 할 핵심...",
-      "url": "https://www.g-enews.com/view.php?ud=202606201717412018fbbec65dfb_1",
-      "pubDate": "Sun, 21 Jun 2026 03:26:00 +0900"
-    },
-    {
       "category": "기업",
       "title": "삼성전자·SK하이닉스 쏠림 심화…코스피 거래 비중 커졌다",
       "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000043924",
@@ -85,12 +49,6 @@
       "title": "청약 경쟁률 7배 높았다…정비사업 단지, 분양시장 ‘흥행 보증수표’",
       "url": "https://www.dailian.co.kr/news/view/1657558/?sc=Naver",
       "pubDate": "Sun, 21 Jun 2026 08:30:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "&quot;AI가 번 돈, 국민에게 돌려줄까&quot;...미국서 불붙은 AI과세 논쟁",
-      "url": "https://www.mt.co.kr/world/2026/06/21/2026061817140932733",
-      "pubDate": "Sun, 21 Jun 2026 06:00:00 +0900"
     },
     {
       "category": "국제",
@@ -151,6 +109,49 @@
       "title": "전작권 환수 &quot;준비됐나&quot; 묻는 미국…&quot;충분하다&quot; 답하는 한국",
       "url": "https://www.newsverse.kr/news/articleView.html?idxno=10725",
       "pubDate": "Sun, 21 Jun 2026 01:46:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[코스피·코스닥지수] 9,000선 돌파한 코스피, '1만피' 향한 질주 이어질...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204668",
+      "pubDate": "Sun, 21 Jun 2026 07:38:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[마켓인사이트] 9,000선 넘어선 코스피, '1만피' 질주 이어갈까",
+      "url": "https://www.yna.co.kr/view/AKR20260619168100008?input=1195m",
+      "pubDate": "Sun, 21 Jun 2026 07:01:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[글로벌 경제지표] 美 1분기 GDP·5월 PCE 주목…마이크론 실적 '반도체...",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317625?division=NAVER",
+      "pubDate": "Sun, 21 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "엔화 40년 저점 눈앞…일본발 환율 쇼크 오나",
+      "url": "https://sateconomy.co.kr/news/view/1065625131063307",
+      "pubDate": "Sun, 21 Jun 2026 00:06:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[더페어 돋보기] '천의 자리' 바꾼 코스피, 사상 첫 9000선 안착 뒤 숨고...",
+      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=80010",
+      "pubDate": "Sun, 21 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "&quot;AI가 번 돈, 국민에게 돌려줄까&quot;...미국서 불붙은 AI과세 논쟁",
+      "url": "https://www.mt.co.kr/world/2026/06/21/2026061817140932733",
+      "pubDate": "Sun, 21 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "코스피 1만 2000 진입 조건… 탄탄한 랠리 속 투자자가 주시해야 할 핵심...",
+      "url": "https://www.g-enews.com/view.php?ud=202606201717412018fbbec65dfb_1",
+      "pubDate": "Sun, 21 Jun 2026 03:26:00 +0900"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-05T04:31:20.728Z"
 }

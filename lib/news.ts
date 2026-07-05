@@ -306,244 +306,7 @@ export async function addThumbnails(items: any[]) {
   return results;
 }
 
-export async function getNewsByCategory(category: {
-  name: string;
-  query: string;
-}) {
-  let items: any[] = [];
-
-  if (category.name === "경제") {
-    const economyQueries = [
-      "경제 성장률 GDP",
-      "물가 소비자물가",
-      "수출 무역",
-      "고용 실업",
-      "한국은행 경제",
-      "정부 경제정책",
-    ];
-
-    items = await fetchNewsQueriesSequential(economyQueries, 30);
-  } else if (category.name === "금융") {
-    const financeQueries = [
-      "코스피 코스닥",
-      "환율 달러 원화",
-      "금리 채권",
-      "증권 ETF",
-      "은행 금융",
-      "비트코인 가상자산",
-    ];
-
-    items = await fetchNewsQueriesSequential(financeQueries, 30);
-  } else if (category.name === "부동산") {
-    const realEstateQueries = [
-      "아파트 집값 전세 매매",
-      "재건축 재개발 리모델링",
-      "청약 분양 분양가 입주",
-      "1기 신도시 공공기여금",
-      "부동산 정책 대출 세금",
-    ];
-
-    items = await fetchNewsQueriesSequential(realEstateQueries, 30);
-  } else if (category.name === "사회") {
-    const socialQueries = [
-      "사회",
-      "사건 사고",
-      "법원 검찰",
-      "경찰",
-      "교육",
-      "복지",
-      "노동",
-    ];
-
-    items = await fetchNewsQueriesSequential(socialQueries, 30);
-  } else if (category.name === "국제") {
-    const internationalQueries = [
-      "미국 중국",
-      "일본",
-      "유럽",
-      "중동",
-      "러시아 우크라이나",
-      "국제 외교",
-    ];
-
-    items = await fetchNewsQueriesSequential(internationalQueries, 30);
-  } else if (category.name === "기업") {
-    const companyQueries = [
-      "삼성전자 SK하이닉스",
-      "현대차 기아",
-      "LG 배터리",
-      "네이버 카카오",
-      "기업 실적",
-      "AI 반도체",
-    ];
-
-    items = await fetchNewsQueriesSequential(companyQueries, 30);
-  } else if (category.name === "스포츠") {
-    const sportsQueries = [
-      "축구 손흥민 이강인",
-      "야구 KBO 류현진 김하성",
-      "농구 배구",
-      "골프 테니스",
-      "MLB EPL K리그",
-      "월드컵 대표팀",
-    ];
-
-    items = await fetchNewsQueriesSequential(sportsQueries, 30);
-  } else {
-    items = await fetchNaverNews(category.query, 30);
-  }
-
-  const todayString = getKoreaTodayString();
-  const dedupedItems = removeDuplicateNews(items);
-
-  let filteredItems = dedupedItems;
-
-  if (category.name === "경제") {
-    const economyNegative = [
-      "코스피",
-      "코스닥",
-      "증시",
-      "ETF",
-      "주가",
-      "비트코인",
-      "가상자산",
-      "연예",
-      "스포츠",
-    ];
-
-    filteredItems = dedupedItems.filter((item: any) => {
-      const title = cleanTitle(item.title);
-      return !economyNegative.some((word) => title.includes(word));
-    });
-  }
-
-  if (category.name === "금융") {
-    const financeNegative = [
-      "연예",
-      "스포츠",
-      "배우",
-      "가수",
-      "드라마",
-      "영화",
-      "예능",
-    ];
-
-    filteredItems = dedupedItems.filter((item: any) => {
-      const title = cleanTitle(item.title);
-      return !financeNegative.some((word) => title.includes(word));
-    });
-  }
-
-  if (category.name === "스포츠") {
-    const sportsPositive = [
-      "축구",
-      "야구",
-      "농구",
-      "배구",
-      "골프",
-      "테니스",
-      "KBO",
-      "MLB",
-      "EPL",
-      "K리그",
-      "NBA",
-      "손흥민",
-      "이강인",
-      "김민재",
-      "류현진",
-      "김하성",
-      "오타니",
-      "선수",
-      "감독",
-      "경기",
-      "리그",
-      "월드컵",
-    ];
-
-    const sportsNegative = [
-      "e스포츠",
-      "E스포츠",
-      "게임",
-      "LOL",
-      "리그오브레전드",
-      "발로란트",
-      "배틀그라운드",
-      "배우",
-      "드라마",
-      "영화",
-      "예능",
-      "홍석천",
-      "아이돌",
-      "가수",
-    ];
-
-    filteredItems = dedupedItems.filter((item: any) => {
-      const title = cleanTitle(item.title);
-
-      return (
-        sportsPositive.some((word) => title.includes(word)) &&
-        !sportsNegative.some((word) => title.includes(word))
-      );
-    });
-  }
-
-  if (category.name === "기업") {
-    const companyNegative = [
-      "코스피",
-      "코스닥",
-      "증시",
-      "ETF",
-      "환율",
-      "금리",
-      "주가",
-      "상승",
-      "하락",
-      "외국인",
-      "기관",
-      "개미",
-    ];
-
-    filteredItems = dedupedItems.filter((item: any) => {
-      const title = cleanTitle(item.title);
-      return !companyNegative.some((word) => title.includes(word));
-    });
-  }
-
-  const todayItems = filteredItems
-    .filter((item: any) => formatNewsDate(item.pubDate) === todayString)
-    .sort(
-      (a: any, b: any) =>
-        new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
-    )
-    .slice(0, 20);
-
-  const itemsWithThumbnails = await addThumbnails(todayItems);
-
-  return {
-    name: category.name,
-    items: itemsWithThumbnails,
-  };
-}
-
-export async function getNewsByCategoryForArchive(category: {
-  name: string;
-  query: string;
-}) {
-  const result = await getNewsByCategoryWithCustomLimit(category, 100);
-
-  return {
-    name: result.name,
-    items: result.items.map((item: any) => ({
-      category: result.name,
-      title: cleanTitle(item.title),
-      url: item.originallink || item.link || item.url,
-      pubDate: item.pubDate,
-      imageUrl: item.imageUrl || null,
-    })),
-  };
-}
-
-async function getNewsByCategoryWithCustomLimit(
+async function getNewsByCategoryWithLimit(
   category: {
     name: string;
     query: string;
@@ -578,11 +341,31 @@ async function getNewsByCategoryWithCustomLimit(
     items = await fetchNewsQueriesSequential(financeQueries, display);
   } else if (category.name === "부동산") {
     const realEstateQueries = [
+      // 기존
       "아파트 집값 전세 매매",
       "재건축 재개발 리모델링",
       "청약 분양 분양가 입주",
       "1기 신도시 공공기여금",
       "부동산 정책 대출 세금",
+
+      // 추가
+      "서울 아파트",
+      "수도권 아파트",
+      "신축 아파트",
+      "재건축",
+      "재개발",
+      "전세",
+      "월세",
+      "분양",
+      "청약",
+      "입주",
+      "오피스텔",
+      "빌라",
+      "토지",
+      "상가",
+      "집값",
+      "매매",
+      "부동산 시장",
     ];
 
     items = await fetchNewsQueriesSequential(realEstateQueries, display);
@@ -729,6 +512,87 @@ async function getNewsByCategoryWithCustomLimit(
     });
   }
 
+  if (category.name === "부동산") {
+    const realEstateWeights: Record<string, number> = {
+      아파트: 6,
+      실거래가: 6,
+      신고가: 6,
+      집값: 5,
+      전세: 5,
+      월세: 5,
+      매매: 5,
+      청약: 5,
+      분양: 5,
+      입주: 4,
+      재건축: 4,
+      재개발: 4,
+      리모델링: 3,
+      오피스텔: 3,
+      빌라: 3,
+      토지: 3,
+      상가: 3,
+      주택: 3,
+      공시가격: 3,
+      부동산: 2,
+      신도시: 2,
+    };
+
+    const realEstateNegativeWeights: Record<string, number> = {
+      코스피: 6,
+      코스닥: 6,
+      ETF: 6,
+      비트코인: 6,
+      가상자산: 6,
+      주가: 6,
+      증시: 6,
+      반도체: 5,
+      삼성전자: 5,
+      SK하이닉스: 5,
+      현대차: 5,
+      카카오: 4,
+      네이버: 4,
+      AI: 4,
+      드라마: 4,
+      영화: 4,
+      예능: 4,
+      배우: 4,
+      가수: 4,
+      스포츠: 4,
+    };
+
+    filteredItems = dedupedItems
+      .map((item: any) => {
+        const title = cleanTitle(item.title);
+
+        let relevanceScore = 0;
+
+        Object.entries(realEstateWeights).forEach(([word, weight]) => {
+          if (title.includes(word)) {
+            relevanceScore += weight;
+          }
+        });
+
+        Object.entries(realEstateNegativeWeights).forEach(([word, weight]) => {
+          if (title.includes(word)) {
+            relevanceScore -= weight;
+          }
+        });
+
+        return {
+          ...item,
+          relevanceScore,
+        };
+      })
+      .filter((item: any) => item.relevanceScore > 0)
+      .sort((a: any, b: any) => {
+        if (b.relevanceScore !== a.relevanceScore) {
+          return b.relevanceScore - a.relevanceScore;
+        }
+
+        return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
+      });
+  }
+
   if (category.name === "기업") {
     const companyNegative = [
       "코스피",
@@ -764,6 +628,31 @@ async function getNewsByCategoryWithCustomLimit(
   return {
     name: category.name,
     items: itemsWithThumbnails,
+  };
+}
+
+export async function getNewsByCategory(category: {
+  name: string;
+  query: string;
+}) {
+  return getNewsByCategoryWithLimit(category, 20);
+}
+
+export async function getNewsByCategoryForArchive(category: {
+  name: string;
+  query: string;
+}) {
+  const result = await getNewsByCategoryWithLimit(category, 100);
+
+  return {
+    name: result.name,
+    items: result.items.map((item: any) => ({
+      category: result.name,
+      title: cleanTitle(item.title),
+      url: item.originallink || item.link || item.url,
+      pubDate: item.pubDate,
+      imageUrl: item.imageUrl || null,
+    })),
   };
 }
 

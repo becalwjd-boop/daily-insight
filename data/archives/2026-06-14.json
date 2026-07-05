@@ -3,10 +3,52 @@
   "createdAt": "2026-06-13T23:58:34.549Z",
   "articles": [
     {
+      "category": "국제",
+      "title": "[코스피·코스닥지수] 이란 전쟁 리스크 완화 기대…코스피, 반등 흐름...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204225",
+      "pubDate": "Sun, 14 Jun 2026 08:54:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[마켓인사이트] 이란전쟁 악재 끝나나…코스피 반등 지속 기대",
+      "url": "https://www.yna.co.kr/view/AKR20260612169700008?input=1195m",
+      "pubDate": "Sun, 14 Jun 2026 07:01:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "반도체·배터리·조선 전부 타깃…미국 새 관세 설계도, 한국 투자자가...",
+      "url": "https://www.g-enews.com/view.php?ud=202606140616385352bd56fbc3c_1",
+      "pubDate": "Sun, 14 Jun 2026 06:22:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "美·이란 종전 합의 임박…케빈 워시 첫 FOMC '증시 방향타'",
+      "url": "https://www.news1.kr/finance/market-exr/6196379",
+      "pubDate": "Sun, 14 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "글로벌 무역불균형 GDP 3.7%… G7 에비앙 정상회의 '뇌관' 부상",
+      "url": "https://www.g-enews.com/view.php?ud=2026061405523757292bd56fbc3c_1",
+      "pubDate": "Sun, 14 Jun 2026 05:58:00 +0900"
+    },
+    {
       "category": "경제",
       "title": "[미국 뉴욕증시] 미·이란 종전 합의 임박 FOMC와 워시 의장 첫 시험대 ...",
       "url": "https://www.lecturernews.com/news/articleView.html?idxno=204224",
       "pubDate": "Sun, 14 Jun 2026 08:52:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[중동전쟁 100일, 한국 경제 흔들다⑦] 호르무즈 리스크 재부각…한국 ...",
+      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=90787",
+      "pubDate": "Sun, 14 Jun 2026 07:22:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "불안 요인 부각되는 러시아…우크라이나 전쟁 흐름 변화",
+      "url": "https://www.mt.co.kr/world/2026/06/14/2026061116561169895",
+      "pubDate": "Sun, 14 Jun 2026 06:00:00 +0900"
     },
     {
       "category": "금융",
@@ -21,34 +63,10 @@
       "pubDate": "Sun, 14 Jun 2026 08:08:00 +0900"
     },
     {
-      "category": "경제",
-      "title": "[중동전쟁 100일, 한국 경제 흔들다⑦] 호르무즈 리스크 재부각…한국 ...",
-      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=90787",
-      "pubDate": "Sun, 14 Jun 2026 07:22:00 +0900"
-    },
-    {
       "category": "금융",
       "title": "‘셀 코리아’와 강달러의 이중 압박… 1500원대 굳어지는 환율",
       "url": "https://weekly.donga.com/3/all/11/6265636/1",
       "pubDate": "Sun, 14 Jun 2026 07:01:00 +0900"
-    },
-    {
-      "category": "국제",
-      "title": "[마켓인사이트] 이란전쟁 악재 끝나나…코스피 반등 지속 기대",
-      "url": "https://www.yna.co.kr/view/AKR20260612169700008?input=1195m",
-      "pubDate": "Sun, 14 Jun 2026 07:01:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "50년 만의 고성장에도 저고용…불균형·변동성 직면한 한국경제",
-      "url": "https://www.yna.co.kr/view/AKR20260613049500002?input=1195m",
-      "pubDate": "Sun, 14 Jun 2026 06:01:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "불안 요인 부각되는 러시아…우크라이나 전쟁 흐름 변화",
-      "url": "https://www.mt.co.kr/world/2026/06/14/2026061116561169895",
-      "pubDate": "Sun, 14 Jun 2026 06:00:00 +0900"
     },
     {
       "category": "금융",
@@ -57,10 +75,10 @@
       "pubDate": "Sun, 14 Jun 2026 07:01:00 +0900"
     },
     {
-      "category": "국제",
-      "title": "[코스피·코스닥지수] 이란 전쟁 리스크 완화 기대…코스피, 반등 흐름...",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204225",
-      "pubDate": "Sun, 14 Jun 2026 08:54:00 +0900"
+      "category": "금융",
+      "title": "50년 만의 고성장에도 저고용…불균형·변동성 직면한 한국경제",
+      "url": "https://www.yna.co.kr/view/AKR20260613049500002?input=1195m",
+      "pubDate": "Sun, 14 Jun 2026 06:01:00 +0900"
     },
     {
       "category": "기업",
@@ -97,24 +115,7 @@
       "title": "[Q&amp;A]김수영 교수 &quot;자기경영에 빠진 청년들, '풍요로운 고립'에 갇혔다&quot;",
       "url": "https://www.nocutnews.co.kr/news/6531766?utm_source=naver&utm_medium=article&utm_campaign=20260614053036",
       "pubDate": "Sun, 14 Jun 2026 05:31:00 +0900"
-    },
-    {
-      "category": "국제",
-      "title": "반도체·배터리·조선 전부 타깃…미국 새 관세 설계도, 한국 투자자가...",
-      "url": "https://www.g-enews.com/view.php?ud=202606140616385352bd56fbc3c_1",
-      "pubDate": "Sun, 14 Jun 2026 06:22:00 +0900"
-    },
-    {
-      "category": "국제",
-      "title": "美·이란 종전 합의 임박…케빈 워시 첫 FOMC '증시 방향타'",
-      "url": "https://www.news1.kr/finance/market-exr/6196379",
-      "pubDate": "Sun, 14 Jun 2026 06:00:00 +0900"
-    },
-    {
-      "category": "국제",
-      "title": "글로벌 무역불균형 GDP 3.7%… G7 에비앙 정상회의 '뇌관' 부상",
-      "url": "https://www.g-enews.com/view.php?ud=2026061405523757292bd56fbc3c_1",
-      "pubDate": "Sun, 14 Jun 2026 05:58:00 +0900"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-05T04:31:20.714Z"
 }

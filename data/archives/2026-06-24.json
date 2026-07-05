@@ -4,36 +4,6 @@
   "articles": [
     {
       "category": "금융",
-      "title": "[스타트 경제] 코스피 하루 만에 10% 급락...8,200선 턱걸이 '역대 최대'...",
-      "url": "https://www.ytn.co.kr/_ln/0102_202606240737571739",
-      "pubDate": "Wed, 24 Jun 2026 07:37:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "1550원 앞두고 멈춘 환율…국민연금·당국 '보이지 않는 방어선'",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713645",
-      "pubDate": "Wed, 24 Jun 2026 06:32:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "외국인 매도·美 금리 인상 가능성에 ‘高환율’",
-      "url": "https://www.chosun.com/economy/stock-finance/2026/06/24/GQLRMGKUWFBDVHKUK6UTDEJL7E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Wed, 24 Jun 2026 00:35:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "반도체 호황 ‘불길’이 부동산으로?… 집값 상승 전망 5개월 만에 최고",
-      "url": "https://www.chosun.com/economy/economy_general/2026/06/24/T5FO35L6BNGGNDDF4S6ITWE2I4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Wed, 24 Jun 2026 00:35:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "&quot;하반기 중 기준금리 0.25%포인트씩 두 차례 인상 전망&quot;",
-      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=36863",
-      "pubDate": "Wed, 24 Jun 2026 00:00:00 +0900"
-    },
-    {
-      "category": "금융",
       "title": "미국→아시아→미국 도미노 조정 계속되나...'AI·반도체 고평가' 덮친 ...",
       "url": "https://www.livebiz.today/news/articleView.html?idxno=202826",
       "pubDate": "Wed, 24 Jun 2026 08:48:00 +0900"
@@ -97,6 +67,12 @@
       "title": "뉴욕증시, AI·반도체주 급락에 일제히 후퇴···이란 제재 완화에 유가...",
       "url": "https://www.smartbizn.com/news/articleView.html?idxno=146874",
       "pubDate": "Wed, 24 Jun 2026 07:46:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[스타트 경제] 코스피 하루 만에 10% 급락...8,200선 턱걸이 '역대 최대'...",
+      "url": "https://www.ytn.co.kr/_ln/0102_202606240737571739",
+      "pubDate": "Wed, 24 Jun 2026 07:37:00 +0900"
     },
     {
       "category": "금융",
@@ -391,6 +367,31 @@
       "title": "[잡채기 칼럼] '남북한 전면전' 일어나면?",
       "url": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3067408",
       "pubDate": "Wed, 24 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "1550원 앞두고 멈춘 환율…국민연금·당국 '보이지 않는 방어선'",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713645",
+      "pubDate": "Wed, 24 Jun 2026 06:32:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "외국인 매도·美 금리 인상 가능성에 ‘高환율’",
+      "url": "https://www.chosun.com/economy/stock-finance/2026/06/24/GQLRMGKUWFBDVHKUK6UTDEJL7E/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Wed, 24 Jun 2026 00:35:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "반도체 호황 ‘불길’이 부동산으로?… 집값 상승 전망 5개월 만에 최고",
+      "url": "https://www.chosun.com/economy/economy_general/2026/06/24/T5FO35L6BNGGNDDF4S6ITWE2I4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Wed, 24 Jun 2026 00:35:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "&quot;하반기 중 기준금리 0.25%포인트씩 두 차례 인상 전망&quot;",
+      "url": "https://www.junggi.co.kr/news/articleView.html?idxno=36863",
+      "pubDate": "Wed, 24 Jun 2026 00:00:00 +0900"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-05T04:31:20.733Z"
 }

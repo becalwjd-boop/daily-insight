@@ -3,60 +3,6 @@
   "createdAt": "2026-06-13T00:13:35.689Z",
   "articles": [
     {
-      "category": "경제",
-      "title": "[다음주 경제] 5월 수출입·생산자물가 얼마나 뛰었나",
-      "url": "https://www.yna.co.kr/view/AKR20260612168000002?input=1195m",
-      "pubDate": "Sat, 13 Jun 2026 08:10:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "&quot;호르무즈 열린다&quot;…코스피, 변동성 딛고 9000선 '도전'",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026061214092970996",
-      "pubDate": "Sat, 13 Jun 2026 08:10:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4419793",
-      "pubDate": "Sat, 13 Jun 2026 08:06:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "신현송 한은 총재 &quot;늦지 않게 금리 인상&quot;…중동·美 금리 변수에 긴축 시...",
-      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=694349",
-      "pubDate": "Sat, 13 Jun 2026 07:54:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "높아지는 물가와 다가오는 금리인상…한은, 물가점검회의[한은 미리보기...",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02338646645481392",
-      "pubDate": "Sat, 13 Jun 2026 07:02:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[주간증시전망] '롤러코스피' 장세 이어질까…FOMC·BOJ 회의에 쏠린 눈",
-      "url": "https://www.ajunews.com/view/20260613063748592",
-      "pubDate": "Sat, 13 Jun 2026 06:40:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[증시 UP&amp;DOWN] 숨고르기 진입한 코스피, 변동성에 강한 주도주 투자 유...",
-      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=308091",
-      "pubDate": "Sat, 13 Jun 2026 04:00:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "중동 종전 합의 기대감에 코스피 8000선 회복",
-      "url": "https://www.donga.com/news/Economy/article/all/20260612/134104178/2",
-      "pubDate": "Sat, 13 Jun 2026 01:46:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[사설] 종전 기대보다 ‘한은의 경고’ 새겨야",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781247395&code=11171111&cp=nv",
-      "pubDate": "Sat, 13 Jun 2026 01:31:00 +0900"
-    },
-    {
       "category": "기업",
       "title": "최고가 대비 '반토막' 난 비트코인, 한때 6만 달러 붕괴, 'AI 독식'에 가...",
       "url": "http://www.fnnews.com/news/202606130843194131",
@@ -183,30 +129,6 @@
       "pubDate": "Sat, 13 Jun 2026 00:02:00 +0900"
     },
     {
-      "category": "부동산",
-      "title": "공급 늘면 장사 없다? 공급 줄어도 장사 없어",
-      "url": "https://www.joongang.co.kr/article/25436407",
-      "pubDate": "Sat, 13 Jun 2026 00:35:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "&quot;의사 인력 추계, 초정밀 데이터ㆍ예산 연동 필수&quot;",
-      "url": "http://www.newsmp.com/news/articleView.html?idxno=254629",
-      "pubDate": "Sat, 13 Jun 2026 06:04:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "[Q&amp;A]김성아 연구원 &quot;고립청년 54만 명, 현실판 '오징어 게임' 중&quot;",
-      "url": "https://www.nocutnews.co.kr/news/6530280?utm_source=naver&utm_medium=article&utm_campaign=20260613053024",
-      "pubDate": "Sat, 13 Jun 2026 05:31:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "[패트롤] 광명시-군포시-시흥시-안산시-안양시",
-      "url": "https://www.ekn.kr/web/view.php?key=20260613025172924",
-      "pubDate": "Sat, 13 Jun 2026 03:38:00 +0900"
-    },
-    {
       "category": "국제",
       "title": "核 의혹 이란은 때리고, 核 증강 북한엔 침묵… 이익만 좇는 강대국들 ...",
       "url": "https://www.hankookilbo.com/news/article/A2026061113580003840?did=NA",
@@ -265,6 +187,85 @@
       "title": "美·日, SMR 손잡았다",
       "url": "https://www.chosun.com/international/international_general/2026/06/13/OH46CHP2FVC33JTF6FT5O7FEMI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
       "pubDate": "Sat, 13 Jun 2026 00:46:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[다음주 경제] 5월 수출입·생산자물가 얼마나 뛰었나",
+      "url": "https://www.yna.co.kr/view/AKR20260612168000002?input=1195m",
+      "pubDate": "Sat, 13 Jun 2026 08:10:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[다음주 한국은행 및 금융위·금감원 일정]",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4419793",
+      "pubDate": "Sat, 13 Jun 2026 08:06:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "신현송 한은 총재 &quot;늦지 않게 금리 인상&quot;…중동·美 금리 변수에 긴축 시...",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=694349",
+      "pubDate": "Sat, 13 Jun 2026 07:54:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "높아지는 물가와 다가오는 금리인상…한은, 물가점검회의[한은 미리보기...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=02338646645481392",
+      "pubDate": "Sat, 13 Jun 2026 07:02:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[주간증시전망] '롤러코스피' 장세 이어질까…FOMC·BOJ 회의에 쏠린 눈",
+      "url": "https://www.ajunews.com/view/20260613063748592",
+      "pubDate": "Sat, 13 Jun 2026 06:40:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "&quot;호르무즈 열린다&quot;…코스피, 변동성 딛고 9000선 '도전'",
+      "url": "https://www.newsway.co.kr/news/view?ud=2026061214092970996",
+      "pubDate": "Sat, 13 Jun 2026 08:10:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[증시 UP&amp;DOWN] 숨고르기 진입한 코스피, 변동성에 강한 주도주 투자 유...",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=308091",
+      "pubDate": "Sat, 13 Jun 2026 04:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "중동 종전 합의 기대감에 코스피 8000선 회복",
+      "url": "https://www.donga.com/news/Economy/article/all/20260612/134104178/2",
+      "pubDate": "Sat, 13 Jun 2026 01:46:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[사설] 종전 기대보다 ‘한은의 경고’ 새겨야",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781247395&code=11171111&cp=nv",
+      "pubDate": "Sat, 13 Jun 2026 01:31:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "&quot;의사 인력 추계, 초정밀 데이터ㆍ예산 연동 필수&quot;",
+      "url": "http://www.newsmp.com/news/articleView.html?idxno=254629",
+      "pubDate": "Sat, 13 Jun 2026 06:04:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[Q&amp;A]김성아 연구원 &quot;고립청년 54만 명, 현실판 '오징어 게임' 중&quot;",
+      "url": "https://www.nocutnews.co.kr/news/6530280?utm_source=naver&utm_medium=article&utm_campaign=20260613053024",
+      "pubDate": "Sat, 13 Jun 2026 05:31:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[패트롤] 광명시-군포시-시흥시-안산시-안양시",
+      "url": "https://www.ekn.kr/web/view.php?key=20260613025172924",
+      "pubDate": "Sat, 13 Jun 2026 03:38:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "공급 늘면 장사 없다? 공급 줄어도 장사 없어",
+      "url": "https://www.joongang.co.kr/article/25436407",
+      "pubDate": "Sat, 13 Jun 2026 00:35:00 +0900"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-05T04:31:20.712Z"
 }

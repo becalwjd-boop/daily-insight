@@ -3,6 +3,102 @@
   "createdAt": "2026-06-18T00:07:18.234Z",
   "articles": [
     {
+      "category": "기업",
+      "title": "[AI MY 증시전망] &quot;FOMC 매파 부담에 하락 출발 전망&quot;",
+      "url": "https://www.newspim.com/news/view/20260618000191",
+      "pubDate": "Thu, 18 Jun 2026 08:56:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[특징주] 두산에너빌리티, NXT 프리마켓 강세…전력·에너지주 매수세 ...",
+      "url": "https://www.tokenpost.kr/news/economy/370557",
+      "pubDate": "Thu, 18 Jun 2026 08:46:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[어제장 오늘장] 최고치에 달아오르는 국내증시, 다시 주목해 볼 증권주...",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317292?division=NAVER",
+      "pubDate": "Thu, 18 Jun 2026 08:34:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[특징주] 전력·에너지주 동반 강세...강원에너지·한전기술 프리마켓 ...",
+      "url": "https://www.newspim.com/news/view/20260618000115",
+      "pubDate": "Thu, 18 Jun 2026 08:29:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[프리마켓 포커스] 뉴욕증시 끌어내린 '매파 연준'에도 프리마켓 0.39%↑",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=722795",
+      "pubDate": "Thu, 18 Jun 2026 08:28:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "삼성, 비수도권 청년 천명 직무교육···현대차 등 50곳도 'K-뉴딜' 동참",
+      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=695076",
+      "pubDate": "Thu, 18 Jun 2026 08:24:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[증시키워드] 반도체 랠리 이어지는 가운데 숨 고른 재건주…삼전·SK하...",
+      "url": "https://www.etoday.co.kr/news/view/2594742",
+      "pubDate": "Thu, 18 Jun 2026 07:56:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[애프터마켓 리뷰] 가온전선, 무상증자…AI 데이터센터 전력 사업 확대",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317282?division=NAVER",
+      "pubDate": "Thu, 18 Jun 2026 07:53:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "美 남부 시골에도 'AI 데이터센터' 바람…K제조업 퀀텀점프 기회",
+      "url": "https://www.mt.co.kr/industry/2026/06/18/2026061311480915725",
+      "pubDate": "Thu, 18 Jun 2026 07:30:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[기자수첩]예견된 청구서",
+      "url": "https://www.mt.co.kr/opinion/2026/06/18/2026061615513839102",
+      "pubDate": "Thu, 18 Jun 2026 06:10:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/06/18/2MUIB7K2QBG4RPFWXEQUH7PAZQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "pubDate": "Thu, 18 Jun 2026 06:01:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[박규완 칼럼] 호남만 대박? 김부겸 낙선 反動인가",
+      "url": "https://www.yeongnam.com/web/view.php?key=20260617022240730",
+      "pubDate": "Thu, 18 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "김광식 전 현대차 노조위원장 &quot;성과급, 임금화 되는 것 안돼…노사 모두...",
+      "url": "https://www.ajunews.com/view/20260617143541208",
+      "pubDate": "Thu, 18 Jun 2026 05:52:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[출근길 포인트] SK 학력 철폐·구글 보안 상륙·신고 포상금 한도 폐지",
+      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=308624",
+      "pubDate": "Thu, 18 Jun 2026 05:00:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[사설]'제조업 국가' 한국이 더 위대해지려면",
+      "url": "https://www.mt.co.kr/opinion/2026/06/18/2026061715214011687",
+      "pubDate": "Thu, 18 Jun 2026 04:03:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "코스피, 8800선 탈환…'9000피' 열쇠는 외국인 수급 확산",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=137193",
+      "pubDate": "Thu, 18 Jun 2026 00:00:00 +0900"
+    },
+    {
       "category": "경제",
       "title": "중동 전쟁이 바꾼 금리 경로…美 매파적 동결·韓 인상 전망",
       "url": "https://www.sentv.co.kr/article/view/sentv202606180010",
@@ -111,18 +207,6 @@
       "pubDate": "Thu, 18 Jun 2026 00:42:00 +0900"
     },
     {
-      "category": "기업",
-      "title": "[AI MY 증시전망] &quot;FOMC 매파 부담에 하락 출발 전망&quot;",
-      "url": "https://www.newspim.com/news/view/20260618000191",
-      "pubDate": "Thu, 18 Jun 2026 08:56:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[어제장 오늘장] 최고치에 달아오르는 국내증시, 다시 주목해 볼 증권주...",
-      "url": "https://biz.sbs.co.kr/article_hub/20000317292?division=NAVER",
-      "pubDate": "Thu, 18 Jun 2026 08:34:00 +0900"
-    },
-    {
       "category": "금융",
       "title": "케빈 워시 체제 연준, '데이터 중심' 전환에 증시 변동성 커지나",
       "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1712964",
@@ -175,114 +259,6 @@
       "title": "환율, 국제유가·외국인 매도세에 상승… 1,513.4원 마감",
       "url": "https://www.tokenpost.kr/news/economy/370428",
       "pubDate": "Thu, 18 Jun 2026 00:04:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "코스피, 8800선 탈환…'9000피' 열쇠는 외국인 수급 확산",
-      "url": "https://www.ziksir.com/news/articleView.html?idxno=137193",
-      "pubDate": "Thu, 18 Jun 2026 00:00:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[특징주] 두산에너빌리티, NXT 프리마켓 강세…전력·에너지주 매수세 ...",
-      "url": "https://www.tokenpost.kr/news/economy/370557",
-      "pubDate": "Thu, 18 Jun 2026 08:46:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[특징주] 전력·에너지주 동반 강세...강원에너지·한전기술 프리마켓 ...",
-      "url": "https://www.newspim.com/news/view/20260618000115",
-      "pubDate": "Thu, 18 Jun 2026 08:29:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[프리마켓 포커스] 뉴욕증시 끌어내린 '매파 연준'에도 프리마켓 0.39%↑",
-      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=722795",
-      "pubDate": "Thu, 18 Jun 2026 08:28:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "삼성, 비수도권 청년 천명 직무교육···현대차 등 50곳도 'K-뉴딜' 동참",
-      "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=695076",
-      "pubDate": "Thu, 18 Jun 2026 08:24:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[증시키워드] 반도체 랠리 이어지는 가운데 숨 고른 재건주…삼전·SK하...",
-      "url": "https://www.etoday.co.kr/news/view/2594742",
-      "pubDate": "Thu, 18 Jun 2026 07:56:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[애프터마켓 리뷰] 가온전선, 무상증자…AI 데이터센터 전력 사업 확대",
-      "url": "https://biz.sbs.co.kr/article_hub/20000317282?division=NAVER",
-      "pubDate": "Thu, 18 Jun 2026 07:53:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "美 남부 시골에도 'AI 데이터센터' 바람…K제조업 퀀텀점프 기회",
-      "url": "https://www.mt.co.kr/industry/2026/06/18/2026061311480915725",
-      "pubDate": "Thu, 18 Jun 2026 07:30:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[기자수첩]예견된 청구서",
-      "url": "https://www.mt.co.kr/opinion/2026/06/18/2026061615513839102",
-      "pubDate": "Thu, 18 Jun 2026 06:10:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "개별주식선물, 사상 첫 지수선물 추월…삼성전자·SK하이닉스에 78% 쏠림",
-      "url": "https://biz.chosun.com/stock/stock_general/2026/06/18/2MUIB7K2QBG4RPFWXEQUH7PAZQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-      "pubDate": "Thu, 18 Jun 2026 06:01:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[박규완 칼럼] 호남만 대박? 김부겸 낙선 反動인가",
-      "url": "https://www.yeongnam.com/web/view.php?key=20260617022240730",
-      "pubDate": "Thu, 18 Jun 2026 06:00:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "김광식 전 현대차 노조위원장 &quot;성과급, 임금화 되는 것 안돼…노사 모두...",
-      "url": "https://www.ajunews.com/view/20260617143541208",
-      "pubDate": "Thu, 18 Jun 2026 05:52:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[출근길 포인트] SK 학력 철폐·구글 보안 상륙·신고 포상금 한도 폐지",
-      "url": "https://www.pointdaily.co.kr/news/articleView.html?idxno=308624",
-      "pubDate": "Thu, 18 Jun 2026 05:00:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[사설]'제조업 국가' 한국이 더 위대해지려면",
-      "url": "https://www.mt.co.kr/opinion/2026/06/18/2026061715214011687",
-      "pubDate": "Thu, 18 Jun 2026 04:03:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "[청라언덕]'낀 세대'의 절규 &quot;언제 내 인생 사나요&quot;",
-      "url": "https://www.imaeil.com/page/view/2026041809143983422",
-      "pubDate": "Thu, 18 Jun 2026 07:28:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "[Pharma ESG-'S'][보령]필수의약품 안정공급에 맞춘 사회책임경영",
-      "url": "https://www.medicopharma.co.kr/news/articleView.html?idxno=68431",
-      "pubDate": "Thu, 18 Jun 2026 07:20:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "[주요일정·18일] 쿠팡 불공정행위 엄중 처분 촉구 기자회견",
-      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243563",
-      "pubDate": "Thu, 18 Jun 2026 07:06:00 +0900"
-    },
-    {
-      "category": "사회",
-      "title": "[오늘의 주요일정]경기남부(6월18일 목요일)",
-      "url": "https://www.newsis.com/view/NISX20260617_0003673316",
-      "pubDate": "Thu, 18 Jun 2026 05:00:00 +0900"
     },
     {
       "category": "국제",
@@ -355,6 +331,31 @@
       "title": "유럽 순방에서 벨기에를 첫 회담 국가로 택한 이유 : 규칙을 만드는 국...",
       "url": "http://www.ddanzi.com/885789369",
       "pubDate": "Thu, 18 Jun 2026 00:30:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[청라언덕]'낀 세대'의 절규 &quot;언제 내 인생 사나요&quot;",
+      "url": "https://www.imaeil.com/page/view/2026041809143983422",
+      "pubDate": "Thu, 18 Jun 2026 07:28:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[Pharma ESG-'S'][보령]필수의약품 안정공급에 맞춘 사회책임경영",
+      "url": "https://www.medicopharma.co.kr/news/articleView.html?idxno=68431",
+      "pubDate": "Thu, 18 Jun 2026 07:20:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[주요일정·18일] 쿠팡 불공정행위 엄중 처분 촉구 기자회견",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243563",
+      "pubDate": "Thu, 18 Jun 2026 07:06:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[오늘의 주요일정]경기남부(6월18일 목요일)",
+      "url": "https://www.newsis.com/view/NISX20260617_0003673316",
+      "pubDate": "Thu, 18 Jun 2026 05:00:00 +0900"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-05T04:31:20.723Z"
 }

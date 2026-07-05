@@ -3,156 +3,6 @@
   "createdAt": "2026-06-19T00:20:34.655Z",
   "articles": [
     {
-      "category": "경제",
-      "title": "[오늘의 브릿지경제 1면] 코스피, 사상 첫 9000 돌파…국내 자본시장 역...",
-      "url": "https://www.viva100.com/article/20260618500997",
-      "pubDate": "Fri, 19 Jun 2026 08:54:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
-      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713125",
-      "pubDate": "Fri, 19 Jun 2026 08:18:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[이슈분석] '반도체 착시현상'에 빠진 한국 경제",
-      "url": "https://monthly.chosun.com/news/articleView.html?idxno=70439",
-      "pubDate": "Fri, 19 Jun 2026 08:12:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[아주증시포커스] 증시 호황에 증권사 교육세 부담 급증…올해 1분기, 작...",
-      "url": "https://www.ajunews.com/view/20260619075223315",
-      "pubDate": "Fri, 19 Jun 2026 07:54:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[마켓 프리뷰] 코스피, 美 금리 인상 공포 딛고 9000선 첫 돌파",
-      "url": "https://biz.sbs.co.kr/article_hub/20000317560?division=NAVER",
-      "pubDate": "Fri, 19 Jun 2026 07:28:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "중국 소매판매 3년여 만에 첫 감소…경기 둔화 경고등",
-      "url": "http://www.joseilbo.com/news/news_read.php?uid=570342&class=1&grp=",
-      "pubDate": "Fri, 19 Jun 2026 07:01:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[긴축의 귀환] 세계 중앙은행 다시 매파로…유동성 파티 끝나나",
-      "url": "https://www.ajunews.com/view/20260618142127725",
-      "pubDate": "Fri, 19 Jun 2026 06:02:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "[긴축의 귀환] '연 2.50%' 시대 끝났다… 한은, 금리 인상 사이클 진입 ...",
-      "url": "https://www.ajunews.com/view/20260618153707042",
-      "pubDate": "Fri, 19 Jun 2026 06:02:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "이란 웃고 미국 흔들렸다?...트럼프, 종전 합의 역풍 [글로벌 모닝 브리...",
-      "url": "https://www.sedaily.com/article/20057556?ref=naver",
-      "pubDate": "Fri, 19 Jun 2026 06:01:00 +0900"
-    },
-    {
-      "category": "경제",
-      "title": "고용은 꺾였는데 임금발 물가 압력은 커진다…반도체 호황의 두 얼굴",
-      "url": "https://news.tf.co.kr/read/economy/2334041.htm",
-      "pubDate": "Fri, 19 Jun 2026 00:01:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "美 반도체주 폭등 속...코스피 '급등 출발', 코스닥은 '장초반 하락'",
-      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=166822",
-      "pubDate": "Fri, 19 Jun 2026 09:10:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "[어제장 오늘장] 케빈 워시도 막지 못한 코스피 질주…사상 첫 9000피",
-      "url": "https://biz.sbs.co.kr/article_hub/20000317575?division=NAVER",
-      "pubDate": "Fri, 19 Jun 2026 08:32:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "IPO 그린 슈 옵션, 반도체 주가 더 끌어올린다! 삼전닉스 등 韓 증시, MS...",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606190308&t=NN",
-      "pubDate": "Fri, 19 Jun 2026 08:30:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[모닝 리포트] 반도체 독주에 9000선 돌파…순환매 주목",
-      "url": "https://www.newspim.com/news/view/20260619000047",
-      "pubDate": "Fri, 19 Jun 2026 08:07:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "&quot;삼전닉스 반도체 랠리는 계속된다&quot; 증권사 센터장들이 본 하반기 증시",
-      "url": "https://view.asiae.co.kr/article/2026061809080823173",
-      "pubDate": "Fri, 19 Jun 2026 07:54:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "금리 오르고 환율 뛰고…코스피랠리 흔들 ‘3대 변수’",
-      "url": "https://economist.co.kr/article/view/ecn202606160044",
-      "pubDate": "Fri, 19 Jun 2026 07:30:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "환율 흔드는 ‘연금 달러 수요’…국민연금 해외투자 구조가 원화 약세...",
-      "url": "https://www.betanews.net/article/view/beta202606190001",
-      "pubDate": "Fri, 19 Jun 2026 07:26:00 +0900"
-    },
-    {
-      "category": "국제",
-      "title": "[증시전략] 워시 첫 FOMC서 '매파 본색'…&quot;금리인하 어림없다&quot;",
-      "url": "https://biz.sbs.co.kr/article_hub/20000317554?division=NAVER",
-      "pubDate": "Fri, 19 Jun 2026 07:09:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "“외국인 물량 다 받아냈는데”…사상 최대 빚투에 커지는 강제청산 공...",
-      "url": "https://economist.co.kr/article/view/ecn202606150055",
-      "pubDate": "Fri, 19 Jun 2026 07:00:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "'1만피' 꿈이 아니다…매크로 이기는 '韓 반도체 실적' 믿음",
-      "url": "https://www.news1.kr/finance/general-stock/6201948",
-      "pubDate": "Fri, 19 Jun 2026 06:00:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "&quot;벌써 9000피&quot; 무섭게 오르더니...바로 일만피? 실적 따라 날아오른다",
-      "url": "https://www.mt.co.kr/stock/2026/06/19/2026061818352986810",
-      "pubDate": "Fri, 19 Jun 2026 04:05:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[여의춘추] 레버리지와 국민연금이 키우는 거품",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781759298&code=11171212&cp=nv",
-      "pubDate": "Fri, 19 Jun 2026 00:40:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[박근종 칼럼] 주가·부동산 동시 상승, 빚투 경계하고 부동산 공급 늘...",
-      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=750766",
-      "pubDate": "Fri, 19 Jun 2026 00:18:00 +0900"
-    },
-    {
-      "category": "기업",
-      "title": "개미가 밀어 올린 코스피 9000…1만 고지, 외인에 달렸다",
-      "url": "https://www.ziksir.com/news/articleView.html?idxno=137338",
-      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
-    },
-    {
-      "category": "금융",
-      "title": "[더페어 돋보기] '9000 시대' 안착할까…증권가가 제시하는 연말 코스피...",
-      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=79917",
-      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
-    },
-    {
       "category": "기업",
       "title": "코스피, 사상 첫 9300선 돌파...'삼성전자·하이닉스' 동반 강세",
       "url": "http://www.metroseoul.co.kr/article/20260619500019",
@@ -199,6 +49,12 @@
       "title": "[특징주] 美 반도체 훈풍에 SK하이닉스·한미반도체 강세",
       "url": "https://www.newspim.com/news/view/20260619000107",
       "pubDate": "Fri, 19 Jun 2026 08:41:00 +0900"
+    },
+    {
+      "category": "기업",
+      "title": "[어제장 오늘장] 케빈 워시도 막지 못한 코스피 질주…사상 첫 9000피",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317575?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 08:32:00 +0900"
     },
     {
       "category": "기업",
@@ -279,46 +135,94 @@
       "pubDate": "Fri, 19 Jun 2026 00:34:00 +0900"
     },
     {
-      "category": "부동산",
-      "title": "[요즘 부동산+/⑯]동탄·구리·기흥, 규제지역 지정 초읽기…정부, 고강...",
-      "url": "https://www.businessplus.kr/news/articleView.html?idxno=113060",
-      "pubDate": "Fri, 19 Jun 2026 07:50:00 +0900"
+      "category": "기업",
+      "title": "개미가 밀어 올린 코스피 9000…1만 고지, 외인에 달렸다",
+      "url": "https://www.ziksir.com/news/articleView.html?idxno=137338",
+      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
     },
     {
-      "category": "사회",
-      "title": "[금융·경제 트렌드] 국가아동권리보장원, 디딤씨앗통장 만기 도래 아동...",
-      "url": "https://www.ibabynews.com/news/articleView.html?idxno=152192",
-      "pubDate": "Fri, 19 Jun 2026 08:58:00 +0900"
+      "category": "금융",
+      "title": "美 반도체주 폭등 속...코스피 '급등 출발', 코스닥은 '장초반 하락'",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=166822",
+      "pubDate": "Fri, 19 Jun 2026 09:10:00 +0900"
     },
     {
-      "category": "사회",
-      "title": "기업들, 인재양성-정서지원-기부로 사회공헌 실천",
-      "url": "http://www.wsobi.com/news/articleView.html?idxno=313945",
-      "pubDate": "Fri, 19 Jun 2026 08:44:00 +0900"
+      "category": "금융",
+      "title": "IPO 그린 슈 옵션, 반도체 주가 더 끌어올린다! 삼전닉스 등 韓 증시, MS...",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202606190308&t=NN",
+      "pubDate": "Fri, 19 Jun 2026 08:30:00 +0900"
     },
     {
-      "category": "사회",
-      "title": "[부산 브리핑 모음(6월19일)] 부산항만공사, 자성대부두 장비 조립현장...",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606181439386980911",
-      "pubDate": "Fri, 19 Jun 2026 08:22:00 +0900"
+      "category": "금융",
+      "title": "[이슈분석] '반도체 착시현상'에 빠진 한국 경제",
+      "url": "https://monthly.chosun.com/news/articleView.html?idxno=70439",
+      "pubDate": "Fri, 19 Jun 2026 08:12:00 +0900"
     },
     {
-      "category": "사회",
-      "title": "[서산소식] 이동노동자 무인쉼터 폭염 대비 물품 지원 외",
-      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1377955",
-      "pubDate": "Fri, 19 Jun 2026 08:18:00 +0900"
+      "category": "금융",
+      "title": "[모닝 리포트] 반도체 독주에 9000선 돌파…순환매 주목",
+      "url": "https://www.newspim.com/news/view/20260619000047",
+      "pubDate": "Fri, 19 Jun 2026 08:07:00 +0900"
     },
     {
-      "category": "사회",
-      "title": "[브랜딩연구소] 오늘의 인물: 석세희 강사 &quot;사회적 약자를 위한 일에서...",
-      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204207",
-      "pubDate": "Fri, 19 Jun 2026 08:00:00 +0900"
+      "category": "금융",
+      "title": "&quot;삼전닉스 반도체 랠리는 계속된다&quot; 증권사 센터장들이 본 하반기 증시",
+      "url": "https://view.asiae.co.kr/article/2026061809080823173",
+      "pubDate": "Fri, 19 Jun 2026 07:54:00 +0900"
     },
     {
-      "category": "사회",
-      "title": "[오늘의 주요일정·19일] 이재명 대통령 유럽·G7 순방 결과 브리핑",
-      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243593",
-      "pubDate": "Fri, 19 Jun 2026 07:04:00 +0900"
+      "category": "금융",
+      "title": "금리 오르고 환율 뛰고…코스피랠리 흔들 ‘3대 변수’",
+      "url": "https://economist.co.kr/article/view/ecn202606160044",
+      "pubDate": "Fri, 19 Jun 2026 07:30:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[마켓 프리뷰] 코스피, 美 금리 인상 공포 딛고 9000선 첫 돌파",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317560?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 07:28:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "환율 흔드는 ‘연금 달러 수요’…국민연금 해외투자 구조가 원화 약세...",
+      "url": "https://www.betanews.net/article/view/beta202606190001",
+      "pubDate": "Fri, 19 Jun 2026 07:26:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "“외국인 물량 다 받아냈는데”…사상 최대 빚투에 커지는 강제청산 공...",
+      "url": "https://economist.co.kr/article/view/ecn202606150055",
+      "pubDate": "Fri, 19 Jun 2026 07:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "'1만피' 꿈이 아니다…매크로 이기는 '韓 반도체 실적' 믿음",
+      "url": "https://www.news1.kr/finance/general-stock/6201948",
+      "pubDate": "Fri, 19 Jun 2026 06:00:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "&quot;벌써 9000피&quot; 무섭게 오르더니...바로 일만피? 실적 따라 날아오른다",
+      "url": "https://www.mt.co.kr/stock/2026/06/19/2026061818352986810",
+      "pubDate": "Fri, 19 Jun 2026 04:05:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[여의춘추] 레버리지와 국민연금이 키우는 거품",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1781759298&code=11171212&cp=nv",
+      "pubDate": "Fri, 19 Jun 2026 00:40:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[박근종 칼럼] 주가·부동산 동시 상승, 빚투 경계하고 부동산 공급 늘...",
+      "url": "https://www.mhns.co.kr/news/articleView.html?idxno=750766",
+      "pubDate": "Fri, 19 Jun 2026 00:18:00 +0900"
+    },
+    {
+      "category": "금융",
+      "title": "[더페어 돋보기] '9000 시대' 안착할까…증권가가 제시하는 연말 코스피...",
+      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=79917",
+      "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
     },
     {
       "category": "국제",
@@ -379,6 +283,12 @@
       "title": "美당국자 “北비핵화, 트럼프 정책 우선순위서 매우 높아”",
       "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0400&key=20260619.99099005734",
       "pubDate": "Fri, 19 Jun 2026 07:21:00 +0900"
+    },
+    {
+      "category": "국제",
+      "title": "[증시전략] 워시 첫 FOMC서 '매파 본색'…&quot;금리인하 어림없다&quot;",
+      "url": "https://biz.sbs.co.kr/article_hub/20000317554?division=NAVER",
+      "pubDate": "Fri, 19 Jun 2026 07:09:00 +0900"
     },
     {
       "category": "국제",
@@ -547,6 +457,97 @@
       "title": "세계 지도자들, 미-이란 합의 환영… 미 의원들 반응은 엇갈려",
       "url": "https://www.voakorea.com/a/global-leaders-react-to-us-iran-deal-us-lawmakers-divided-061826/8162269.html",
       "pubDate": "Fri, 19 Jun 2026 00:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[금융·경제 트렌드] 국가아동권리보장원, 디딤씨앗통장 만기 도래 아동...",
+      "url": "https://www.ibabynews.com/news/articleView.html?idxno=152192",
+      "pubDate": "Fri, 19 Jun 2026 08:58:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "기업들, 인재양성-정서지원-기부로 사회공헌 실천",
+      "url": "http://www.wsobi.com/news/articleView.html?idxno=313945",
+      "pubDate": "Fri, 19 Jun 2026 08:44:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[부산 브리핑 모음(6월19일)] 부산항만공사, 자성대부두 장비 조립현장...",
+      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606181439386980911",
+      "pubDate": "Fri, 19 Jun 2026 08:22:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[서산소식] 이동노동자 무인쉼터 폭염 대비 물품 지원 외",
+      "url": "https://daily.hankooki.com/news/articleView.html?idxno=1377955",
+      "pubDate": "Fri, 19 Jun 2026 08:18:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[브랜딩연구소] 오늘의 인물: 석세희 강사 &quot;사회적 약자를 위한 일에서...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=204207",
+      "pubDate": "Fri, 19 Jun 2026 08:00:00 +0900"
+    },
+    {
+      "category": "사회",
+      "title": "[오늘의 주요일정·19일] 이재명 대통령 유럽·G7 순방 결과 브리핑",
+      "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243593",
+      "pubDate": "Fri, 19 Jun 2026 07:04:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[오늘의 브릿지경제 1면] 코스피, 사상 첫 9000 돌파…국내 자본시장 역...",
+      "url": "https://www.viva100.com/article/20260618500997",
+      "pubDate": "Fri, 19 Jun 2026 08:54:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
+      "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1713125",
+      "pubDate": "Fri, 19 Jun 2026 08:18:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[아주증시포커스] 증시 호황에 증권사 교육세 부담 급증…올해 1분기, 작...",
+      "url": "https://www.ajunews.com/view/20260619075223315",
+      "pubDate": "Fri, 19 Jun 2026 07:54:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "중국 소매판매 3년여 만에 첫 감소…경기 둔화 경고등",
+      "url": "http://www.joseilbo.com/news/news_read.php?uid=570342&class=1&grp=",
+      "pubDate": "Fri, 19 Jun 2026 07:01:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[긴축의 귀환] 세계 중앙은행 다시 매파로…유동성 파티 끝나나",
+      "url": "https://www.ajunews.com/view/20260618142127725",
+      "pubDate": "Fri, 19 Jun 2026 06:02:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "[긴축의 귀환] '연 2.50%' 시대 끝났다… 한은, 금리 인상 사이클 진입 ...",
+      "url": "https://www.ajunews.com/view/20260618153707042",
+      "pubDate": "Fri, 19 Jun 2026 06:02:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "이란 웃고 미국 흔들렸다?...트럼프, 종전 합의 역풍 [글로벌 모닝 브리...",
+      "url": "https://www.sedaily.com/article/20057556?ref=naver",
+      "pubDate": "Fri, 19 Jun 2026 06:01:00 +0900"
+    },
+    {
+      "category": "경제",
+      "title": "고용은 꺾였는데 임금발 물가 압력은 커진다…반도체 호황의 두 얼굴",
+      "url": "https://news.tf.co.kr/read/economy/2334041.htm",
+      "pubDate": "Fri, 19 Jun 2026 00:01:00 +0900"
+    },
+    {
+      "category": "부동산",
+      "title": "[요즘 부동산+/⑯]동탄·구리·기흥, 규제지역 지정 초읽기…정부, 고강...",
+      "url": "https://www.businessplus.kr/news/articleView.html?idxno=113060",
+      "pubDate": "Fri, 19 Jun 2026 07:50:00 +0900"
     }
-  ]
+  ],
+  "updatedAt": "2026-07-05T04:31:20.725Z"
 }
