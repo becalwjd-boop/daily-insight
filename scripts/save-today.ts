@@ -6,10 +6,7 @@ dotenv.config({ path: ".env.local" });
 
 import {
     categoryKeywords,
-    fetchNaverNews,
-    removeDuplicateNews,
-    cleanTitle,
-    addThumbnails,
+    getNewsByCategoryForArchive,
 } from "../lib/news";
 
 function formatArchiveDate(pubDate: string) {
@@ -194,12 +191,49 @@ async function getArchiveArticlesByCategory(category: {
         });
     }
 
+    if (category.name === "경제") {
+        const economyNegative = [
+            "코스피",
+            "코스닥",
+            "증시",
+            "ETF",
+            "주가",
+            "비트코인",
+            "가상자산",
+            "연예",
+            "스포츠",
+        ];
+
+        filteredItems = dedupedItems.filter((item: any) => {
+            const title = cleanTitle(item.title);
+            return !economyNegative.some((word) => title.includes(word));
+        });
+    }
+
+    if (category.name === "금융") {
+        const financeNegative = [
+            "연예",
+            "스포츠",
+            "배우",
+            "가수",
+            "드라마",
+            "영화",
+            "예능",
+        ];
+
+        filteredItems = dedupedItems.filter((item: any) => {
+            const title = cleanTitle(item.title);
+            return !financeNegative.some((word) => title.includes(word));
+        });
+    }
+
     const todayItems = filteredItems
         .filter((item: any) => formatArchiveDate(item.pubDate) === today)
         .sort(
             (a: any, b: any) =>
                 new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
-        );
+        )
+        .slice(0, 100);
 
     console.log(
         category.name,
@@ -246,13 +280,13 @@ async function main() {
     const newArticlesByCategory = [];
 
     for (const category of categoryKeywords) {
-        const result = await getArchiveArticlesByCategory(category);
-        newArticlesByCategory.push(result);
+        const result = await getNewsByCategoryForArchive(category);
+        newArticlesByCategory.push(result.items);
     }
 
     const newArticles = newArticlesByCategory.flat();
 
-    const mergedArticles = [...existingArticles, ...newArticles];
+    const mergedArticles = [...newArticles, ...existingArticles];
 
     const uniqueArticles = Array.from(
         new Map(
@@ -265,15 +299,29 @@ async function main() {
                 new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
         );
 
+    const limitedArticles = Object.values(
+        uniqueArticles.reduce((acc: Record<string, any[]>, article: any) => {
+            if (!acc[article.category]) {
+                acc[article.category] = [];
+            }
+
+            if (acc[article.category].length < 100) {
+                acc[article.category].push(article);
+            }
+
+            return acc;
+        }, {})
+    ).flat();
+
     const archiveData = {
         date,
         updatedAt: new Date().toISOString(),
-        articles: uniqueArticles,
+        articles: limitedArticles,
     };
 
     fs.writeFileSync(filePath, JSON.stringify(archiveData, null, 2), "utf-8");
 
-    console.log(`${date} 뉴스 ${uniqueArticles.length}개 저장 완료`);
+    console.log(`${date} 뉴스 ${limitedArticles.length}개 저장 완료`);
 }
 
 main();
