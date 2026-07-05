@@ -1,4 +1,3 @@
-import { unstable_noStore as noStore } from "next/cache";
 import AutoRefresh from "./AutoRefresh";
 import CategoryShortcut from "./CategoryShortcut";
 import ScrollToTopButton from "./ScrollToTopButton";
@@ -16,7 +15,7 @@ import {
   removeBadgeTextFromTitle,
 } from "@/lib/news";
 
-export const dynamic = "force-dynamic";
+export const revalidate = 300;
 
 
 function NewsBadge({ title }: { title: string }) {
@@ -46,7 +45,6 @@ function NewsThumbnail({ item }: { item: any }) {
 }
 
 export default async function Home() {
-  noStore();
 
   const categoryGroups = [
     categoryKeywords.slice(0, 3),

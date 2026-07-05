@@ -269,13 +269,22 @@ function wait(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchNewsQueriesSequential(queries: string[], display = 30) {
+async function fetchNewsQueriesParallel(queries: string[], display = 30) {
   const allItems: any[] = [];
+  const batchSize = 3;
 
-  for (const query of queries) {
-    const items = await fetchNaverNews(query, display);
-    allItems.push(...items);
-    await wait(400);
+  for (let i = 0; i < queries.length; i += batchSize) {
+    const batch = queries.slice(i, i + batchSize);
+
+    const results = await Promise.all(
+      batch.map((query) => fetchNaverNews(query, display))
+    );
+
+    allItems.push(...results.flat());
+
+    if (i + batchSize < queries.length) {
+      await wait(200);
+    }
   }
 
   return allItems;
@@ -327,7 +336,7 @@ async function getNewsByCategoryWithLimit(
       "정부 경제정책",
     ];
 
-    items = await fetchNewsQueriesSequential(economyQueries, display);
+    items = await fetchNewsQueriesParallel(economyQueries, display);
   } else if (category.name === "금융") {
     const financeQueries = [
       "코스피 코스닥",
@@ -338,7 +347,7 @@ async function getNewsByCategoryWithLimit(
       "비트코인 가상자산",
     ];
 
-    items = await fetchNewsQueriesSequential(financeQueries, display);
+    items = await fetchNewsQueriesParallel(financeQueries, display);
   } else if (category.name === "부동산") {
     const realEstateQueries = [
       // 기존
@@ -368,7 +377,7 @@ async function getNewsByCategoryWithLimit(
       "부동산 시장",
     ];
 
-    items = await fetchNewsQueriesSequential(realEstateQueries, display);
+    items = await fetchNewsQueriesParallel(realEstateQueries, display);
   } else if (category.name === "사회") {
     const socialQueries = [
       "사회",
@@ -380,7 +389,7 @@ async function getNewsByCategoryWithLimit(
       "노동",
     ];
 
-    items = await fetchNewsQueriesSequential(socialQueries, display);
+    items = await fetchNewsQueriesParallel(socialQueries, display);
   } else if (category.name === "국제") {
     const internationalQueries = [
       "미국 중국",
@@ -391,7 +400,7 @@ async function getNewsByCategoryWithLimit(
       "국제 외교",
     ];
 
-    items = await fetchNewsQueriesSequential(internationalQueries, display);
+    items = await fetchNewsQueriesParallel(internationalQueries, display);
   } else if (category.name === "기업") {
     const companyQueries = [
       "삼성전자 SK하이닉스",
@@ -402,7 +411,7 @@ async function getNewsByCategoryWithLimit(
       "AI 반도체",
     ];
 
-    items = await fetchNewsQueriesSequential(companyQueries, display);
+    items = await fetchNewsQueriesParallel(companyQueries, display);
   } else if (category.name === "스포츠") {
     const sportsQueries = [
       "축구 손흥민 이강인",
@@ -413,7 +422,7 @@ async function getNewsByCategoryWithLimit(
       "월드컵 대표팀",
     ];
 
-    items = await fetchNewsQueriesSequential(sportsQueries, display);
+    items = await fetchNewsQueriesParallel(sportsQueries, display);
   } else {
     items = await fetchNaverNews(category.query, display);
   }
