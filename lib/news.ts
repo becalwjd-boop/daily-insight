@@ -271,7 +271,7 @@ function wait(ms: number) {
 
 async function fetchNewsQueriesParallel(queries: string[], display = 30) {
   const allItems: any[] = [];
-  const batchSize = 3;
+  const batchSize = 4;
 
   for (let i = 0; i < queries.length; i += batchSize) {
     const batch = queries.slice(i, i + batchSize);
