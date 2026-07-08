@@ -226,6 +226,12 @@ NEXT_TASK는 Future Roadmap입니다.
 
 공식 문서는 항상 동일한 품질을 유지합니다.
 
+공식 문서는 REPORT를 근거(Evidence)로 수정합니다.
+
+공식 문서는 GPT가 임의로 수정하지 않습니다.
+
+사용자가 문서 전체 내용을 제공한 후 함께 검토하여 수정합니다.
+
 ---
 
 # Version History

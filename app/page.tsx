@@ -1,4 +1,3 @@
-import AutoRefresh from "./AutoRefresh";
 import CategoryShortcut from "./CategoryShortcut";
 import ScrollToTopButton from "./ScrollToTopButton";
 import SmartThumbnail from "./SmartThumbnail";
@@ -39,6 +38,9 @@ function NewsThumbnail({ item }: { item: any }) {
     <SmartThumbnail
       src={item.imageUrl}
       title={item.title}
+      link={item.link}
+      originallink={item.originallink}
+      url={item.url}
       className="h-12 w-12 sm:h-14 sm:w-14 lg:h-16 lg:w-16"
     />
   );
@@ -66,7 +68,6 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-[#f6f7f9] text-[#111827]">
-      <AutoRefresh />
       <ScrollToTopButton />
 
       <section className="mx-auto max-w-7xl px-6 py-10">
@@ -246,7 +247,7 @@ export default async function Home() {
                 </ul>
 
                 {moreItems.length > 0 && (
-                  <details className="mt-4 group">
+                  <details suppressHydrationWarning className="mt-4 group">
                     <summary className="cursor-pointer list-none rounded-2xl bg-gray-50 px-4 py-3 text-center text-sm font-semibold text-gray-600 transition hover:bg-gray-100">
                       <span className="group-open:hidden">
                         {category.name} 뉴스 더 보기

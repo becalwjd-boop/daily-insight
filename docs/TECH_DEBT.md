@@ -8,9 +8,9 @@
 | Document | TECH_DEBT.md |
 | Type | Managed Document |
 | Purpose | Technical Debt Management |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
-| Last Updated | 2026-07-04 |
+| Last Updated | 2026-07-08 |
 
 ---
 
@@ -215,9 +215,11 @@ Open
 
 **Description**
 
-Android Release 최적화 관련 경고가 일부 존재합니다.
+Android App Bundle 생성 시 ProGuard/R8 관련 Warning이 일부 발생하고 있습니다.
 
-기능에는 직접적인 영향이 없지만, 향후 정식 출시 단계에서 Proguard/R8 및 Gradle 관련 최적화를 검토할 수 있습니다.
+현재 Closed Testing 진행에는 영향이 없는 것으로 확인되었으며,
+
+정식 출시 전 Release 최적화 과정에서 ProGuard/R8 및 Gradle 관련 설정을 추가 검토할 예정입니다.
 
 **Related Area**
 
@@ -228,6 +230,7 @@ Android Release 최적화 관련 경고가 일부 존재합니다.
 **Evidence**
 
 - REPORT_04.md
+- REPORT_09.md
 
 ---
 
@@ -298,6 +301,7 @@ TECH_DEBT는 다음 원칙을 따릅니다.
 3. 단순 아이디어는 NEXT_TASK.md에 기록합니다.
 4. 기술적 위험이나 유지보수 부담이 있는 항목만 기록합니다.
 5. 우선순위는 프로젝트 상황에 따라 조정합니다.
+6. REPORT를 근거(Evidence)로 현재 해결 상태를 확인한 후 갱신합니다.
 
 ---
 
@@ -309,12 +313,14 @@ TECH_DEBT는 다음 원칙을 따릅니다.
 - PERFORMANCE.md
 - PROJECT_STRUCTURE.md
 - DOCUMENT_WORKFLOW.md
+- REPORT_TEMPLATE.md
 
 ---
 
 # Notes
 
 - TECH_DEBT는 기술적 부담을 관리하는 문서입니다.
+- 운영 정책 변경은 TECH_DEBT가 아니라 REPORT를 근거로 관련 공식 문서에서 관리합니다.
 - NEXT_TASK는 앞으로의 작업 계획을 관리합니다.
 - PERFORMANCE는 성능 관련 세부 내용을 관리합니다.
 - CHANGELOG는 해결되거나 변경된 이력을 관리합니다.
@@ -329,4 +335,4 @@ Document : TECH_DEBT.md
 
 Type : Managed Document
 
-Version : 1.0
+Version : 1.1

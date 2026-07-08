@@ -8,9 +8,9 @@
 | Document | PROJECT_STRUCTURE.md |
 | Type | Living Document |
 | Purpose | Project Architecture and Directory Structure |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
-| Last Updated | 2026-07-03 |
+| Last Updated | 2026-07-08 |
 
 ---
 
@@ -163,6 +163,9 @@ GPT와 협업하기 위한 Prompt를 관리합니다.
 | DEPLOY.md | 배포 절차 및 운영 환경을 관리 |
 | ARCHIVE_PLAN.md | Archive 운영 계획을 관리 |
 | TROUBLESHOOTING.md | 문제 해결 사례를 관리 |
+| REPORT_TEMPLATE.md | Original Project Report 작성 표준을 관리 |
+| START_CHAT_PROMPT.md | 프로젝트 시작 절차를 관리 |
+| END_SESSION_PROMPT.md | 프로젝트 종료 절차를 관리 |
 
 ---
 
@@ -218,7 +221,7 @@ PROJECT_STRUCTURE는 다음 경우에만 수정합니다.
 - 공식 문서 구조 변경
 - 운영 체계 변경
 
-단순 기능 추가만으로는 수정하지 않습니다.
+PROJECT_STRUCTURE 변경이 발생한 경우에는 REPORT를 근거(Evidence)로 PROJECT_STRUCTURE를 검토하고 최신 상태를 유지합니다.
 
 ---
 
@@ -228,6 +231,7 @@ PROJECT_STRUCTURE는 다음 경우에만 수정합니다.
 - DOCUMENT_RULES.md
 - PROJECT_RULES.md
 - DOCUMENT_WORKFLOW.md
+- REPORT_WORKFLOW.md
 
 ---
 
@@ -235,8 +239,9 @@ PROJECT_STRUCTURE는 다음 경우에만 수정합니다.
 
 - PROJECT_STRUCTURE는 프로젝트의 구조를 설명합니다.
 - 구현 세부 내용은 MASTER에서 관리합니다.
-- History는 REPORT에서 관리합니다.
+- History와 Evidence는 REPORT에서 관리합니다.
 - 프로젝트 구조는 가능한 안정적으로 유지합니다.
+- 프로젝트 구조가 변경된 경우에는 REPORT를 근거(Evidence)로 PROJECT_STRUCTURE를 검토하고 최신 상태를 유지합니다.
 
 ---
 
@@ -248,4 +253,4 @@ Document : PROJECT_STRUCTURE.md
 
 Type : Living Document
 
-Version : 1.0
+Version : 1.1

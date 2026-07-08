@@ -8,9 +8,9 @@
 | Document | PERFORMANCE.md |
 | Type | Living Document |
 | Purpose | Performance Strategy and Optimization Guidelines |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
-| Last Updated | 2026-07-03 |
+| Last Updated | 2026-07-08 |
 
 ---
 
@@ -61,6 +61,7 @@ PERFORMANCE.md는 장기적인 성능 설계와 운영 기준을 관리합니다
 3. 작은 최적화를 지속적으로 적용합니다.
 4. 중복 작업을 최소화합니다.
 5. 필요한 경우에만 복잡한 최적화를 적용합니다.
+6. Home과 Archive는 동일한 뉴스 수집 로직을 사용하여 중복 처리를 최소화합니다.
 
 ---
 
@@ -116,6 +117,8 @@ PERFORMANCE.md는 장기적인 성능 설계와 운영 기준을 관리합니다
 - Archive 저장 구조
 - Archive 조회 속도
 - 장기 데이터 관리
+- 카테고리별 최대 100개 저장 정책
+- Home과 동일한 뉴스 수집 구조 유지
 
 ---
 
@@ -141,30 +144,21 @@ PERFORMANCE.md는 장기적인 성능 설계와 운영 기준을 관리합니다
 - 썸네일 캐싱
 - API 호출 최소화
 - 이미지 최적화
+- 모바일 초기 로딩 속도 개선
+- Archive 장기 데이터 최적화(BigKinds 기반)
+- 뉴스 수집 로직 공통화 유지
 
 ---
 
 # Relationship
 
-Performance 관련 문서 관계
+PERFORMANCE는 성능 전략과 운영 기준을 정의하는 공식 문서입니다.
 
-```
-PERFORMANCE
+현재 성능 관련 기술 부채는 TECH_DEBT.md에서 관리합니다.
 
-↓
+성능 개선 결과는 CHANGELOG.md에서 관리합니다.
 
-TECH_DEBT
-
-↓
-
-CHANGELOG
-```
-
-Performance 원칙을 기준으로
-
-기술 부채를 관리하며,
-
-개선 완료 시 CHANGELOG에 기록합니다.
+성능 개선의 근거(Evidence)는 REPORT에서 관리합니다.
 
 ---
 
@@ -179,6 +173,8 @@ PERFORMANCE는 다음 경우에 수정합니다.
 
 단순 성능 개선 결과는 CHANGELOG에서 관리합니다.
 
+성능 전략 변경이 발생한 경우에는 REPORT를 근거(Evidence)로 PERFORMANCE를 검토하고 최신 상태를 유지합니다.
+
 ---
 
 # Related Documents
@@ -187,6 +183,7 @@ PERFORMANCE는 다음 경우에 수정합니다.
 - TECH_DEBT.md
 - CHANGELOG.md
 - NEXT_TASK.md
+- REPORT_TEMPLATE.md
 
 ---
 
@@ -195,7 +192,8 @@ PERFORMANCE는 다음 경우에 수정합니다.
 - PERFORMANCE는 성능 전략을 관리합니다.
 - 성능 문제는 TECH_DEBT에서 관리합니다.
 - 완료된 개선 사항은 CHANGELOG에서 관리합니다.
-- REPORT는 성능 개선의 근거(Evidence)를 제공합니다.
+- REPORT는 성능 개선의 근거(Evidence)를 관리합니다.
+- 성능 최적화는 기능 추가보다 사용자 체감 성능 개선을 우선합니다.
 
 ---
 
@@ -207,4 +205,4 @@ Document : PERFORMANCE.md
 
 Type : Living Document
 
-Version : 1.0
+Version : 1.1

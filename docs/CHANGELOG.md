@@ -8,9 +8,9 @@
 | Document | CHANGELOG.md |
 | Type | Living Document |
 | Purpose | Project Change History |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
-| Last Updated | 2026-07-04 |
+| Last Updated | 2026-07-07 |
 
 ---
 
@@ -106,6 +106,79 @@ CHANGELOG는 변경 사항(Change)만 기록합니다.
 
 ---
 
+## 2026-07-05
+
+### Evidence
+
+- REPORT_08.md
+
+### Added
+
+- Home과 Archive가 동일한 뉴스 수집 로직을 사용하도록 구조를 통합
+- normalize-archives.ts를 추가하여 기존 Archive JSON을 새로운 정책으로 정규화할 수 있는 기능 구현
+- 부동산 카테고리에 관련도(Relevance Score) 기반 정렬 로직 추가
+- Archive 카테고리별 최대 100개 저장 정책 적용
+
+### Changed
+
+- Archive 자동 저장 시간을 한국시간 23:59 기준으로 변경
+- Home과 Archive가 동일한 검색어, 필터, 중복 제거 로직을 사용하도록 구조 변경
+- 부동산 검색 구조를 검색어 확장 중심에서 관련도 기반 구조로 개선
+- Archive 저장 구조를 장기 운영 정책에 맞게 개선
+
+### Fixed
+
+- Home과 Archive의 뉴스 수집 기준이 서로 달랐던 문제 해결
+- Archive에서 카테고리별 기사 수가 과도하게 증가하던 문제 해결
+- GitHub Actions Archive 자동 저장 구조 안정화
+- Archive JSON 구조를 새로운 정책에 맞게 정규화
+- 부동산 카테고리 기사 부족 문제를 관련도 기반 구조로 개선
+
+### Removed
+
+-
+
+---
+
+## 2026-07-07
+
+### Evidence
+
+- REPORT_09.md
+
+### Added
+
+- Android App Bundle 생성 및 Google Play Console 비공개 테스트 운영 절차 공식 문서화
+- REPORT_TEMPLATE v1.1 작성 기준 추가
+- REPORT 작성 철학(Writing Philosophy) 추가
+- REPORT 작성 절차(Standard Workflow) 추가
+- Original Project Report 작성 기준 추가
+- 긴 REPORT 작성 시 Part 단위 작성 원칙 추가
+
+### Changed
+
+- Project Documentation Cycle(PDC) 운영 절차를 최신 운영 방식으로 개선
+- REPORT 기반 공식 문서 업데이트 절차를 명확하게 정의
+- MASTER.md의 Android 배포 절차를 최신 방식으로 수정
+- MASTER.md의 Development Workflow를 Android 배포 절차를 포함하도록 개선
+- REPORT_TEMPLATE를 실제 운영 경험을 반영하도록 보완
+- END_SESSION_PROMPT의 Management Principles를 최신 운영 방식으로 개선
+- 공식 문서는 사용자가 전체 문서를 제공한 후 함께 검토하여 수정하는 운영 원칙을 적용
+
+### Fixed
+
+- REPORT 작성 기준이 부족하여 발생하던 문서 품질 편차 문제 해결
+- REPORT와 MASTER 간 운영 원칙 불일치 문제 해결
+- Android 배포 절차가 문서화되지 않았던 문제 해결
+- REPORT 작성 시 기존 양식과 문체가 일관되지 않던 문제 해결
+- REPORT 생성 절차가 실제 운영 방식과 일부 달랐던 문제 해결
+
+### Removed
+
+-
+
+---
+
 ## Future Entries
 
 새로운 개발 세션이 종료되면 아래 형식으로 추가합니다.
@@ -145,6 +218,7 @@ CHANGELOG는 다음 원칙을 따릅니다.
 3. 현재 상태는 MASTER에서 관리합니다.
 4. 상세 구현 과정은 REPORT에서 관리합니다.
 5. 완료되지 않은 작업은 기록하지 않습니다.
+6. REPORT 작성이 완료된 이후에만 CHANGELOG를 수정합니다.
 
 ---
 
@@ -163,4 +237,4 @@ Document : CHANGELOG.md
 
 Type : Living Document
 
-Version : 1.0
+Version : 1.1

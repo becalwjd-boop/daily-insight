@@ -149,7 +149,7 @@ export async function fetchNaverNews(queryText: string, display = 30) {
           "X-Naver-Client-Id": clientId!,
           "X-Naver-Client-Secret": clientSecret!,
         },
-        cache: "no-store",
+        next: { revalidate: 300 },
       }
     );
 
@@ -177,7 +177,7 @@ export async function fetchThumbnailImage(url: string) {
 
   try {
     const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 6000);
+    const timeout = setTimeout(() => controller.abort(), 2000);
 
     const res = await fetch(url, {
       headers: {
@@ -188,7 +188,7 @@ export async function fetchThumbnailImage(url: string) {
         "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
       },
       signal: controller.signal,
-      cache: "no-store",
+      next: { revalidate: 86400 },
       redirect: "follow",
     });
 
@@ -271,7 +271,7 @@ function wait(ms: number) {
 
 async function fetchNewsQueriesParallel(queries: string[], display = 30) {
   const allItems: any[] = [];
-  const batchSize = 4;
+  const batchSize = 2;
 
   for (let i = 0; i < queries.length; i += batchSize) {
     const batch = queries.slice(i, i + batchSize);
@@ -283,18 +283,21 @@ async function fetchNewsQueriesParallel(queries: string[], display = 30) {
     allItems.push(...results.flat());
 
     if (i + batchSize < queries.length) {
-      await wait(200);
+      await wait(400);
     }
   }
 
   return allItems;
 }
 
-export async function addThumbnails(items: any[]) {
+export async function addThumbnails(items: any[], thumbnailLimit = 10) {
+  const targetItems = items.slice(0, thumbnailLimit);
+  const restItems = items.slice(thumbnailLimit);
+
   const results: any[] = [];
 
-  for (let i = 0; i < items.length; i += 4) {
-    const chunk = items.slice(i, i + 4);
+  for (let i = 0; i < targetItems.length; i += 8) {
+    const chunk = targetItems.slice(i, i + 8);
 
     const chunkResults = await Promise.all(
       chunk.map(async (item) => {
@@ -309,10 +312,16 @@ export async function addThumbnails(items: any[]) {
 
     results.push(...chunkResults);
 
-    await wait(120);
+    await wait(80);
   }
 
-  return results;
+  return [
+    ...results,
+    ...restItems.map((item) => ({
+      ...item,
+      imageUrl: null,
+    })),
+  ];
 }
 
 async function getNewsByCategoryWithLimit(
@@ -320,7 +329,8 @@ async function getNewsByCategoryWithLimit(
     name: string;
     query: string;
   },
-  limit: number
+  limit: number,
+  includeThumbnails = false
 ) {
   let items: any[] = [];
 
@@ -632,11 +642,16 @@ async function getNewsByCategoryWithLimit(
     )
     .slice(0, limit);
 
-  const itemsWithThumbnails = await addThumbnails(todayItems);
+  const finalItems = includeThumbnails
+    ? await addThumbnails(todayItems, limit)
+    : todayItems.map((item: any) => ({
+      ...item,
+      imageUrl: null,
+    }));
 
   return {
     name: category.name,
-    items: itemsWithThumbnails,
+    items: finalItems,
   };
 }
 
@@ -651,7 +666,7 @@ export async function getNewsByCategoryForArchive(category: {
   name: string;
   query: string;
 }) {
-  const result = await getNewsByCategoryWithLimit(category, 100);
+  const result = await getNewsByCategoryWithLimit(category, 100, true);
 
   return {
     name: result.name,

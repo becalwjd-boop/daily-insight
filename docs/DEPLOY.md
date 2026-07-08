@@ -8,9 +8,9 @@
 | Document | DEPLOY.md |
 | Type | Living Document |
 | Purpose | Deployment Strategy and Operation Policy |
-| Version | 1.0 |
+| Version | 1.1 |
 | Status | Active |
-| Last Updated | 2026-07-03 |
+| Last Updated | 2026-07-08 |
 
 ---
 
@@ -79,6 +79,14 @@ Local Test
 
 ↓
 
+Git Commit
+
+↓
+
+Git Push
+
+↓
+
 GitHub
 
 ↓
@@ -91,11 +99,31 @@ Vercel Deployment
 
 ↓
 
-Production
+Production(Web)
 
 ↓
 
-Android Release (Optional)
+Capacitor Sync
+
+↓
+
+Android Studio
+
+↓
+
+Generate App Bundle (.aab)
+
+↓
+
+Google Play Console
+
+↓
+
+Internal / Closed Testing
+
+↓
+
+Production Release
 ```
 
 ---
@@ -117,6 +145,8 @@ Android Release (Optional)
 ## Mobile
 
 - Android (Capacitor)
+- Android Studio
+- Google Play Console
 
 ---
 
@@ -125,16 +155,15 @@ Android Release (Optional)
 배포 전 반드시 확인합니다.
 
 - 기능 정상 동작
-
 - 빌드 성공
-
 - 환경 변수 확인
-
 - 주요 화면 확인
-
 - Archive 정상 생성 여부 확인
-
 - 변경 문서 확인
+- GitHub Push 완료 여부 확인
+- Capacitor Sync 완료 여부 확인
+- Android Version Code 증가 여부 확인
+- Android Version Name 확인
 
 ---
 
@@ -148,6 +177,8 @@ Android Release (Optional)
 
 - CHANGELOG에 필요한 내용을 기록합니다.
 
+- Google Play Console 제출 후 문제가 발견된 경우 새로운 Version Code로 다시 배포합니다.
+
 ---
 
 # Automation
@@ -155,6 +186,8 @@ Android Release (Optional)
 현재 사용 중인 자동화
 
 - GitHub Actions
+- GitHub Push 기반 자동 배포
+- Vercel 자동 Production 배포
 
 향후 검토
 
@@ -166,33 +199,13 @@ Android Release (Optional)
 
 # Relationship
 
-```
-Development
+DEPLOY는 배포 정책(Deployment Policy)을 정의하는 공식 문서입니다.
 
-↓
+현재 서비스 상태는 MASTER.md에서 관리합니다.
 
-DEPLOY
+배포 이력은 CHANGELOG.md에서 관리합니다.
 
-↓
-
-MASTER
-
-↓
-
-CHANGELOG
-```
-
-DEPLOY는
-
-서비스 운영 절차를 정의합니다.
-
-MASTER는
-
-현재 운영 상태를 관리합니다.
-
-CHANGELOG는
-
-배포 결과를 기록합니다.
+프로젝트 변경의 근거(Evidence)는 REPORT.md에서 관리합니다.
 
 ---
 
@@ -207,6 +220,8 @@ DEPLOY는 아래 경우에만 수정합니다.
 - 자동화 변경
 
 - 운영 절차 변경
+
+- Google Play 운영 정책 변경
 
 단순 기능 추가만으로는 수정하지 않습니다.
 
@@ -232,6 +247,14 @@ DEPLOY는 운영 정책을 관리합니다.
 
 배포는 항상 안정성을 우선합니다.
 
+Google Play 배포는 비공개 테스트(Closed Testing)를 완료한 후 Production Release를 진행하는 것을 공식 운영 절차로 합니다.
+
+Android App Bundle은 Version Code를 증가시켜 생성합니다.
+
+배포 정책 또는 운영 절차가 변경된 경우에는 REPORT를 근거(Evidence)로 DEPLOY를 검토하고 최신 상태를 유지합니다.
+
+Google Play 프로덕션 출시는 충분한 비공개 테스트와 서비스 안정성 확인 이후 진행하는 것을 원칙으로 합니다.
+
 ---
 
 END OF DOCUMENT
@@ -242,4 +265,4 @@ Document : DEPLOY.md
 
 Type : Living Document
 
-Version : 1.0
+Version : 1.1
