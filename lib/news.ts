@@ -296,7 +296,7 @@ async function fetchNewsQueryForArchive(
 
     const itemDates = items.map((item: any) => toArchiveDate(item.pubDate));
 
-    if (itemDates.some((date) => date < targetDate)) {
+    if (itemDates.some((itemDate: string) => itemDate < targetDate)) {
       break;
     }
 
