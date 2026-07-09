@@ -26,8 +26,28 @@ function formatArchiveDate(pubDate: string) {
     return `${year}-${month}-${day}`;
 }
 
-function getKoreaTodayHyphen() {
-    return formatArchiveDate(new Date().toISOString());
+function getArchiveTargetDate() {
+    const now = new Date();
+
+    const parts = new Intl.DateTimeFormat("ko-KR", {
+        timeZone: "Asia/Seoul",
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+        hour: "2-digit",
+        hour12: false,
+    }).formatToParts(now);
+
+    const hour = Number(parts.find((p) => p.type === "hour")?.value || "0");
+
+    const target = new Date(now);
+
+    // GitHub Actions가 지연되어 새벽에 실행되면 전날 아카이브로 저장
+    if (hour >= 0 && hour < 3) {
+        target.setDate(target.getDate() - 1);
+    }
+
+    return formatArchiveDate(target.toISOString());
 }
 
 function getArticleKey(article: any) {
@@ -35,7 +55,7 @@ function getArticleKey(article: any) {
 }
 
 async function main() {
-    const date = getKoreaTodayHyphen();
+    const date = getArchiveTargetDate();
 
     const archiveDir = path.join(process.cwd(), "data", "archives");
     const filePath = path.join(archiveDir, `${date}.json`);
@@ -58,7 +78,7 @@ async function main() {
     const newArticlesByCategory = [];
 
     for (const category of categoryKeywords) {
-        const result = await getNewsByCategoryForArchive(category);
+        const result = await getNewsByCategoryForArchive(category, date);
         newArticlesByCategory.push(result.items);
     }
 

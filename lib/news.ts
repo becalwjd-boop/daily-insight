@@ -135,15 +135,21 @@ export function removeBadgeTextFromTitle(title: string) {
     .trim();
 }
 
-export async function fetchNaverNews(queryText: string, display = 30) {
+export async function fetchNaverNews(
+  queryText: string,
+  display = 30,
+  start = 1
+) {
   const clientId = process.env.NAVER_CLIENT_ID;
   const clientSecret = process.env.NAVER_CLIENT_SECRET;
 
   const query = encodeURIComponent(queryText);
+  const safeDisplay = Math.min(Math.max(display, 1), 100);
+  const safeStart = Math.min(Math.max(start, 1), 1000);
 
   try {
     const res = await fetch(
-      `https://openapi.naver.com/v1/search/news.json?query=${query}&display=${display}&sort=date`,
+      `https://openapi.naver.com/v1/search/news.json?query=${query}&display=${safeDisplay}&start=${safeStart}&sort=date`,
       {
         headers: {
           "X-Naver-Client-Id": clientId!,
@@ -269,7 +275,42 @@ function wait(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-async function fetchNewsQueriesParallel(queries: string[], display = 30) {
+function toArchiveDate(pubDate: string) {
+  return formatNewsDate(pubDate).replace(/\./g, "-");
+}
+
+async function fetchNewsQueryForArchive(
+  query: string,
+  targetDate: string,
+  maxPages = 5
+) {
+  const allItems: any[] = [];
+
+  for (let page = 0; page < maxPages; page++) {
+    const start = page * 100 + 1;
+    const items = await fetchNaverNews(query, 100, start);
+
+    if (items.length === 0) break;
+
+    allItems.push(...items);
+
+    const itemDates = items.map((item: any) => toArchiveDate(item.pubDate));
+
+    if (itemDates.some((date) => date < targetDate)) {
+      break;
+    }
+
+    await wait(300);
+  }
+
+  return allItems;
+}
+
+async function fetchNewsQueriesParallel(
+  queries: string[],
+  display = 30,
+  targetDate?: string
+) {
   const allItems: any[] = [];
   const batchSize = 2;
 
@@ -277,13 +318,17 @@ async function fetchNewsQueriesParallel(queries: string[], display = 30) {
     const batch = queries.slice(i, i + batchSize);
 
     const results = await Promise.all(
-      batch.map((query) => fetchNaverNews(query, display))
+      batch.map((query) =>
+        targetDate
+          ? fetchNewsQueryForArchive(query, targetDate)
+          : fetchNaverNews(query, display)
+      )
     );
 
     allItems.push(...results.flat());
 
     if (i + batchSize < queries.length) {
-      await wait(400);
+      await wait(targetDate ? 700 : 400);
     }
   }
 
@@ -330,11 +375,13 @@ async function getNewsByCategoryWithLimit(
     query: string;
   },
   limit: number,
-  includeThumbnails = false
+  includeThumbnails = false,
+  targetDate?: string
 ) {
   let items: any[] = [];
 
   const display = Math.max(limit, 30);
+  const archiveTargetDate = targetDate;
 
   if (category.name === "경제") {
     const economyQueries = [
@@ -346,7 +393,11 @@ async function getNewsByCategoryWithLimit(
       "정부 경제정책",
     ];
 
-    items = await fetchNewsQueriesParallel(economyQueries, display);
+    items = await fetchNewsQueriesParallel(
+      economyQueries,
+      display,
+      archiveTargetDate
+    );
   } else if (category.name === "금융") {
     const financeQueries = [
       "코스피 코스닥",
@@ -357,17 +408,18 @@ async function getNewsByCategoryWithLimit(
       "비트코인 가상자산",
     ];
 
-    items = await fetchNewsQueriesParallel(financeQueries, display);
+    items = await fetchNewsQueriesParallel(
+      financeQueries,
+      display,
+      archiveTargetDate
+    );
   } else if (category.name === "부동산") {
     const realEstateQueries = [
-      // 기존
       "아파트 집값 전세 매매",
       "재건축 재개발 리모델링",
       "청약 분양 분양가 입주",
       "1기 신도시 공공기여금",
       "부동산 정책 대출 세금",
-
-      // 추가
       "서울 아파트",
       "수도권 아파트",
       "신축 아파트",
@@ -387,7 +439,11 @@ async function getNewsByCategoryWithLimit(
       "부동산 시장",
     ];
 
-    items = await fetchNewsQueriesParallel(realEstateQueries, display);
+    items = await fetchNewsQueriesParallel(
+      realEstateQueries,
+      display,
+      archiveTargetDate
+    );
   } else if (category.name === "사회") {
     const socialQueries = [
       "사회",
@@ -399,7 +455,11 @@ async function getNewsByCategoryWithLimit(
       "노동",
     ];
 
-    items = await fetchNewsQueriesParallel(socialQueries, display);
+    items = await fetchNewsQueriesParallel(
+      socialQueries,
+      display,
+      archiveTargetDate
+    );
   } else if (category.name === "국제") {
     const internationalQueries = [
       "미국 중국",
@@ -410,7 +470,11 @@ async function getNewsByCategoryWithLimit(
       "국제 외교",
     ];
 
-    items = await fetchNewsQueriesParallel(internationalQueries, display);
+    items = await fetchNewsQueriesParallel(
+      internationalQueries,
+      display,
+      archiveTargetDate
+    );
   } else if (category.name === "기업") {
     const companyQueries = [
       "삼성전자 SK하이닉스",
@@ -421,25 +485,60 @@ async function getNewsByCategoryWithLimit(
       "AI 반도체",
     ];
 
-    items = await fetchNewsQueriesParallel(companyQueries, display);
-  } else if (category.name === "스포츠") {
-    const sportsQueries = [
-      "축구 손흥민 이강인",
-      "야구 KBO 류현진 김하성",
-      "농구 배구",
-      "골프 테니스",
-      "MLB EPL K리그",
-      "월드컵 대표팀",
+    items = await fetchNewsQueriesParallel(
+      companyQueries,
+      display,
+      archiveTargetDate
+    );
+  } else if (category.name === "연예") {
+    const entertainmentQueries = [
+      "연예 방송",
+      "드라마 배우",
+      "영화 개봉",
+      "가요 아이돌",
+      "K팝 콘서트",
+      "예능 출연",
+      "연예계 소속사",
+      "OTT 넷플릭스 디즈니플러스",
     ];
 
-    items = await fetchNewsQueriesParallel(sportsQueries, display);
+    items = await fetchNewsQueriesParallel(
+      entertainmentQueries,
+      display,
+      archiveTargetDate
+    );
+  } else if (category.name === "스포츠") {
+    const sportsQueries = [
+      "축구 손흥민 이강인 김민재",
+      "야구 KBO 류현진 김하성 이정후",
+      "MLB 오타니 김하성",
+      "농구 KBL NBA",
+      "배구 V리그",
+      "골프 PGA LPGA KPGA",
+      "테니스",
+      "월드컵 대표팀",
+      "올림픽 아시안게임",
+      "스포츠 경기 감독 선수",
+    ];
+
+    items = await fetchNewsQueriesParallel(
+      sportsQueries,
+      display,
+      archiveTargetDate
+    );
   } else {
-    items = await fetchNaverNews(category.query, display);
+    items = await fetchNewsQueriesParallel(
+      [category.query],
+      display,
+      archiveTargetDate
+    );
   }
 
-  const todayString = getKoreaTodayString();
-  const dedupedItems = removeDuplicateNews(items);
+  const todayString = targetDate
+    ? targetDate.replace(/-/g, ".")
+    : getKoreaTodayString();
 
+  const dedupedItems = removeDuplicateNews(items);
   let filteredItems = dedupedItems;
 
   if (category.name === "경제") {
@@ -582,19 +681,14 @@ async function getNewsByCategoryWithLimit(
     filteredItems = dedupedItems
       .map((item: any) => {
         const title = cleanTitle(item.title);
-
         let relevanceScore = 0;
 
         Object.entries(realEstateWeights).forEach(([word, weight]) => {
-          if (title.includes(word)) {
-            relevanceScore += weight;
-          }
+          if (title.includes(word)) relevanceScore += weight;
         });
 
         Object.entries(realEstateNegativeWeights).forEach(([word, weight]) => {
-          if (title.includes(word)) {
-            relevanceScore -= weight;
-          }
+          if (title.includes(word)) relevanceScore -= weight;
         });
 
         return {
@@ -662,11 +756,19 @@ export async function getNewsByCategory(category: {
   return getNewsByCategoryWithLimit(category, 20);
 }
 
-export async function getNewsByCategoryForArchive(category: {
-  name: string;
-  query: string;
-}) {
-  const result = await getNewsByCategoryWithLimit(category, 100, true);
+export async function getNewsByCategoryForArchive(
+  category: {
+    name: string;
+    query: string;
+  },
+  targetDate?: string
+) {
+  const result = await getNewsByCategoryWithLimit(
+    category,
+    100,
+    true,
+    targetDate
+  );
 
   return {
     name: result.name,

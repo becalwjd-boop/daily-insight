@@ -1,13 +1,1616 @@
 {
   "date": "2026-07-04",
-  "updatedAt": "2026-07-04T00:05:31.666Z",
+  "updatedAt": "2026-07-09T12:22:12.618Z",
   "articles": [
+    {
+      "category": "금융",
+      "title": "[자정 뉴스브리핑] 부탄 왕국 관련 지갑, 바이낸스로 700 BTC 입금 外",
+      "url": "https://www.tokenpost.kr/news/briefing/375053",
+      "pubDate": "Sat, 04 Jul 2026 23:32:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/93p6ezonnr.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[탐사보도 뉴스프리즘] 이번엔 '삼전닉스 가즈아' 열풍…양극화·포모 ...",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH202607041341334xL",
+      "pubDate": "Sat, 04 Jul 2026 22:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/422/2026/07/04/1254873_1783135426_20260704220111976.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "내 호가창 쥐락펴락했다...리플 원장 장악한 AI 트레이딩 봇, 연쇄 청산...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465555",
+      "pubDate": "Sat, 04 Jul 2026 20:24:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465555_453982_2216_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "\"비트코인 버리고 리플로 전액 이동\"... 거대 고래의 위험한 도박 시작...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465554",
+      "pubDate": "Sat, 04 Jul 2026 20:16:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465554_453981_1518_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "100만 건의 습격…리플 생태계 점령한 '자율형 AI 에이전트'에 시장 초비...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465552",
+      "pubDate": "Sat, 04 Jul 2026 20:12:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465552_453979_113_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "\"언제 터질지 모른다\" 업비트 흔드는 1억 개의 투기성 물량… 알트코인...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465549",
+      "pubDate": "Sat, 04 Jul 2026 17:36:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465549_453976_350_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "\"개미들 던질 때가 진짜 신호\"... 리플 평론가들 일제히 역대급 폭등 예...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465548",
+      "pubDate": "Sat, 04 Jul 2026 17:32:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465548_453975_3037_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "역대 12년 만에 처음... 리플(XRP) 손실률 극대화에 글로벌 고래들 '역발...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465543",
+      "pubDate": "Sat, 04 Jul 2026 17:22:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465543_453970_2140_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "바닥 중의 찐바닥 왔네...비트코인·이더리움·XRP, 역사적 '최저 위험 ...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465541",
+      "pubDate": "Sat, 04 Jul 2026 17:18:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465541_453968_173_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "\"이더리움 꺾는다\"... 카르다노·리플 동맹설에 가상자산 규제 당국 '초...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465537",
+      "pubDate": "Sat, 04 Jul 2026 17:04:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465537_453964_35_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "“거래절벽에 이자부담까지”…업비트·빗썸 ‘2% 예치금’ 겹고통 [코...",
+      "url": "https://www.ddaily.co.kr/page/view/2026070315232943331",
+      "pubDate": "Sat, 04 Jul 2026 17:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/138/2026/07/04/0002233140_001_20260704170017506.PNG?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "코스피 150배, 삼전닉스 50배?… 해외서 韓 증시 놓고 펼쳐진 배팅판",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1166747",
+      "pubDate": "Sat, 04 Jul 2026 16:30:00 +0900",
+      "imageUrl": "https://cdn.ggilbo.com/news/photo/202607/1166747_1018935_814.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[저녁 뉴스브리핑] 크립토퀀트 \"거래소 예치금 급증...암호화폐 시장 변...",
+      "url": "https://www.tokenpost.kr/news/briefing/375016",
+      "pubDate": "Sat, 04 Jul 2026 16:04:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/3l61bpk58z.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "거래소 유입액 폭발…비트코인·이더리움 랠리 찬물 끼얹는 고래의 투매...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465536",
+      "pubDate": "Sat, 04 Jul 2026 15:28:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465536_453963_273_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "\"개미들 또 불나방처럼 돌진\"... 이더리움 확장성 호재에 엮인 XPL, 사기...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465535",
+      "pubDate": "Sat, 04 Jul 2026 15:24:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465535_453962_2333_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "규제 사각지대 파고든 AI 암호화폐…VVV 가이드가 몰고 온 검은 소용돌...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465534",
+      "pubDate": "Sat, 04 Jul 2026 15:18:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465534_453961_1644_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "가상자산 볼모로 잡은 거대 플랫폼…변동성 폭발 시 개인 투자자 무차별...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465533",
+      "pubDate": "Sat, 04 Jul 2026 15:14:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465533_453960_1140_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[오후 뉴스브리핑] 크립토퀀트 “거래소 예치금 급증으로 암호화폐 시장...",
+      "url": "https://www.tokenpost.kr/news/briefing/374995",
+      "pubDate": "Sat, 04 Jul 2026 12:04:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/ui08xge606.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[속보] 비트코인·리플·하이퍼리퀴드 등 코인 시세 주말장 강세…향후...",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=586601",
+      "pubDate": "Sat, 04 Jul 2026 11:20:00 +0900",
+      "imageUrl": "https://www.cbci.co.kr/news/thumbnail/202607/586601_398824_1830_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[7월 첫째 주 세계경제동향 브리핑] 코스피 8,000선 초반 후퇴…美 증시...",
+      "url": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3027904",
+      "pubDate": "Sat, 04 Jul 2026 11:20:00 +0900",
+      "imageUrl": "https://cdn.kihoilbo.co.kr/news/photo/202607/3027904_571684_1727.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "“코인 특별세 금지”…美 스테이블코인 권리 보호법 나온다",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01334966645511240",
+      "pubDate": "Sat, 04 Jul 2026 11:09:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322509_001_20260704110907706.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "업비트 '거래 절벽'…리플(XRP) 거래 집중에도 시장은 약세",
+      "url": "http://coinreaders.com/246063",
+      "pubDate": "Sat, 04 Jul 2026 10:36:00 +0900",
+      "imageUrl": "https://www.coinreaders.com/imgdata/coinreaders_com/202603/800_533_2026033035346472.png"
+    },
+    {
+      "category": "금융",
+      "title": "KB금융 차기 회장 후보 6명으로 압축-양종희 포함, 9월 최종 선임",
+      "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=82601",
+      "pubDate": "Sat, 04 Jul 2026 08:52:00 +0900",
+      "imageUrl": "https://cdn.mediafine.co.kr/news/photo/202607/82601_119537_388.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[다음주 경제] 외환시장 24시간 가동…IMF, 韓 성장률 전망 얼마나 올릴...",
+      "url": "https://www.yna.co.kr/view/AKR20260704013900002?input=1195m",
+      "pubDate": "Sat, 04 Jul 2026 08:46:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/PYH2026063012550001300_P4_20260704084713123.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "보금자리론도 5% 시대…내 집 마련 사다리를 걷어찬 규제[손바닥부동산...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01197206645511240",
+      "pubDate": "Sat, 04 Jul 2026 08:45:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322468_001_20260704084511398.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "오늘의 금값시세…순금 1돈 90만원대",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=383803",
+      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
+      "imageUrl": null
+    },
+    {
+      "category": "금융",
+      "title": "비트코인 9400만 원대 회복… 지케이패스 30% 넘게 폭등",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3626094",
+      "pubDate": "Sat, 04 Jul 2026 08:32:00 +0900",
+      "imageUrl": "https://cdn.gukjenews.com/news/thumbnail/202607/3626094_3788573_3156_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[은행가] 기업은행, 외국인 대상 캐시백·농협은행 '오늘의 혜택' 출시 ...",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=749529",
+      "pubDate": "Sat, 04 Jul 2026 08:24:00 +0900",
+      "imageUrl": "https://cdn.slist.kr/news/thumbnail/202607/749529_1149909_1430_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "발행금리 부담에 회사채 비수기 빨리 도래…\"하반기도 회복 어려워\"",
+      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423352",
+      "pubDate": "Sat, 04 Jul 2026 08:16:00 +0900",
+      "imageUrl": "https://cdn.news.einfomax.co.kr/news/thumbnail/202607/4423352_327040_143_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "국내 증시 투자자예탁금 119조 돌파, 개인 매수 여력 주목받아",
+      "url": "https://www.tokenpost.kr/news/market/374964",
+      "pubDate": "Sat, 04 Jul 2026 08:16:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/f04t0ax1hn.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "\"나도 모르게 비트코인을?\"... 주식 투자자 1억 명 운명, 가상자산 폭락...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465462",
+      "pubDate": "Sat, 04 Jul 2026 08:14:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465462_453907_1226_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "“장가연 스펀지처럼 잘 받아들여”, “서한솔 폭발할 것”…PBA팀리그...",
+      "url": "https://www.sportsseoul.com/news/read/1620470?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 08:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251669_001_20260704080312836.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "반도체 수출 호황 지속…5월 경상수지 흑자 규모는[한은 미리보기]",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01161126645511240",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322458_001_20260704080219393.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "역대급 거래대금에도 소외된 증권주…“2분기 깜짝 실적·ETF가 반전 이...",
+      "url": "https://www.etoday.co.kr/news/view/2600001",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260703112722_2354663_1198_499.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[주간증시전망] 다음주 코스피 7200~9000 전망...삼전 실적에 방향성 갈...",
+      "url": "https://www.etoday.co.kr/news/view/2600221",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260704000411_2354885_1200_898.png"
+    },
+    {
+      "category": "금융",
+      "title": "출렁이는 장세에도 단일종목 레버리지 찾는 개미들…수익률은 '곡소리'",
+      "url": "https://www.ajunews.com/view/20260703182429556",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703183519736797.png"
+    },
+    {
+      "category": "금융",
+      "title": "기업대출 빗장 풀린 인터넷은행…은행권 지각변동",
+      "url": "https://www.ajunews.com/view/20260703143451160",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703144709486061.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "하반기 '1만피' 조준…변수는 국민연금·외국인·금리",
+      "url": "https://biz.sbs.co.kr/article_hub/20000320365?division=NAVER",
+      "pubDate": "Sat, 04 Jul 2026 08:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/07/04/0000519931_001_20260704080111337.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "[자금조달 프리뷰] 삼성증권 공모채·레몬헬스케어 상장 '눈길'",
+      "url": "https://www.bloter.net/news/articleView.html?idxno=667291",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/293/2026/07/04/0000087211_001_20260704081510246.png?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "\"테러 자금·마약 밀매 악용\"...인도 RBI, 암호화폐 봉쇄 수위 극대화",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465459",
+      "pubDate": "Sat, 04 Jul 2026 07:48:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465459_453904_4619_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[인사] 우리은행",
+      "url": "http://www.econonews.co.kr/news/articleView.html?idxno=440678",
+      "pubDate": "Sat, 04 Jul 2026 07:46:00 +0900",
+      "imageUrl": "http://www.econonews.co.kr/image/logo/snslogo_20210506051725.png"
+    },
+    {
+      "category": "금융",
+      "title": "개미 털고 나간 빈자리…바이낸스 소매 유입 사상 최저치 대충격",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465457",
+      "pubDate": "Sat, 04 Jul 2026 07:40:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465457_453902_389_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "주식 시장인지 도박판인지…국장 강타한 ‘단타 좀비들’",
+      "url": "https://www.kyeonggi.com/article/20260703580343",
+      "pubDate": "Sat, 04 Jul 2026 07:32:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/666/2026/07/04/0000113862_001_20260704082815907.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 급등…반도체가 지...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465456",
+      "pubDate": "Sat, 04 Jul 2026 07:32:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465456_453901_3126_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "코스닥150 담고 콜옵션 매도…월배당 노리는 커버드콜 ETF[ETF언박싱]",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01148006645511240",
+      "pubDate": "Sat, 04 Jul 2026 07:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322454_001_20260704073110722.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "IMF \"토큰화, 정책 결정에 따라 금융시스템 강화하거나 분열시킬 것\"",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681366",
+      "pubDate": "Sat, 04 Jul 2026 07:26:00 +0900",
+      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202607/681366_629777_2454.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "DCG 지원 유마, 기관투자자용 비텐서 투자 펀드 출시",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681365",
+      "pubDate": "Sat, 04 Jul 2026 07:20:00 +0900",
+      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202607/681365_629776_1822.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "신한은행 '신한인증서' 1300만 돌파…슈퍼SOL 통합 플랫폼의 핵심 인프라...",
+      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=61183",
+      "pubDate": "Sat, 04 Jul 2026 07:20:00 +0900",
+      "imageUrl": "https://cdn.newsroad.co.kr/news/thumbnail/202607/61183_82556_5620_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[주간 코스닥 외국인] 반도체 싹쓸이…리노공업·이오테크닉스 대거 담...",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465451",
+      "pubDate": "Sat, 04 Jul 2026 07:18:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465451_453897_1459_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[인사] 우리금융그룹",
+      "url": "https://www.seoulfn.com/news/articleView.html?idxno=632672",
+      "pubDate": "Sat, 04 Jul 2026 07:15:00 +0900",
+      "imageUrl": "https://www.seoulfn.com/image/logo/snslogo_20250522023711.png"
+    },
+    {
+      "category": "금융",
+      "title": "[하반기 증시 전망②] 소외된 코스닥, 반전 가능성은…상폐 강화·연기...",
+      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=91747",
+      "pubDate": "Sat, 04 Jul 2026 07:14:00 +0900",
+      "imageUrl": "https://cdn.newsian.co.kr/news/thumbnail/202607/91747_84856_39_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "삼성전자·SK하이닉스 “코스피는 6종목 장세”",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202607040022",
+      "pubDate": "Sat, 04 Jul 2026 07:14:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040038.png"
+    },
+    {
+      "category": "금융",
+      "title": "보이스피싱 구제 신청…이제 은행 안 가도 됩니다[오늘의 머니 팁]",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01144726645511240",
+      "pubDate": "Sat, 04 Jul 2026 07:12:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322453_001_20260704071212607.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "비트버니 퀴즈 7월 4일 정답은",
+      "url": "https://www.namdonews.com/news/articleView.html?idxno=915756",
+      "pubDate": "Sat, 04 Jul 2026 07:06:00 +0900",
+      "imageUrl": "https://cdn.namdonews.com/news/photo/202607/915756_619627_258.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "금리 오르고 증시는 널뛰기… '갈 곳 잃은' 대기 자금 722조 쌓였다",
+      "url": "https://www.dailian.co.kr/news/view/1663207/?sc=Naver",
+      "pubDate": "Sat, 04 Jul 2026 07:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/07/04/0003107899_001_20260704070312407.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "[법인카드 공략] [하나] '기업금융 전문가' 성영수 효과...성장률 '두각...",
+      "url": "https://news.dealsitetv.com/articles/172687",
+      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
+      "imageUrl": null
+    },
+    {
+      "category": "금융",
+      "title": "문전성시 보험 M&A…신한금융 가세로 격전지 확대",
+      "url": "http://www.segyebiz.com/newsView/20260704500788?OutUrl=naver",
+      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
+      "imageUrl": "http://www.segyebiz.com//content/image/2026/07/04/20260704500787.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "KB금융지주, 차기 회장 후보 6명 확정…9월 최종 후보 선정",
+      "url": "https://www.epnc.co.kr/news/articleView.html?idxno=403879",
+      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
+      "imageUrl": "https://cdn.epnc.co.kr/news/photo/202607/403879_404155_130.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "코스피 87% 뛰었는데…지수는 사실상 '6종목'이 움직였다 [증시는 왜]",
+      "url": "http://www.fnnews.com/news/202607031537355447",
+      "pubDate": "Sat, 04 Jul 2026 07:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543586_001_20260704070112066.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이...",
+      "url": "https://www.goodkyung.com/news/articleView.html?idxno=288860",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://cdn.goodkyung.com/news/thumbnail/202607/288860_260472_4921_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "삼성·LG 가전주, 트럼프발 효율규제 폐지 수혜",
+      "url": "https://www.g-enews.com/view.php?ud=2026070406560364552bd56fbc3c_1",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20260704065731025462bd56fbc3c21121419978.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "은퇴세대 ‘주목’…신한투자증권, 자산관리 라인업 확대",
+      "url": "https://www.dailian.co.kr/news/view/1663167/?sc=Naver",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/07/04/0003107896_001_20260704070018402.png?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "비트코인·이더리움 '장중 상승'...주요 이슈는?",
+      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167581",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://cdn.choicenews.co.kr/news/thumbnail/202607/167581_127557_5320_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "인도중앙은행, 의회에 암호화폐 합법화 반대... 은행권 차단 재차 강조",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681353",
+      "pubDate": "Sat, 04 Jul 2026 06:58:00 +0900",
+      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202607/681353_629765_5630.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "달러-원 하루 만에 25.8원 폭락…1,530원 마감에도 '엔화 변수' 여전",
+      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465445",
+      "pubDate": "Sat, 04 Jul 2026 06:50:00 +0900",
+      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465445_453891_4923_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "KB금융 차기 회장 후보 6인 숏리스트 확정… 양종희·이환주 등 내부 4명",
+      "url": "https://www.segye.com/newsView/20260703513274?OutUrl=naver",
+      "pubDate": "Sat, 04 Jul 2026 06:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260602515641_20260704064211858.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "증시 활황인데 부진하던 증권주 ‘8000피’에 7% ‘쑥’ [줍줍리포트]",
+      "url": "https://www.sedaily.com/article/20063612?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 06:36:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638048_001_20260704063614193.png?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "美 긴축 완화 기대에… 비트코인·알트코인 동반 상승 [주간코인시황]",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165072",
+      "pubDate": "Sat, 04 Jul 2026 06:20:00 +0900",
+      "imageUrl": "https://cdn.it.chosun.com/news/thumbnail/202607/2023092165072_446828_2621_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "“시장에 달러가 넘쳐 난다” 마이너스 프리미엄까지, 고환율 시대 무슨...",
+      "url": "https://biz.heraldcorp.com/article/10797944?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 06:17:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/07/04/0002665620_001_20260704061812145.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "현대차 주식형 봇물, 코스피 테마도 다수···6월 상장 ETF 보니",
+      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=422173",
+      "pubDate": "Sat, 04 Jul 2026 06:10:00 +0900",
+      "imageUrl": "https://cdn.sisajournal-e.com/news/thumbnail/202607/422173_236699_3951_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "리플(XRP) 단기 반등세 지속, 글로벌 결제 생태계 확장 기대",
+      "url": "https://www.tokenpost.kr/news/cryptocurrency/374951",
+      "pubDate": "Sat, 04 Jul 2026 06:08:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/nr6frs3txe.png"
+    },
+    {
+      "category": "금융",
+      "title": "인터넷은행, 4% 예금금리 향해 '성큼'…시중은행은 2%대 '제자리'",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=874111",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://cdn.getnews.co.kr/news/photo/202607/874111_528942_5716.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "6월 외환보유액 소폭 늘었다…“달러 풀었지만 외화예금 증가로 상쇄”",
+      "url": "https://www.segye.com/newsView/20260703505483?OutUrl=naver",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260703505597_20260704060213701.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "우리은행, 고객 정보 1만7000여건 유출…\"외부 업체 직원 과실\"",
+      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=874108",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://cdn.getnews.co.kr/news/photo/202607/874108_528940_2847.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[블록체人] 임주영 ABC 총괄 “가상자산 관리, 스테이블코인 결제·정산...",
+      "url": "https://biz.chosun.com/stock/finance/2026/07/04/PYTWC4QHJZGWLA2NYY753QOYVA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/366/2026/07/04/0001176669_001_20260704060212460.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "한미약품 오너 일가 연대 공식화…지분 매입 경쟁 펼쳐질까",
+      "url": "https://www.dailypharm.com/user/news/340116?REFERER=NP",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://vodcdn.dailypharm.com/new_dailypharm/editor/content/2026/07/02/de5c622c-3d22-4e4a-a0d6-1e52f08a1fed.png"
+    },
+    {
+      "category": "금융",
+      "title": "1년전 환율, 1300원대였는데···6일부터 24시간 외환거래 시작되면?[경...",
+      "url": "https://www.khan.co.kr/article/202607040600061",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/032/2026/07/04/0003456015_001_20260704060110002.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "취약차주 품는 금융권… 맞춤형 대출 잇따라 출시",
+      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165125",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://cdn.it.chosun.com/news/thumbnail/202607/2023092165125_446791_2842_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "“예금 토큰, 스테이블코인보다 싸” 한은이 청사진 꺼내든 이유",
+      "url": "https://www.joongang.co.kr/article/25442375",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535268_001_20260704062758718.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "IBK기업은행, 외국인 고객 자동이체 캐시백 이벤트…외국인 고객 금융 ...",
+      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=204431",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://cdn.lcnews.co.kr/news/photo/202607/204431_205873_1112.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "‘제2의 월급’ 월배당 ETF, 샀다가 손해 보는 이유 [잘살아보세]",
+      "url": "https://www.segye.com/newsView/20260702518655?OutUrl=naver",
+      "pubDate": "Sat, 04 Jul 2026 05:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260702518747_20260704054109238.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "1,500원대 고환율 '뉴노멀'...하반기 물가 주요 변수",
+      "url": "https://www.ytn.co.kr/_ln/0102_202607040523397252",
+      "pubDate": "Sat, 04 Jul 2026 05:23:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/052/2026/07/04/202607040523397252_t_20260704052616891.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "화폐 속 인물 누가 정할까… 트럼프가 쏘아 올린 '화폐 도안'논란",
+      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=222421",
+      "pubDate": "Sat, 04 Jul 2026 05:02:00 +0900",
+      "imageUrl": "https://cdn.lawtimes.co.kr/news/photo/202607/222421_126467_4750.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "특판 예금부터 특별전시까지...전남광주통합 기념행사 '다채'",
+      "url": "https://www.ytn.co.kr/_ln/0115_202607040331323866",
+      "pubDate": "Sat, 04 Jul 2026 03:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/052/2026/07/04/202607040331323866_t_20260704033220625.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "미래에셋, 1조원대 자금 조달... SK하이닉스 투자 검토",
+      "url": "https://www.tokenpost.kr/news/economy/374935",
+      "pubDate": "Sat, 04 Jul 2026 02:46:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/y2lap7zv9m.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "'김가영 룰이 최대 변수?' 당구 女帝는 오히려 웃었다 \"치는 게 좋지만...",
+      "url": "https://www.nocutnews.co.kr/news/6543024?utm_source=naver&utm_medium=article&utm_campaign=20260704022915",
+      "pubDate": "Sat, 04 Jul 2026 02:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/07/04/0004164785_001_20260704023011846.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "[인사] 한국예탁결제원",
+      "url": "https://www.cnbnews.com/news/articleView.html?idxno=1006940",
+      "pubDate": "Sat, 04 Jul 2026 02:28:00 +0900",
+      "imageUrl": "https://www.cnbnews.com/image/logo/snslogotrans_20260309031522.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "KB금융지주 차기 회장 레이스 후보 6인 확정됐다 : 내부 후보는 양종희...",
+      "url": "https://www.huffingtonpost.kr/article/258464",
+      "pubDate": "Sat, 04 Jul 2026 02:20:00 +0900",
+      "imageUrl": "https://cdn.huffingtonpost.kr/news/photo/202602/242733_412925_580.jpg?v=258464"
+    },
+    {
+      "category": "금융",
+      "title": "우리은행, 데이터 기반 영업 강화 및 내부통제 개편 단행",
+      "url": "https://www.tokenpost.kr/news/economy/374933",
+      "pubDate": "Sat, 04 Jul 2026 02:14:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/cz93ik33kn.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "KB금융 회장 최종 후보군 6명 압축…내부와 외부 각축전 예고",
+      "url": "https://www.tokenpost.kr/news/economy/374930",
+      "pubDate": "Sat, 04 Jul 2026 02:06:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/f3qffcx8bp.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "병장 월급 150만 원 시대… ‘군테크’로 목돈 모은다",
+      "url": "https://www.donga.com/news/Economy/article/all/20260703/134233254/2",
+      "pubDate": "Sat, 04 Jul 2026 01:43:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731489_001_20260704014340305.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "“게임하면 100원 입금” 학생 맞춤서비스로 주 거래 은행 굳히기",
+      "url": "https://www.donga.com/news/Economy/article/all/20260703/134233259/2",
+      "pubDate": "Sat, 04 Jul 2026 01:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731459_001_20260704075217022.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "연 6~7% 수익으로 월급 대체할 현금 만드는 ‘인컴’투자[은퇴 레시피]",
+      "url": "https://www.donga.com/news/Economy/article/all/20260703/134234270/2",
+      "pubDate": "Sat, 04 Jul 2026 01:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731453_001_20260704080912115.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "전북은행 김성수 부장, 무주군 명예군민 됐다",
+      "url": "http://www.jeonmin.co.kr/news/articleView.html?idxno=442703",
+      "pubDate": "Sat, 04 Jul 2026 01:30:00 +0900",
+      "imageUrl": "http://www.jeonmin.co.kr/news/thumbnail/202607/442703_151465_5432_v150.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "금호건설, 공매도 과열종목 지정 연장→단기 거래금지 조치",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123026",
+      "pubDate": "Sat, 04 Jul 2026 01:18:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123026_1955009_1724_crop.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "홈플러스, 16개월 만에 결국 파산 수순…직원 1만2000명 어쩌나",
+      "url": "https://www.joongang.co.kr/article/25442353",
+      "pubDate": "Sat, 04 Jul 2026 01:09:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/353/2026/07/04/0000055956_001_20260704010915551.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "ECB, 연내 1~2회 추가 금리인상 예상…일본도 31년 만에 1%대 금리 시대...",
+      "url": "https://www.joongang.co.kr/article/25442346",
+      "pubDate": "Sat, 04 Jul 2026 01:02:00 +0900",
+      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "체면보다 실리…“아빠는 우리 집 후방 사령관”",
+      "url": "https://www.joongang.co.kr/article/25442341",
+      "pubDate": "Sat, 04 Jul 2026 00:56:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/353/2026/07/04/0000055945_001_20260704005617438.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "금융",
+      "title": "국고채 혼조세: 미국 고용지표와 국내 증시 변동의 영향",
+      "url": "https://www.tokenpost.kr/news/economy/374921",
+      "pubDate": "Sat, 04 Jul 2026 00:56:00 +0900",
+      "imageUrl": "https://f1.tokenpost.kr/2026/07/oadfygsdlc.jpg"
+    },
+    {
+      "category": "금융",
+      "title": "KB금융 차기 회장 후보, 양종희 포함 6명으로 압축",
+      "url": "https://www.joongang.co.kr/article/25442337",
+      "pubDate": "Sat, 04 Jul 2026 00:50:00 +0900",
+      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "“카본화 덕분” 황영조 ‘마라톤 2시간’ 기록 깬 사웨 선수에 일침 (‘...",
+      "url": "https://www.mk.co.kr/article/12090383",
+      "pubDate": "Sat, 04 Jul 2026 22:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/07/04/0005702734_001_20260704225015853.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"홍명보 감독에게 살해위협까지? 한국인들은 왜 이렇게 분노했나?\" 영국...",
+      "url": "http://www.osen.co.kr/article/G1112834036",
+      "pubDate": "Sat, 04 Jul 2026 21:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565949_001_20260704214111626.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "송성문, 오타니 상대로 안타·도루… 이정후도 안타",
+      "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=848276",
+      "pubDate": "Sat, 04 Jul 2026 18:58:00 +0900",
+      "imageUrl": "https://cdn.hansbiz.co.kr/news/thumbnail/202607/848276_864404_4735_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'데이앤나잇' 변진섭, 황영조와 의외의 인연...과거 OOO 선수?",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3626307",
+      "pubDate": "Sat, 04 Jul 2026 18:50:00 +0900",
+      "imageUrl": "https://cdn.gukjenews.com/news/thumbnail/202607/3626307_3788817_158_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "“살해 협박받고 미국으로 도피한 홍명보 감독, 일본서는 도리어 ‘지지...",
+      "url": "https://www.goal.com/kr/뉴스/a/blt8e698e36252e8e78",
+      "pubDate": "Sat, 04 Jul 2026 16:52:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/216/2026/07/04/0000141527_001_20260704165209418.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"홍명보 '언젠가' 의미심장 발언까지…월드컵보다 HONG 논란 더 뜨거워...",
+      "url": "https://www.xportsnews.com/article/2168064",
+      "pubDate": "Sat, 04 Jul 2026 16:46:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029864_001_20260704164613846.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[MLB] SF 이정후 안타 타율 0.319, SD 송성문 안타·도루까지...김하성은...",
+      "url": "https://www.newspim.com/news/view/20260704000052",
+      "pubDate": "Sat, 04 Jul 2026 16:19:00 +0900",
+      "imageUrl": "https://img.newspim.com/news/2026/07/02/2607021402375090_836_tc.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"한국 축구는 죽었다\" 英 BBC 작심 비판…\"손흥민-이강인-김민재 있는데...",
+      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826417",
+      "pubDate": "Sat, 04 Jul 2026 16:08:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/07/04/0000616594_001_20260704162112135.jpeg"
+    },
+    {
+      "category": "스포츠",
+      "title": "KBL 호령했던 재키 존스 아들도 서머리그 뛴다…6일 이현중과 맞대결",
+      "url": "https://m.sports.naver.com/basketball/article/065/0000299308",
+      "pubDate": "Sat, 04 Jul 2026 13:28:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/065/2026/07/04/0000299308_001_20260704133612951.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "박지성·이영표·박주호 등 '축구인' 본격 가세, 韓 축구 '개혁' 가능할...",
+      "url": "https://www.mydaily.co.kr/page/view/2026070410232523156",
+      "pubDate": "Sat, 04 Jul 2026 13:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/07/04/0004081406_001_20260704130407734.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "홍명보 참사 뒤 대수술… 박지성·이영표 'K축구 혁신위' 해결책 될까",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3414436",
+      "pubDate": "Sat, 04 Jul 2026 13:02:00 +0900",
+      "imageUrl": "https://cdn.newscj.com/news/thumbnail/202607/3414436_3521021_1027_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[농구] 남자 대표팀, 대만에 월드컵 예선 80-82 역전패… 마줄스 부임 '...",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3414439",
+      "pubDate": "Sat, 04 Jul 2026 11:54:00 +0900",
+      "imageUrl": "https://cdn.newscj.com/news/thumbnail/202607/3414439_3521025_2612_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"한국 축구는 죽었다\"…BBC가 진단한 KFA의 민낯",
+      "url": "https://www.ajunews.com/view/20260703170216455",
+      "pubDate": "Sat, 04 Jul 2026 11:02:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703171010444767.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[북중미 월드컵] “살해 위협받아 긴급하게 도피” 외신들 일제히 ‘조...",
+      "url": "https://www.goal.com/kr/뉴스/a/blt684dceb853ebe46c",
+      "pubDate": "Sat, 04 Jul 2026 10:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/216/2026/07/04/0000141522_001_20260704102612840.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "남자농구, 대만에 월드컵 예선 80-82 패배…마줄스 부임 후 3연패",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20260704100927lNm",
+      "pubDate": "Sat, 04 Jul 2026 10:10:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/422/2026/07/04/AKR20260704100927lNm_01_i_20260704101011729.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"이미 합의 끝났다\" 이강인, 615억에 라리가 명문 아틀레티코 이적 '초읽...",
+      "url": "http://www.fnnews.com/news/202607040748010829",
+      "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543599_001_20260704090120841.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "한국 축구를 무너뜨린 것은 축구협회의 곪은 시스템이었다",
+      "url": "https://www.sisajournal.com/news/articleView.html?idxno=378396",
+      "pubDate": "Sat, 04 Jul 2026 09:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/586/2026/07/04/0000133031_001_20260704090013036.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "축구계 \"정몽규·홍명보 퇴진 만으론 안돼…학연 청산이 개혁 출발점\"",
+      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846061",
+      "pubDate": "Sat, 04 Jul 2026 09:00:00 +0900",
+      "imageUrl": "https://cdn.newsworks.co.kr/news/thumbnail/202607/846061_804328_4113_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"월드컵 졌다고 국회 청문회?\" 日 의문, \"상상도 못할 일... 누가 한국 감...",
+      "url": "http://www.osen.co.kr/article/G1112833662",
+      "pubDate": "Sat, 04 Jul 2026 08:59:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565531_001_20260704085913967.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인 \"제 몫 더 잘 해냈어야…더 성장해 보탬\"",
+      "url": "https://news.tf.co.kr/read/soccer/2339680.htm",
+      "pubDate": "Sat, 04 Jul 2026 08:51:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/07/04/202659081783122457_20260704085112259.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "'월드컵 34위 마감' 이강인 \"제 몫 다하지 못해 죄송하다\"",
+      "url": "https://www.insight.co.kr/news/561494",
+      "pubDate": "Sat, 04 Jul 2026 08:48:00 +0900",
+      "imageUrl": "https://img.insight.co.kr/static/2026/07/04/1200/img_20260704083733_90n0555d.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "축구 이어 농구 월드컵마저 '경우의 수' 따져야 하나…'부임 후 0승 3패...",
+      "url": "https://www.xportsnews.com/article/2167965",
+      "pubDate": "Sat, 04 Jul 2026 08:46:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029776_001_20260704084610533.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'한국→일본→호주' 아시아 축구 전멸, 호주마저 탈락했다…이집트와 승...",
+      "url": "https://www.xportsnews.com/article/2167967",
+      "pubDate": "Sat, 04 Jul 2026 08:45:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029775_001_20260704084510540.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[K리그1 프리뷰]한국 축구 월드컵의 아픔 그리고 분노, 질적 성장 자양...",
+      "url": "https://www.sportschosun.com/football/2026-07-02/202607020100016840000770",
+      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070201000168400007701_20260704084423516.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"예견된 탈락\"…한국축구, 감독 아닌 시스템이 무너졌다",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000047558",
+      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
+      "imageUrl": "https://cdn.jnilbo.com/news/photo/202607/90000047558_557740_4356.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인 심경 고백 \"결과가 좋지 않았을 때 책임이 먼저다\" [북중미 월드...",
+      "url": "https://www.newdaily.co.kr/site/data/html/2026/07/04/2026070400010.html",
+      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
+      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/07/04/2026070400010_0.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "충격 평가! \"손흥민, 역할 다하지 못했고, 무득점 그쳐\"...日 냉정 진단...",
+      "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553348939",
+      "pubDate": "Sat, 04 Jul 2026 08:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/139/2026/07/04/0002249715_001_20260704084111501.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[북중미 월드컵] 이강인 \"아쉬움보다 책임…더 성장해 팀에 보탬이 될 ...",
+      "url": "https://www.ajunews.com/view/20260704083423717",
+      "pubDate": "Sat, 04 Jul 2026 08:40:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/04/20260704083730949381.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'최악의 월드컵' 마친 이강인, 첫 SNS 심경…꾹 참아왔던 말 적었다",
+      "url": "https://www.wikitree.co.kr/articles/1144684",
+      "pubDate": "Sat, 04 Jul 2026 08:38:00 +0900",
+      "imageUrl": "https://cdnweb01.wikitree.co.kr/webdata/editor/202607/04/img_20260704080608_85204e4a.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[북중미 월드컵] ‘韓 축구 에이스’ 이강인, 조별리그 탈락 후 처음 입...",
+      "url": "https://www.goal.com/kr/뉴스/a/blt86c24f041d017631",
+      "pubDate": "Sat, 04 Jul 2026 08:36:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/216/2026/07/04/0000141520_001_20260704083615429.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인 “아쉬움보다 책임 먼저…더 성장해 보탬 될 것”",
+      "url": "https://www.donga.com/news/Sports/article/all/20260704/134235394/1",
+      "pubDate": "Sat, 04 Jul 2026 08:33:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731493_001_20260704090312547.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"더 성장해 팀에 보탬이 되겠습니다\" 탈락 아쉬움 속 이강인의 다짐",
+      "url": "https://www.nocutnews.co.kr/news/6543031?utm_source=naver&utm_medium=article&utm_campaign=20260704082518",
+      "pubDate": "Sat, 04 Jul 2026 08:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/07/04/0004164803_001_20260704082615235.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인 “결과 좋지 않을 때 아쉬움보다 책임 먼저” 심경 고백",
+      "url": "https://www.joongang.co.kr/article/25442384",
+      "pubDate": "Sat, 04 Jul 2026 08:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535278_001_20260704085312521.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "돌아온 이강인 “더 성장하겠다”…홍명보는 LA서 VIP 통로로 빠져나가",
+      "url": "https://www.dt.co.kr/article/12071032?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 08:25:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/029/2026/07/04/0003035183_001_20260704082615349.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "[韓 축구 대참사 블랙박스③] '공정'을 찾아라…축구협회장 선거 직선제...",
+      "url": "https://www.sportsworldi.com/newsView/20260704501846",
+      "pubDate": "Sat, 04 Jul 2026 08:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/396/2026/07/04/0000748657_001_20260704082113609.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "월드컵 승부차기서 파넨카 한 방… 살라의 강심장 \"누군가 해야 했다면...",
+      "url": "https://www.besteleven.com/news/articleView.html?idxno=309405",
+      "pubDate": "Sat, 04 Jul 2026 08:21:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/343/2026/07/04/0000144669_001_20260704082112418.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'에이스' 이강인 \"보답 못해 죄송…더 성장해서 보탬 될 것\"[월드컵24시...",
+      "url": "https://www.newsis.com/view/NISX20260704_0003695699",
+      "pubDate": "Sat, 04 Jul 2026 08:20:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260625_0021336460_web_20260625135510_20260704082119671.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "[오피셜] 포스테코글루, 알나스르 부임! '한국과 일본 감독 후보군'에서...",
+      "url": "http://www.footballist.co.kr/news/articleView.html?idxno=211797",
+      "pubDate": "Sat, 04 Jul 2026 08:20:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/436/2026/07/04/0000110983_001_20260704082012465.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'월드컵 조별리그 탈락' 이강인, SNS에 \"보답 못해 죄송, 더 성장할것\"",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935908",
+      "pubDate": "Sat, 04 Jul 2026 08:18:00 +0900",
+      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935908_1209486_178_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인 “기대 보답 못해 죄송한 마음…이번 결과 잊지 않고 더 성장하...",
+      "url": "https://www.khan.co.kr/article/202607040814001",
+      "pubDate": "Sat, 04 Jul 2026 08:14:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/032/2026/07/04/0003456026_001_20260704081511110.jpeg"
+    },
+    {
+      "category": "스포츠",
+      "title": "감독 경질·3전 전패 이어 도핑 집단 양성 파문… 튀니지 선수 8명, 금지...",
+      "url": "https://www.besteleven.com/news/articleView.html?idxno=309404",
+      "pubDate": "Sat, 04 Jul 2026 08:09:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/343/2026/07/04/0000144668_001_20260704080912349.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인, 월드컵 조별리그 탈락에 \"책임 갖고 더 성장하겠다\"",
+      "url": "https://www.slist.kr/news/articleView.html?idxno=749523",
+      "pubDate": "Sat, 04 Jul 2026 08:06:00 +0900",
+      "imageUrl": "https://cdn.slist.kr/news/thumbnail/202607/749523_1149902_458_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[오피셜] '천재 감독'의 몰락! 32강 탈락 독일 칼뺐다…나겔스만 감독 경...",
+      "url": "https://www.mydaily.co.kr/page/view/2026070403490245343",
+      "pubDate": "Sat, 04 Jul 2026 08:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/07/04/0004081362_001_20260704080410081.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "잉글랜드 대표팀, 출전수당 모두 기부 20년째…축구 종주국의 ‘프라이...",
+      "url": "https://www.hani.co.kr/arti/sports/sportstemp/worldcup/1266682.html",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/028/2026/07/04/0002812631_001_20260704080216122.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "[북중미 월드컵] '한국과 악연' 케이로스, 옛 제자 겨눈다…콜롬비아-가...",
+      "url": "https://www.ajunews.com/view/20260703153326267",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703153354790520.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "손흥민 불화설·청문회 폭풍 앞두고… '사퇴' 홍명보, 돌연 미국행 갑자...",
+      "url": "http://www.fnnews.com/news/202607031723200081",
+      "pubDate": "Sat, 04 Jul 2026 08:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543592_001_20260704080115007.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "한국 축구 흔들려도…인재 배출 환경 만들기 올인, 대학 축구 수장 박한...",
+      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826348",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/07/04/0000616556_001_20260704080010734.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "무능·불통의 축구협회…월드컵 실패는 '예견된 참사'[한국축구 개혁①...",
+      "url": "https://www.newsis.com/view/NISX20260703_0003695425",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260628_0021340541_web_20260628152056_20260704082115665.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인 \"더 잘했어야 했다\"…월드컵 탈락 후 첫 심경",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607040068&t=NN",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/215/2026/07/04/A202607040068_1_20260704080110117.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "'월드컵 참사' 이강인 \"아쉬움보다 책임 먼저…더 성장하겠다\"",
+      "url": "https://www.news1.kr/sports/soccer/6217626",
+      "pubDate": "Sat, 04 Jul 2026 07:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040480_001_20260704075815217.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "'32강 조기 탈락' 독일 나겔스만 사임…후임에 클롭 유력[월드컵24시]",
+      "url": "https://www.newsis.com/view/NISX20260704_0003695695",
+      "pubDate": "Sat, 04 Jul 2026 07:57:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260630_0001386967_web_20260630054646_20260704075820129.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "'나카무라, 월드컵 스타 등극'...일본 32강 탈락에도 프리미어리그 입성...",
+      "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=689829",
+      "pubDate": "Sat, 04 Jul 2026 07:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/413/2026/07/04/0000220405_001_20260704075013232.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'韓 축구 에이스는 변명하지 않았다' 이강인 \"내가 더 잘했어야... 아쉬...",
+      "url": "https://www.starnewskorea.com/sports/2026/07/04/2026070407333980904",
+      "pubDate": "Sat, 04 Jul 2026 07:49:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/108/2026/07/04/0003449922_001_20260704075511060.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[월드컵] 이강인 \"제 몫 더 잘 해냈어야 하는데…더 성장하겠다\"",
+      "url": "https://www.yna.co.kr/view/AKR20260704011300007?input=1195m",
+      "pubDate": "Sat, 04 Jul 2026 07:49:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/PYH2026063000680001300_P4_20260704075012935.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"박지성, 축구협회장 바뀐다면 가장 유력 거론\" 진종오 의원 파격 발언...",
+      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826344",
+      "pubDate": "Sat, 04 Jul 2026 07:48:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/07/04/0000616554_001_20260704074815795.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'사면초가' 대한축구협회, 뒤늦게 사과하고 홍명보 후임 감독 선임 등 입...",
+      "url": "https://www.mediapen.com/news/view/1108167",
+      "pubDate": "Sat, 04 Jul 2026 07:46:00 +0900",
+      "imageUrl": "https://image.mediapen.com/news/202607/news_1108167_1783118484_m.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "축구협회, 차기 감독 선임 공식화",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202607040035",
+      "pubDate": "Sat, 04 Jul 2026 07:44:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040055.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'마줄스 감독 첫승 언제'... 농구대표팀, 대만과 월드컵 예선 역전패로...",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935906",
+      "pubDate": "Sat, 04 Jul 2026 07:42:00 +0900",
+      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935906_1209483_400_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[오피셜] KFA, 공식 발표 \"차기 감독 선임 관련 논의...차질 없이 아시안...",
+      "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553348891",
+      "pubDate": "Sat, 04 Jul 2026 07:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/139/2026/07/04/0002249713_001_20260704073110887.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "LG, NBA 드래프트 1R 출신 굿윈 영입...지난 시즌 대만 푸본 브레이브스...",
+      "url": "http://www.thesportstimes.co.kr/news/articleView.html?idxno=373983",
+      "pubDate": "Sat, 04 Jul 2026 07:25:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/472/2026/07/04/0000040735_001_20260704072511101.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인, 아틀레티코 유니폼 입나…PSG 3500만 유로-ATM 옵션 카드, 라리...",
+      "url": "http://www.osen.co.kr/article/G1112833636",
+      "pubDate": "Sat, 04 Jul 2026 07:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565505_001_20260704071819935.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "한국 축구는 언제부터 잘못됐을까? 일본 기자가 콕 집었다 '이 사람'",
+      "url": "https://www.news1.kr/society/general-society/6217458",
+      "pubDate": "Sat, 04 Jul 2026 07:15:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040456_001_20260704071510931.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "[WC예선] '회피형 감독인가?' 마줄스 감독, 최소한의 설명도 사과도 없었...",
+      "url": "http://www.rookie.co.kr/news/articleView.html?idxno=124430",
+      "pubDate": "Sat, 04 Jul 2026 07:15:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/398/2026/07/04/0000100802_001_20260704071509946.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'관계자들은 술파티, 선수들은 패스트푸드'… 월드컵 탈락 이후 충격 폭...",
+      "url": "https://www.besteleven.com/news/articleView.html?idxno=309402",
+      "pubDate": "Sat, 04 Jul 2026 07:10:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/343/2026/07/04/0000144666_001_20260704071014767.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"빨리도 하네\"…대한축구협회 늑장 사과에 국민 반응 '냉담'",
+      "url": "https://www.imaeil.com/page/view/2026070407054785956",
+      "pubDate": "Sat, 04 Jul 2026 07:10:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/088/2026/07/04/0001017476_001_20260704071310700.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "“아쉬움보다 책임” 이강인의 반성… “더 성장해 경기장에서 보답”",
+      "url": "https://www.sportsworldi.com/newsView/20260704500209",
+      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/396/2026/07/04/0000748656_001_20260704070218133.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "표류해 길 잃은 한국 축구…국민 지지 못 받는 '공놀이'로 전락 [스한 위...",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935810",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935810_1209385_3110_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"고대 나와야 국대 뛴대\" 호날두 눈물…월드컵 분노, AI '밈'으로 폭발",
+      "url": "https://www.mt.co.kr/tech/2026/07/04/2026070322391355217",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/07/04/0005381354_001_20260704070017662.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "나상호 영입 위해 일본행? 김기동 감독 “저 한국에 있었는데요?” [MK인...",
+      "url": "https://www.mk.co.kr/article/12090211",
+      "pubDate": "Sat, 04 Jul 2026 06:55:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/410/2026/07/04/0001131171_001_20260704065512828.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"죄송합니다\"...'외로운 에이스' 이강인, 참패 8일 만에 심경 토로 \"결과...",
+      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94341",
+      "pubDate": "Sat, 04 Jul 2026 06:55:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/411/2026/07/04/0000084008_001_20260704065509684.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'땅치며 눈물 흘린' 이강인은 '모르겠다' 대신 '자책'을 했다, \"아쉬움보...",
+      "url": "https://www.sportschosun.com/football/2026-07-04/202607040100025040001367",
+      "pubDate": "Sat, 04 Jul 2026 06:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070401000250400013671_20260704065018917.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "월드컵 마친 이강인 “결과로 보답 못해 죄송, 제 몫을 더 잘해냈어야”",
+      "url": "https://www.mk.co.kr/article/12090214",
+      "pubDate": "Sat, 04 Jul 2026 06:50:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/07/04/0005702629_001_20260704065009308.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "한국 남자농구, 대만에 연장 끝 80-82 패배…3연패 수렁",
+      "url": "http://www.tjb.co.kr/sub0301/bodo/view/id/100395",
+      "pubDate": "Sat, 04 Jul 2026 06:48:00 +0900",
+      "imageUrl": "https://www.tjb.co.kr/html1/images/noimg.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "축구협회, 월드컵 탈락 후 첫 전강위…감독 선임 방향 논의",
+      "url": "http://www.tjb.co.kr/sub0301/bodo/view/id/100390",
+      "pubDate": "Sat, 04 Jul 2026 06:48:00 +0900",
+      "imageUrl": "https://www.tjb.co.kr/html1/images/noimg.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "‘나솔’ 24기 옥순, 모두가 놀란 ‘쌩얼’...국가대표 감독 지원 “연...",
+      "url": "https://www.sportsseoul.com/news/read/1620464?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 06:45:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251662_001_20260704064512250.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "월드컵 끝, K리그 시작! '6G 무패' 전북, 강원과 후반기 첫 맞대결...박지...",
+      "url": "http://www.osen.co.kr/article/G1112833295",
+      "pubDate": "Sat, 04 Jul 2026 06:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565500_001_20260704064112909.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[주말! EZ 인물도감] 오너 경영 품은 V리그…이호진號 KOVO, '스포츠 비즈...",
+      "url": "https://www.ezyeconomy.com/news/articleView.html?idxno=237101",
+      "pubDate": "Sat, 04 Jul 2026 06:40:00 +0900",
+      "imageUrl": "https://cdn.ezyeconomy.com/news/thumbnail/202607/237101_138497_2259_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "‘농구판 홍명보인가?’ 대만에 치욕의 19점차 역전패...한국 탈락 위기...",
+      "url": "http://www.osen.co.kr/article/G1112833606",
+      "pubDate": "Sat, 04 Jul 2026 06:33:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565499_001_20260704063312497.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[공식발표] '32강 조기 탈락' 축구협회, 8일 만에 입 열었다...\"억측 보도...",
+      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94339",
+      "pubDate": "Sat, 04 Jul 2026 06:25:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/411/2026/07/04/0000084006_001_20260704062509408.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "남아공전 지고 분노한 이강인 \"죄송한 마음…더 성장할 것\"",
+      "url": "https://www.mt.co.kr/sports/2026/07/04/2026070323440727090",
+      "pubDate": "Sat, 04 Jul 2026 06:20:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/07/04/0005381344_001_20260704070312587.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "◇오늘의 경기(4일)",
+      "url": "https://www.yna.co.kr/view/AKR20260703050900007?input=1195m",
+      "pubDate": "Sat, 04 Jul 2026 06:15:00 +0900",
+      "imageUrl": "https://r.yna.co.kr/global/home/v01/img/yonhapnews_logo_1200x800_kr01.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'이럴수가' 농구도 잔혹한 경우의 수라니! 6일 먼저 열리는 대만-中전 결...",
+      "url": "https://www.starnewskorea.com/sports/2026/07/04/2026070317480126399",
+      "pubDate": "Sat, 04 Jul 2026 06:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/108/2026/07/04/0003449904_001_20260704060510132.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[FIBA WC] ‘부임 후 3연패’ 니콜라스 마줄스 한국 감독, “4쿼터에 모...",
+      "url": "https://basketkorea.com/news/newsview.php?ncode=1065542360457257",
+      "pubDate": "Sat, 04 Jul 2026 06:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/351/2026/07/04/0000087171_001_20260704060510244.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"북중미 월드컵 실패 진심으로 사과\"...대한축구협회 드디어 공식 성명...",
+      "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=689825",
+      "pubDate": "Sat, 04 Jul 2026 06:05:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/413/2026/07/04/0000220401_001_20260704060510289.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'정몽규·홍명보 후임 찾는다'...월드컵 참사 KFA, 새 회장·감독 선임 절...",
+      "url": "https://news.tf.co.kr/read/soccer/2339674.htm",
+      "pubDate": "Sat, 04 Jul 2026 06:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/07/04/202631461783112502_20260704060415243.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "홍명보 실패의 결정적 순간, 남아공전 김민재 교체 그때 [월드컵 실패를...",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935856",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935856_1209397_4751_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "월드컵 ‘한국 빙고판 저주’ 현실로?…스페인 빼고 8곳 짐쌌다",
+      "url": "https://www.joongang.co.kr/article/25442364",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535259_001_20260704062728773.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "'살다살다 이런 캡틴은 처음' 탁구·뒷담화·감독 불화설… 손흥민이 혼...",
+      "url": "http://www.maniareport.com/view.php?ud=20260704055750159591b55a0d56_19",
+      "pubDate": "Sat, 04 Jul 2026 05:59:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/425/2026/07/04/2026070405580607391091b55a0d5621122710579_20260704055909483.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "41세 호날두, 월드컵 토너먼트 첫 골+최고령 득점…스페인 만난 라스트...",
+      "url": "http://www.osen.co.kr/article/G1112833632",
+      "pubDate": "Sat, 04 Jul 2026 05:54:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565490_001_20260704055417766.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[월드컵 리뷰]\"아시아 축구의 눈물\" 한국→일본→호주 '亞 전멸' 확정…...",
+      "url": "https://www.sportschosun.com/football/2026-07-04/202607040100024960001362",
+      "pubDate": "Sat, 04 Jul 2026 05:54:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070501000250100013657_20260704061017172.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "[오피셜] 손흥민과 ‘41년’ 만에 토트넘에 우승컵 안겨준 포스테코글루...",
+      "url": "https://sports.khan.co.kr/article/202607040540003?pt=nv",
+      "pubDate": "Sat, 04 Jul 2026 05:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/144/2026/07/04/0001124344_001_20260704054111908.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'이기고 동료 추모' 호날두-'0골 탈락 투정' 손흥민, 누가 진짜 '라스트...",
+      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935901",
+      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
+      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935901_1209472_3623_v150.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "'김하성급은 돼야' 노시환, MLB 포스팅 기정사실...가도, 안 가도 사상 ...",
+      "url": "http://www.maniareport.com/view.php?ud=20260704052536688991b55a0d56_19",
+      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/425/2026/07/04/2026070405264508300091b55a0d5621122710579_20260704053009145.png"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"우리 홍명보 괴롭히지 마!\", \"J리그 와라\" 日 옹호 폭발→프랑스도 주...",
+      "url": "https://www.xportsnews.com/article/2167939",
+      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029736_001_20260704053008726.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "작심 발언! \"이러면 누가 한국 감독 맡고 싶겠나\"...日 전문가 일침, \"경...",
+      "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553348871",
+      "pubDate": "Sat, 04 Jul 2026 05:26:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/139/2026/07/04/0002249710_001_20260704052613627.jpg"
+    },
+    {
+      "category": "스포츠",
+      "title": "월드컵 그라운드와 한국 외교, 그 닮은 풍경 [4강의 시선]",
+      "url": "https://www.hankookilbo.com/news/article/A2026070310310004447?did=NA",
+      "pubDate": "Sat, 04 Jul 2026 04:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/469/2026/07/04/0000940304_001_20260704061159162.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "이강인·펠레… 차세대 스타부터 전설까지 ‘축구 선수 백과사전’",
+      "url": "https://www.chosun.com/culture-life/book/2026/07/04/Q2MSB3CBIJASJIZSJMTXK3YRBM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Sat, 04 Jul 2026 00:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985624_001_20260704004111352.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "스포츠",
+      "title": "\"죄송합니다, 그리고 더 성장하겠습니다\"…이강인, 월드컵 탈락 후 남긴...",
+      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94331",
+      "pubDate": "Sat, 04 Jul 2026 00:15:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/411/2026/07/04/0000083999_001_20260704001510266.png"
+    },
+    {
+      "category": "연예",
+      "title": "'친애하는 X' 김유정, 김영대 속이다",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202607040154",
+      "pubDate": "Sat, 04 Jul 2026 22:38:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040341.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "지상렬, 20년 만에 래퍼 ‘G.C 해머’ 완벽 재현…이요원 울컥 (살림남)",
+      "url": "http://enews.imbc.com/News/RetrieveNewsInfo/510425",
+      "pubDate": "Sat, 04 Jul 2026 22:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/408/2026/07/04/0000313823_001_20260704222909248.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "SBS '김부장', 넷플릭스 1위에 순간 시청률 23% 넘었다",
+      "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=335576",
+      "pubDate": "Sat, 04 Jul 2026 22:18:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/006/2026/07/04/0000136576_001_20260705030011514.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "‘살림남’ 지상렬, 20년 전 가요계 놀라게 한 미스터리 래퍼 ‘G.C 해머...",
+      "url": "https://sports.khan.co.kr/article/202607042143003?pt=nv",
+      "pubDate": "Sat, 04 Jul 2026 21:44:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/144/2026/07/04/0001124407_001_20260704214416907.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "과천 서울랜드, K-귀신과 함께하는 'K-납량특집' 주말 이벤트 진행",
+      "url": "https://www.ajunews.com/view/20260704195821978",
+      "pubDate": "Sat, 04 Jul 2026 20:20:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/04/20260704201736410219.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "인성, 'Crossfade:' 이후 페스티벌 무대 에너지 전했다",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123654",
+      "pubDate": "Sat, 04 Jul 2026 19:38:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123654_1955298_381_crop.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'1529서 1위' 기록 이을까…비주얼 천재→피지컬 남신 등장으로 화제성...",
+      "url": "https://www.tvreport.co.kr/breaking/article/1058879/",
+      "pubDate": "Sat, 04 Jul 2026 18:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/07/04/0001393160_001_20260704180111436.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "일본 가요 리메이크 했더니 1위…요즘 MZ들 J팝에 빠진 이유 [K컬처인사...",
+      "url": "https://www.hankyung.com/article/202607034252H",
+      "pubDate": "Sat, 04 Jul 2026 18:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/015/2026/07/04/0005306249_001_20260704180113357.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "김동완, 결국 소속사 없이 활동..'SNS 논란' 후 파격 행보 [이슈S]",
+      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826429",
+      "pubDate": "Sat, 04 Jul 2026 17:07:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/07/04/0000616601_001_20260704170712704.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "\"한국 여행 온 김에 다 할래\"…오늘은 콘서트, 내일은 라식수술",
+      "url": "https://www.mt.co.kr/future/2026/07/04/2026062414460593911",
+      "pubDate": "Sat, 04 Jul 2026 17:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/07/04/0005381405_001_20260704190909215.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "40대 톱 여가수, 7살 연하 경제학자와 '불륜설'…호텔 출입 장면 포착",
+      "url": "https://www.mydaily.co.kr/page/view/2026070416492757946",
+      "pubDate": "Sat, 04 Jul 2026 16:53:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/07/04/0004081442_001_20260704165309747.png"
+    },
+    {
+      "category": "연예",
+      "title": "장수한우랑사과랑축제, 최재명·손빈아 등 공연 라인업 공개",
+      "url": "http://www.inews24.com/view/1982375",
+      "pubDate": "Sat, 04 Jul 2026 16:14:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/031/2026/07/04/0001039764_001_20260704161415459.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "아이브, 日 '더 뮤직 데이' 출격…돔 투어 이은 열도 활약",
+      "url": "https://www.news1.kr/entertain/music/6217763",
+      "pubDate": "Sat, 04 Jul 2026 16:11:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040696_001_20260704161210645.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "[전문] 트러블 메이커 김동완 \"소속사 없이 활동 결론\" 홀로서기 선언 ...",
+      "url": "https://www.starnewskorea.com/star/2026/07/04/2026070415423834714",
+      "pubDate": "Sat, 04 Jul 2026 16:06:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/108/2026/07/04/0003449966_001_20260704160710430.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "유부남 경제학자·'세 아이 엄마' 톱가수, 호텔 방 드나들다 결국..일본...",
+      "url": "https://www.sportschosun.com/entertainment/2026-07-04/202607040100025950001445",
+      "pubDate": "Sat, 04 Jul 2026 15:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070501000259700014461_20260704150512990.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "\"엔터, 주홍글씨 별개 시대\"…'FA 대어' 김호중·유아인의 미래 [이슈&톡...",
+      "url": "http://www.tvdaily.co.kr/read.php3?aid=17831443321792639002",
+      "pubDate": "Sat, 04 Jul 2026 14:56:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/440/2026/07/04/1783144332_1792639_20260704162614894.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "신인부터 BTS까지 챌린지 힘쓰는 K팝…숏폼시대 최우선 홍보수단",
+      "url": "https://www.yna.co.kr/view/AKR20260704025700005?input=1195m",
+      "pubDate": "Sat, 04 Jul 2026 14:34:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/AKR20260704025700005_01_i_P4_20260704143511544.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "아빠 북한훈장 팔았다…“K팝 콘서트 갈래” 재일교포 소녀의 고백",
+      "url": "https://www.joongang.co.kr/article/25442405",
+      "pubDate": "Sat, 04 Jul 2026 13:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535298_001_20260704172312012.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "'전직 특수요원' 김부장과 참교육 나화진…전세계 안방 홀렸다[웹툰 원...",
+      "url": "https://www.newsis.com/view/NISX20260702_0003693956",
+      "pubDate": "Sat, 04 Jul 2026 13:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260703_0002177777_web_20260703171542_20260704163314793.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "[충남톡톡]올 여름 휴가, 충남에서 만끽해보세요",
+      "url": "https://www.sedaily.com/article/20063749?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 11:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638099_001_20260704113107861.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "'마약 전과' 유아인, 집유 중에 복귀설…파묘 감독 \"확정된 바 없다\"",
+      "url": "https://www.sidae.com/article/2026070411210323139",
+      "pubDate": "Sat, 04 Jul 2026 11:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/417/2026/07/04/0001150273_001_20260704113007201.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "JTBC 드라마 '이태원 클라쓰' \"조광춘 웹툰 원작, 박서준·김다미·유재...",
+      "url": "https://www.lecturernews.com/news/articleView.html?idxno=202495",
+      "pubDate": "Sat, 04 Jul 2026 11:18:00 +0900",
+      "imageUrl": "https://cdn.lecturernews.com/news/thumbnail/202605/202495_469213_5052_v150.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "앤더블, 데뷔 성과에 해외도 들썩…포브스 “음악 씬 장악”",
+      "url": "https://www.sportsworldi.com/newsView/20260704502938",
+      "pubDate": "Sat, 04 Jul 2026 11:04:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/396/2026/07/04/0000748670_001_20260704110414254.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "\"유명 아이돌·선수들이 만나자고 DM\"...'제2 카리나' 권은지 고백",
+      "url": "https://www.insight.co.kr/news/561506",
+      "pubDate": "Sat, 04 Jul 2026 10:24:00 +0900",
+      "imageUrl": "https://img.insight.co.kr/static/2026/07/04/1200/img_20260704100757_fg4qd2dm.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "“임신설 싹 지웠다”...‘김우빈♥’ 신민아, 리즈 갱신 사진 10장 ‘와...",
+      "url": "https://www.sportsseoul.com/news/read/1620479?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 10:23:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251678_001_20260704102309204.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "넷플릭스 작정했다…'571만' 승기 잡은 명장→초호화 배우진 '총출동'으...",
+      "url": "https://www.tvreport.co.kr/breaking/article/1058795/",
+      "pubDate": "Sat, 04 Jul 2026 09:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/213/2026/07/04/0001393118_001_20260704093112137.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "\"콘서트 분위기가 왜 이래\"…국내 K팝 팬들 결국 뿔났다 [김수영의 연계...",
+      "url": "https://www.hankyung.com/article/202607034412H",
+      "pubDate": "Sat, 04 Jul 2026 09:29:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/015/2026/07/04/0005306203_001_20260707080313852.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "앤더블, 美 포브스 등 해외 유수 매체 집중 조명",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202607040044",
+      "pubDate": "Sat, 04 Jul 2026 09:26:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040136.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "지상렬, \"라이벌 은지원, 보고 있냐\" 20년 만에 G.C 해머 컴백",
+      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123405",
+      "pubDate": "Sat, 04 Jul 2026 09:24:00 +0900",
+      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123405_1955148_2313_crop.jpg"
+    },
     {
       "category": "연예",
       "title": "[대농시] \"궂은일만큼은 밀리지 말자\" 한양대 김형준이 땀방울로 써 내...",
       "url": "https://m.sports.naver.com/basketball/article/065/0000299303",
       "pubDate": "Sat, 04 Jul 2026 09:03:00 +0900",
       "imageUrl": "https://imgnews.pstatic.net/image/065/2026/07/04/0000299303_001_20260704090312628.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "'절연' 장윤정·'복귀' 신정환·'억까' 장원영·'내로남불' 기은세 [위클...",
+      "url": "http://www.tvdaily.co.kr/read.php3?aid=17831232001792585002",
+      "pubDate": "Sat, 04 Jul 2026 09:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/440/2026/07/04/1783073576_1792585_20260704090214092.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "‘편당 수십억’ 치솟은 한국 드라마 제작비…글로벌 경쟁에서 살아남...",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1266686.html",
+      "pubDate": "Sat, 04 Jul 2026 09:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/028/2026/07/04/0002812635_001_20260704103413659.jpg?type&#x3D;w800"
     },
     {
       "category": "연예",
@@ -18,10 +1621,10 @@
     },
     {
       "category": "연예",
-      "title": "'절연' 장윤정·'복귀' 신정환·'억까' 장원영·'내로남불' 기은세 [위클...",
-      "url": "http://www.tvdaily.co.kr/read.php3?aid=17831232001792585002",
-      "pubDate": "Sat, 04 Jul 2026 09:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/440/2026/07/04/1783073576_1792585_20260704090214092.jpg"
+      "title": "실리콘밸리 테크 행사를 보면 AI와 기업의 미래가 보인다",
+      "url": "https://www.chosun.com/economy/tech_it/2026/07/04/Y32DSJCGZVGCJHCV7GQF4C6YEU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985688_001_20260706094608858.jpg?type&#x3D;w800"
     },
     {
       "category": "연예",
@@ -50,6 +1653,13 @@
       "url": "https://www.insight.co.kr/news/561495",
       "pubDate": "Sat, 04 Jul 2026 08:46:00 +0900",
       "imageUrl": "https://img.insight.co.kr/static/2026/07/04/1200/img_20260704084403_044z811d.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "여름 충남 3색(色) 매력 ‘풍덩’…대천·만리포·춘장대 4일 개장",
+      "url": "https://www.seoul.co.kr/news/life/2026/07/03/20260703500225?wlog_tag3=naver",
+      "pubDate": "Sat, 04 Jul 2026 08:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/081/2026/07/04/0003658326_001_20260704084112492.jpg?type&#x3D;w800"
     },
     {
       "category": "연예",
@@ -165,6 +1775,13 @@
     },
     {
       "category": "연예",
+      "title": "[주말에 뭐보지] 비 오는 주말, 집콕하며 볼 넷플릭스·쿠팡플레이·웨...",
+      "url": "https://www.techm.kr/news/articleView.html?idxno=153114",
+      "pubDate": "Sat, 04 Jul 2026 07:30:00 +0900",
+      "imageUrl": "https://www.techm.kr/news/thumbnail/202607/153114_215780_5040_v150.jpg"
+    },
+    {
+      "category": "연예",
       "title": "김대성·나현영, '13살차 커플' 아니었다…뒤늦은 열애설에 \"이미 결별\"...",
       "url": "https://www.xportsnews.com/article/2167944",
       "pubDate": "Sat, 04 Jul 2026 07:30:00 +0900",
@@ -197,6 +1814,13 @@
       "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607040064&t=NN",
       "pubDate": "Sat, 04 Jul 2026 07:18:00 +0900",
       "imageUrl": "https://imgnews.pstatic.net/image/215/2026/07/04/A202607040064_1_20260704071909810.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "연예",
+      "title": "알마티 공화국궁전에서 '한-카 문화·경제 교류주간' 개최",
+      "url": "http://www.worldkorean.net/news/articleView.html?idxno=57246",
+      "pubDate": "Sat, 04 Jul 2026 07:16:00 +0900",
+      "imageUrl": "http://www.worldkorean.net/news/thumbnail/202607/57246_84731_1341_v150.jpg"
     },
     {
       "category": "연예",
@@ -267,6 +1891,13 @@
       "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=82579",
       "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
       "imageUrl": "https://cdn.mediafine.co.kr/news/photo/202607/82579_119515_144.jpg"
+    },
+    {
+      "category": "연예",
+      "title": "빅뱅·방탄소년단·라이즈·코르티스, 올 하반기 가장 기대되는 보이그...",
+      "url": "https://www.starnewskorea.com/music/2026/07/04/2026070314040613145",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/108/2026/07/04/0003449912_001_20260704070016939.jpg"
     },
     {
       "category": "연예",
@@ -368,6 +1999,13 @@
     },
     {
       "category": "연예",
+      "title": "출근길 귀호강…기자들의 플레이리스트 채운 2026 상반기 가수 5[셀럽PI...",
+      "url": "http://www.celuvmedia.com/article.php?aid=1783112400523243007",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "http://www.celuvmedia.com/upimages/gisaimg/202607/01523243.jpg"
+    },
+    {
+      "category": "연예",
       "title": "[식탁의 힘]② 화제의 천연 위고비 식단, 살 빠질까?",
       "url": "https://bravo.etoday.co.kr/view/atc_view/19532",
       "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
@@ -451,144 +2089,459 @@
       "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260610517612_20260704053211090.jpg?type&#x3D;w800"
     },
     {
-      "category": "연예",
-      "title": "윤종신 \"원래 꿈은 신학과…가수 안 했다면 목사 됐을 것\" [옥문아]",
-      "url": "https://www.mydaily.co.kr/page/view/2026070405052110983",
-      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/07/04/0004081344_001_20260704053008644.png"
+      "category": "경제",
+      "title": "19년간 미국 경제 황금기 이끈 마에스트로 [US 리포트]",
+      "url": "https://www.mk.co.kr/article/12084096",
+      "pubDate": "Sat, 04 Jul 2026 21:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/024/2026/07/04/0000106670_001_20260704210112786.jpg?type&#x3D;w800"
     },
     {
-      "category": "연예",
-      "title": "산다라박, 20년째 37㎏ 유지…미모 그대로인 이유 [마데핫리뷰]",
-      "url": "https://www.mydaily.co.kr/page/view/2026070405062363744",
-      "pubDate": "Sat, 04 Jul 2026 05:08:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/07/04/0004081341_001_20260704050810537.jpg"
+      "category": "경제",
+      "title": "'1,500원대 환율 잡힐까'…새벽에도 원화 사고 판다",
+      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607040139&t=NN",
+      "pubDate": "Sat, 04 Jul 2026 20:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/215/2026/07/04/A202607040139_1_20260705210410964.png?type&#x3D;w800"
     },
     {
-      "category": "연예",
-      "title": "트럼프, '나 홀로 집에 2' 덕에 작년 연금 1억 원 받았다",
-      "url": "http://www.fnnews.com/news/202607031628034927",
+      "category": "경제",
+      "title": "[이슈브리핑] 나토 가는 이재명 대통령...미국 간 홍명보",
+      "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4092981",
+      "pubDate": "Sat, 04 Jul 2026 17:44:00 +0900",
+      "imageUrl": "https://cdn.news.bbsi.co.kr/news/thumbnail/202607/4092981_744135_3621_v150.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "한국 경제성장률, 한은 예상 뛰어넘었다… 반도체 타고 4%대 질주",
+      "url": "https://www.ggilbo.com/news/articleView.html?idxno=1166740",
+      "pubDate": "Sat, 04 Jul 2026 15:40:00 +0900",
+      "imageUrl": "https://cdn.ggilbo.com/news/photo/202607/1166740_1018928_347.png"
+    },
+    {
+      "category": "경제",
+      "title": "\"여보세요, AI 말고 사람과 통화하고 싶어요\"",
+      "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003248642&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+      "pubDate": "Sat, 04 Jul 2026 15:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/047/2026/07/04/0002521480_001_20260704153110180.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "신산업정책의 의의 및 성공을 위한 정책 제언",
+      "url": "http://www.ifs.or.kr/bbs/board.php?bo_table=News&wr_id=55868",
+      "pubDate": "Sat, 04 Jul 2026 15:10:00 +0900",
+      "imageUrl": null
+    },
+    {
+      "category": "경제",
+      "title": "통계 밖 청년에게 희망을 학습할 기회를 허하라",
+      "url": "http://www.brainmedia.co.kr/Insight/25474",
+      "pubDate": "Sat, 04 Jul 2026 14:36:00 +0900",
+      "imageUrl": "https://www.brainmedia.co.kr/Upload/Insight/202606261600558304R(1).jpg"
+    },
+    {
+      "category": "경제",
+      "title": "[유재수의 AI와 금융]케빈 워시의 첫 FOMC가 시장에 준 시그널",
+      "url": "https://news.bizwatch.co.kr/article/finance/2026/07/02/0036",
+      "pubDate": "Sat, 04 Jul 2026 14:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/648/2026/07/04/0000048624_001_20260704140011715.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[N위크] 외환시장 24시간 가동…'빚투' 열풍에 가계대출 증가세 어째",
+      "url": "https://www.tfmedia.co.kr/news/article.html?no=205535",
+      "pubDate": "Sat, 04 Jul 2026 13:14:00 +0900",
+      "imageUrl": "https://www.tfmedia.co.kr/data/photos/20260727/art_17831383024708_320609.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "새주 외환시장 24시간 체제 시작·IMF 성장률 전망 발표된다",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=586596",
+      "pubDate": "Sat, 04 Jul 2026 12:26:00 +0900",
+      "imageUrl": "https://www.cbci.co.kr/news/thumbnail/202606/mn_586596_20260704103055_1_v150.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "[발행인 칼럼] 거버넌스포럼 '주주 가치'는 노동자의 '눈물'",
+      "url": "http://www.newsprime.co.kr/news/article.html?no=739106",
+      "pubDate": "Sat, 04 Jul 2026 12:04:00 +0900",
+      "imageUrl": "https://www.newsprime.co.kr/data/photos/cdn/20260727/art_739106_1783133766.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "다음주 외환시장 24시간 가동 시작…IMF 한국 성장률 전망 주목",
+      "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005872065",
+      "pubDate": "Sat, 04 Jul 2026 10:30:00 +0900",
+      "imageUrl": "https://imgmmw.mbn.co.kr/storage/news/2026/07/04/c88b4c0cb30d878b5d60b4360f6ce638.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "오늘 금시세(금값)는?…최근 최대 분기 하락폭 보이기도, 새 주간 흐름 ...",
+      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=586534",
+      "pubDate": "Sat, 04 Jul 2026 10:20:00 +0900",
+      "imageUrl": "https://www.cbci.co.kr/news/thumbnail/202607/586534_398793_5118_v150.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "외환시장 24시간 시대 개막…IMF 성장률·가계대출 지표 '주목'",
+      "url": "https://www.youthdaily.co.kr/news/article.html?no=222292",
+      "pubDate": "Sat, 04 Jul 2026 10:10:00 +0900",
+      "imageUrl": "https://www.youthdaily.co.kr/data/photos/20260727/art_17831273369851_fb1cc9.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "금시세(금값) 4일",
+      "url": "https://www.bntnews.co.kr/article/view/bnt202607040009",
+      "pubDate": "Sat, 04 Jul 2026 09:04:00 +0900",
+      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040013.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "대전 현대직업전문학교, 자동차정비산업기사 과정 7일 개강",
+      "url": "https://www.vegannews.co.kr/news/article.html?no=383799",
+      "pubDate": "Sat, 04 Jul 2026 09:02:00 +0900",
+      "imageUrl": "https://www.vegannews.co.kr/data/photos/20260727/art_17831190586911_6a3b46.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "中최고수준 '글로벌디지털경제대회'서 한중 디지털의료 협력 모색",
+      "url": "https://www.dongponews.net/news/articleView.html?idxno=59087",
+      "pubDate": "Sat, 04 Jul 2026 08:30:00 +0900",
+      "imageUrl": "https://cdn.dongponews.net/news/thumbnail/202607/59087_214413_4355_v150.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "우리금융경영연구소, 올해 경제성장률 2.0→3.0%로 상향",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01151286645511240",
+      "pubDate": "Sat, 04 Jul 2026 08:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322455_001_20260704080110962.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "\"77년생은 정년 65세?\"...월급 200만원도 다니겠지만, '그냥 쉼' 아들이 ...",
+      "url": "http://www.fnnews.com/news/202606281103123492",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543590_001_20260704084713154.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[해수분해] 호르무즈 해협 봉쇄, 미리 알 수 없었을까",
+      "url": "https://www.yna.co.kr/view/AKR20260703096400051?input=1195m",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/PCM20190423000211990_P4_20260704080120008.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "오늘 암호화폐 시장이 오른 이유…비트코인 반등과 이더리움 강세가 이...",
+      "url": "http://coinreaders.com/246047",
+      "pubDate": "Sat, 04 Jul 2026 07:46:00 +0900",
+      "imageUrl": "https://www.coinreaders.com/imgdata/coinreaders_com/202501/800_400_2025011916187204.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "\"브라질산보다 국내산이 더 싸요\"…40년만 엔저에 흔들리는 日 밥상 [뭔...",
+      "url": "https://view.asiae.co.kr/article/2026070214125202163",
+      "pubDate": "Sat, 04 Jul 2026 07:30:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/07/04/0005785386_001_20260704073113139.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "변압기 품귀에…美 관세 낮추고 호주도 K-변압기 러브콜",
+      "url": "https://news.mtn.co.kr/news-detail/2026070311081899237",
+      "pubDate": "Sat, 04 Jul 2026 07:06:00 +0900",
+      "imageUrl": "https://menu.mtn.co.kr/upload/article/2026/07/03/2026070311081899237_00_190.png"
+    },
+    {
+      "category": "경제",
+      "title": "3년 8개월 내 최고 금리, 당신의 지갑 겨누고 있다",
+      "url": "https://shindonga.donga.com/3/all/13/6286534/1",
+      "pubDate": "Sat, 04 Jul 2026 07:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/262/2026/07/04/0000019490_001_20260704105012794.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[사모펀드의 민낯③] 파산 문턱에 선 홈플러스 현장이 보여준 현실",
+      "url": "http://www.the-biz.co.kr/news/articleView.html?idxno=723685",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://cdn.the-biz.co.kr/news/photo/202607/723685_926739_5455.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "한미 '방산 FTA' 상호조달협정 지연 원인 찾는다…협상 재개 전략 연구",
+      "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6217435",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040444_001_20260704070043630.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "관세 혜택 받은 벨기에 다이아 업계, 트럼프에 '초호화 반지' 선물",
+      "url": "https://www.news1.kr/world/usa-canada/6217620",
+      "pubDate": "Sat, 04 Jul 2026 06:41:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040428_001_20260704064110639.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "벨기에 다이아업계 트럼프에 초대형 다이아반지 선물",
+      "url": "https://www.newsis.com/view/NISX20260704_0003695680",
+      "pubDate": "Sat, 04 Jul 2026 06:17:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260703_0001399951_web_20260703234744_20260704061820894.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[김지수의 인터스텔라] “투자로 돈을 번다는 착각, 그 돈으로 노후가 ...",
+      "url": "https://biz.chosun.com/topics/kjs_interstellar/2026/07/04/Q7EPDGWFVRAGBF5BOBT4B6WQDA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/366/2026/07/04/0001176677_001_20260704091910914.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[브런치 경제] ‘중국 화장품’ 저가 시대 끝났나… ‘C-뷰티’ 열풍 알...",
+      "url": "https://www.womennews.co.kr/news/articleView.html?idxno=279507",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/310/2026/07/04/0000138071_001_20260704060009243.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[윤종빈의 정치웨이브] 대통령 지지율, 경제에 달렸다",
+      "url": "https://www.sedaily.com/article/20063617?ref=naver",
       "pubDate": "Sat, 04 Jul 2026 05:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543573_001_20260704050113202.jpg?type&#x3D;w800"
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638038_001_20260704050111868.jpg?type&#x3D;w800"
     },
     {
-      "category": "연예",
-      "title": "\"사망설 장윤정 모친, 딸에게 돈 요구하려고 '말기 암' 서류 조작\" 폭로",
-      "url": "https://www.news1.kr/society/general-society/6217253",
+      "category": "경제",
+      "title": "\"부채와 인적자본, 그리고 법치의 위기\", 미국 300주년을 가르는 변수들",
+      "url": "https://www.g-enews.com/view.php?ud=202607031855588410fbbec65dfb_1",
+      "pubDate": "Sat, 04 Jul 2026 04:20:00 +0900",
+      "imageUrl": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026070319193800078fbbec65dfb211211153121.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "투자이민, 이제 더 어려워진다…EB-5 규정 대폭 손질",
+      "url": "https://www.koreadaily.com/article/20260703112315916",
+      "pubDate": "Sat, 04 Jul 2026 03:24:00 +0900",
+      "imageUrl": "https://www.koreadaily.com/images/logo/sns-logo.png"
+    },
+    {
+      "category": "경제",
+      "title": "직원 1만2000명 실직 위기… 납품사 1곳당 미지급금 평균 7억7000만원",
+      "url": "https://www.donga.com/news/Economy/article/all/20260703/134234983/2",
+      "pubDate": "Sat, 04 Jul 2026 01:42:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731472_001_20260704014248139.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "신안 앞바다에서 건져 올린 고아한 옥빛 청자",
+      "url": "https://www.chosun.com/national/weekend/2026/07/04/NSFXRFO6VVBT7GT7MANTZBALSY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Sat, 04 Jul 2026 00:31:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985609_001_20260704003137909.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[사설] 백악관까지 번진 '쿠팡 사태'…가볍게 봐선 안 될 사안",
+      "url": "https://www.hankyung.com/article/2026070349271",
+      "pubDate": "Sat, 04 Jul 2026 00:12:00 +0900",
+      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
+    },
+    {
+      "category": "경제",
+      "title": "[사설] 美 “한국이 쿠팡 차별”…갈등으로 비화하지 않게 해야",
+      "url": "https://www.sedaily.com/article/20063663?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 00:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638028_001_20260704000221486.png?type&#x3D;w800"
+    },
+    {
+      "category": "경제",
+      "title": "[홈플러스 회생 폐지] 돈챙겨 떠난 MBK...대규모 실업 현실화",
+      "url": "http://www.00news.co.kr/news/articleView.html?idxno=104904",
+      "pubDate": "Sat, 04 Jul 2026 00:00:00 +0900",
+      "imageUrl": "https://cdn.00news.co.kr/news/thumbnail/202607/104904_241508_2915_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "공급 가뭄 지역에 새 아파트 온다…누적 대기수요 관심",
+      "url": "https://www.etoday.co.kr/news/view/2599954",
+      "pubDate": "Sat, 04 Jul 2026 17:02:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260703101717_2354594_1102_720.png"
+    },
+    {
+      "category": "부동산",
+      "title": "국민의힘, “이재명 부동산 정책, 문재인 부동산 ‘시즌2’ 되풀이…경...",
+      "url": "https://www.munhwa.com/article/11600244?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 15:58:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/021/2026/07/04/0002802316_001_20260704155817464.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "세금 올리면 집값 떨어질까? 전문가는 “아니, 전세시장을 보라” 했다...",
+      "url": "https://biz.heraldcorp.com/article/10797822?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 15:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/07/04/0002665690_001_20260706122709965.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "고양창릉 S-3·S-4블록 2306가구 입주자 모집...S-3블록 '전용 대출' 폐지...",
+      "url": "http://www.mygoyang.com/news/articleView.html?idxno=89401",
+      "pubDate": "Sat, 04 Jul 2026 14:42:00 +0900",
+      "imageUrl": "https://cdn.mygoyang.com/news/thumbnail/202607/89401_140578_1424_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "치솟는 분양가에 '수원 국평 10억' 현실화⋯발길 돌리는 실수요자들",
+      "url": "https://www.etoday.co.kr/news/view/2599948",
+      "pubDate": "Sat, 04 Jul 2026 14:02:00 +0900",
+      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/06/20260630135356_2352974_1200_899.JPG"
+    },
+    {
+      "category": "부동산",
+      "title": "[선우윤호의 경제본색] 이재명 정부 '부동산 대란' 탐구...서울 넘어 경...",
+      "url": "https://www.pennmike.com/news/articleView.html?idxno=123153",
+      "pubDate": "Sat, 04 Jul 2026 13:42:00 +0900",
+      "imageUrl": "https://cdn.pennmike.com/news/thumbnail/202607/123153_167787_377_v150.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[캠코 공매] 차주 경기 남양주 '오피스텔' 등 압류재산 매각",
+      "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5037186",
+      "pubDate": "Sat, 04 Jul 2026 13:26:00 +0900",
+      "imageUrl": "https://cdn.shinailbo.co.kr/news/photo/202607/5037186_2035738_2434.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "'주식·부동산 자산가' 폐지 줍던 할머니 죽음…재산 노린 입양 아들 범...",
+      "url": "https://www.newsis.com/view/NISX20260704_0003695804",
+      "pubDate": "Sat, 04 Jul 2026 12:23:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260704_0002178033_web_20260704115619_20260704122418507.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[통계로 보는 부동산] 강남권 전세가 다시 뛴다…상승축 한강 이남으로...",
+      "url": "https://www.ajunews.com/view/20260703155801336",
+      "pubDate": "Sat, 04 Jul 2026 10:02:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703155944597172.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "3기 신도시의 배신…희망고문으로 바뀐 '사전청약'",
+      "url": "https://www.ajunews.com/view/20260703154707301",
+      "pubDate": "Sat, 04 Jul 2026 10:02:00 +0900",
+      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703155353938519.png"
+    },
+    {
+      "category": "부동산",
+      "title": "“규제 묶여도 동탄 집값은 뛰었다”…서울 아파트값도 0.27% 상승",
+      "url": "https://www.ddaily.co.kr/page/view/2026070315461442268",
+      "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/138/2026/07/04/0002233131_001_20260704090110585.png?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "전셋값 오르고 입주물량은 ‘반토막’…3040 “전세보다 내 집” 고민 깊...",
+      "url": "https://www.sportsseoul.com/news/read/1620419?ref=naver",
+      "pubDate": "Sat, 04 Jul 2026 08:03:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251670_001_20260704080316779.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "상반기 청약시장 양극화…10대 건설사 경쟁률 非10대의 4.5배",
+      "url": "https://www.sentv.co.kr/article/view/sentv202607030134",
+      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
+      "imageUrl": "https://www.sentv.co.kr/data/sentv/image/2026/07/03/sentv20260703000139.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "'두더지 게임' 시즌2?…반도체 벨트 잡고, 다음은",
+      "url": "https://news.bizwatch.co.kr/article/real_estate/2026/07/03/0037",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/648/2026/07/04/0000048618_001_20260704080011271.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "“안양 만안·남양주, 이미 풍선효과 나타났습니다” [우동집 인터뷰]",
+      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607030282&t=NNv",
+      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/215/2026/07/04/A202607030282_20260704080111169.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "공급 지연에 규제 역풍… 서울 넘어 경기 남부까지 집값 상승세",
+      "url": "https://weekly.donga.com/3/all/11/6292435/1",
+      "pubDate": "Sat, 04 Jul 2026 07:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/037/2026/07/04/0000038448_001_20260704070115117.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "투기과열지구 지정 등 규제폭탄의 한계 [서진형의 부동산포커스]",
+      "url": "https://www.dailian.co.kr/news/view/1663143/?sc=Naver",
+      "pubDate": "Sat, 04 Jul 2026 07:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/07/04/0003107897_001_20260704070110641.png?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "\"몸테크 보단 편한 게 좋아\" 3040세대 신축 아파트 선호도↑",
+      "url": "https://view.asiae.co.kr/article/2026070314522123815",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/07/04/0005785381_001_20260704070115335.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "분담금 폭탄에도 웃는다…그사세 ‘압구정 재건축’ 나비효과 [안장원의...",
+      "url": "https://www.joongang.co.kr/article/25442379",
+      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535274_001_20260704070121664.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "“더 오른다잖아요”…계약갱신권 포기한 전세난민 사연[부동산 취재로...",
+      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01105366645511240",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322443_001_20260704060216634.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "현대차 9조 호재입었는데…1억 반값 분양 아파트의 진실",
+      "url": "https://realty.chosun.com/site/data/html_dir/2026/07/03/2026070302039.html",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://image.chosun.com/sitedata/image/202607/03/2026070302033_0.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "[단독] 고양창릉發 '모기지 논란'…남양주·하남 등 5500가구로 번진다",
+      "url": "https://realty.chosun.com/site/data/html_dir/2026/07/03/2026070302057.html",
+      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
+      "imageUrl": "https://image.chosun.com/sitedata/image/202607/03/2026070302051_0.jpg"
+    },
+    {
+      "category": "부동산",
+      "title": "“아파트 하자 찍으면 3000만원”… 드론업계, 새로운 돈줄 찾았다",
+      "url": "https://www.chosun.com/economy/smb-venture/2026/07/04/BXUMJR2B7ZBKBBCLZINID7WLHM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Sat, 04 Jul 2026 06:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985685_001_20260706094711869.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "\"자정까지 계약서 씁니다\"…토허구역 D-1 동탄, 막차계약 '북적'",
+      "url": "https://www.newsis.com/view/NISX20260703_0003695363",
+      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260630_0021343378_web_20260630141551_20260704060822606.jpg?type&#x3D;w800"
+    },
+    {
+      "category": "부동산",
+      "title": "이광재 \"730조 예산만 볼 게 아냐…국가 포트폴리오 전략 필요\"",
+      "url": "https://www.news1.kr/politics/assembly/6216671",
       "pubDate": "Sat, 04 Jul 2026 05:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040395_001_20260704050037899.jpg?type&#x3D;w800"
+      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040393_001_20260704050031594.jpg?type&#x3D;w800"
     },
     {
-      "category": "연예",
-      "title": "'옥문아' 장항준 \"유해진, 한 달 만에 섭외 수락\"…'왕사남' 비화 [RE:TV]",
-      "url": "https://www.news1.kr/entertain/broadcast-tv/6217489",
-      "pubDate": "Sat, 04 Jul 2026 04:50:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040384_001_20260704045013456.jpg"
+      "category": "부동산",
+      "title": "널뛰는 주식, 오르는 집값… “어디 투자할까요” 질문 쏟아져",
+      "url": "https://www.chosun.com/economy/real_estate/2026/07/04/22WQEV32EVG7PBY2T4WWYF6CMU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "pubDate": "Sat, 04 Jul 2026 00:45:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985653_001_20260704004514369.jpg?type&#x3D;w800"
     },
     {
-      "category": "연예",
-      "title": "30대 그녀는 왜 술에 취하게 됐나… 위로와 중독 사이의 '혼술'",
-      "url": "https://www.hankookilbo.com/news/article/A2026062909260004621?did=NA",
-      "pubDate": "Sat, 04 Jul 2026 04:31:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/469/2026/07/04/0000940309_001_20260704061205114.png?type&#x3D;w800"
-    },
-    {
-      "category": "연예",
-      "title": "엔비디아 젠슨 황의 '타인의 계절' [休·味·樂(휴·미·락)]",
-      "url": "https://www.hankookilbo.com/news/article/A2026070309580001796?did=NA",
-      "pubDate": "Sat, 04 Jul 2026 04:31:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/469/2026/07/04/0000940313_001_20260704061213106.png?type&#x3D;w800"
-    },
-    {
-      "category": "연예",
-      "title": "강민혁, 베를린 햇살 아래 여유로운 카페 한 컷",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123050",
-      "pubDate": "Sat, 04 Jul 2026 01:56:00 +0900",
-      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123050_1955024_557_crop.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "전현무, 월드컵 캐스터 활약 속 '무지개' 하계 수련회 티셔츠 공개",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123046",
-      "pubDate": "Sat, 04 Jul 2026 01:54:00 +0900",
-      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123046_1955020_5350_crop.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "“뉴욕 한복판 통제, 하객 1000명”…스위프트 ‘비공개 결혼식’ 계획",
-      "url": "https://www.joongang.co.kr/article/25442342",
-      "pubDate": "Sat, 04 Jul 2026 00:55:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535255_001_20260704062711350.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "연예",
-      "title": "'나혼자산다' 김신영, 반전 달리기의 비밀⋯기안84 \"자세가 너무 예뻐\"",
-      "url": "https://www.etoday.co.kr/news/view/2600223",
-      "pubDate": "Sat, 04 Jul 2026 00:48:00 +0900",
-      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260704004527_2354890_1200_2626.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "테일러 스위프트, ♥트래비스 켈시와 비공개 결혼식…\"이미 법적으로 부...",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123015",
-      "pubDate": "Sat, 04 Jul 2026 00:48:00 +0900",
-      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123015_1955007_484_crop.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "‘박미선♥’ 이봉원도 못 알아본 아들…알고 보니 넷플릭스 출연 배우",
-      "url": "https://www.sportsseoul.com/news/read/1620455?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 00:40:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251655_001_20260704004016048.png"
-    },
-    {
-      "category": "연예",
-      "title": "오윤아, 이혼 11년만 '겹경사'…♥비연예인과 재혼·발달장애 아들 취업...",
-      "url": "https://www.xportsnews.com/article/2167891",
-      "pubDate": "Sat, 04 Jul 2026 00:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029716_001_20260704003019804.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "강소라 “연예인은 편하면 안 돼”…오래된 팬 채팅에 눈물 난 이유",
-      "url": "https://www.sportsseoul.com/news/read/1620453?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 00:27:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251653_001_20260704002713262.png"
-    },
-    {
-      "category": "연예",
-      "title": "'전현무계획4' 엄기준, 결혼 추천하지 않은 이유⋯\"간섭 같아, 1년 간 싸...",
-      "url": "https://www.etoday.co.kr/news/view/2600222",
-      "pubDate": "Sat, 04 Jul 2026 00:26:00 +0900",
-      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260704002451_2354886_724_389.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "산다라박 \"남성 연예인, 2NE1 당시 숙소 찾아와…GD가 사장님께 일렀다...",
-      "url": "https://www.xportsnews.com/article/2167846",
-      "pubDate": "Sat, 04 Jul 2026 00:10:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029712_001_20260704001010171.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "육아 정보는 많고 정답은 없다, 불확실이 키운 ‘조기교육’",
-      "url": "https://www.joongang.co.kr/article/25442311",
-      "pubDate": "Sat, 04 Jul 2026 00:08:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/353/2026/07/04/0000055918_001_20260704065311727.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "연예",
-      "title": "재혼 발표 오윤아 혼인신고 마쳤다…결혼식은 미정",
-      "url": "https://www.newsis.com/view/NISX20260703_0003695615",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260703_0002177898_web_20260703204621_20260704000030542.jpg"
-    },
-    {
-      "category": "연예",
-      "title": "42세 산다라박 \"몸무게 37㎏…평생 소식하며 살아\"",
-      "url": "https://www.newsis.com/view/NISX20260703_0003695657",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260703_0002177917_web_20260703222255_20260704000025339.jpg"
+      "category": "국제",
+      "title": "내국인은 국내로·외국인은 서울로…국내외 여행수요 동반 상승",
+      "url": "https://www.mk.co.kr/article/12090027",
+      "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
+      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/07/04/0005702642_001_20260704090123781.png?type&#x3D;w800"
     },
     {
       "category": "국제",
@@ -617,13 +2570,6 @@
       "url": "http://www.fnnews.com/news/202607031413553737",
       "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
       "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543598_001_20260704090118787.png?type&#x3D;w800"
-    },
-    {
-      "category": "국제",
-      "title": "내국인은 국내로·외국인은 서울로…국내외 여행수요 동반 상승",
-      "url": "https://www.mk.co.kr/article/12090027",
-      "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/07/04/0005702642_001_20260704090123781.png?type&#x3D;w800"
     },
     {
       "category": "국제",
@@ -1289,573 +3235,6 @@
       "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123288",
       "pubDate": "Sat, 04 Jul 2026 08:08:00 +0900",
       "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123288_1955059_636_crop.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"이미 합의 끝났다\" 이강인, 615억에 라리가 명문 아틀레티코 이적 '초읽...",
-      "url": "http://www.fnnews.com/news/202607040748010829",
-      "pubDate": "Sat, 04 Jul 2026 09:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543599_001_20260704090120841.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "한국 축구를 무너뜨린 것은 축구협회의 곪은 시스템이었다",
-      "url": "https://www.sisajournal.com/news/articleView.html?idxno=378396",
-      "pubDate": "Sat, 04 Jul 2026 09:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/586/2026/07/04/0000133031_001_20260704090013036.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "축구계 \"정몽규·홍명보 퇴진 만으론 안돼…학연 청산이 개혁 출발점\"",
-      "url": "https://www.newsworks.co.kr/news/articleView.html?idxno=846061",
-      "pubDate": "Sat, 04 Jul 2026 09:00:00 +0900",
-      "imageUrl": "https://cdn.newsworks.co.kr/news/thumbnail/202607/846061_804328_4113_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"월드컵 졌다고 국회 청문회?\" 日 의문, \"상상도 못할 일... 누가 한국 감...",
-      "url": "http://www.osen.co.kr/article/G1112833662",
-      "pubDate": "Sat, 04 Jul 2026 08:59:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565531_001_20260704085913967.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인 \"제 몫 더 잘 해냈어야…더 성장해 보탬\"",
-      "url": "https://news.tf.co.kr/read/soccer/2339680.htm",
-      "pubDate": "Sat, 04 Jul 2026 08:51:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/07/04/202659081783122457_20260704085112259.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "'월드컵 34위 마감' 이강인 \"제 몫 다하지 못해 죄송하다\"",
-      "url": "https://www.insight.co.kr/news/561494",
-      "pubDate": "Sat, 04 Jul 2026 08:48:00 +0900",
-      "imageUrl": "https://img.insight.co.kr/static/2026/07/04/1200/img_20260704083733_90n0555d.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "축구 이어 농구 월드컵마저 '경우의 수' 따져야 하나…'부임 후 0승 3패...",
-      "url": "https://www.xportsnews.com/article/2167965",
-      "pubDate": "Sat, 04 Jul 2026 08:46:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029776_001_20260704084610533.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'한국→일본→호주' 아시아 축구 전멸, 호주마저 탈락했다…이집트와 승...",
-      "url": "https://www.xportsnews.com/article/2167967",
-      "pubDate": "Sat, 04 Jul 2026 08:45:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029775_001_20260704084510540.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[K리그1 프리뷰]한국 축구 월드컵의 아픔 그리고 분노, 질적 성장 자양...",
-      "url": "https://www.sportschosun.com/football/2026-07-02/202607020100016840000770",
-      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070201000168400007701_20260704084423516.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"예견된 탈락\"…한국축구, 감독 아닌 시스템이 무너졌다",
-      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000047558",
-      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
-      "imageUrl": "https://cdn.jnilbo.com/news/photo/202607/90000047558_557740_4356.png"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인 심경 고백 \"결과가 좋지 않았을 때 책임이 먼저다\" [북중미 월드...",
-      "url": "https://www.newdaily.co.kr/site/data/html/2026/07/04/2026070400010.html",
-      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
-      "imageUrl": "https://image.newdaily.co.kr/site/data/img/2026/07/04/2026070400010_0.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "충격 평가! \"손흥민, 역할 다하지 못했고, 무득점 그쳐\"...日 냉정 진단...",
-      "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553348939",
-      "pubDate": "Sat, 04 Jul 2026 08:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/139/2026/07/04/0002249715_001_20260704084111501.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[북중미 월드컵] 이강인 \"아쉬움보다 책임…더 성장해 팀에 보탬이 될 ...",
-      "url": "https://www.ajunews.com/view/20260704083423717",
-      "pubDate": "Sat, 04 Jul 2026 08:40:00 +0900",
-      "imageUrl": "https://image.ajunews.com/content/image/2026/07/04/20260704083730949381.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'최악의 월드컵' 마친 이강인, 첫 SNS 심경…꾹 참아왔던 말 적었다",
-      "url": "https://www.wikitree.co.kr/articles/1144684",
-      "pubDate": "Sat, 04 Jul 2026 08:38:00 +0900",
-      "imageUrl": "https://cdnweb01.wikitree.co.kr/webdata/editor/202607/04/img_20260704080608_85204e4a.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[북중미 월드컵] ‘韓 축구 에이스’ 이강인, 조별리그 탈락 후 처음 입...",
-      "url": "https://www.goal.com/kr/뉴스/a/blt86c24f041d017631",
-      "pubDate": "Sat, 04 Jul 2026 08:36:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/216/2026/07/04/0000141520_001_20260704083615429.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인 “아쉬움보다 책임 먼저…더 성장해 보탬 될 것”",
-      "url": "https://www.donga.com/news/Sports/article/all/20260704/134235394/1",
-      "pubDate": "Sat, 04 Jul 2026 08:33:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731493_001_20260704090312547.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"더 성장해 팀에 보탬이 되겠습니다\" 탈락 아쉬움 속 이강인의 다짐",
-      "url": "https://www.nocutnews.co.kr/news/6543031?utm_source=naver&utm_medium=article&utm_campaign=20260704082518",
-      "pubDate": "Sat, 04 Jul 2026 08:26:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/07/04/0004164803_001_20260704082615235.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인 “결과 좋지 않을 때 아쉬움보다 책임 먼저” 심경 고백",
-      "url": "https://www.joongang.co.kr/article/25442384",
-      "pubDate": "Sat, 04 Jul 2026 08:26:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535278_001_20260704085312521.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "돌아온 이강인 “더 성장하겠다”…홍명보는 LA서 VIP 통로로 빠져나가",
-      "url": "https://www.dt.co.kr/article/12071032?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 08:25:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/029/2026/07/04/0003035183_001_20260704082615349.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "[韓 축구 대참사 블랙박스③] '공정'을 찾아라…축구협회장 선거 직선제...",
-      "url": "https://www.sportsworldi.com/newsView/20260704501846",
-      "pubDate": "Sat, 04 Jul 2026 08:21:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/396/2026/07/04/0000748657_001_20260704082113609.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "월드컵 승부차기서 파넨카 한 방… 살라의 강심장 \"누군가 해야 했다면...",
-      "url": "https://www.besteleven.com/news/articleView.html?idxno=309405",
-      "pubDate": "Sat, 04 Jul 2026 08:21:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/343/2026/07/04/0000144669_001_20260704082112418.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'에이스' 이강인 \"보답 못해 죄송…더 성장해서 보탬 될 것\"[월드컵24시...",
-      "url": "https://www.newsis.com/view/NISX20260704_0003695699",
-      "pubDate": "Sat, 04 Jul 2026 08:20:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260625_0021336460_web_20260625135510_20260704082119671.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "[오피셜] 포스테코글루, 알나스르 부임! '한국과 일본 감독 후보군'에서...",
-      "url": "http://www.footballist.co.kr/news/articleView.html?idxno=211797",
-      "pubDate": "Sat, 04 Jul 2026 08:20:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/436/2026/07/04/0000110983_001_20260704082012465.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'월드컵 조별리그 탈락' 이강인, SNS에 \"보답 못해 죄송, 더 성장할것\"",
-      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935908",
-      "pubDate": "Sat, 04 Jul 2026 08:18:00 +0900",
-      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935908_1209486_178_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인 “기대 보답 못해 죄송한 마음…이번 결과 잊지 않고 더 성장하...",
-      "url": "https://www.khan.co.kr/article/202607040814001",
-      "pubDate": "Sat, 04 Jul 2026 08:14:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/032/2026/07/04/0003456026_001_20260704081511110.jpeg"
-    },
-    {
-      "category": "스포츠",
-      "title": "감독 경질·3전 전패 이어 도핑 집단 양성 파문… 튀니지 선수 8명, 금지...",
-      "url": "https://www.besteleven.com/news/articleView.html?idxno=309404",
-      "pubDate": "Sat, 04 Jul 2026 08:09:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/343/2026/07/04/0000144668_001_20260704080912349.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인, 월드컵 조별리그 탈락에 \"책임 갖고 더 성장하겠다\"",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=749523",
-      "pubDate": "Sat, 04 Jul 2026 08:06:00 +0900",
-      "imageUrl": "https://cdn.slist.kr/news/thumbnail/202607/749523_1149902_458_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[오피셜] '천재 감독'의 몰락! 32강 탈락 독일 칼뺐다…나겔스만 감독 경...",
-      "url": "https://www.mydaily.co.kr/page/view/2026070403490245343",
-      "pubDate": "Sat, 04 Jul 2026 08:04:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/117/2026/07/04/0004081362_001_20260704080410081.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "잉글랜드 대표팀, 출전수당 모두 기부 20년째…축구 종주국의 ‘프라이...",
-      "url": "https://www.hani.co.kr/arti/sports/sportstemp/worldcup/1266682.html",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/028/2026/07/04/0002812631_001_20260704080216122.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "[북중미 월드컵] '한국과 악연' 케이로스, 옛 제자 겨눈다…콜롬비아-가...",
-      "url": "https://www.ajunews.com/view/20260703153326267",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703153354790520.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "손흥민 불화설·청문회 폭풍 앞두고… '사퇴' 홍명보, 돌연 미국행 갑자...",
-      "url": "http://www.fnnews.com/news/202607031723200081",
-      "pubDate": "Sat, 04 Jul 2026 08:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543592_001_20260704080115007.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "한국 축구 흔들려도…인재 배출 환경 만들기 올인, 대학 축구 수장 박한...",
-      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826348",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/07/04/0000616556_001_20260704080010734.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "무능·불통의 축구협회…월드컵 실패는 '예견된 참사'[한국축구 개혁①...",
-      "url": "https://www.newsis.com/view/NISX20260703_0003695425",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260628_0021340541_web_20260628152056_20260704082115665.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인 \"더 잘했어야 했다\"…월드컵 탈락 후 첫 심경",
-      "url": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607040068&t=NN",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/215/2026/07/04/A202607040068_1_20260704080110117.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "'월드컵 참사' 이강인 \"아쉬움보다 책임 먼저…더 성장하겠다\"",
-      "url": "https://www.news1.kr/sports/soccer/6217626",
-      "pubDate": "Sat, 04 Jul 2026 07:57:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040480_001_20260704075815217.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "'32강 조기 탈락' 독일 나겔스만 사임…후임에 클롭 유력[월드컵24시]",
-      "url": "https://www.newsis.com/view/NISX20260704_0003695695",
-      "pubDate": "Sat, 04 Jul 2026 07:57:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260630_0001386967_web_20260630054646_20260704075820129.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "'나카무라, 월드컵 스타 등극'...일본 32강 탈락에도 프리미어리그 입성...",
-      "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=689829",
-      "pubDate": "Sat, 04 Jul 2026 07:50:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/413/2026/07/04/0000220405_001_20260704075013232.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'韓 축구 에이스는 변명하지 않았다' 이강인 \"내가 더 잘했어야... 아쉬...",
-      "url": "https://www.starnewskorea.com/sports/2026/07/04/2026070407333980904",
-      "pubDate": "Sat, 04 Jul 2026 07:49:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/108/2026/07/04/0003449922_001_20260704075511060.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[월드컵] 이강인 \"제 몫 더 잘 해냈어야 하는데…더 성장하겠다\"",
-      "url": "https://www.yna.co.kr/view/AKR20260704011300007?input=1195m",
-      "pubDate": "Sat, 04 Jul 2026 07:49:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/PYH2026063000680001300_P4_20260704075012935.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"박지성, 축구협회장 바뀐다면 가장 유력 거론\" 진종오 의원 파격 발언...",
-      "url": "https://www.spotvnews.co.kr/news/articleView.html?idxno=826344",
-      "pubDate": "Sat, 04 Jul 2026 07:48:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/477/2026/07/04/0000616554_001_20260704074815795.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'사면초가' 대한축구협회, 뒤늦게 사과하고 홍명보 후임 감독 선임 등 입...",
-      "url": "https://www.mediapen.com/news/view/1108167",
-      "pubDate": "Sat, 04 Jul 2026 07:46:00 +0900",
-      "imageUrl": "https://image.mediapen.com/news/202607/news_1108167_1783118484_m.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "축구협회, 차기 감독 선임 공식화",
-      "url": "https://www.bntnews.co.kr/article/view/bnt202607040035",
-      "pubDate": "Sat, 04 Jul 2026 07:44:00 +0900",
-      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040055.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'마줄스 감독 첫승 언제'... 농구대표팀, 대만과 월드컵 예선 역전패로...",
-      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935906",
-      "pubDate": "Sat, 04 Jul 2026 07:42:00 +0900",
-      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935906_1209483_400_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[오피셜] KFA, 공식 발표 \"차기 감독 선임 관련 논의...차질 없이 아시안...",
-      "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553348891",
-      "pubDate": "Sat, 04 Jul 2026 07:31:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/139/2026/07/04/0002249713_001_20260704073110887.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인, 아틀레티코 유니폼 입나…PSG 3500만 유로-ATM 옵션 카드, 라리...",
-      "url": "http://www.osen.co.kr/article/G1112833636",
-      "pubDate": "Sat, 04 Jul 2026 07:18:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565505_001_20260704071819935.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "한국 축구는 언제부터 잘못됐을까? 일본 기자가 콕 집었다 '이 사람'",
-      "url": "https://www.news1.kr/society/general-society/6217458",
-      "pubDate": "Sat, 04 Jul 2026 07:15:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040456_001_20260704071510931.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "[WC예선] '회피형 감독인가?' 마줄스 감독, 최소한의 설명도 사과도 없었...",
-      "url": "http://www.rookie.co.kr/news/articleView.html?idxno=124430",
-      "pubDate": "Sat, 04 Jul 2026 07:15:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/398/2026/07/04/0000100802_001_20260704071509946.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'관계자들은 술파티, 선수들은 패스트푸드'… 월드컵 탈락 이후 충격 폭...",
-      "url": "https://www.besteleven.com/news/articleView.html?idxno=309402",
-      "pubDate": "Sat, 04 Jul 2026 07:10:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/343/2026/07/04/0000144666_001_20260704071014767.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"빨리도 하네\"…대한축구협회 늑장 사과에 국민 반응 '냉담'",
-      "url": "https://www.imaeil.com/page/view/2026070407054785956",
-      "pubDate": "Sat, 04 Jul 2026 07:10:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/088/2026/07/04/0001017476_001_20260704071310700.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "“아쉬움보다 책임” 이강인의 반성… “더 성장해 경기장에서 보답”",
-      "url": "https://www.sportsworldi.com/newsView/20260704500209",
-      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/396/2026/07/04/0000748656_001_20260704070218133.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "표류해 길 잃은 한국 축구…국민 지지 못 받는 '공놀이'로 전락 [스한 위...",
-      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935810",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935810_1209385_3110_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"고대 나와야 국대 뛴대\" 호날두 눈물…월드컵 분노, AI '밈'으로 폭발",
-      "url": "https://www.mt.co.kr/tech/2026/07/04/2026070322391355217",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/07/04/0005381354_001_20260704070017662.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "나상호 영입 위해 일본행? 김기동 감독 “저 한국에 있었는데요?” [MK인...",
-      "url": "https://www.mk.co.kr/article/12090211",
-      "pubDate": "Sat, 04 Jul 2026 06:55:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/410/2026/07/04/0001131171_001_20260704065512828.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"죄송합니다\"...'외로운 에이스' 이강인, 참패 8일 만에 심경 토로 \"결과...",
-      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94341",
-      "pubDate": "Sat, 04 Jul 2026 06:55:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/411/2026/07/04/0000084008_001_20260704065509684.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'땅치며 눈물 흘린' 이강인은 '모르겠다' 대신 '자책'을 했다, \"아쉬움보...",
-      "url": "https://www.sportschosun.com/football/2026-07-04/202607040100025040001367",
-      "pubDate": "Sat, 04 Jul 2026 06:50:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070401000250400013671_20260704065018917.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "월드컵 마친 이강인 “결과로 보답 못해 죄송, 제 몫을 더 잘해냈어야”",
-      "url": "https://www.mk.co.kr/article/12090214",
-      "pubDate": "Sat, 04 Jul 2026 06:50:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/009/2026/07/04/0005702629_001_20260704065009308.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "한국 남자농구, 대만에 연장 끝 80-82 패배…3연패 수렁",
-      "url": "http://www.tjb.co.kr/sub0301/bodo/view/id/100395",
-      "pubDate": "Sat, 04 Jul 2026 06:48:00 +0900",
-      "imageUrl": "https://www.tjb.co.kr/html1/images/noimg.png"
-    },
-    {
-      "category": "스포츠",
-      "title": "축구협회, 월드컵 탈락 후 첫 전강위…감독 선임 방향 논의",
-      "url": "http://www.tjb.co.kr/sub0301/bodo/view/id/100390",
-      "pubDate": "Sat, 04 Jul 2026 06:48:00 +0900",
-      "imageUrl": "https://www.tjb.co.kr/html1/images/noimg.png"
-    },
-    {
-      "category": "스포츠",
-      "title": "‘나솔’ 24기 옥순, 모두가 놀란 ‘쌩얼’...국가대표 감독 지원 “연...",
-      "url": "https://www.sportsseoul.com/news/read/1620464?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 06:45:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251662_001_20260704064512250.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "월드컵 끝, K리그 시작! '6G 무패' 전북, 강원과 후반기 첫 맞대결...박지...",
-      "url": "http://www.osen.co.kr/article/G1112833295",
-      "pubDate": "Sat, 04 Jul 2026 06:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565500_001_20260704064112909.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "‘농구판 홍명보인가?’ 대만에 치욕의 19점차 역전패...한국 탈락 위기...",
-      "url": "http://www.osen.co.kr/article/G1112833606",
-      "pubDate": "Sat, 04 Jul 2026 06:33:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565499_001_20260704063312497.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[공식발표] '32강 조기 탈락' 축구협회, 8일 만에 입 열었다...\"억측 보도...",
-      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94339",
-      "pubDate": "Sat, 04 Jul 2026 06:25:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/411/2026/07/04/0000084006_001_20260704062509408.png"
-    },
-    {
-      "category": "스포츠",
-      "title": "남아공전 지고 분노한 이강인 \"죄송한 마음…더 성장할 것\"",
-      "url": "https://www.mt.co.kr/sports/2026/07/04/2026070323440727090",
-      "pubDate": "Sat, 04 Jul 2026 06:20:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/07/04/0005381344_001_20260704070312587.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "◇오늘의 경기(4일)",
-      "url": "https://www.yna.co.kr/view/AKR20260703050900007?input=1195m",
-      "pubDate": "Sat, 04 Jul 2026 06:15:00 +0900",
-      "imageUrl": "https://r.yna.co.kr/global/home/v01/img/yonhapnews_logo_1200x800_kr01.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'이럴수가' 농구도 잔혹한 경우의 수라니! 6일 먼저 열리는 대만-中전 결...",
-      "url": "https://www.starnewskorea.com/sports/2026/07/04/2026070317480126399",
-      "pubDate": "Sat, 04 Jul 2026 06:05:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/108/2026/07/04/0003449904_001_20260704060510132.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[FIBA WC] ‘부임 후 3연패’ 니콜라스 마줄스 한국 감독, “4쿼터에 모...",
-      "url": "https://basketkorea.com/news/newsview.php?ncode=1065542360457257",
-      "pubDate": "Sat, 04 Jul 2026 06:05:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/351/2026/07/04/0000087171_001_20260704060510244.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"북중미 월드컵 실패 진심으로 사과\"...대한축구협회 드디어 공식 성명...",
-      "url": "https://www.interfootball.co.kr/news/articleView.html?idxno=689825",
-      "pubDate": "Sat, 04 Jul 2026 06:05:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/413/2026/07/04/0000220401_001_20260704060510289.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'정몽규·홍명보 후임 찾는다'...월드컵 참사 KFA, 새 회장·감독 선임 절...",
-      "url": "https://news.tf.co.kr/read/soccer/2339674.htm",
-      "pubDate": "Sat, 04 Jul 2026 06:04:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/07/04/202631461783112502_20260704060415243.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "홍명보 실패의 결정적 순간, 남아공전 김민재 교체 그때 [월드컵 실패를...",
-      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935856",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935856_1209397_4751_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "월드컵 ‘한국 빙고판 저주’ 현실로?…스페인 빼고 8곳 짐쌌다",
-      "url": "https://www.joongang.co.kr/article/25442364",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535259_001_20260704062728773.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "'살다살다 이런 캡틴은 처음' 탁구·뒷담화·감독 불화설… 손흥민이 혼...",
-      "url": "http://www.maniareport.com/view.php?ud=20260704055750159591b55a0d56_19",
-      "pubDate": "Sat, 04 Jul 2026 05:59:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/425/2026/07/04/2026070405580607391091b55a0d5621122710579_20260704055909483.png"
-    },
-    {
-      "category": "스포츠",
-      "title": "41세 호날두, 월드컵 토너먼트 첫 골+최고령 득점…스페인 만난 라스트...",
-      "url": "http://www.osen.co.kr/article/G1112833632",
-      "pubDate": "Sat, 04 Jul 2026 05:54:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/109/2026/07/04/0005565490_001_20260704055417766.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[월드컵 리뷰]\"아시아 축구의 눈물\" 한국→일본→호주 '亞 전멸' 확정…...",
-      "url": "https://www.sportschosun.com/football/2026-07-04/202607040100024960001362",
-      "pubDate": "Sat, 04 Jul 2026 05:54:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/076/2026/07/04/2026070501000250100013657_20260704061017172.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "[오피셜] 손흥민과 ‘41년’ 만에 토트넘에 우승컵 안겨준 포스테코글루...",
-      "url": "https://sports.khan.co.kr/article/202607040540003?pt=nv",
-      "pubDate": "Sat, 04 Jul 2026 05:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/144/2026/07/04/0001124344_001_20260704054111908.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'이기고 동료 추모' 호날두-'0골 탈락 투정' 손흥민, 누가 진짜 '라스트...",
-      "url": "https://sports.hankooki.com/news/articleView.html?idxno=6935901",
-      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
-      "imageUrl": "https://cdn.sports.hankooki.com/news/thumbnail/202607/6935901_1209472_3623_v150.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "'김하성급은 돼야' 노시환, MLB 포스팅 기정사실...가도, 안 가도 사상 ...",
-      "url": "http://www.maniareport.com/view.php?ud=20260704052536688991b55a0d56_19",
-      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/425/2026/07/04/2026070405264508300091b55a0d5621122710579_20260704053009145.png"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"우리 홍명보 괴롭히지 마!\", \"J리그 와라\" 日 옹호 폭발→프랑스도 주...",
-      "url": "https://www.xportsnews.com/article/2167939",
-      "pubDate": "Sat, 04 Jul 2026 05:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/311/2026/07/04/0002029736_001_20260704053008726.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "작심 발언! \"이러면 누가 한국 감독 맡고 싶겠나\"...日 전문가 일침, \"경...",
-      "url": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553348871",
-      "pubDate": "Sat, 04 Jul 2026 05:26:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/139/2026/07/04/0002249710_001_20260704052613627.jpg"
-    },
-    {
-      "category": "스포츠",
-      "title": "월드컵 그라운드와 한국 외교, 그 닮은 풍경 [4강의 시선]",
-      "url": "https://www.hankookilbo.com/news/article/A2026070310310004447?did=NA",
-      "pubDate": "Sat, 04 Jul 2026 04:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/469/2026/07/04/0000940304_001_20260704061159162.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "이강인·펠레… 차세대 스타부터 전설까지 ‘축구 선수 백과사전’",
-      "url": "https://www.chosun.com/culture-life/book/2026/07/04/Q2MSB3CBIJASJIZSJMTXK3YRBM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Sat, 04 Jul 2026 00:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985624_001_20260704004111352.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "스포츠",
-      "title": "\"죄송합니다, 그리고 더 성장하겠습니다\"…이강인, 월드컵 탈락 후 남긴...",
-      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=94331",
-      "pubDate": "Sat, 04 Jul 2026 00:15:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/411/2026/07/04/0000083999_001_20260704001510266.png"
     },
     {
       "category": "사회",
@@ -3214,860 +4593,6 @@
       "url": "https://www.theguru.co.kr/news/article.html?no=103883",
       "pubDate": "Sat, 04 Jul 2026 00:02:00 +0900",
       "imageUrl": null
-    },
-    {
-      "category": "금융",
-      "title": "KB금융 차기 회장 후보 6명으로 압축-양종희 포함, 9월 최종 선임",
-      "url": "https://www.mediafine.co.kr/news/articleView.html?idxno=82601",
-      "pubDate": "Sat, 04 Jul 2026 08:52:00 +0900",
-      "imageUrl": "https://cdn.mediafine.co.kr/news/photo/202607/82601_119537_388.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[다음주 경제] 외환시장 24시간 가동…IMF, 韓 성장률 전망 얼마나 올릴...",
-      "url": "https://www.yna.co.kr/view/AKR20260704013900002?input=1195m",
-      "pubDate": "Sat, 04 Jul 2026 08:46:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/PYH2026063012550001300_P4_20260704084713123.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "보금자리론도 5% 시대…내 집 마련 사다리를 걷어찬 규제[손바닥부동산...",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01197206645511240",
-      "pubDate": "Sat, 04 Jul 2026 08:45:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322468_001_20260704084511398.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "오늘의 금값시세…순금 1돈 90만원대",
-      "url": "https://www.vegannews.co.kr/news/article.html?no=383803",
-      "pubDate": "Sat, 04 Jul 2026 08:44:00 +0900",
-      "imageUrl": null
-    },
-    {
-      "category": "금융",
-      "title": "비트코인 9400만 원대 회복… 지케이패스 30% 넘게 폭등",
-      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3626094",
-      "pubDate": "Sat, 04 Jul 2026 08:32:00 +0900",
-      "imageUrl": "https://cdn.gukjenews.com/news/thumbnail/202607/3626094_3788573_3156_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[은행가] 기업은행, 외국인 대상 캐시백·농협은행 '오늘의 혜택' 출시 ...",
-      "url": "https://www.slist.kr/news/articleView.html?idxno=749529",
-      "pubDate": "Sat, 04 Jul 2026 08:24:00 +0900",
-      "imageUrl": "https://cdn.slist.kr/news/thumbnail/202607/749529_1149909_1430_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "발행금리 부담에 회사채 비수기 빨리 도래…\"하반기도 회복 어려워\"",
-      "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4423352",
-      "pubDate": "Sat, 04 Jul 2026 08:16:00 +0900",
-      "imageUrl": "https://cdn.news.einfomax.co.kr/news/thumbnail/202607/4423352_327040_143_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "국내 증시 투자자예탁금 119조 돌파, 개인 매수 여력 주목받아",
-      "url": "https://www.tokenpost.kr/news/market/374964",
-      "pubDate": "Sat, 04 Jul 2026 08:16:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/f04t0ax1hn.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "\"나도 모르게 비트코인을?\"... 주식 투자자 1억 명 운명, 가상자산 폭락...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465462",
-      "pubDate": "Sat, 04 Jul 2026 08:14:00 +0900",
-      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465462_453907_1226_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "“장가연 스펀지처럼 잘 받아들여”, “서한솔 폭발할 것”…PBA팀리그...",
-      "url": "https://www.sportsseoul.com/news/read/1620470?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 08:03:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251669_001_20260704080312836.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "반도체 수출 호황 지속…5월 경상수지 흑자 규모는[한은 미리보기]",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01161126645511240",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322458_001_20260704080219393.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "역대급 거래대금에도 소외된 증권주…“2분기 깜짝 실적·ETF가 반전 이...",
-      "url": "https://www.etoday.co.kr/news/view/2600001",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260703112722_2354663_1198_499.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[주간증시전망] 다음주 코스피 7200~9000 전망...삼전 실적에 방향성 갈...",
-      "url": "https://www.etoday.co.kr/news/view/2600221",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://img.etoday.co.kr/pto_db/2026/07/20260704000411_2354885_1200_898.png"
-    },
-    {
-      "category": "금융",
-      "title": "출렁이는 장세에도 단일종목 레버리지 찾는 개미들…수익률은 '곡소리'",
-      "url": "https://www.ajunews.com/view/20260703182429556",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703183519736797.png"
-    },
-    {
-      "category": "금융",
-      "title": "기업대출 빗장 풀린 인터넷은행…은행권 지각변동",
-      "url": "https://www.ajunews.com/view/20260703143451160",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://image.ajunews.com/content/image/2026/07/03/20260703144709486061.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "하반기 '1만피' 조준…변수는 국민연금·외국인·금리",
-      "url": "https://biz.sbs.co.kr/article_hub/20000320365?division=NAVER",
-      "pubDate": "Sat, 04 Jul 2026 08:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/374/2026/07/04/0000519931_001_20260704080111337.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "[자금조달 프리뷰] 삼성증권 공모채·레몬헬스케어 상장 '눈길'",
-      "url": "https://www.bloter.net/news/articleView.html?idxno=667291",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/293/2026/07/04/0000087211_001_20260704081510246.png?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "\"테러 자금·마약 밀매 악용\"...인도 RBI, 암호화폐 봉쇄 수위 극대화",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465459",
-      "pubDate": "Sat, 04 Jul 2026 07:48:00 +0900",
-      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465459_453904_4619_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[인사] 우리은행",
-      "url": "http://www.econonews.co.kr/news/articleView.html?idxno=440678",
-      "pubDate": "Sat, 04 Jul 2026 07:46:00 +0900",
-      "imageUrl": "http://www.econonews.co.kr/image/logo/snslogo_20210506051725.png"
-    },
-    {
-      "category": "금융",
-      "title": "개미 털고 나간 빈자리…바이낸스 소매 유입 사상 최저치 대충격",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465457",
-      "pubDate": "Sat, 04 Jul 2026 07:40:00 +0900",
-      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465457_453902_389_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "주식 시장인지 도박판인지…국장 강타한 ‘단타 좀비들’",
-      "url": "https://www.kyeonggi.com/article/20260703580343",
-      "pubDate": "Sat, 04 Jul 2026 07:32:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/666/2026/07/04/0000113862_001_20260704082815907.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "[코스피 지수선물 옵션] 삼성전자·SK하이닉스 선물 급등…반도체가 지...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465456",
-      "pubDate": "Sat, 04 Jul 2026 07:32:00 +0900",
-      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465456_453901_3126_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "코스닥150 담고 콜옵션 매도…월배당 노리는 커버드콜 ETF[ETF언박싱]",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01148006645511240",
-      "pubDate": "Sat, 04 Jul 2026 07:31:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322454_001_20260704073110722.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "IMF \"토큰화, 정책 결정에 따라 금융시스템 강화하거나 분열시킬 것\"",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681366",
-      "pubDate": "Sat, 04 Jul 2026 07:26:00 +0900",
-      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202607/681366_629777_2454.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "DCG 지원 유마, 기관투자자용 비텐서 투자 펀드 출시",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681365",
-      "pubDate": "Sat, 04 Jul 2026 07:20:00 +0900",
-      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202607/681365_629776_1822.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "신한은행 '신한인증서' 1300만 돌파…슈퍼SOL 통합 플랫폼의 핵심 인프라...",
-      "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=61183",
-      "pubDate": "Sat, 04 Jul 2026 07:20:00 +0900",
-      "imageUrl": "https://cdn.newsroad.co.kr/news/thumbnail/202607/61183_82556_5620_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[주간 코스닥 외국인] 반도체 싹쓸이…리노공업·이오테크닉스 대거 담...",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465451",
-      "pubDate": "Sat, 04 Jul 2026 07:18:00 +0900",
-      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465451_453897_1459_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[인사] 우리금융그룹",
-      "url": "https://www.seoulfn.com/news/articleView.html?idxno=632672",
-      "pubDate": "Sat, 04 Jul 2026 07:15:00 +0900",
-      "imageUrl": "https://www.seoulfn.com/image/logo/snslogo_20250522023711.png"
-    },
-    {
-      "category": "금융",
-      "title": "[하반기 증시 전망②] 소외된 코스닥, 반전 가능성은…상폐 강화·연기...",
-      "url": "http://www.newsian.co.kr/news/articleView.html?idxno=91747",
-      "pubDate": "Sat, 04 Jul 2026 07:14:00 +0900",
-      "imageUrl": "https://cdn.newsian.co.kr/news/thumbnail/202607/91747_84856_39_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "삼성전자·SK하이닉스 “코스피는 6종목 장세”",
-      "url": "https://www.bntnews.co.kr/article/view/bnt202607040022",
-      "pubDate": "Sat, 04 Jul 2026 07:14:00 +0900",
-      "imageUrl": "https://www.bntnews.co.kr/data/bnt/image/2026/07/04/bnt202607040038.png"
-    },
-    {
-      "category": "금융",
-      "title": "보이스피싱 구제 신청…이제 은행 안 가도 됩니다[오늘의 머니 팁]",
-      "url": "https://www.edaily.co.kr/news/newspath.asp?newsid=01144726645511240",
-      "pubDate": "Sat, 04 Jul 2026 07:12:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/018/2026/07/04/0006322453_001_20260704071212607.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "비트버니 퀴즈 7월 4일 정답은",
-      "url": "https://www.namdonews.com/news/articleView.html?idxno=915756",
-      "pubDate": "Sat, 04 Jul 2026 07:06:00 +0900",
-      "imageUrl": "https://cdn.namdonews.com/news/photo/202607/915756_619627_258.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "금리 오르고 증시는 널뛰기… '갈 곳 잃은' 대기 자금 722조 쌓였다",
-      "url": "https://www.dailian.co.kr/news/view/1663207/?sc=Naver",
-      "pubDate": "Sat, 04 Jul 2026 07:03:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/07/04/0003107899_001_20260704070312407.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "[법인카드 공략] [하나] '기업금융 전문가' 성영수 효과...성장률 '두각...",
-      "url": "https://news.dealsitetv.com/articles/172687",
-      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
-      "imageUrl": null
-    },
-    {
-      "category": "금융",
-      "title": "문전성시 보험 M&A…신한금융 가세로 격전지 확대",
-      "url": "http://www.segyebiz.com/newsView/20260704500788?OutUrl=naver",
-      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
-      "imageUrl": "http://www.segyebiz.com//content/image/2026/07/04/20260704500787.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "KB금융지주, 차기 회장 후보 6명 확정…9월 최종 후보 선정",
-      "url": "https://www.epnc.co.kr/news/articleView.html?idxno=403879",
-      "pubDate": "Sat, 04 Jul 2026 07:02:00 +0900",
-      "imageUrl": "https://cdn.epnc.co.kr/news/photo/202607/403879_404155_130.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "코스피 87% 뛰었는데…지수는 사실상 '6종목'이 움직였다 [증시는 왜]",
-      "url": "http://www.fnnews.com/news/202607031537355447",
-      "pubDate": "Sat, 04 Jul 2026 07:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/014/2026/07/04/0005543586_001_20260704070112066.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이...",
-      "url": "https://www.goodkyung.com/news/articleView.html?idxno=288860",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://cdn.goodkyung.com/news/thumbnail/202607/288860_260472_4921_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "삼성·LG 가전주, 트럼프발 효율규제 폐지 수혜",
-      "url": "https://www.g-enews.com/view.php?ud=2026070406560364552bd56fbc3c_1",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=20260704065731025462bd56fbc3c21121419978.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "은퇴세대 ‘주목’…신한투자증권, 자산관리 라인업 확대",
-      "url": "https://www.dailian.co.kr/news/view/1663167/?sc=Naver",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/07/04/0003107896_001_20260704070018402.png?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "비트코인·이더리움 '장중 상승'...주요 이슈는?",
-      "url": "http://www.choicenews.co.kr/news/articleView.html?idxno=167581",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://cdn.choicenews.co.kr/news/thumbnail/202607/167581_127557_5320_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "인도중앙은행, 의회에 암호화폐 합법화 반대... 은행권 차단 재차 강조",
-      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=681353",
-      "pubDate": "Sat, 04 Jul 2026 06:58:00 +0900",
-      "imageUrl": "https://cdn.digitaltoday.co.kr/news/photo/202607/681353_629765_5630.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "달러-원 하루 만에 25.8원 폭락…1,530원 마감에도 '엔화 변수' 여전",
-      "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=465445",
-      "pubDate": "Sat, 04 Jul 2026 06:50:00 +0900",
-      "imageUrl": "https://cdn.pinpointnews.co.kr/news/thumbnail/202607/465445_453891_4923_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "KB금융 차기 회장 후보 6인 숏리스트 확정… 양종희·이환주 등 내부 4명",
-      "url": "https://www.segye.com/newsView/20260703513274?OutUrl=naver",
-      "pubDate": "Sat, 04 Jul 2026 06:42:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260602515641_20260704064211858.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "증시 활황인데 부진하던 증권주 ‘8000피’에 7% ‘쑥’ [줍줍리포트]",
-      "url": "https://www.sedaily.com/article/20063612?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 06:36:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638048_001_20260704063614193.png?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "美 긴축 완화 기대에… 비트코인·알트코인 동반 상승 [주간코인시황]",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165072",
-      "pubDate": "Sat, 04 Jul 2026 06:20:00 +0900",
-      "imageUrl": "https://cdn.it.chosun.com/news/thumbnail/202607/2023092165072_446828_2621_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "“시장에 달러가 넘쳐 난다” 마이너스 프리미엄까지, 고환율 시대 무슨...",
-      "url": "https://biz.heraldcorp.com/article/10797944?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 06:17:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/016/2026/07/04/0002665620_001_20260704061812145.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "현대차 주식형 봇물, 코스피 테마도 다수···6월 상장 ETF 보니",
-      "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=422173",
-      "pubDate": "Sat, 04 Jul 2026 06:10:00 +0900",
-      "imageUrl": "https://cdn.sisajournal-e.com/news/thumbnail/202607/422173_236699_3951_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "리플(XRP) 단기 반등세 지속, 글로벌 결제 생태계 확장 기대",
-      "url": "https://www.tokenpost.kr/news/cryptocurrency/374951",
-      "pubDate": "Sat, 04 Jul 2026 06:08:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/nr6frs3txe.png"
-    },
-    {
-      "category": "금융",
-      "title": "인터넷은행, 4% 예금금리 향해 '성큼'…시중은행은 2%대 '제자리'",
-      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=874111",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://cdn.getnews.co.kr/news/photo/202607/874111_528942_5716.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "6월 외환보유액 소폭 늘었다…“달러 풀었지만 외화예금 증가로 상쇄”",
-      "url": "https://www.segye.com/newsView/20260703505483?OutUrl=naver",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260703505597_20260704060213701.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "우리은행, 고객 정보 1만7000여건 유출…\"외부 업체 직원 과실\"",
-      "url": "https://www.getnews.co.kr/news/articleView.html?idxno=874108",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://cdn.getnews.co.kr/news/photo/202607/874108_528940_2847.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[블록체人] 임주영 ABC 총괄 “가상자산 관리, 스테이블코인 결제·정산...",
-      "url": "https://biz.chosun.com/stock/finance/2026/07/04/PYTWC4QHJZGWLA2NYY753QOYVA/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/366/2026/07/04/0001176669_001_20260704060212460.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "한미약품 오너 일가 연대 공식화…지분 매입 경쟁 펼쳐질까",
-      "url": "https://www.dailypharm.com/user/news/340116?REFERER=NP",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://vodcdn.dailypharm.com/new_dailypharm/editor/content/2026/07/02/de5c622c-3d22-4e4a-a0d6-1e52f08a1fed.png"
-    },
-    {
-      "category": "금융",
-      "title": "1년전 환율, 1300원대였는데···6일부터 24시간 외환거래 시작되면?[경...",
-      "url": "https://www.khan.co.kr/article/202607040600061",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/032/2026/07/04/0003456015_001_20260704060110002.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "취약차주 품는 금융권… 맞춤형 대출 잇따라 출시",
-      "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165125",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://cdn.it.chosun.com/news/thumbnail/202607/2023092165125_446791_2842_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "“예금 토큰, 스테이블코인보다 싸” 한은이 청사진 꺼내든 이유",
-      "url": "https://www.joongang.co.kr/article/25442375",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/025/2026/07/04/0003535268_001_20260704062758718.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "IBK기업은행, 외국인 고객 자동이체 캐시백 이벤트…외국인 고객 금융 ...",
-      "url": "https://www.lcnews.co.kr/news/articleView.html?idxno=204431",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://cdn.lcnews.co.kr/news/photo/202607/204431_205873_1112.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "‘제2의 월급’ 월배당 ETF, 샀다가 손해 보는 이유 [잘살아보세]",
-      "url": "https://www.segye.com/newsView/20260702518655?OutUrl=naver",
-      "pubDate": "Sat, 04 Jul 2026 05:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/022/2026/07/04/20260702518747_20260704054109238.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "1,500원대 고환율 '뉴노멀'...하반기 물가 주요 변수",
-      "url": "https://www.ytn.co.kr/_ln/0102_202607040523397252",
-      "pubDate": "Sat, 04 Jul 2026 05:23:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/052/2026/07/04/202607040523397252_t_20260704052616891.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "화폐 속 인물 누가 정할까… 트럼프가 쏘아 올린 '화폐 도안'논란",
-      "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno=222421",
-      "pubDate": "Sat, 04 Jul 2026 05:02:00 +0900",
-      "imageUrl": "https://cdn.lawtimes.co.kr/news/photo/202607/222421_126467_4750.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "특판 예금부터 특별전시까지...전남광주통합 기념행사 '다채'",
-      "url": "https://www.ytn.co.kr/_ln/0115_202607040331323866",
-      "pubDate": "Sat, 04 Jul 2026 03:31:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/052/2026/07/04/202607040331323866_t_20260704033220625.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "미래에셋, 1조원대 자금 조달... SK하이닉스 투자 검토",
-      "url": "https://www.tokenpost.kr/news/economy/374935",
-      "pubDate": "Sat, 04 Jul 2026 02:46:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/y2lap7zv9m.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "'김가영 룰이 최대 변수?' 당구 女帝는 오히려 웃었다 \"치는 게 좋지만...",
-      "url": "https://www.nocutnews.co.kr/news/6543024?utm_source=naver&utm_medium=article&utm_campaign=20260704022915",
-      "pubDate": "Sat, 04 Jul 2026 02:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/079/2026/07/04/0004164785_001_20260704023011846.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[인사] 한국예탁결제원",
-      "url": "https://www.cnbnews.com/news/articleView.html?idxno=1006940",
-      "pubDate": "Sat, 04 Jul 2026 02:28:00 +0900",
-      "imageUrl": "https://www.cnbnews.com/image/logo/snslogotrans_20260309031522.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "KB금융지주 차기 회장 레이스 후보 6인 확정됐다 : 내부 후보는 양종희...",
-      "url": "https://www.huffingtonpost.kr/article/258464",
-      "pubDate": "Sat, 04 Jul 2026 02:20:00 +0900",
-      "imageUrl": "https://cdn.huffingtonpost.kr/news/photo/202602/242733_412925_580.jpg?v=258464"
-    },
-    {
-      "category": "금융",
-      "title": "우리은행, 데이터 기반 영업 강화 및 내부통제 개편 단행",
-      "url": "https://www.tokenpost.kr/news/economy/374933",
-      "pubDate": "Sat, 04 Jul 2026 02:14:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/cz93ik33kn.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "KB금융 회장 최종 후보군 6명 압축…내부와 외부 각축전 예고",
-      "url": "https://www.tokenpost.kr/news/economy/374930",
-      "pubDate": "Sat, 04 Jul 2026 02:06:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/f3qffcx8bp.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "병장 월급 150만 원 시대… ‘군테크’로 목돈 모은다",
-      "url": "https://www.donga.com/news/Economy/article/all/20260703/134233254/2",
-      "pubDate": "Sat, 04 Jul 2026 01:43:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731489_001_20260704014340305.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "“게임하면 100원 입금” 학생 맞춤서비스로 주 거래 은행 굳히기",
-      "url": "https://www.donga.com/news/Economy/article/all/20260703/134233259/2",
-      "pubDate": "Sat, 04 Jul 2026 01:42:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731459_001_20260704075217022.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "연 6~7% 수익으로 월급 대체할 현금 만드는 ‘인컴’투자[은퇴 레시피]",
-      "url": "https://www.donga.com/news/Economy/article/all/20260703/134234270/2",
-      "pubDate": "Sat, 04 Jul 2026 01:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731453_001_20260704080912115.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "전북은행 김성수 부장, 무주군 명예군민 됐다",
-      "url": "http://www.jeonmin.co.kr/news/articleView.html?idxno=442703",
-      "pubDate": "Sat, 04 Jul 2026 01:30:00 +0900",
-      "imageUrl": "http://www.jeonmin.co.kr/news/thumbnail/202607/442703_151465_5432_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "금호건설, 공매도 과열종목 지정 연장→단기 거래금지 조치",
-      "url": "https://www.topstarnews.net/news/articleView.html?idxno=16123026",
-      "pubDate": "Sat, 04 Jul 2026 01:18:00 +0900",
-      "imageUrl": "https://cdn.topstarnews.net/news/photo/202607/16123026_1955009_1724_crop.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "홈플러스, 16개월 만에 결국 파산 수순…직원 1만2000명 어쩌나",
-      "url": "https://www.joongang.co.kr/article/25442353",
-      "pubDate": "Sat, 04 Jul 2026 01:09:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/353/2026/07/04/0000055956_001_20260704010915551.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "ECB, 연내 1~2회 추가 금리인상 예상…일본도 31년 만에 1%대 금리 시대...",
-      "url": "https://www.joongang.co.kr/article/25442346",
-      "pubDate": "Sat, 04 Jul 2026 01:02:00 +0900",
-      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "체면보다 실리…“아빠는 우리 집 후방 사령관”",
-      "url": "https://www.joongang.co.kr/article/25442341",
-      "pubDate": "Sat, 04 Jul 2026 00:56:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/353/2026/07/04/0000055945_001_20260704005617438.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "국고채 혼조세: 미국 고용지표와 국내 증시 변동의 영향",
-      "url": "https://www.tokenpost.kr/news/economy/374921",
-      "pubDate": "Sat, 04 Jul 2026 00:56:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/oadfygsdlc.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "KB금융 차기 회장 후보, 양종희 포함 6명으로 압축",
-      "url": "https://www.joongang.co.kr/article/25442337",
-      "pubDate": "Sat, 04 Jul 2026 00:50:00 +0900",
-      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "한국거래소, 우주·방위산업 ETF 2종 신규 상장 발표",
-      "url": "https://www.tokenpost.kr/news/market/374919",
-      "pubDate": "Sat, 04 Jul 2026 00:46:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/7dpq0dlpjp.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[인사] 우리금융지주·우리은행",
-      "url": "https://www.apnews.kr/news/articleView.html?idxno=3049492",
-      "pubDate": "Sat, 04 Jul 2026 00:46:00 +0900",
-      "imageUrl": "https://www.apnews.kr/image/logo/snslogo_20220121022134.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "가성비 좋은 투자처, 청약 통한 내 집 마련 노하우 알려드려요",
-      "url": "https://www.chosun.com/economy/real_estate/2026/07/04/7JW6N45SRFEG3A2CICD527MQNY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Sat, 04 Jul 2026 00:45:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985654_001_20260704004529840.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "서울 채권시장, 국고채 금리 혼조세 마감…중장기물 상승 주목",
-      "url": "https://www.tokenpost.kr/news/economy/374916",
-      "pubDate": "Sat, 04 Jul 2026 00:36:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/071bq275mq.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "우리은행, 고객정보 1만7000여건 유출… 재수탁사 관리 소홀이 부른 사...",
-      "url": "https://weeklytrade.co.kr/news/view.html?section=1&category=6&item=&no=100473",
-      "pubDate": "Sat, 04 Jul 2026 00:26:00 +0900",
-      "imageUrl": "https://weeklytrade.co.kr/PEG/17830922360889.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "비트코인 6만달러 회복…금리 관망 속 FOMC 의사록 촉각",
-      "url": "https://www.mt.co.kr/stock/2026/07/04/2026070317235834362",
-      "pubDate": "Sat, 04 Jul 2026 00:22:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/008/2026/07/04/0005381323_001_20260704002313276.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "메타 AI “비트코인 연말 15만 달러 가능”…상승 이끌 4대 촉매 주목",
-      "url": "https://www.tokenpost.kr/news/cryptocurrency/374914",
-      "pubDate": "Sat, 04 Jul 2026 00:22:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/nbp8wp95du.jpeg"
-    },
-    {
-      "category": "금융",
-      "title": "[사설] 올해 157조 주식 판 외국인, ‘반도체 경고음’도 대비해야",
-      "url": "https://www.chosun.com/opinion/editorial/2026/07/04/HS2643ACSNEODHY5QIEPE4FP4A/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Sat, 04 Jul 2026 00:21:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985602_001_20260704011712092.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "[티조챗] '홈플러스 후폭풍' 이제부터…30년 대형마트는 왜 2000억에 무너...",
-      "url": "https://news.tvchosun.com/site/data/html_dir/2026/07/03/2026070390264.html",
-      "pubDate": "Sat, 04 Jul 2026 00:20:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/448/2026/07/04/2026070390264_0_20260704002510687.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "코스피, 반도체 대형주 저가 매수세로 8,000선 회복",
-      "url": "https://www.tokenpost.kr/news/market/374913",
-      "pubDate": "Sat, 04 Jul 2026 00:16:00 +0900",
-      "imageUrl": "https://f1.tokenpost.kr/2026/07/qm0z6visuc.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "우리기술 주가 강세, 장중 1만1000원선 무너졌다가 반등…'증시 변동성...",
-      "url": "https://www.cbci.co.kr/news/articleView.html?idxno=586515",
-      "pubDate": "Sat, 04 Jul 2026 00:10:00 +0900",
-      "imageUrl": "https://www.cbci.co.kr/news/thumbnail/202607/586515_398780_1428_v150.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[최지혜의 요즘 트렌드] 운세, 콘텐츠 넘어 산업이 되다",
-      "url": "https://www.hankyung.com/article/2026070349531",
-      "pubDate": "Sat, 04 Jul 2026 00:10:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/015/2026/07/04/0005306167_001_20260704001014916.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "홈플러스 ‘1만2000명’ 대량실직 위기에… 정부, 긴급 자금 지원",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=1783064018&code=11151400&cp=nv",
-      "pubDate": "Sat, 04 Jul 2026 00:05:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/005/2026/07/04/2026070322010631648_1783083666_1783064018_20260704000510306.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "\"증시로 돈 빠질라\" 저축은행, 4%대 예금금리 경쟁",
-      "url": "https://www.theguru.co.kr/news/article.html?no=103819",
-      "pubDate": "Sat, 04 Jul 2026 00:02:00 +0900",
-      "imageUrl": null
-    },
-    {
-      "category": "금융",
-      "title": "\"누가 이끌고, 누가 따르느냐\"...팀리그의 꽃, LPBA 복식이 변한다 [MHN 현...",
-      "url": "https://mhnse.com/news/articleView.html?idxno=1451083",
-      "pubDate": "Sat, 04 Jul 2026 00:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/445/2026/07/04/0000434646_001_20260704000113475.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[주간사모펀드] 홈플러스 사태 MBK, 금감원 중징계 철퇴…PEF 첫 직무정...",
-      "url": "https://news.tf.co.kr/read/economy/2339505.htm",
-      "pubDate": "Sat, 04 Jul 2026 00:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/629/2026/07/04/20261041783058263_20260704000144176.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "금융",
-      "title": "[김대호 진단] 돈의 질서 ⑲ 거품붕괴 대처하는 법 \"만유인력의 법칙\"",
-      "url": "https://www.g-enews.com/view.php?ud=20260702100945457906806b77b_1",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 +0900",
-      "imageUrl": "https://nimage.g-enews.com/phpwas/restmb_allidxmake.php?idx=5&simg=2026070210245204869906806b77b183988628.jpg"
-    },
-    {
-      "category": "금융",
-      "title": "[더페어 돋보기] 금융주, 시장 반등의 '숨은 주역'…상승 배경과 향후 전...",
-      "url": "https://www.thefairnews.co.kr/news/articleView.html?idxno=81241",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 +0900",
-      "imageUrl": "https://cdn.thefairnews.co.kr/news/thumbnail/202607/81241_127424_4735_v150.jpg"
-    },
-    {
-      "category": "경제",
-      "title": "中최고수준 '글로벌디지털경제대회'서 한중 디지털의료 협력 모색",
-      "url": "https://www.dongponews.net/news/articleView.html?idxno=59087",
-      "pubDate": "Sat, 04 Jul 2026 08:30:00 +0900",
-      "imageUrl": "https://cdn.dongponews.net/news/thumbnail/202607/59087_214413_4355_v150.jpg"
-    },
-    {
-      "category": "경제",
-      "title": "[해수분해] 호르무즈 해협 봉쇄, 미리 알 수 없었을까",
-      "url": "https://www.yna.co.kr/view/AKR20260703096400051?input=1195m",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/001/2026/07/04/PCM20190423000211990_P4_20260704080120008.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "오늘 암호화폐 시장이 오른 이유…비트코인 반등과 이더리움 강세가 이...",
-      "url": "http://coinreaders.com/246047",
-      "pubDate": "Sat, 04 Jul 2026 07:46:00 +0900",
-      "imageUrl": "https://www.coinreaders.com/imgdata/coinreaders_com/202501/800_400_2025011916187204.jpg"
-    },
-    {
-      "category": "경제",
-      "title": "\"브라질산보다 국내산이 더 싸요\"…40년만 엔저에 흔들리는 日 밥상 [뭔...",
-      "url": "https://view.asiae.co.kr/article/2026070214125202163",
-      "pubDate": "Sat, 04 Jul 2026 07:30:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/277/2026/07/04/0005785386_001_20260704073113139.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "변압기 품귀에…美 관세 낮추고 호주도 K-변압기 러브콜",
-      "url": "https://news.mtn.co.kr/news-detail/2026070311081899237",
-      "pubDate": "Sat, 04 Jul 2026 07:06:00 +0900",
-      "imageUrl": "https://menu.mtn.co.kr/upload/article/2026/07/03/2026070311081899237_00_190.png"
-    },
-    {
-      "category": "경제",
-      "title": "한미 '방산 FTA' 상호조달협정 지연 원인 찾는다…협상 재개 전략 연구",
-      "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6217435",
-      "pubDate": "Sat, 04 Jul 2026 07:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040444_001_20260704070043630.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "관세 혜택 받은 벨기에 다이아 업계, 트럼프에 '초호화 반지' 선물",
-      "url": "https://www.news1.kr/world/usa-canada/6217620",
-      "pubDate": "Sat, 04 Jul 2026 06:41:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040428_001_20260704064110639.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "벨기에 다이아업계 트럼프에 초대형 다이아반지 선물",
-      "url": "https://www.newsis.com/view/NISX20260704_0003695680",
-      "pubDate": "Sat, 04 Jul 2026 06:17:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260703_0001399951_web_20260703234744_20260704061820894.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "[브런치 경제] ‘중국 화장품’ 저가 시대 끝났나… ‘C-뷰티’ 열풍 알...",
-      "url": "https://www.womennews.co.kr/news/articleView.html?idxno=279507",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/310/2026/07/04/0000138071_001_20260704060009243.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "[윤종빈의 정치웨이브] 대통령 지지율, 경제에 달렸다",
-      "url": "https://www.sedaily.com/article/20063617?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 05:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638038_001_20260704050111868.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "투자이민, 이제 더 어려워진다…EB-5 규정 대폭 손질",
-      "url": "https://www.koreadaily.com/article/20260703112315916",
-      "pubDate": "Sat, 04 Jul 2026 03:24:00 +0900",
-      "imageUrl": "https://www.koreadaily.com/images/logo/sns-logo.png"
-    },
-    {
-      "category": "경제",
-      "title": "직원 1만2000명 실직 위기… 납품사 1곳당 미지급금 평균 7억7000만원",
-      "url": "https://www.donga.com/news/Economy/article/all/20260703/134234983/2",
-      "pubDate": "Sat, 04 Jul 2026 01:42:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/020/2026/07/04/0003731472_001_20260704014248139.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "신안 앞바다에서 건져 올린 고아한 옥빛 청자",
-      "url": "https://www.chosun.com/national/weekend/2026/07/04/NSFXRFO6VVBT7GT7MANTZBALSY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Sat, 04 Jul 2026 00:31:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985609_001_20260704003137909.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "[사설] 백악관까지 번진 '쿠팡 사태'…가볍게 봐선 안 될 사안",
-      "url": "https://www.hankyung.com/article/2026070349271",
-      "pubDate": "Sat, 04 Jul 2026 00:12:00 +0900",
-      "imageUrl": "https://ssl.pstatic.net/static.news/image/news/ogtag/navernews_800x420_20221201.jpg"
-    },
-    {
-      "category": "경제",
-      "title": "[사설] 美 “한국이 쿠팡 차별”…갈등으로 비화하지 않게 해야",
-      "url": "https://www.sedaily.com/article/20063663?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 00:02:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/011/2026/07/04/0004638028_001_20260704000221486.png?type&#x3D;w800"
-    },
-    {
-      "category": "경제",
-      "title": "[홈플러스 회생 폐지] 돈챙겨 떠난 MBK...대규모 실업 현실화",
-      "url": "http://www.00news.co.kr/news/articleView.html?idxno=104904",
-      "pubDate": "Sat, 04 Jul 2026 00:00:00 +0900",
-      "imageUrl": "https://cdn.00news.co.kr/news/thumbnail/202607/104904_241508_2915_v150.jpg"
-    },
-    {
-      "category": "부동산",
-      "title": "전셋값 오르고 입주물량은 ‘반토막’…3040 “전세보다 내 집” 고민 깊...",
-      "url": "https://www.sportsseoul.com/news/read/1620419?ref=naver",
-      "pubDate": "Sat, 04 Jul 2026 08:03:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/468/2026/07/04/0001251670_001_20260704080316779.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "부동산",
-      "title": "상반기 청약시장 양극화…10대 건설사 경쟁률 非10대의 4.5배",
-      "url": "https://www.sentv.co.kr/article/view/sentv202607030134",
-      "pubDate": "Sat, 04 Jul 2026 08:02:00 +0900",
-      "imageUrl": "https://www.sentv.co.kr/data/sentv/image/2026/07/03/sentv20260703000139.jpg"
-    },
-    {
-      "category": "부동산",
-      "title": "'두더지 게임' 시즌2?…반도체 벨트 잡고, 다음은",
-      "url": "https://news.bizwatch.co.kr/article/real_estate/2026/07/03/0037",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/648/2026/07/04/0000048618_001_20260704080011271.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "부동산",
-      "title": "“안양 만안·남양주, 이미 풍선효과 나타났습니다” [우동집 인터뷰]",
-      "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607030282&t=NNv",
-      "pubDate": "Sat, 04 Jul 2026 08:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/215/2026/07/04/A202607030282_20260704080111169.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "부동산",
-      "title": "투기과열지구 지정 등 규제폭탄의 한계 [서진형의 부동산포커스]",
-      "url": "https://www.dailian.co.kr/news/view/1663143/?sc=Naver",
-      "pubDate": "Sat, 04 Jul 2026 07:01:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/119/2026/07/04/0003107897_001_20260704070110641.png?type&#x3D;w800"
-    },
-    {
-      "category": "부동산",
-      "title": "현대차 9조 호재입었는데…1억 반값 분양 아파트의 진실",
-      "url": "https://realty.chosun.com/site/data/html_dir/2026/07/03/2026070302039.html",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://image.chosun.com/sitedata/image/202607/03/2026070302033_0.jpg"
-    },
-    {
-      "category": "부동산",
-      "title": "[단독] 고양창릉發 '모기지 논란'…남양주·하남 등 5500가구로 번진다",
-      "url": "https://realty.chosun.com/site/data/html_dir/2026/07/03/2026070302057.html",
-      "pubDate": "Sat, 04 Jul 2026 06:02:00 +0900",
-      "imageUrl": "https://image.chosun.com/sitedata/image/202607/03/2026070302051_0.jpg"
-    },
-    {
-      "category": "부동산",
-      "title": "\"자정까지 계약서 씁니다\"…토허구역 D-1 동탄, 막차계약 '북적'",
-      "url": "https://www.newsis.com/view/NISX20260703_0003695363",
-      "pubDate": "Sat, 04 Jul 2026 06:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/003/2026/07/04/NISI20260630_0021343378_web_20260630141551_20260704060822606.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "부동산",
-      "title": "이광재 \"730조 예산만 볼 게 아냐…국가 포트폴리오 전략 필요\"",
-      "url": "https://www.news1.kr/politics/assembly/6216671",
-      "pubDate": "Sat, 04 Jul 2026 05:00:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/421/2026/07/04/0009040393_001_20260704050031594.jpg?type&#x3D;w800"
-    },
-    {
-      "category": "부동산",
-      "title": "널뛰는 주식, 오르는 집값… “어디 투자할까요” 질문 쏟아져",
-      "url": "https://www.chosun.com/economy/real_estate/2026/07/04/22WQEV32EVG7PBY2T4WWYF6CMU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-      "pubDate": "Sat, 04 Jul 2026 00:45:00 +0900",
-      "imageUrl": "https://imgnews.pstatic.net/image/023/2026/07/04/0003985653_001_20260704004514369.jpg?type&#x3D;w800"
     }
   ]
 }
