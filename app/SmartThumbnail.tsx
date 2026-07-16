@@ -47,7 +47,10 @@ export default function SmartThumbnail({
   useEffect(() => {
     if (!visible) return;
     if (imageSrc) return;
-    if (!link && !originallink && !url) return;
+    if (!link && !originallink && !url) {
+      setFailed(true);
+      return;
+    }
 
     const controller = new AbortController();
     const params = new URLSearchParams();
@@ -64,44 +67,67 @@ export default function SmartThumbnail({
         if (data.imageUrl) {
           setImageSrc(data.imageUrl);
           setFailed(false);
+        } else {
+          setFailed(true);
         }
       })
-      .catch(() => {
+      .catch((error) => {
+        if (error instanceof Error && error.name === "AbortError") {
+          return;
+        }
+
         setFailed(true);
       });
 
     return () => controller.abort();
   }, [visible, imageSrc, link, originallink, url]);
 
-  const showImage = imageSrc && !failed;
+  const showLoading = !loaded && !failed;
+  const showFallback = failed;
+  const showImage = Boolean(imageSrc) && !failed;
 
   return (
     <div
       ref={wrapperRef}
       className={`relative shrink-0 overflow-hidden rounded-xl bg-gradient-to-br from-blue-50 via-slate-50 to-white ${className}`}
     >
-      <div className="absolute inset-0 flex flex-col items-center justify-center">
-        <img
-          src="/default-thumbnail.png"
-          alt="Daily Insight"
-          className="mb-1 h-8 w-8 object-contain"
-        />
+      {showLoading && (
+        <div className="absolute inset-0 flex flex-col items-center justify-center">
+          <img
+            src="/icon-512.png"
+            alt="Daily Insight News"
+            className="mb-1 h-8 w-8 rounded-lg object-contain"
+          />
 
-        <span className="mt-1 text-[7px] font-medium text-gray-500">
-          이미지 로딩중
-        </span>
-      </div>
+          <span className="mt-1 text-[7px] font-medium text-gray-500">
+            이미지 로딩중
+          </span>
+        </div>
+      )}
+
+      {showFallback && (
+        <div className="absolute inset-0 flex items-center justify-center">
+          <img
+            src="/icon-512.png"
+            alt="Daily Insight News"
+            className="h-10 w-10 rounded-xl object-contain"
+          />
+        </div>
+      )}
 
       {showImage && (
         <img
-          src={imageSrc}
+          src={imageSrc ?? undefined}
           alt={cleanTitle(title)}
           className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-300 ${
             loaded ? "opacity-100" : "opacity-0"
           }`}
           loading="lazy"
           referrerPolicy="no-referrer"
-          onLoad={() => setLoaded(true)}
+          onLoad={() => {
+            setLoaded(true);
+            setFailed(false);
+          }}
           onError={() => {
             setFailed(true);
             setLoaded(false);
