@@ -64,7 +64,7 @@ export default async function Home() {
     categories.push(...groupResults);
   }
 
-  const realtimeNews = getRealtimeNews(categories);
+  const realtimeNews = await getRealtimeNews(categories);
 
   return (
     <main className="min-h-screen bg-[#f6f7f9] text-[#111827]">

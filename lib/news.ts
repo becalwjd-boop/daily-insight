@@ -75,8 +75,7 @@ export function cleanTitle(title: string) {
 export function normalizeTitle(title: string) {
   return cleanTitle(title)
     .replace(/[^\w가-힣]/g, "")
-    .replace(/속보/g, "")
-    .replace(/단독/g, "")
+    .replace(/속보|단독|특종|긴급/g, "")
     .slice(0, 35);
 }
 
@@ -109,7 +108,7 @@ export function removeDuplicateNews(items: any[] = []) {
 export function getNewsBadge(title: string) {
   const clean = cleanTitle(title);
 
-  if (clean.includes("속보")) {
+  if (clean.includes("속보") || clean.includes("긴급")) {
     return {
       label: "속보",
       className: "bg-red-100 text-red-700 border-red-200",
@@ -123,15 +122,23 @@ export function getNewsBadge(title: string) {
     };
   }
 
+  if (clean.includes("특종")) {
+    return {
+      label: "특종",
+      className: "bg-purple-100 text-purple-700 border-purple-200",
+    };
+  }
+
   return null;
 }
 
 export function removeBadgeTextFromTitle(title: string) {
   return title
-    .replace(/\[속보\]/g, "")
-    .replace(/\[단독\]/g, "")
-    .replace(/속보/g, "")
-    .replace(/단독/g, "")
+    .replace(/\[(속보|단독|특종|긴급)\]/g, "")
+    .replace(/【(속보|단독|특종|긴급)】/g, "")
+    .replace(/\((속보|단독|특종|긴급)\)/g, "")
+    .replace(/^(속보|단독|특종|긴급)\s*[:：·-]?\s*/g, "")
+    .replace(/\s+/g, " ")
     .trim();
 }
 
@@ -782,7 +789,9 @@ export async function getNewsByCategoryForArchive(
   };
 }
 
-export function getRealtimeNews(categories: { name: string; items: any[] }[]) {
+function getExistingRealtimeNews(
+  categories: { name: string; items: any[] }[]
+) {
   const realtimeCategories = ["경제", "금융", "기업", "부동산", "사회", "국제"];
 
   const allItems = categories
@@ -792,12 +801,7 @@ export function getRealtimeNews(categories: { name: string; items: any[] }[]) {
         ...item,
         categoryName: category.name,
       }))
-    )
-    .sort((a: any, b: any) => {
-      if (a.imageUrl && !b.imageUrl) return -1;
-      if (!a.imageUrl && b.imageUrl) return 1;
-      return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
-    });
+    );
 
   return removeDuplicateNews(allItems)
     .sort(
@@ -805,4 +809,64 @@ export function getRealtimeNews(categories: { name: string; items: any[] }[]) {
         new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
     )
     .slice(0, 20);
+}
+
+export async function getRealtimeNews(
+  categories: { name: string; items: any[] }[]
+) {
+  const fallbackItems = getExistingRealtimeNews(categories);
+
+  try {
+    const realtimeQueries = ["속보", "단독", "특종", "긴급"];
+
+    const realtimeResults = await fetchNewsQueriesParallel(
+      realtimeQueries,
+      30
+    );
+
+    const todayString = getKoreaTodayString();
+
+    const specialItems = realtimeResults
+      .filter(
+        (item: any) =>
+          item?.pubDate &&
+          formatNewsDate(item.pubDate) === todayString &&
+          getNewsBadge(item.title)
+      )
+      .map((item: any) => ({
+        ...item,
+        categoryName: "실시간",
+        imageUrl: item.imageUrl || null,
+      }));
+
+    if (specialItems.length === 0) {
+      return fallbackItems;
+    }
+
+    const combinedItems = removeDuplicateNews([
+      ...specialItems,
+      ...fallbackItems,
+    ]);
+
+    return combinedItems
+      .sort((a: any, b: any) => {
+        const aTime = new Date(a.pubDate).getTime();
+        const bTime = new Date(b.pubDate).getTime();
+
+        if (bTime !== aTime) {
+          return bTime - aTime;
+        }
+
+        const aHasBadge = Boolean(getNewsBadge(a.title));
+        const bHasBadge = Boolean(getNewsBadge(b.title));
+
+        if (aHasBadge && !bHasBadge) return -1;
+        if (!aHasBadge && bHasBadge) return 1;
+
+        return 0;
+      })
+      .slice(0, 20);
+  } catch {
+    return fallbackItems;
+  }
 }
