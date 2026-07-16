@@ -8,9 +8,9 @@
 | Document | TROUBLESHOOTING.md |
 | Type | Living Document |
 | Purpose | Troubleshooting Strategy and Incident Management |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Active |
-| Last Updated | 2026-07-08 |
+| Last Updated | 2026-07-16 |
 
 ---
 
@@ -50,6 +50,8 @@ TROUBLESHOOTING.md는 Daily Insight News 프로젝트에서 발생하는 문제(
 
 동일한 문제가 반복되지 않도록 개선합니다.
 
+문제 해결 과정에서 확인된 운영 원칙은 공식 문서에 반영하여 재발을 예방합니다.
+
 ---
 
 # Troubleshooting Principles
@@ -60,11 +62,13 @@ TROUBLESHOOTING.md는 Daily Insight News 프로젝트에서 발생하는 문제(
 
 2. 임시 조치보다 근본 해결을 우선합니다.
 
-3. 해결 과정을 문서화합니다.
+3. 해결 과정을 REPORT에 Evidence로 기록합니다.
 
-4. 해결 후 재발 방지 방법을 함께 기록합니다.
+4. 해결 후 재발 방지 방법과 운영 원칙을 공식 문서에 반영합니다.
 
 5. 동일한 문제는 동일한 절차로 해결합니다.
+
+6. 사용자 경험과 초기 로딩 성능을 저하시킬 수 있는 해결 방법은 지양합니다.
 
 ---
 
@@ -139,6 +143,7 @@ Knowledge Sharing
 - GitHub Actions
 - Vercel
 - Android
+- Google Play Console
 
 ---
 
@@ -165,13 +170,15 @@ Knowledge Sharing
 
 5. REPORT에 Evidence 작성
 
-6. MASTER 업데이트 여부 확인
+6. PDC(Project Documentation Cycle) 수행
 
-7. CHANGELOG 업데이트 여부 확인
+7. MASTER 업데이트 여부 확인
 
-8. NEXT_TASK 업데이트 여부 확인
+8. CHANGELOG 업데이트 여부 확인
 
-9. 필요한 공식 문서 업데이트 여부 확인
+9. NEXT_TASK 업데이트 여부 확인
+
+10. 필요한 공식 문서 업데이트 여부 확인
 
 ---
 
@@ -187,6 +194,7 @@ Knowledge Sharing
 | 향후 작업 필요               | NEXT_TASK.md                                     |
 | 장기 문제 발견               | TECH_DEBT.md                                     |
 | 운영 정책 변경 | 관련 공식 문서(DEPLOY.md, PERFORMANCE.md, TROUBLESHOOTING.md 등) |
+| 운영 절차 변경 | TROUBLESHOOTING.md |
 
 
 
@@ -248,6 +256,8 @@ TROUBLESHOOTING은 운영 절차를 관리합니다.
 
 동일한 문제가 다시 발생할 경우에는 REPORT의 Evidence와 TROUBLESHOOTING의 운영 절차를 함께 참고하는 것을 원칙으로 합니다.
 
+문제 해결 과정에서 운영 정책이나 개발 원칙이 변경된 경우에는 PDC를 수행하여 관련 공식 문서를 함께 최신 상태로 유지합니다.
+
 ---
 
 END OF DOCUMENT
@@ -258,4 +268,4 @@ Document : TROUBLESHOOTING.md
 
 Type : Living Document
 
-Version : 1.1
+Version : 1.2

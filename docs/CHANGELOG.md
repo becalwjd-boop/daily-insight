@@ -10,7 +10,7 @@
 | Purpose | Project Change History |
 | Version | 1.1 |
 | Status | Active |
-| Last Updated | 2026-07-07 |
+| Last Updated | 2026-07-15 |
 
 ---
 
@@ -176,6 +176,42 @@ CHANGELOG는 변경 사항(Change)만 기록합니다.
 ### Removed
 
 -
+
+---
+
+## 2026-07-15
+
+### Evidence
+
+- REPORT_10.md
+
+### Added
+
+- Android 앱 신규 아이콘 및 Adaptive Icon 적용
+- Google Play Store Feature Graphic 신규 제작
+- Google Play Store 스크린샷 전면 최신화
+- Google Play Store 간단한 설명 및 자세한 설명 전면 개편
+- 원클릭 헤드라인 공유 기능을 스토어 핵심 기능으로 추가
+- Google Play Console Version 1.0.5(AAB) 제출
+
+### Changed
+
+- 최초 로딩 구조를 텍스트 우선, 썸네일 순차 로딩 방식으로 개선
+- Google Play Store 브랜딩을 현재 서비스 수준에 맞게 전면 개선
+- 서비스 운영 방향을 기능 구현 중심에서 품질 및 운영 중심으로 변경
+- 향후 개발 우선순위를 1990년대 과거 뉴스 아카이브 구축, 뉴스 품질 개선, AI 기능 중심으로 재정리
+
+### Fixed
+
+- 모바일 최초 로딩 속도 대폭 개선
+- 기사 0건 표시 문제 해결
+- 썸네일 표시 문제 해결
+- save API 제거를 통한 아카이브 저장 구조 충돌 문제 해결
+- Google Play Store 리소스를 최신 서비스 기준으로 정비
+
+### Removed
+
+- app/api/save-today 기반 수동 저장 API
 
 ---
 
