@@ -17,11 +17,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Daily Insight News",
-  description: "경제·금융·기업·부동산 뉴스를 자동 분류해 제공하는 뉴스 아카이브",
+  description:
+    "경제·금융·기업·부동산 뉴스를 자동 분류해 제공하는 뉴스 아카이브",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: "/icon-192.png",
     apple: "/icon-192.png",
+  },
+  other: {
+    "google-adsense-account": "ca-pub-1641751367707627",
   },
 };
 
@@ -32,12 +36,13 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
         <NavigationLoading />
         <PullToRefresh />
+
         {children}
 
         {/* Google AdSense */}
@@ -53,16 +58,6 @@ export default function RootLayout({
           src="https://www.googletagmanager.com/gtag/js?id=G-BP0675FQZ5"
           strategy="afterInteractive"
         />
-
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-BP0675FQZ5');
-  `}
-        </Script>
 
         <Script id="google-analytics" strategy="afterInteractive">
           {`
