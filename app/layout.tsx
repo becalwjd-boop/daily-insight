@@ -40,10 +40,29 @@ export default function RootLayout({
         <PullToRefresh />
         {children}
 
+        {/* Google AdSense */}
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1641751367707627"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+
+        {/* Google Analytics */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-BP0675FQZ5"
           strategy="afterInteractive"
         />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BP0675FQZ5');
+  `}
+        </Script>
 
         <Script id="google-analytics" strategy="afterInteractive">
           {`
