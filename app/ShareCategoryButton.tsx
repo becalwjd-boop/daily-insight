@@ -37,6 +37,7 @@ export default function ShareCategoryButton({
             .map((item, index) => {
                 const title = cleanText(item.title);
                 const link = item.originallink || item.link || item.url || "";
+
                 return `${String(index + 1).padStart(2, "0")}. ${title}\n${link}`;
             })
             .join("\n\n");
@@ -45,32 +46,43 @@ export default function ShareCategoryButton({
     async function handleCopy() {
         const today = new Date().toLocaleDateString("ko-KR");
 
+        const serviceGuide = [
+            "━━━━━━━━━━━━━━━━━━━━━━",
+            "",
+            "📰 Daily Insight News",
+            "",
+            "📱 Android 앱 다운로드",
+            "https://play.google.com/store/apps/details?id=com.dailyinsight.news",
+            "",
+            "🍎 iPhone(iOS) 사용자는 아래 웹앱(PWA)을",
+            "홈 화면에 추가하여 동일하게 이용할 수 있습니다.",
+            "https://daily-insight-blush.vercel.app",
+            "",
+            "━━━━━━━━━━━━━━━━━━━━━━",
+        ].join("\n");
+
         const text = groups
             ? [
                 `★★ ${today} Daily Insight 전체 주요 헤드라인 ★★`,
                 "",
                 ...groups.map((group) =>
                     [
-                        `━━━━━━━━━━━━━━`,
+                        "━━━━━━━━━━━━━━",
                         `■ ${group.categoryName}`,
-                        `━━━━━━━━━━━━━━`,
+                        "━━━━━━━━━━━━━━",
                         "",
                         formatItems(group.items),
                     ].join("\n")
                 ),
                 "",
-                "────────────",
-                "실시간 뉴스 더 보기",
-                "https://daily-insight-blush.vercel.app",
+                serviceGuide,
             ].join("\n\n")
             : [
                 `★★ ${today} Daily Insight ${categoryName} 헤드라인 ★★`,
                 "",
                 formatItems(items || []),
                 "",
-                "────────────",
-                "실시간 뉴스 더 보기",
-                "https://daily-insight-blush.vercel.app",
+                serviceGuide,
             ].join("\n\n");
 
         await navigator.clipboard.writeText(text);
