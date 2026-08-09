@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local project files
+
+/docs.zip
+/구글 플레이 콘솔 이미지/
