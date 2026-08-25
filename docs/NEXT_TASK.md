@@ -8,9 +8,9 @@
 | Document | NEXT_TASK.md |
 | Type | Living Document |
 | Purpose | Project Roadmap and Next Development Tasks |
-| Version | 1.3 |
+| Version | 1.4 |
 | Status | Active |
-| Last Updated | 2026-07-15 |
+| Last Updated | 2026-08-17 |
 
 ---
 
@@ -28,34 +28,24 @@ NEXT_TASK.md는 Daily Insight News 프로젝트의 앞으로 진행할 개발 �
 
 최근 완료된 주요 작업입니다.
 
-- Project Documentation System(PDS) v1.0 구축
-- README(Home) 기반 프로젝트 초기화 체계 구축
-- Project Documentation Cycle(PDC) 구축
-- START_CHAT / END_SESSION Workflow 구축
-- START_CHAT_PROMPT / END_SESSION_PROMPT 구축
-- 공식 프로젝트 문서 체계 구축
-- Home / Archive 뉴스 수집 로직 통합
-- Archive 카테고리별 최대 100개 저장 정책 적용
-- Archive 저장 시간을 한국시간 23:59 기준으로 변경
-- GitHub Actions Archive 자동 저장 복구
-- normalize-archives.ts 기반 Archive 정규화 기능 구현
-- 부동산 관련도(Relevance Score) 기반 정렬 1차 적용
-- Android App Bundle 생성 및 Google Play Console 비공개 테스트 업로드 완료
-- Google Play Console 비공개 테스트 검토 제출 완료
-- REPORT_TEMPLATE v1.1 보완
-- Project Documentation System(PDS) 운영 절차 개선
-- Android 배포 절차 문서화
 - 메인 페이지 최초 로딩 속도 대폭 개선
-- 썸네일 순차 로딩 구조 적용
+- 텍스트 우선 렌더링 및 썸네일 순차 로딩 구조 적용
 - 기사 0건 표시 문제 해결
-- 썸네일 표시 문제 해결
-- save API 제거 및 아카이브 저장 구조 정리
+- 썸네일 표시 및 fallback 구조 개선
+- 실시간 뉴스의 속보·단독·특종 표시와 최신순 정렬 구조 개선
 - Android 앱 아이콘 및 Adaptive Icon 적용
-- Google Play Store Feature Graphic 전면 교체
-- Google Play Store 스크린샷 최신화
+- Google Play Store Feature Graphic 및 스크린샷 최신화
 - Google Play Store 앱 설명 전면 개편
-- 원클릭 헤드라인 공유 기능을 서비스 핵심 기능으로 정리
-- Google Play Version 1.0.5(AAB) 제출
+- Google Play 비공개 테스트 완료
+- Google Play Production Access 승인
+- Google Play Store 프로덕션 출시
+- 공식 도메인 `dailyinsightnews.kr` 도입
+- Vercel Custom Domain 및 가비아 DNS 연결
+- Google AdSense 사이트 연결 및 소유권 확인
+- `public/ads.txt` 배포 및 Ads.txt 승인 완료
+- Git / GitHub 배포 환경 문제 정리
+- `docs.zip` 및 임시 작업 파일의 Git 관리 정책 정리
+- END_SESSION / REPORT 작성 운영 절차 개선
 
 ---
 
@@ -65,27 +55,35 @@ NEXT_TASK.md는 Daily Insight News 프로젝트의 앞으로 진행할 개발 �
 
 ## Documentation
 
+- REPORT_11을 Evidence로 필요한 공식 문서 최신화
+- REPORT_11 기반 PDC 종료 절차 완료
+- END_SESSION_PROMPT.md Version 2.1 반영
+- Google Play / AdSense / Git 운영 경험을 관련 공식 문서에 반영
 
 ---
 
 ## Service
 
-- 1990년대부터의 과거 뉴스 아카이브 구축 설계
-- 카테고리별 뉴스 품질 개선
-- 속보 및 단독 기사 노출 품질 개선
-- 서비스 안정성 향상
-- 사용자 경험(UX) 개선
-- Google Play 비공개 테스트 진행 및 운영
-- Google Play 프로덕션 출시 준비
+- 접속 시 최신 뉴스가 즉시 표시되지 않는 문제 원인 분석 및 해결
+- 새로고침을 반복해야 최신 뉴스가 반영되는 문제 해결
+- 웹과 Android 앱의 뉴스 갱신 동작 점검
+- 경제·금융·기업·부동산·사회·국제·연예·스포츠 8개 카테고리 전체 뉴스 품질 점검
+- 부동산 카테고리 오분류 기사 우선 개선
+- `전세버스 → 전세`와 같은 단순 문자열 기반 오분류 방지
+- 검색 키워드, positive keyword, negative keyword 및 category filter 재검토
+- Home과 Archive에 동일한 뉴스 품질 개선 로직 적용
+- 서비스 운영 안정성 유지
 
 ---
 
 ## Performance
 
+- 뉴스 데이터 freshness 지연 원인 분석
+- Naver OpenAPI → News Processing → Next.js Cache → Vercel → Client Rendering 데이터 흐름 점검
+- Pull-to-Refresh 및 일반 새로고침의 데이터 갱신 구조 점검
+- 캐시 전략 점검 및 개선
 - 현재 개선된 초기 로딩 성능 유지
-- 대용량 과거 뉴스 데이터에서도 빠른 로딩 유지
-- 뉴스 처리 성능 개선
-- 캐시 전략 개선
+- 뉴스 품질 개선 이후에도 현재 로딩 성능 유지
 
 ---
 
@@ -95,32 +93,33 @@ NEXT_TASK.md는 Daily Insight News 프로젝트의 앞으로 진행할 개발 �
 
 ## News
 
+- Daily Insight News 자체 요약·분석 콘텐츠 강화
 - AI 3줄 뉴스 요약
 - AI 핵심 뉴스
 - AI 브리핑
 - 뉴스 검색 기능
 - 인기 뉴스 기능
 - 기사 추천 기능
-- 카테고리 품질 향상
 - BigKinds 및 외부 뉴스 데이터를 활용한 1990년대부터의 뉴스 아카이브 구축
-- 날짜별·카테고리별 최대 100개 기사 구축
+- 과거 뉴스 날짜별·카테고리별 Archive 구축
 
 ---
 
 ## UI / UX
 
-- 뉴스 썸네일 개선
+- 뉴스 썸네일 추가 개선
 - 사용자 인터페이스 개선
 - 모바일 사용성 향상
+- 뉴스 탐색 편의 기능 확대
 
 ---
 
 ## Platform
 
 - Android 앱 고도화
-- 사용자 확보 이후 애드센스 적용
+- iOS Web App 사용성 개선
 - 사용자 편의 기능 확대
-- Google Play 프로덕션 출시
+- Daily Insight News 자체 콘텐츠 가치 개선 후 Google AdSense 재검토
 
 ---
 
@@ -129,6 +128,7 @@ NEXT_TASK.md는 Daily Insight News 프로젝트의 앞으로 진행할 개발 �
 - 자동화 기능 확대
 - 서비스 운영 고도화
 - 문서 관리 자동화 검토
+- 대규모 과거 뉴스 데이터 도입을 고려한 데이터 저장·로딩 구조 설계
 
 ---
 
@@ -186,15 +186,18 @@ Deferred
 
 | Priority | Description |
 |----------|-------------|
-| High | BigKinds 등 외부 뉴스 데이터를 활용한 1990년대 뉴스 아카이브 구축 |
-| High | 뉴스 품질 및 관련도 알고리즘 개선 |
-| High | 속보 및 단독 기사 노출 품질 개선 |
+| Critical | 접속 및 새로고침 시 최신 뉴스가 즉시 반영되지 않는 문제 해결 |
+| Critical | 뉴스 데이터 갱신 및 캐시 구조 원인 분석 |
+| High | 8개 카테고리 전체 뉴스 품질 및 관련도 개선 |
+| High | 부동산 등 카테고리 오분류 기사 제거 |
+| High | Home과 Archive의 동일한 뉴스 품질 기준 유지 |
 | High | 현재의 빠른 초기 로딩 성능 유지 |
+| High | Daily Insight News 자체 콘텐츠 가치 강화 |
+| Medium | AdSense `가치가 별로 없는 콘텐츠` 개선 후 재검토 |
 | Medium | AI 3줄 뉴스 요약 |
 | Medium | AI 핵심 뉴스 및 AI 브리핑 |
-| Medium | Google Play 프로덕션 출시 |
-| Medium | 사용자 확보 이후 애드센스 적용 |
-| Low | Documentation System 고도화 |
+| Medium | BigKinds 등 외부 데이터를 활용한 1990년대 뉴스 Archive 구축 |
+| Low | Documentation System 추가 고도화 |
 
 ---
 
@@ -208,6 +211,7 @@ NEXT_TASK는 다음 원칙을 따릅니다.
 4. 당장 진행하지 않는 아이디어는 Deferred Tasks에 기록합니다.
 5. 우선순위는 프로젝트 상황에 따라 조정합니다.
 6. REPORT를 근거(Evidence)로 완료 여부를 판단하여 갱신합니다.
+7. 실제 운영 서비스에서 확인된 핵심 장애 또는 품질 문제는 신규 기능보다 높은 우선순위로 관리합니다.
 
 ---
 
@@ -229,15 +233,21 @@ NEXT_TASK는 다음 원칙을 따릅니다.
 - 프로젝트의 History는 REPORT에서 관리합니다.
 - 새로운 아이디어는 즉시 구현하지 않고 먼저 NEXT_TASK에 기록하여 검토합니다.
 - Project Documentation System(PDS)은 구축 완료되었습니다.
-- 현재 프로젝트는 Service Improvement 단계로 진입하였습니다.
-- Home과 Archive는 동일한 뉴스 수집 로직을 유지하는 것을 공식 개발 원칙으로 합니다.
-- Google Play 배포는 비공개 테스트 → 프로덕션 출시 순서를 공식 운영 절차로 합니다.
-- Android 배포 관련 작업은 MASTER.md의 Development Workflow를 기준으로 진행합니다.
+- 현재 프로젝트는 실제 Service Operation / Improvement 단계에 있습니다.
+- 새로운 기능보다 실제 운영 서비스에서 발견된 핵심 문제 해결을 우선합니다.
+- 현재 최우선 과제는 뉴스 최신성 및 데이터 갱신 문제 해결입니다.
+- 두 번째 핵심 과제는 8개 카테고리 전체 뉴스 품질 개선입니다.
+- Home과 Archive는 동일한 뉴스 수집 및 품질 기준을 유지합니다.
+- 기사 수보다 뉴스 품질과 관련성을 우선합니다.
+- 뉴스 품질 개선 과정에서도 현재의 빠른 초기 로딩 성능을 유지합니다.
 - 공식 문서는 REPORT를 근거(Evidence)로 사용하며, 사용자가 전체 문서를 제공한 후 함께 검토하여 수정하는 것을 원칙으로 합니다.
-- 과거 뉴스 아카이브 구축은 BigKinds 등 외부 뉴스 데이터를 활용하여 1990년대부터 구축하는 것을 목표로 합니다.
-- 과거 뉴스 데이터가 추가되더라도 현재의 빠른 초기 로딩 속도를 유지하는 것을 최우선 개발 원칙으로 합니다.
-- 기사 수보다 뉴스 품질을 우선하며, 속보 및 단독 기사의 노출 품질을 지속적으로 개선합니다.
-- AI 기능은 AI 3줄 요약 → AI 핵심 뉴스 → AI 브리핑 순으로 단계적으로 확장합니다.
+- END_SESSION REPORT 작성 시 REPORT_TEMPLATE.md와 현재 개발 채팅 전체 복사본을 기준 자료로 사용합니다.
+- Google Play Store 프로덕션 출시는 완료되었으며 Android 앱은 운영 및 고도화 단계로 관리합니다.
+- Google AdSense 기술적 연결과 ads.txt 승인은 완료되었으며, 서비스 자체 콘텐츠 가치 개선 후 사이트 재검토를 진행합니다.
+- AdSense 재검토 자체보다 Daily Insight News의 독자적인 콘텐츠 가치 향상을 우선합니다.
+- 과거 뉴스 Archive는 BigKinds 등 외부 뉴스 데이터를 활용하여 1990년대부터 구축하는 것을 장기 목표로 유지합니다.
+- 과거 뉴스 데이터가 추가되더라도 현재의 빠른 초기 로딩 속도를 유지합니다.
+- AI 기능은 현재 핵심 품질 문제 해결 이후 AI 3줄 요약 → AI 핵심 뉴스 → AI 브리핑 순으로 단계적으로 확장합니다.
 
 ---
 
@@ -249,4 +259,4 @@ Document : NEXT_TASK.md
 
 Type : Living Document
 
-Version : 1.3
+Version : 1.4

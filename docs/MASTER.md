@@ -8,9 +8,9 @@
 | Document | MASTER.md |
 | Type | Living Document |
 | Purpose | Current Project Documentation |
-| Version | 1.3 |
+| Version | 1.4 |
 | Status | Active |
-| Last Updated | 2026-07-15 |
+| Last Updated | 2026-08-17 |
 
 ---
 
@@ -144,10 +144,12 @@ Daily Insight News는 단순한 뉴스 목록 서비스가 아니라 지속적�
 
 현재 진행 중인 목표
 
-- 뉴스 품질 향상
-- 속보 및 단독 기사 노출 개선
-- AI 3줄 뉴스 요약
-- Google Play 프로덕션 출시
+- 접속 시 최신 뉴스가 즉시 표시되지 않는 문제 해결
+- 반복 새로고침 후에야 최신 뉴스가 반영되는 문제 해결
+- 8개 카테고리 전체 뉴스 품질 개선
+- 부동산 등 카테고리 오분류 기사 제거
+- Home과 Archive의 동일한 뉴스 품질 기준 유지
+- AdSense `가치가 별로 없는 콘텐츠` 문제 대응을 위한 서비스 자체 콘텐츠 가치 강화
 
 ---
 
@@ -155,6 +157,7 @@ Daily Insight News는 단순한 뉴스 목록 서비스가 아니라 지속적�
 
 다음 단계 목표
 
+- AI 3줄 뉴스 요약
 - AI 핵심 뉴스
 - AI 브리핑
 - BigKinds 등 외부 뉴스 데이터를 활용한 1990년대부터의 뉴스 아카이브 구축
@@ -162,7 +165,8 @@ Daily Insight News는 단순한 뉴스 목록 서비스가 아니라 지속적�
 - 사용자 편의 기능 확대
 - 뉴스 추천 기능
 - 검색 기능 고도화
-- 사용자 확보 이후 애드센스 적용
+- Daily Insight News 자체 요약·분석 콘텐츠 강화
+- 서비스 콘텐츠 가치 개선 후 AdSense 재검토
 
 ---
 
@@ -231,25 +235,24 @@ Daily Insight News는 다양한 분야의 최신 뉴스를 자동으로 수집�
 
 ### 현재 프로젝트는 어떤 상태인가
 
-Daily Insight News는 현재 운영 가능한 서비스 형태로 개발이 진행되고 있습니다.
+Daily Insight News는 현재 실제 운영 단계에 진입한 웹·Android 뉴스 서비스입니다.
 
-기본적인 뉴스 수집, 자동 저장, 카테고리 분류, 아카이브 기능이 구축되어 있으며, 지속적인 품질 개선과 성능 최적화를 진행하고 있습니다.
+공식 웹 서비스는 `dailyinsightnews.kr` 도메인을 기준으로 운영되며, Android 앱은 Google Play Store 프로덕션에 출시된 상태입니다.
 
-뉴스 수집 구조의 병렬 처리(Batch Parallel)를 적용하여 기존보다 로딩 성능을 개선하였습니다.
+기본적인 뉴스 자동 수집, 8개 카테고리 분류, 날짜별 Archive, 원클릭 헤드라인 공유, GitHub Actions 기반 자동 저장, Vercel 자동 배포 구조가 구축되어 있습니다.
 
-서비스 품질을 유지하면서 추가적인 성능 최적화를 계속 진행하고 있습니다.
+Home과 Archive는 동일한 뉴스 수집 및 품질 기준을 사용하는 것을 기본 원칙으로 하며, Archive는 한국시간 기준 하루 단위로 자동 저장됩니다.
 
-현재는 새로운 기능을 빠르게 추가하는 것보다 서비스 품질, 뉴스 품질, 사용자 경험, 초기 로딩 성능을 우선적으로 개선하는 단계입니다.
+최초 로딩 구조는 텍스트 우선 렌더링과 썸네일 순차 로딩 방식으로 개선되어 기존보다 크게 빨라진 상태입니다.
 
-현재 GitHub Actions 기반 Archive 자동 저장은 정상적으로 운영되고 있습니다.
+Google AdSense는 사이트 소유권 확인과 ads.txt 승인이 완료되었으나, 사이트 심사에서 `가치가 별로 없는 콘텐츠` 상태가 확인되어 서비스 자체의 콘텐츠 가치 개선이 필요한 상태입니다.
 
-Home과 Archive는 동일한 뉴스 수집 로직을 사용하며, Archive는 한국시간 23:59 기준으로 자동 저장됩니다.
+현재 프로젝트의 가장 높은 개발 우선순위는 새로운 기능 추가가 아니라 다음 두 가지입니다.
 
-Archive는 카테고리별 최대 100개의 기사를 저장하도록 운영 정책이 적용되어 있습니다.
+1. 접속 또는 새로고침 시 최신 뉴스가 즉시 반영되지 않는 문제 해결
+2. 경제·금융·기업·부동산·사회·국제·연예·스포츠 전체 카테고리의 뉴스 품질 개선
 
-최초 로딩 구조를 개선하여 텍스트 우선 렌더링과 썸네일 순차 로딩 방식을 적용하였습니다.
-
-현재 프로젝트는 운영 준비 단계와 서비스 품질 고도화 단계를 중심으로 개발을 진행하고 있습니다.
+서비스 운영 안정성과 사용자에게 제공되는 뉴스의 최신성·정확성을 우선한 뒤 AI 기능과 장기 Archive 등의 후속 기능을 진행합니다.
 
 ---
 
@@ -257,21 +260,30 @@ Archive는 카테고리별 최대 100개의 기사를 저장하도록 운영 정
 
 - 뉴스 자동 수집
 - 8개 카테고리별 뉴스 제공
+- 실시간 뉴스
 - 원클릭 헤드라인 공유
 - 자동 뉴스 저장
 - 날짜별 Archive
 - 자동 배포
 - 모바일 웹 지원
-- Android 앱 지원
-- Google Play 비공개 테스트 운영
+- 공식 도메인 `dailyinsightnews.kr`
+- Android 앱
+- Google Play Store 프로덕션 출시
+- Google Analytics
+- Google AdSense 연결
+- ads.txt 승인 완료
 
 ---
 
 ### 현재 운영 방식
 
-뉴스는 자동으로 수집 및 저장되며, GitHub Actions와 Vercel을 이용하여 서비스가 운영됩니다.
+웹 서비스는 Vercel을 통해 배포되며 공식 도메인 `dailyinsightnews.kr`을 사용자 서비스 주소로 사용합니다.
 
-프로젝트는 GitHub Repository를 중심으로 관리되며, 변경 사항은 자동으로 배포됩니다.
+Android 앱은 Google Play Store에서 프로덕션 버전으로 운영합니다.
+
+iOS 사용자는 공식 웹사이트를 홈 화면에 추가하여 Web App 형태로 이용하는 방식을 지원합니다.
+
+Google AdSense는 기술적 연결과 ads.txt 승인이 완료된 상태이며, 콘텐츠 가치 개선 후 사이트 재검토를 진행할 예정입니다.
 
 ---
 
@@ -285,11 +297,14 @@ Daily Insight News는 현재 다음 기능을 제공합니다.
 
 ## News
 
-- Home과 Archive는 동일한 뉴스 수집 로직을 사용함
-- 8개 카테고리 뉴스 자동 분류
-- 실시간 최신 뉴스 제공
+- Home과 Archive는 동일한 뉴스 수집 및 품질 기준을 사용함
+- 경제·금융·기업·부동산·사회·국제·연예·스포츠 8개 카테고리 자동 분류
+- 실시간 뉴스 제공
 - 전체 헤드라인 원클릭 복사
-- 부동산 카테고리는 관련도(Relevance Score) 기반 정렬을 적용하여 품질을 개선함
+- 속보·단독·특종 표시 기능
+- 실시간 뉴스는 최신순을 기본 기준으로 유지
+- 부동산 관련도(Relevance Score) 및 positive / negative keyword 기반 품질 필터 적용
+- 일부 카테고리 오분류와 최신 뉴스 반영 지연 문제가 확인되어 추가 개선 진행 예정
 
 ---
 
@@ -379,6 +394,15 @@ Daily Insight News는 최신 웹 기술을 기반으로 개발 및 운영되고 
 ## Deployment
 
 - Vercel
+- Custom Domain : dailyinsightnews.kr
+- Gabia DNS
+
+## Analytics / Monetization
+
+- Google Analytics
+- Google AdSense
+- Google CMP
+- ads.txt
 
 ---
 
@@ -401,6 +425,7 @@ Daily Insight News는 최신 웹 기술을 기반으로 개발 및 운영되고 
 - Capacitor
 - Android Studio
 - Google Play Console
+- Google Play Store Production
 
 ---
 
@@ -503,7 +528,9 @@ Production
 
 Android 앱은 별도 배포 절차를 따릅니다.
 
-Android 앱은 Capacitor Sync 이후 Android Studio에서 App Bundle을 생성하여 Google Play Console 비공개 테스트를 통해 배포합니다.
+Android 앱은 Capacitor Sync 이후 Android Studio에서 App Bundle을 생성하고 Google Play Console을 통해 배포합니다.
+
+프로덕션 출시 이후 업데이트에서는 Version Code / Version Name을 증가시키고 새로운 AAB를 생성한 뒤 Google Play Console의 프로덕션 릴리스 절차를 진행합니다.
 
 ---
 
@@ -519,6 +546,12 @@ Android 앱은 Capacitor Sync 이후 Android Studio에서 App Bundle을 생성�
 - 현재 상태(Current State)를 유지합니다.
 - 공식 문서를 함께 관리합니다.
 - 프로젝트 구조의 일관성을 유지합니다.
+- 뉴스 서비스의 최신성과 카테고리 정확도를 새로운 기능보다 우선합니다.
+- 속보·단독·특종 기능을 사용하더라도 기본 최신순 정렬을 훼손하지 않습니다.
+- Home과 Archive는 동일한 뉴스 품질 기준을 유지합니다.
+- 운영 중인 서비스의 기존 정상 기능에 영향을 최소화하는 방식으로 수정합니다.
+- Git 충돌 발생 시 강제 Push보다 기존 History를 보존하는 Pull / Rebase / Stash 방식을 우선합니다.
+- Git에는 프로젝트 원본과 실제 운영에 필요한 파일을 관리하며 임시 압축본 및 작업용 이미지는 제외합니다.
 
 ---
 
@@ -561,11 +594,15 @@ Chapter 3은 현재 프로젝트를 구성하는 기술과 시스템 구조, 그
 
 ### 현재 어떤 방향으로 개발하고 있는가
 
-Daily Insight News는 새로운 기능을 빠르게 추가하는 것보다 서비스 품질, 사용자 경험, 초기 로딩 성능을 우선하는 방향으로 개발합니다.
+Daily Insight News는 현재 실제 서비스 운영 단계에 있으며, 새로운 기능 추가보다 뉴스 서비스의 기본 품질과 안정성을 우선합니다.
 
-새로운 기능은 충분한 검토를 거친 후 적용하며, 프로젝트 문서와 실제 구현이 항상 일치하도록 관리합니다.
+현재 가장 높은 우선순위는 접속 또는 새로고침 시 최신 뉴스가 즉시 표시되지 않는 문제를 해결하는 것입니다.
 
-또한 자동화와 문서화를 통해 누구나 프로젝트를 이해하고 이어서 개발할 수 있는 환경을 목표로 합니다.
+그 다음 경제·금융·기업·부동산·사회·국제·연예·스포츠 8개 카테고리 전체의 뉴스 분류 품질을 점검하고, 단순 키워드 일치로 인해 관련 없는 기사가 포함되는 문제를 개선합니다.
+
+이 두 가지 핵심 품질 문제가 해결된 이후 Daily Insight News 자체의 콘텐츠 가치를 높이는 요약·분석 기능과 AI 기능을 단계적으로 개발합니다.
+
+대규모 과거 뉴스 Archive 구축 역시 현재의 빠른 초기 로딩과 서비스 안정성을 해치지 않는 구조를 전제로 진행합니다.
 
 ---
 
@@ -581,6 +618,9 @@ Daily Insight News는 새로운 기능을 빠르게 추가하는 것보다 서�
 - 공식 문서는 REPORT를 근거(Evidence)로 수정합니다.
 - 공식 문서는 사용자가 전체 문서를 제공한 후 함께 검토하여 수정하는 것을 원칙으로 합니다.
 - Home과 Archive는 동일한 뉴스 수집 기준을 유지합니다.
+- 현재 최우선 개발 과제는 뉴스 최신성 문제 해결입니다.
+- 두 번째 우선 개발 과제는 8개 카테고리 전체 뉴스 품질 개선입니다.
+- AdSense 재심사보다 Daily Insight News 자체 콘텐츠 가치 개선을 우선합니다.
 - AI 기반 뉴스 큐레이션 플랫폼으로 발전시킵니다.
 - AI 3줄 요약, AI 핵심 뉴스, AI 브리핑 기능을 단계적으로 도입합니다.
 - BigKinds 등 외부 뉴스 데이터를 활용한 1990년대부터의 뉴스 아카이브 구축을 추진합니다.
@@ -601,7 +641,51 @@ README.md를 프로젝트 문서 시스템의 Home(Entry Point)로 사용하며,
 
 Project Documentation Cycle(PDC)을 공식 운영 절차로 사용합니다.
 
-Project Documentation Cycle(PDC)은 REPORT → MASTER → CHANGELOG → NEXT_TASK → docs 최신화 → START_CHAT 순서로 프로젝트를 관리합니다.
+Project Documentation Cycle(PDC)은 다음 순서로 프로젝트를 관리합니다.
+
+Development
+
+↓
+
+END_SESSION
+
+↓
+
+REPORT 작성 및 확정
+
+↓
+
+MASTER
+
+↓
+
+CHANGELOG
+
+↓
+
+NEXT_TASK
+
+↓
+
+필요한 기타 공식 문서
+
+↓
+
+Git Commit / Push
+
+↓
+
+Next START_CHAT
+
+END_SESSION에서 REPORT를 작성할 때는 REPORT_TEMPLATE.md와 현재 개발 채팅 전체 복사본을 함께 기준 자료로 사용합니다.
+
+REPORT_TEMPLATE.md는 REPORT 작성 형식과 원칙을 정의하며, 현재 개발 채팅 전체 복사본은 해당 세션의 History(Evidence)를 확인하는 기준 자료로 사용합니다.
+
+두 자료가 준비된 경우 REPORT 작성 방식에 대한 별도 논의 없이 REPORT 생성을 진행합니다.
+
+`docs/` 내부의 원본 공식 문서는 Git으로 관리합니다.
+
+`docs.zip`은 프로젝트 공식 Git 관리 파일로 사용하지 않으며, 필요한 경우에만 문서 전달 또는 검토 목적으로 임시 생성합니다.
 
 REPORT를 Evidence로 작성한 후 MASTER와 CHANGELOG를 업데이트하는 것을 원칙으로 합니다.
 
@@ -674,6 +758,7 @@ docs/MASTER_SOURCES.md
 | 1.1 | 2026-07-05 | Archive 운영 정책 및 Home/Archive 통합 구조 반영 |
 | 1.2 | 2026-07-07 | Batch Parallel 성능 개선, Android 운영 절차 및 PDS 운영 원칙 반영 |
 | 1.3 | 2026-07-15 | AI 기반 뉴스 큐레이션 방향, Google Play Store 리뉴얼, 헤드라인 공유 기능, 초기 로딩 구조 개선 및 서비스 운영 원칙 반영 |
+| 1.4 | 2026-08-17 | Google Play 프로덕션 출시, 공식 도메인 dailyinsightnews.kr, AdSense/ads.txt 상태, 뉴스 최신성·카테고리 품질 우선순위, Git 파일 관리 및 PDC END_SESSION 운영 원칙 반영 |
 
 
 ---

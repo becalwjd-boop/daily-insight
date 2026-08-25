@@ -8,9 +8,9 @@
 | Document | CHANGELOG.md |
 | Type | Living Document |
 | Purpose | Project Change History |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Active |
-| Last Updated | 2026-07-15 |
+| Last Updated | 2026-08-17 |
 
 ---
 
@@ -215,6 +215,50 @@ CHANGELOG는 변경 사항(Change)만 기록합니다.
 
 ---
 
+## 2026-08-17
+
+### Evidence
+
+- REPORT_11.md
+
+### Added
+
+- Daily Insight News 공식 도메인 `dailyinsightnews.kr` 도입
+- Vercel Custom Domain 및 가비아 DNS 연결
+- Google AdSense 사이트 연결 및 소유권 확인 설정
+- `public/ads.txt` 추가 및 공식 도메인 배포
+- Google Play Store 프로덕션 출시
+- Google Analytics / Google AdSense 기반 서비스 운영 환경 구성
+
+### Changed
+
+- 공식 웹 서비스 주소를 Vercel 기본 도메인에서 `dailyinsightnews.kr` 중심으로 변경
+- Android 앱 운영 단계를 비공개 테스트에서 Google Play Store 프로덕션 운영으로 전환
+- 실시간 뉴스의 속보·단독·특종 표시가 기본 최신순 정렬을 훼손하지 않도록 정렬 방식 개선
+- 기사 이미지 로딩 및 fallback 표시 구조 개선
+- `docs/` 원본 공식 문서는 Git으로 관리하고 `docs.zip`은 공식 Git 관리 대상에서 제외하도록 문서 관리 원칙 변경
+- 배포에 필요하지 않은 Google Play Console 작업용 이미지 등 임시 파일을 Git 관리 대상에서 제외
+- Project Documentation Cycle(PDC)의 END_SESSION 절차를 `REPORT_TEMPLATE.md`와 현재 개발 채팅 전체 복사본을 함께 사용하는 방식으로 개선
+- REPORT 작성 자료가 준비된 경우 작성 형식에 대한 추가 논의 없이 기존 Original Project Report 형식으로 즉시 작성하도록 운영 원칙 개선
+
+### Fixed
+
+- Google AdSense 사이트 소유권 확인이 정상적으로 이루어지지 않던 문제 해결
+- 공식 도메인에서 `/ads.txt`가 404로 표시되던 문제 해결
+- Google AdSense Ads.txt 상태가 `찾을 수 없음`으로 표시되던 문제 해결 및 `승인됨` 상태 확인
+- Git Author Identity 미설정으로 커밋할 수 없던 문제 해결
+- 원격 저장소 변경사항으로 인해 발생한 Git `fetch first` Push 문제 해결
+- Git에서 한글 파일 경로가 escape sequence로 표시되던 문제 해결
+- `docs.zip` 및 임시 작업 파일이 반복적으로 Git 변경사항에 표시되던 관리 문제 해결
+- 실시간 뉴스에서 중요 기사 우선 배치로 인해 최신순 정렬이 깨지던 문제 해결
+
+### Removed
+
+- `docs.zip`의 공식 Git 추적 및 관리
+- 배포에 필요하지 않은 Google Play Console 작업용 임시 이미지의 Git 관리
+
+---
+
 ## Future Entries
 
 새로운 개발 세션이 종료되면 아래 형식으로 추가합니다.
@@ -273,4 +317,4 @@ Document : CHANGELOG.md
 
 Type : Living Document
 
-Version : 1.1
+Version : 1.2

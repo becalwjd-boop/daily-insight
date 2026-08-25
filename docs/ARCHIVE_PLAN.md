@@ -8,9 +8,9 @@
 | Document | ARCHIVE_PLAN.md |
 | Type | Living Document |
 | Purpose | Archive Strategy, Data Lifecycle and Preservation Policy |
-| Version | 1.2 |
+| Version | 1.3 |
 | Status | Active |
-| Last Updated | 2026-07-15 |
+| Last Updated | 2026-08-17 |
 
 ---
 
@@ -74,7 +74,7 @@ Archive는 아래 원칙을 따릅니다.
 
 1. 날짜(Date) 기준으로 저장합니다.
 
-2. Archive는 생성 이후 수정하지 않습니다.
+2. 정상적으로 확정된 Archive는 원칙적으로 수정하지 않습니다.
 
 3. 동일 날짜에는 하나의 Archive만 유지합니다.
 
@@ -90,7 +90,9 @@ Archive는 아래 원칙을 따릅니다.
 
 9. 대규모 과거 뉴스 데이터가 추가되더라도 현재 수준의 초기 로딩 성능을 유지합니다.
 
-10. 자동 저장 실패로 누락된 Archive는 복구 정책에 따라 재생성할 수 있습니다.
+10. 자동 저장 실패, 누락 또는 비정상적으로 생성된 Archive는 복구 정책에 따라 재생성 또는 보정할 수 있습니다.
+
+11. Home과 Archive는 동일한 뉴스 수집·분류·품질 기준을 유지합니다.
 
 ---
 
@@ -98,12 +100,15 @@ Archive는 아래 원칙을 따릅니다.
 
 Archive 데이터는 아래 과정을 거쳐 생성됩니다.
 
-```
 News Collection
 
 ↓
 
 News Classification
+
+↓
+
+Quality / Relevance Filtering
 
 ↓
 
@@ -128,9 +133,8 @@ Vercel Deployment
 ↓
 
 User Access
-```
 
-모든 Archive는 동일한 Lifecycle을 따릅니다.
+모든 Archive는 Home과 동일한 뉴스 수집·분류·품질 기준을 기반으로 생성합니다.
 
 ---
 
@@ -140,9 +144,11 @@ Archive의 무결성(Data Integrity)은 아래 원칙으로 유지합니다.
 
 ## Immutable Archive
 
-Archive는 생성 이후 수정하지 않습니다.
+정상적으로 생성되고 확정된 Archive는 원칙적으로 수정하지 않습니다.
 
-필요한 경우 새로운 Archive를 생성합니다.
+자동 저장 실패, 누락 또는 비정상 생성 등 복구가 필요한 경우에는 복구 정책에 따라 해당 날짜 Archive를 재생성하거나 보정할 수 있습니다.
+
+복구 작업은 정상 Archive의 임의 변경이 아니라 데이터 무결성을 회복하기 위한 예외 절차로 관리합니다.
 
 ---
 
@@ -160,7 +166,9 @@ Archive는 생성 이후 수정하지 않습니다.
 
 ## Reliable History
 
-저장된 Archive는 장기적으로도 동일한 데이터를 제공합니다.
+정상적으로 확정된 Archive는 장기적으로 동일한 데이터를 제공하는 것을 원칙으로 합니다.
+
+복구가 필요한 경우에는 데이터 무결성과 당시 뉴스 저장 정책을 기준으로 처리합니다.
 
 ---
 
@@ -196,9 +204,11 @@ Archive 운영은 다음 원칙을 따릅니다.
 
 ## Consistency
 
-- 저장 이후 수정하지 않습니다.
+- 정상적으로 확정된 Archive는 원칙적으로 수정하지 않습니다.
 - 동일 날짜 Archive는 하나만 유지합니다.
 - 구조 일관성을 유지합니다.
+- 복구가 필요한 Archive는 복구 정책에 따라 재생성 또는 보정합니다.
+- Home과 Archive의 뉴스 수집·분류·품질 기준을 일관되게 유지합니다.
 
 ---
 
@@ -223,7 +233,7 @@ Archive 운영은 다음 원칙을 따릅니다.
 - 날짜별·카테고리별 최대 100개 기사 저장
 - 동일 기사 중복 제거 후 저장
 - 대규모 과거 뉴스 데이터에서도 현재 수준의 초기 로딩 성능 유지
-- 자동 저장 실패로 누락된 날짜 Archive 재생성 지원
+- 자동 저장 실패, 누락 또는 비정상 생성된 날짜 Archive의 복구 지원
 
 ---
 
@@ -242,6 +252,7 @@ Archive 운영은 다음 원칙을 따릅니다.
 - 캐시 전략 적용
 - 대용량 Archive 데이터 최적화
 - 초기 로딩 성능 유지
+- Archive 데이터 증가가 Home의 실시간 뉴스 최신성 및 갱신 성능에 영향을 주지 않도록 구조 유지
 
 ---
 
@@ -249,6 +260,8 @@ Archive 운영은 다음 원칙을 따릅니다.
 
 - Archive 자동 관리
 - 데이터 검증 자동화
+- Archive 누락 및 비정상 생성 여부 검증
+- Archive 복구 자동화 검토
 
 ---
 
@@ -263,6 +276,8 @@ Archive 성능 전략은 PERFORMANCE.md에서 관리합니다.
 Archive 배포 및 운영 절차는 DEPLOY.md에서 관리합니다.
 
 Archive 정책 변경의 근거(Evidence)는 REPORT에서 관리합니다.
+
+Archive의 뉴스 수집·분류·품질 기준은 Home과 동일한 공통 뉴스 처리 구조를 기준으로 유지합니다.
 
 ---
 
@@ -280,9 +295,9 @@ ARCHIVE_PLAN은 아래 경우에만 수정합니다.
 
 - Archive 관리 정책 변경
 
-단순히 Archive 데이터가 증가하는 경우에는 수정하지 않습니다.
+- Archive 무결성 및 복구 정책 변경
 
-Archive 정책 변경이 발생한 경우에는 REPORT를 근거(Evidence)로 ARCHIVE_PLAN을 검토하고 최신 상태를 유지합니다.
+ARCHIVE_PLAN은 PDC 과정에서 전체 내용을 검토하되, Archive 운영 정책·Data Lifecycle·저장 구조·무결성 및 복구 정책·장기 운영 전략에 실제 변경이 확인된 경우에만 REPORT를 근거(Evidence)로 수정합니다.
 
 ---
 
@@ -316,13 +331,17 @@ Archive는 장기적으로 안정성과 무결성을 가장 중요하게 유지�
 
 현재 운영 중인 Archive는 GitHub Actions를 통해 자동 생성됩니다.
 
-자동 저장 실패 등으로 누락된 Archive는 프로젝트의 복구 정책에 따라 재생성할 수 있습니다.
+자동 저장 실패, 누락 또는 비정상적으로 생성된 Archive는 프로젝트의 복구 정책에 따라 재생성 또는 보정할 수 있습니다.
 
 과거 기사 Archive는 현재 운영 중인 일일 Archive와 동일한 구조를 유지하되, BigKinds 등 외부 뉴스 데이터를 활용하여 1990년대부터의 과거 뉴스를 현재 서비스의 8개 카테고리 기준으로 재분류하여 저장하는 것을 목표로 합니다.
 
 데이터 용량이 크게 증가하더라도 카테고리별 최대 100개 기사 정책과 현재의 빠른 초기 로딩 성능을 유지하는 것을 공식 운영 원칙으로 합니다.
 
 Archive 운영 정책이 변경된 경우에는 REPORT를 근거(Evidence)로 ARCHIVE_PLAN을 검토하고 최신 상태를 유지합니다.
+
+Home과 Archive는 동일한 뉴스 수집·분류·품질 기준을 유지하며, 품질 개선 로직은 양쪽에 일관되게 적용하는 것을 공식 운영 원칙으로 합니다.
+
+정상적으로 확정된 Archive의 불변성을 유지하되, 데이터 무결성 회복을 위한 복구 작업은 예외적으로 허용합니다.
 
 ---
 
@@ -334,4 +353,4 @@ Document : ARCHIVE_PLAN.md
 
 Type : Living Document
 
-Version : 1.2
+Version : 1.3

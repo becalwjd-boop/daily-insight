@@ -8,9 +8,9 @@
 | Document | PROJECT_STRUCTURE.md |
 | Type | Living Document |
 | Purpose | Project Architecture and Directory Structure |
-| Version | 1.1 |
+| Version | 1.2 |
 | Status | Active |
-| Last Updated | 2026-07-08 |
+| Last Updated | 2026-08-17 |
 
 ---
 
@@ -79,7 +79,7 @@ Deployment
 
 ## docs/
 
-프로젝트 운영에 필요한 공식 문서를 관리하는 영역입니다.
+프로젝트 운영에 필요한 공식 문서의 원본을 관리하는 영역입니다.
 
 세부 구조
 
@@ -88,7 +88,13 @@ Deployment
 - prompts/
 - workflows/
 
-공식 문서는 docs 아래에서만 관리합니다.
+공식 문서는 docs 아래에서 관리합니다.
+
+`docs/` 내부의 원본 공식 문서는 Git 관리 대상입니다.
+
+`docs.zip`은 공식 프로젝트 문서 또는 Git 관리 파일로 사용하지 않습니다.
+
+필요한 경우 문서 전달 또는 검토 목적으로만 임시 생성할 수 있습니다.
 
 ---
 
@@ -111,13 +117,14 @@ Deployment
 
 ## public/
 
-정적 파일(Static Assets)을 관리합니다.
+정적 파일(Static Assets) 및 공개 경로로 제공해야 하는 파일을 관리합니다.
 
 예)
 
 - 이미지
 - 아이콘
 - Manifest 관련 리소스
+- ads.txt
 
 ---
 
@@ -156,6 +163,7 @@ GPT와 협업하기 위한 Prompt를 관리합니다.
 | Document | Role |
 |----------|------|
 | MASTER.md | 프로젝트의 현재 상태(Current State)를 관리 |
+| MASTER_SOURCES.md | REPORT와 MASTER의 Evidence 연결 관계를 관리 |
 | CHANGELOG.md | 변경 사항(Change History)을 관리 |
 | NEXT_TASK.md | 앞으로의 개발 계획(Roadmap)을 관리 |
 | TECH_DEBT.md | 기술 부채(Technical Debt)를 관리 |
@@ -171,9 +179,18 @@ GPT와 협업하기 위한 Prompt를 관리합니다.
 
 # Documentation Architecture
 
-공식 문서는 아래 관계를 따릅니다.
+공식 문서는 Project Documentation System(PDS)에 따라 역할을 분리하여 관리합니다.
 
-```
+기본적인 Project Documentation Cycle(PDC)은 다음 관계를 따릅니다.
+
+Development
+
+↓
+
+END_SESSION
+
+↓
+
 REPORT
 
 ↓
@@ -183,20 +200,35 @@ MASTER
 ↓
 
 CHANGELOG
+
+↓
+
 NEXT_TASK
-TECH_DEBT
-PROJECT_STRUCTURE
-PERFORMANCE
-DEPLOY
-ARCHIVE_PLAN
-TROUBLESHOOTING
-```
 
-REPORT는 프로젝트의 History를 관리합니다.
+↓
 
-MASTER는 Current State를 관리합니다.
+필요한 기타 공식 문서
 
-각 공식 문서는 자신의 역할만 담당합니다.
+↓
+
+Git Commit / Push
+
+↓
+
+Next START_CHAT
+
+
+REPORT는 프로젝트의 History와 Evidence를 관리합니다.
+
+MASTER는 프로젝트의 Current State를 관리합니다.
+
+CHANGELOG는 완료된 Change History를 관리합니다.
+
+NEXT_TASK는 Future Roadmap과 개발 우선순위를 관리합니다.
+
+TECH_DEBT, PROJECT_STRUCTURE, PERFORMANCE, DEPLOY, ARCHIVE_PLAN, TROUBLESHOOTING은 REPORT를 Evidence로 각 문서의 역할에 필요한 변경이 있을 때 업데이트합니다.
+
+각 공식 문서는 자신의 역할만 담당하며 동일한 정보를 불필요하게 중복 관리하지 않습니다.
 
 ---
 
@@ -209,6 +241,8 @@ MASTER는 Current State를 관리합니다.
 3. History와 Current State를 분리합니다.
 4. 기능과 문서를 분리합니다.
 5. 장기 유지보수를 고려하여 구조를 설계합니다.
+6. `docs/` 내부의 원본 공식 문서를 Git으로 관리합니다.
+7. 전달·검토용 임시 파일과 프로젝트 원본 문서를 구분합니다.
 
 ---
 
@@ -221,17 +255,20 @@ PROJECT_STRUCTURE는 다음 경우에만 수정합니다.
 - 공식 문서 구조 변경
 - 운영 체계 변경
 
-PROJECT_STRUCTURE 변경이 발생한 경우에는 REPORT를 근거(Evidence)로 PROJECT_STRUCTURE를 검토하고 최신 상태를 유지합니다.
+PROJECT_STRUCTURE는 PDC 과정에서 전체 내용을 검토하되, 실제 프로젝트 구조·공식 문서 구조·운영 체계의 변경이 확인된 경우에만 REPORT를 근거(Evidence)로 수정합니다.
 
 ---
 
 # Related Documents
 
 - MASTER.md
+- MASTER_SOURCES.md
 - DOCUMENT_RULES.md
 - PROJECT_RULES.md
 - DOCUMENT_WORKFLOW.md
 - REPORT_WORKFLOW.md
+- START_CHAT_PROMPT.md
+- END_SESSION_PROMPT.md
 
 ---
 
@@ -242,6 +279,9 @@ PROJECT_STRUCTURE 변경이 발생한 경우에는 REPORT를 근거(Evidence)로
 - History와 Evidence는 REPORT에서 관리합니다.
 - 프로젝트 구조는 가능한 안정적으로 유지합니다.
 - 프로젝트 구조가 변경된 경우에는 REPORT를 근거(Evidence)로 PROJECT_STRUCTURE를 검토하고 최신 상태를 유지합니다.
+- PDC에서는 공식 문서 전체를 검토하되, 각 문서는 해당 문서의 역할에 영향을 주는 변경이 있을 때만 수정합니다.
+- `docs/` 내부의 원본 공식 문서는 Git으로 관리합니다.
+- `docs.zip`은 공식 Git 관리 파일이 아니며 필요한 경우에만 전달·검토 목적으로 임시 생성합니다.
 
 ---
 
@@ -253,4 +293,4 @@ Document : PROJECT_STRUCTURE.md
 
 Type : Living Document
 
-Version : 1.1
+Version : 1.2
